@@ -1,0 +1,44 @@
+[
+  {
+    "original": "assets/images/formal.png",
+    "delivery": "assets/images/formal.webp",
+    "bytesBefore": 196162,
+    "bytesAfter": 13980
+  },
+  {
+    "original": "assets/images/workshop-0.png",
+    "delivery": "assets/images/workshop-0.webp",
+    "bytesBefore": 1667668,
+    "bytesAfter": 130468
+  },
+  {
+    "original": "assets/images/workshop-1.png",
+    "delivery": "assets/images/workshop-1.webp",
+    "bytesBefore": 1644797,
+    "bytesAfter": 147496
+  },
+  {
+    "original": "assets/images/workshop-2.png",
+    "delivery": "assets/images/workshop-2.webp",
+    "bytesBefore": 1573915,
+    "bytesAfter": 108380
+  },
+  {
+    "original": "assets/images/workshop-3.png",
+    "delivery": "assets/images/workshop-3.webp",
+    "bytesBefore": 1440610,
+    "bytesAfter": 87212
+  },
+  {
+    "original": "assets/images/workshop-4.png",
+    "delivery": "assets/images/workshop-4.webp",
+    "bytesBefore": 1520548,
+    "bytesAfter": 103836
+  },
+  {
+    "original": "assets/images/workshop-5.png",
+    "delivery": "assets/images/workshop-5.webp",
+    "bytesBefore": 1472143,
+    "bytesAfter": 95340
+  }
+]

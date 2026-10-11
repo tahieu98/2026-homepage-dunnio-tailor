@@ -1,0 +1,11 @@
+const fs=require('fs');
+let b=fs.readFileSync('tools/build.cjs','utf8');
+b=b.replace("device==='tablet'?900:c.id===3?600:1200", "device==='tablet'?(c.id===3?675:900):c.id===3?600:1200");
+b=b.replace("const key=device==='mobile'?c.mobile:device==='tablet'&&c.id===3&&c.image==='bannerDesktop'?'bannerTablet':c.image;", "const key=device==='mobile'?c.mobile:c.image;");
+b=b.replace("product?'xMidYMid meet':'xMidYMid slice'", "product||c.id===5?'xMidYMid meet':'xMidYMid slice'");
+b=b.replace("tablet:{src:`assets/banners/${c.slug}${suffix}-tablet.svg`,width:1200,height:900}","tablet:{src:`assets/banners/${c.slug}${suffix}-tablet.svg`,width:1200,height:c.id===3?675:900}");
+b=b.replace("h=h.replaceAll('DUNNIO<span>TAILOR</span>'", "if(c.id===3)h=h.replace('srcset=\"assets/banners/wedding-story-tablet.svg\" width=\"1200\" height=\"900\"','srcset=\"assets/banners/wedding-story-tablet.svg\" width=\"1200\" height=\"675\"');h=h.replaceAll('DUNNIO<span>TAILOR</span>'");
+fs.writeFileSync('tools/build.cjs',b);
+let r=fs.readFileSync('report.html','utf8');r=r.replace('Tablet ảnh 4:3 phía trên, copy riêng phía dưới.','Tablet ảnh 16:9 phía trên, copy riêng phía dưới.').replace('bản mẫu dùng artwork 4:3.','bản mẫu dùng artwork 4:3, riêng V3 dùng 16:9 để giữ đủ hai nhân vật.');fs.writeFileSync('report.html',r);
+let readme=fs.readFileSync('README.md','utf8');readme=readme.replace('tablet 4:3, mobile 4:5.','tablet 4:3 (V3 16:9), mobile 4:5.');fs.writeFileSync('README.md',readme);
+console.log('Refined tablet wedding framing and preserved the full founder portrait inside the artwork.');

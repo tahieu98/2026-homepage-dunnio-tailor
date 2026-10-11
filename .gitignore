@@ -1,0 +1,7 @@
+docs/heatmaps/
+.local/
+*.zip
+Thumbs.db
+.DS_Store
+docs/asset-sheet.html
+docs/asset-sheet.png

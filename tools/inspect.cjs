@@ -1,0 +1,2 @@
+const fs=require('fs');
+(async()=>{for(const route of ['our-workshop','our-tailors']){const h=await(await fetch('http://localhost/dunnio-tailor-redesign/'+route)).text();const urls=[...new Set([...h.matchAll(/https?:[^\s"<>]+/g)].map(m=>m[0]))].filter(x=>/\.(jpg|jpeg|webp|png)(-|$)/.test(x));console.log(route,urls.filter(x=>!x.includes('icon')).slice(0,28));fs.writeFileSync('docs/'+route+'-images.json',JSON.stringify(urls,null,2))}})();

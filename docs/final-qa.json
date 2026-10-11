@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-12",
+  "checks": [
+    {
+      "file": "index.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "file": "report.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "file": "report.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "file": "banner-lab.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "file": "banner-lab.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "file": "docs/screenshot-index.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "file": "docs/screenshot-index.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "check": "Second wedding slide and automatic copy placement",
+      "status": "passed"
+    },
+    {
+      "check": "External categories in the embedded reviewer open outside the iframe",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}
