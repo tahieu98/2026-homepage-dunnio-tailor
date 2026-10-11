@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-12",
   "staticFiles": 9,
-  "localReferences": 277,
+  "localReferences": 279,
   "missingLocal": [],
   "missingAnchors": [],
   "dunnioDestinations": [
@@ -138,16 +138,16 @@
       "url": "http://localhost/dunnio-tailor-redesign/blog"
     },
     {
-      "route": "/men/cotton-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/cotton-suits"
-    },
-    {
       "route": "/men/linen-suits",
       "status": 200,
       "checkedAgainst": "Local clone route",
       "url": "http://localhost/dunnio-tailor-redesign/men/linen-suits"
+    },
+    {
+      "route": "/men/cotton-suits",
+      "status": 200,
+      "checkedAgainst": "Local clone route",
+      "url": "http://localhost/dunnio-tailor-redesign/men/cotton-suits"
     },
     {
       "route": "/blog/wedding-suits-vs-tuxedo",
@@ -180,16 +180,16 @@
       "url": "http://localhost/dunnio-tailor-redesign/shipping-returns.html"
     },
     {
-      "route": "/privacy-policy.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/privacy-policy.html"
-    },
-    {
       "route": "/about",
       "status": 200,
       "checkedAgainst": "Local clone route",
       "url": "http://localhost/dunnio-tailor-redesign/about"
+    },
+    {
+      "route": "/privacy-policy.html",
+      "status": 200,
+      "checkedAgainst": "Local clone route",
+      "url": "http://localhost/dunnio-tailor-redesign/privacy-policy.html"
     },
     {
       "route": "/terms-and-conditions",

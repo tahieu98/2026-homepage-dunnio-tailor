@@ -1,0 +1,303 @@
+{
+  "date": "2026-10-12",
+  "revision": "heritage-quick-links-20261012",
+  "base": "http://localhost/dunnio-homepage-concepts/",
+  "viewports": [
+    {
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "columns": "429.016px 429.016px 429.031px",
+      "overflow": false,
+      "links": [
+        {
+          "href": "https://dunniotailor.com/men/custom-suits",
+          "label": "Custom suits ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "18px",
+          "radius": "8px",
+          "width": 429.015625,
+          "height": 68,
+          "left": 60.46875,
+          "top": 24
+        },
+        {
+          "href": "https://dunniotailor.com/men/custom-tuxedo",
+          "label": "Tuxedos ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "18px",
+          "radius": "8px",
+          "width": 429.015625,
+          "height": 68,
+          "left": 505.484375,
+          "top": 24
+        },
+        {
+          "href": "#how-it-works",
+          "label": "How it works ↓",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "18px",
+          "radius": "8px",
+          "width": 429.03125,
+          "height": 68,
+          "left": 950.5,
+          "top": 24
+        }
+      ],
+      "uspBeforeFooter": true,
+      "hover": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "processAnchor": "passed"
+    },
+    {
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "columns": "239.703px 239.703px 239.703px",
+      "overflow": false,
+      "links": [
+        {
+          "href": "https://dunniotailor.com/men/custom-suits",
+          "label": "Custom suits ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 239.703125,
+          "height": 68,
+          "left": 34.4375,
+          "top": 24
+        },
+        {
+          "href": "https://dunniotailor.com/men/custom-tuxedo",
+          "label": "Tuxedos ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 239.703125,
+          "height": 68,
+          "left": 290.140625,
+          "top": 24
+        },
+        {
+          "href": "#how-it-works",
+          "label": "How it works ↓",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 239.703125,
+          "height": 68,
+          "left": 545.84375,
+          "top": 24
+        }
+      ],
+      "uspBeforeFooter": true,
+      "hover": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "processAnchor": "passed"
+    },
+    {
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "columns": "343.219px",
+      "overflow": false,
+      "links": [
+        {
+          "href": "https://dunniotailor.com/men/custom-suits",
+          "label": "Custom suits ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 343.21875,
+          "height": 64,
+          "left": 23.390625,
+          "top": 20
+        },
+        {
+          "href": "https://dunniotailor.com/men/custom-tuxedo",
+          "label": "Tuxedos ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 343.21875,
+          "height": 64,
+          "left": 23.390625,
+          "top": 94
+        },
+        {
+          "href": "#how-it-works",
+          "label": "How it works ↓",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 343.21875,
+          "height": 64,
+          "left": 23.390625,
+          "top": 168
+        }
+      ],
+      "uspBeforeFooter": true,
+      "hover": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "processAnchor": "passed"
+    },
+    {
+      "device": "narrow-mobile",
+      "width": 320,
+      "height": 900,
+      "columns": "281.625px",
+      "overflow": false,
+      "links": [
+        {
+          "href": "https://dunniotailor.com/men/custom-suits",
+          "label": "Custom suits ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 281.625,
+          "height": 64,
+          "left": 19.1875,
+          "top": 20
+        },
+        {
+          "href": "https://dunniotailor.com/men/custom-tuxedo",
+          "label": "Tuxedos ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 281.625,
+          "height": 64,
+          "left": 19.1875,
+          "top": 94
+        },
+        {
+          "href": "#how-it-works",
+          "label": "How it works ↓",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 281.625,
+          "height": 64,
+          "left": 19.1875,
+          "top": 168
+        }
+      ],
+      "uspBeforeFooter": true,
+      "hover": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "processAnchor": "passed"
+    },
+    {
+      "device": "small-tablet",
+      "width": 640,
+      "height": 900,
+      "columns": "184.75px 184.75px 184.75px",
+      "overflow": false,
+      "links": [
+        {
+          "href": "https://dunniotailor.com/men/custom-suits",
+          "label": "Custom suits ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 184.75,
+          "height": 68,
+          "left": 26.875,
+          "top": 24
+        },
+        {
+          "href": "https://dunniotailor.com/men/custom-tuxedo",
+          "label": "Tuxedos ↗",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 184.75,
+          "height": 68,
+          "left": 227.625,
+          "top": 24
+        },
+        {
+          "href": "#how-it-works",
+          "label": "How it works ↓",
+          "background": "rgb(17, 26, 76)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Afacad, sans-serif",
+          "fontSize": "17px",
+          "radius": "8px",
+          "width": 184.75,
+          "height": 68,
+          "left": 428.375,
+          "top": 24
+        }
+      ],
+      "uspBeforeFooter": true,
+      "hover": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "processAnchor": "passed"
+    }
+  ],
+  "contrast": {
+    "whiteOnDarkBlue": 16.458293358492295,
+    "navyOnGold": 7.346039991046175
+  },
+  "errors": [],
+  "status": "passed"
+}

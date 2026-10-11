@@ -101,6 +101,15 @@ h1,h2,.theme h1,.theme h2{font-family:var(--font-display);font-weight:400;line-h
 .intro-line a{display:flex;align-items:center;justify-content:center;gap:12px;min-height:44px;font-weight:500}
 .intro-line a span{color:var(--color-primary);font-size:18px}
 .intro-line a:hover{color:var(--color-primary-variant);text-decoration:underline;text-decoration-color:var(--color-secondary);text-underline-offset:6px}
+/* Heritage Atelier: visible, equal-weight starting points after the hero. */
+.theme-1 .intro-line{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding:24px 4.2%;background:var(--color-white)}
+.theme-1 .intro-line a{justify-content:space-between;min-width:0;min-height:68px;padding:16px 24px;background:var(--color-dark-blue);color:var(--color-white);border:1px solid var(--color-dark-blue);border-radius:8px;font-size:18px;font-weight:600;line-height:1.4;text-decoration:none;transition:background-color var(--motion-quick),color var(--motion-quick),border-color var(--motion-quick);touch-action:manipulation}
+.theme-1 .intro-line a span{display:inline-flex;align-items:center;justify-content:center;flex:0 0 32px;width:32px;height:32px;border-radius:50%;background:var(--color-secondary);color:var(--color-primary);font-size:20px;line-height:1}
+.theme-1 .intro-line a:hover{background:var(--color-secondary);color:var(--color-primary);border-color:var(--color-primary);text-decoration:none}
+.theme-1 .intro-line a:active{background:var(--color-primary-variant);color:var(--color-white);border-color:var(--color-primary-variant)}
+.theme-1 .intro-line a:focus-visible{outline:3px solid var(--color-primary);outline-offset:4px;box-shadow:0 0 0 2px var(--color-white)}
+@media(max-width:1023px){.theme-1 .intro-line a{padding:16px 20px;font-size:17px}}
+@media(max-width:639px){.theme-1 .intro-line{grid-template-columns:1fr;gap:10px;padding:20px 6%}.theme-1 .intro-line a{min-height:64px;padding:14px 20px;font-size:17px}}
 .section{padding-top:80px;padding-bottom:80px}
 .section-head{margin-bottom:40px}
 .circle{border-color:var(--border-control);color:var(--color-primary);background:var(--color-white)}
