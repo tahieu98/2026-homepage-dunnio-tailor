@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..');
-const revision='brand-20261012';
+const revision='typography-20261012';
 const read=p=>fs.readFileSync(root+'/'+p,'utf8');
 const write=(p,s)=>fs.writeFileSync(root+'/'+p,s);
 const styles=`<link rel="stylesheet" href="assets/fonts.css?v=${revision}"><link rel="stylesheet" href="assets/styles.css?v=${revision}"><link rel="stylesheet" href="assets/brand.css?v=${revision}">`;

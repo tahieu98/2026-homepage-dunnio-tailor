@@ -34,11 +34,11 @@ Gold on white is approximately 2.25:1. Do not use it for informational text or t
 
 ## Typography
 
-- Cormorant, weight 600: display/editorial headings.
-- Montserrat, weights 400–600: body, prices, labels, navigation and modern hero headings.
-- Body copy 16px on mobile; supporting metadata 12–14px. Labels remain visible.
+- `--font-primary: "Garamon Pro Display", serif`: display/editorial headings, real weight 400 from `GaramondPremrPro.woff2`; avoid synthesizing a bold serif.
+- `--font-secondary: "Afacad", sans-serif`: body, prices, labels, navigation and modern hero headings. Original static files supply weights 400, 500, 600 and 700.
+- Main mobile copy 16–17px; hero description 17px; BOD prose 18px desktop / 17px mobile; supporting metadata 12–14px. Labels remain visible.
 - Short headings use text-wrap:balance; prose wraps normally. Never glue the last words with nonbreaking spaces.
-- Self-hosted WOFF2 with font-display:swap, fallback Georgia/Arial. Source and OFL files accompany the assets.
+- Self-hosted WOFF2 copied byte-for-byte from the original Dunnio clone, with font-display:swap and generic serif/sans-serif fallbacks. Hashes and original paths: `docs/font-provenance.json`. The CSS alias preserves the original spelling “Garamon Pro Display”.
 
 ## Layout and interaction
 

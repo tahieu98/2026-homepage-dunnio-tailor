@@ -16,10 +16,14 @@ Giữ khác biệt về bố cục và động lực mua của 5 phương án, t
 
 Tương phản tính theo relative luminance: navy/white 16.52:1; white/deep navy 18.44:1; navy/gold 7.35:1; gold/white chỉ 2.25:1. Vì vậy CTA gold dùng chữ navy; gold trên nền trắng chỉ trang trí, không chứa thông tin chữ hoặc làm viền điều khiển duy nhất. Kết quả chi tiết: `brand-contrast.json`. Đo cặp màu không thay thế audit accessibility toàn trang.
 
+## Chuẩn hóa font gốc
+
+Cặp font hiện hành là `--font-primary: "Garamon Pro Display", serif` và `--font-secondary: "Afacad", sans-serif`. Garamond 400 cho editorial; Afacad 400/500/600/700 cho phần đọc và controls. Prose BOD 18px PC / 17px mobile; CTA 16px PC / 15px mobile. File WOFF2 được lấy từ clone Dunnio và kiểm tra render dấu tiếng Việt. Quyết định này theo yêu cầu nhận diện mới, thay thế gợi ý font của bước khám phá trước. Xem `TYPOGRAPHY-UPDATE.md` và chương `report.html#typography-update`.
+
 ## Các thay đổi và lý do
 
 - Header, logo, footer và CTA dùng cùng vai trò màu ở cả 5 phương án: giảm cảm giác đây là nhiều thương hiệu khác nhau.
-- Typography Cormorant/Montserrat tạo nhịp editorial và hệ labels rõ; self-host font, có fallback và font-display:swap.
+- Typography Garamon Pro Display/Afacad sử dụng đúng file font từ website gốc, tạo nhịp editorial và hệ labels rõ; self-host font, có fallback và font-display:swap.
 - Body mobile 16px, metadata 12–14px, giá tách khỏi ảnh và tăng độ rõ; không dùng chữ nhỏ để tạo cảm giác “premium”.
 - Nút chính gold/navy, nút phụ outline, pressed/focus rõ; không dịch chuyển vị trí nút khi hover.
 - Early quick links tới suits/tuxedos/quy trình giúp khách đã biết nhu cầu đi thẳng, trong khi V1 vẫn giữ workshop-first.
@@ -33,7 +37,7 @@ Tương phản tính theo relative luminance: navy/white 16.52:1; white/deep nav
 
 Đã đọc các local SKILL.md của ui-ux-pro-max, ui-ux-designer, ux-audit, ux-flow và uxui-principles. Không chỉnh repository của bộ skills.
 
-UI/UX Pro Max trả về Typography Cormorant/Montserrat phù hợp thời trang. Gợi ý style Liquid Glass không hợp website may đo kể cả sau một lần retry hẹp, nên không áp dụng. Màu thương hiệu của người dùng có ưu tiên cao hơn bảng màu do search trả về.
+UI/UX Pro Max ban đầu đề xuất Cormorant/Montserrat. Theo yêu cầu nhận diện mới, cặp font này đã được thay hoàn toàn bằng Garamon Pro Display/Afacad lấy từ bản clone Dunnio. Gợi ý style Liquid Glass không hợp website may đo kể cả sau một lần retry hẹp, nên không áp dụng. Màu thương hiệu của người dùng có ưu tiên cao hơn bảng màu do search trả về.
 
 ui-ux-designer được dùng để lập semantic tokens, thành phần và trạng thái. ux-audit được dùng cho mức độ lỗi và giải pháp. ux-flow lập các đường đi và error recovery, thích nghi với HTML hiện có thay vì thêm framework ứng dụng. uxui-principles bản local chỉ là wrapper; không có cơ sở tuyên bố đã đánh giá đủ 168 nguyên tắc hoặc chạy API của bộ đó.
 

@@ -1,0 +1,1245 @@
+{
+  "revision": "typography-20261012",
+  "base": "http://localhost/dunnio-homepage-concepts/",
+  "views": [
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 35
+        }
+      ]
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 35
+        }
+      ]
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 35
+        }
+      ]
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "Afacad, sans-serif",
+        "weight": "500"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Afacad Medium",
+          "postScriptName": "Afacad-Medium",
+          "isCustomFont": true,
+          "glyphCount": 28
+        }
+      ]
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "Afacad, sans-serif",
+        "weight": "500"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Afacad Medium",
+          "postScriptName": "Afacad-Medium",
+          "isCustomFont": true,
+          "glyphCount": 28
+        }
+      ]
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "Afacad, sans-serif",
+        "weight": "500"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Afacad Medium",
+          "postScriptName": "Afacad-Medium",
+          "isCustomFont": true,
+          "glyphCount": 28
+        }
+      ]
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 36
+        }
+      ]
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 36
+        }
+      ]
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 35
+        }
+      ]
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "Afacad, sans-serif",
+        "weight": "500"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Afacad Medium",
+          "postScriptName": "Afacad-Medium",
+          "isCustomFont": true,
+          "glyphCount": 33
+        }
+      ]
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "Afacad, sans-serif",
+        "weight": "500"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Afacad Medium",
+          "postScriptName": "Afacad-Medium",
+          "isCustomFont": true,
+          "glyphCount": 33
+        }
+      ]
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "Afacad, sans-serif",
+        "weight": "500"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Afacad Medium",
+          "postScriptName": "Afacad-Medium",
+          "isCustomFont": true,
+          "glyphCount": 33
+        }
+      ]
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 39
+        }
+      ]
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 39
+        }
+      ]
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "500"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 39
+        }
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 39
+        }
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 39
+        }
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 39
+        }
+      ]
+    },
+    {
+      "file": "report.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 53
+        }
+      ]
+    },
+    {
+      "file": "report.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 53
+        }
+      ]
+    },
+    {
+      "file": "report.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 52
+        }
+      ]
+    },
+    {
+      "file": "brand-review.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 43
+        }
+      ]
+    },
+    {
+      "file": "brand-review.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 43
+        }
+      ]
+    },
+    {
+      "file": "brand-review.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 43
+        }
+      ]
+    },
+    {
+      "file": "banner-lab.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 33
+        }
+      ]
+    },
+    {
+      "file": "banner-lab.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 33
+        }
+      ]
+    },
+    {
+      "file": "banner-lab.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "600"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 33
+        }
+      ]
+    },
+    {
+      "file": "docs/screenshot-index.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    },
+    {
+      "file": "docs/screenshot-index.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    },
+    {
+      "file": "docs/screenshot-index.html",
+      "width": 390,
+      "height": 844,
+      "primary": "\"Garamon Pro Display\",serif",
+      "secondary": "\"Afacad\",sans-serif",
+      "heading": {
+        "family": "\"Garamon Pro Display\", serif",
+        "weight": "400"
+      },
+      "body": "Afacad, sans-serif",
+      "faces": [
+        {
+          "family": "Garamon Pro Display",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "400"
+        },
+        {
+          "family": "Afacad",
+          "weight": "700"
+        }
+      ],
+      "nonBrandText": [],
+      "overflow": false,
+      "headingFonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    }
+  ],
+  "vietnamese": [
+    {
+      "role": "primary",
+      "fonts": [
+        {
+          "familyName": "Garamond Premr Pro Med Disp",
+          "postScriptName": "GaramondPremrPro-MedDisp",
+          "isCustomFont": true,
+          "glyphCount": 130
+        }
+      ]
+    },
+    {
+      "role": "secondary",
+      "fonts": [
+        {
+          "familyName": "Afacad",
+          "postScriptName": "Afacad-Regular",
+          "isCustomFont": true,
+          "glyphCount": 130
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externalFontRequests": [],
+  "status": "passed"
+}

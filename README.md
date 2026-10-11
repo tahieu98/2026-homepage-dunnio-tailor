@@ -94,7 +94,7 @@ Chưa xác nhận bằng thiết bị vật lý, iOS Safari, screen reader, mạ
 
 ## Brand & UX/UI revision — 12/10/2026
 
-Màu thương hiệu đúng brief được áp dụng xuyên 5 phương án, hub, báo cáo và Banner Lab. `assets/brand.css` là semantic contract sau structural CSS. Font Cormorant/Montserrat self-hosted với OFL và font-display:swap. Không cần Google Fonts ở runtime.
+Màu thương hiệu đúng brief được áp dụng xuyên 5 phương án, hub, báo cáo và Banner Lab. `assets/brand.css` là semantic contract sau structural CSS. Font Garamon Pro Display/Afacad lấy đúng file từ bản clone Dunnio, self-hosted với font-display:swap. Không cần Google Fonts ở runtime.
 
 - [So sánh trước/sau](https://tahieu98.github.io/2026-homepage-dunnio-tailor/brand-review.html)
 - [Chương giải trình mới cho BOD](https://tahieu98.github.io/2026-homepage-dunnio-tailor/report.html#brand-update)
@@ -103,3 +103,12 @@ Màu thương hiệu đúng brief được áp dụng xuyên 5 phương án, hub
 - `docs/brand-contrast.json`, `docs/brand-verification.json`: tính tương phản và browser checks.
 
 Typography/touch/focus/date validation/finder reset được cải thiện, nhưng không tuyên bố CR tăng hoặc chứng nhận WCAG toàn bộ. 4 USP vẫn ngay trước footer; banner giữ tỉ lệ thực. Các URL 5 phương án không thay đổi.
+
+## Font thương hiệu — 12/10/2026
+
+`--font-primary: "Garamon Pro Display", serif` và `--font-secondary: "Afacad", sans-serif` được áp dụng cho cả demo và trang trình bày. Dùng đúng 5 file WOFF2 của bản clone Dunnio. Garamond khai báo 400; Afacad có 400/500/600/700. Nguồn và SHA-256: `docs/font-provenance.json`.
+
+- [Giải trình typography cho BOD](https://tahieu98.github.io/2026-homepage-dunnio-tailor/report.html#typography-update)
+- `docs/TYPOGRAPHY-UPDATE.md`: vai trò font, cỡ chữ và lý do UX/UI.
+- `docs/typography-verification.json`: kiểm tra font thật qua Chrome DevTools, tiếng Việt, responsive.
+- `node tools/prepare-brand-fonts.cjs`: sao chép lại từ clone; có thể chỉ định thư mục qua `DUNNIO_FONT_SOURCE`. Để xem live không cần chạy script này vì font đã nằm trong repository.
