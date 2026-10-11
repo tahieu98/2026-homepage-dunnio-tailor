@@ -2,7 +2,21 @@
 
 Hoàn thành ngày 12/10/2026. Bản clone `C:\laragon\www\dunnio-tailor-redesign` được giữ nguyên.
 
-## Xem ngay
+## Xem online — URL riêng cho từng phương án
+
+1. [Heritage Atelier](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v1-heritage-atelier.html)
+2. [Design Studio](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v2-design-studio.html)
+3. [Wedding Story](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3-wedding-story.html)
+4. [Modern Essentials](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v4-modern-essentials.html)
+5. [The Fit Concierge](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v5-fit-concierge.html)
+
+[Trang so sánh tổng hợp](https://tahieu98.github.io/2026-homepage-dunnio-tailor/) · [Báo cáo BOD](https://tahieu98.github.io/2026-homepage-dunnio-tailor/report.html) · [Banner Lab](https://tahieu98.github.io/2026-homepage-dunnio-tailor/banner-lab.html)
+
+Repository: https://github.com/tahieu98/2026-homepage-dunnio-tailor
+
+GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi file HTML là một trang chủ độc lập với URL riêng; cập nhật rồi push `main` sẽ triển khai lại.
+
+## Xem local
 
 - Laragon: http://localhost/dunnio-homepage-concepts/
 - Hoặc mở `index.html` trực tiếp trong browser. Không cần cài Node/WordPress/MySQL.
@@ -37,11 +51,12 @@ Không cần npm install, build, server, secret hoặc Actions workflow. File `.
 
 Hướng dẫn publishing source được đối chiếu với [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Có thể dùng repository public với GitHub Free; repository private cần gói hỗ trợ Pages tương ứng.
 
-Repo local đã được chuẩn bị; chưa gán Git remote hoặc push vì yêu cầu chưa chỉ định repository đích. Có thể dùng GitHub Desktop hoặc sau khi tạo repo:
+Repo local đã kết nối `origin` với repository của dự án. Để cập nhật các phiên bản:
 
 ```powershell
-git remote add origin https://github.com/YOUR-ACCOUNT/YOUR-REPO.git
-git push -u origin main
+git add .
+git commit -m "Update homepage concepts"
+git push origin main
 ```
 
 `docs/heatmaps/` chứa ảnh Clarity gốc ở local và bị loại khỏi Git để giữ tách biệt tư liệu review nội bộ; bản giải trình và ảnh chụp responsive của prototype vẫn được đưa lên Pages. Không copy `.local`, database, tài khoản CMS hay wp-config từ dự án gốc.
