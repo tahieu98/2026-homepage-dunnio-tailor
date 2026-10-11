@@ -1,0 +1,137 @@
+{
+  "method": "Computed visible DOM text, composited solid ancestor backgrounds, WCAG relative luminance. Large text >=24px or bold >=18.667px uses 3:1; other text uses 4.5:1.",
+  "limitations": [
+    "Background images/gradients are skipped for manual inspection",
+    "Historical text embedded in before/after screenshots is not audited",
+    "Decorative fabric ordinals are excluded",
+    "Not a full WCAG certification"
+  ],
+  "pages": [
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 1440,
+      "checked": 204,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 390,
+      "checked": 198,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 1440,
+      "checked": 217,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 390,
+      "checked": 210,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 1440,
+      "checked": 207,
+      "skippedGradientOrImageText": 7,
+      "failures": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 390,
+      "checked": 208,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 1440,
+      "checked": 223,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 390,
+      "checked": 217,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 1440,
+      "checked": 217,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 390,
+      "checked": 211,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "checked": 53,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "checked": 53,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "report.html",
+      "width": 1440,
+      "checked": 655,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "report.html",
+      "width": 390,
+      "checked": 655,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "banner-lab.html",
+      "width": 1440,
+      "checked": 23,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "banner-lab.html",
+      "width": 390,
+      "checked": 23,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "brand-review.html",
+      "width": 1440,
+      "checked": 70,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    },
+    {
+      "file": "brand-review.html",
+      "width": 390,
+      "checked": 70,
+      "skippedGradientOrImageText": 0,
+      "failures": []
+    }
+  ]
+}

@@ -17,11 +17,11 @@
         "source": "heritage-atelier-desktop.svg",
         "naturalWidth": 1600,
         "naturalHeight": 1200,
-        "width": 720.796875,
-        "height": 540.59375,
-        "ratioError": 0.000009634468273844732
+        "width": 718.796875,
+        "height": 539.09375,
+        "ratioError": 0.000009661275674810454
       },
-      "links": 82,
+      "links": 85,
       "sections": 10
     },
     {
@@ -38,11 +38,11 @@
         "source": "heritage-atelier-tablet.svg",
         "naturalWidth": 1200,
         "naturalHeight": 900,
-        "width": 406.390625,
-        "height": 304.78125,
-        "ratioError": 0.000051266277043104935
+        "width": 404.390625,
+        "height": 303.28125,
+        "ratioError": 0.00005151983513651537
       },
-      "links": 82,
+      "links": 85,
       "sections": 10
     },
     {
@@ -63,7 +63,7 @@
         "height": 487.5,
         "ratioError": 0
       },
-      "links": 82,
+      "links": 85,
       "sections": 10
     },
     {
@@ -84,7 +84,7 @@
         "height": 560.84375,
         "ratioError": 0.000009286603146474448
       },
-      "links": 83,
+      "links": 86,
       "sections": 11
     },
     {
@@ -105,7 +105,7 @@
         "height": 319.03125,
         "ratioError": 0.0000489763933784193
       },
-      "links": 83,
+      "links": 86,
       "sections": 11
     },
     {
@@ -122,11 +122,11 @@
         "source": "design-studio-mobile.svg",
         "naturalWidth": 800,
         "naturalHeight": 1000,
-        "width": 390,
-        "height": 487.5,
+        "width": 389,
+        "height": 486.25,
         "ratioError": 0
       },
-      "links": 83,
+      "links": 86,
       "sections": 11
     },
     {
@@ -147,7 +147,7 @@
         "height": 540,
         "ratioError": 0
       },
-      "links": 81,
+      "links": 84,
       "sections": 11
     },
     {
@@ -168,7 +168,7 @@
         "height": 461.25,
         "ratioError": 0
       },
-      "links": 81,
+      "links": 84,
       "sections": 11
     },
     {
@@ -189,7 +189,7 @@
         "height": 487.5,
         "ratioError": 0
       },
-      "links": 81,
+      "links": 84,
       "sections": 11
     },
     {
@@ -210,7 +210,7 @@
         "height": 517.5,
         "ratioError": 0
       },
-      "links": 85,
+      "links": 88,
       "sections": 11
     },
     {
@@ -231,7 +231,7 @@
         "height": 304.78125,
         "ratioError": 0.000051266277043104935
       },
-      "links": 85,
+      "links": 88,
       "sections": 11
     },
     {
@@ -252,7 +252,7 @@
         "height": 487.5,
         "ratioError": 0
       },
-      "links": 85,
+      "links": 88,
       "sections": 11
     },
     {
@@ -273,7 +273,7 @@
         "height": 445.171875,
         "ratioError": 0.000035098803130795275
       },
-      "links": 81,
+      "links": 84,
       "sections": 11
     },
     {
@@ -290,11 +290,11 @@
         "source": "fit-concierge-tablet.svg",
         "naturalWidth": 1200,
         "naturalHeight": 900,
-        "width": 338,
-        "height": 253.5,
-        "ratioError": 0
+        "width": 332.09375,
+        "height": 249.0625,
+        "ratioError": 0.00004182350480985697
       },
-      "links": 81,
+      "links": 84,
       "sections": 11
     },
     {
@@ -315,7 +315,7 @@
         "height": 487.5,
         "ratioError": 0
       },
-      "links": 81,
+      "links": 84,
       "sections": 11
     }
   ],

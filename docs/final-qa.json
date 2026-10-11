@@ -32,6 +32,16 @@
       "status": "passed"
     },
     {
+      "file": "brand-review.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "file": "brand-review.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
       "file": "docs/screenshot-index.html",
       "width": 1440,
       "status": "passed"

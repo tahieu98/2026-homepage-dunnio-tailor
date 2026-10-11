@@ -1,0 +1,74 @@
+{
+  "method": "WCAG relative luminance for solid sRGB pairs; thresholds use unrounded values.",
+  "sources": [
+    "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html"
+  ],
+  "pairs": [
+    {
+      "role": "White on primary",
+      "foreground": "#ffffff",
+      "background": "#0b1f3a",
+      "ratio": 16.51824183536946,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "role": "White on primary variant",
+      "foreground": "#ffffff",
+      "background": "#04142a",
+      "ratio": 18.442760164479637,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "role": "White on dark blue",
+      "foreground": "#ffffff",
+      "background": "#111a4c",
+      "ratio": 16.458293358492295,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "role": "Gold on primary",
+      "foreground": "#C8A96A",
+      "background": "#0b1f3a",
+      "ratio": 7.346039991046175,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "role": "Gold on primary variant",
+      "foreground": "#C8A96A",
+      "background": "#04142a",
+      "ratio": 8.201917314434965,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "role": "Navy on gold",
+      "foreground": "#0b1f3a",
+      "background": "#C8A96A",
+      "ratio": 7.346039991046175,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "role": "Gold on white (avoid for text)",
+      "foreground": "#C8A96A",
+      "background": "#ffffff",
+      "ratio": 2.2485913302272995,
+      "normalTextAA": false,
+      "largeTextAA": false
+    },
+    {
+      "role": "White on gold (avoid for text)",
+      "foreground": "#ffffff",
+      "background": "#C8A96A",
+      "ratio": 2.2485913302272995,
+      "normalTextAA": false,
+      "largeTextAA": false
+    }
+  ],
+  "limitations": "These are token pair calculations, not a complete accessibility certification. Composed backgrounds, focus, text size, interaction and imagery require separate browser checks."
+}

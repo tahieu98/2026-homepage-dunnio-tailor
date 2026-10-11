@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-12",
-  "staticFiles": 8,
-  "localReferences": 212,
+  "staticFiles": 9,
+  "localReferences": 274,
   "missingLocal": [],
   "missingAnchors": [],
   "dunnioDestinations": [
@@ -36,10 +36,10 @@
       "url": "http://localhost/dunnio-tailor-redesign/contact"
     },
     {
-      "route": "/our-tailors",
+      "route": "/our-workshop",
       "status": 200,
       "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/our-tailors"
+      "url": "http://localhost/dunnio-tailor-redesign/our-workshop"
     },
     {
       "route": "/men/groom-suit",
@@ -48,22 +48,16 @@
       "url": "http://localhost/dunnio-tailor-redesign/men/groom-suit"
     },
     {
-      "route": "/our-workshop",
+      "route": "/our-tailors",
       "status": 200,
       "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/our-workshop"
+      "url": "http://localhost/dunnio-tailor-redesign/our-tailors"
     },
     {
       "route": "/men/3-pieces-suit",
       "status": 200,
       "checkedAgainst": "Local clone route",
       "url": "http://localhost/dunnio-tailor-redesign/men/3-pieces-suit"
-    },
-    {
-      "route": "/men/custom-dress-shirts",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/custom-dress-shirts"
     },
     {
       "route": "/outfit-ideas",
@@ -78,6 +72,12 @@
       "url": "http://localhost/dunnio-tailor-redesign/men/custom-blazers"
     },
     {
+      "route": "/men/custom-dress-shirts",
+      "status": 200,
+      "checkedAgainst": "Local clone route",
+      "url": "http://localhost/dunnio-tailor-redesign/men/custom-dress-shirts"
+    },
+    {
       "route": "/3d-custom-outfit/suits.html",
       "status": 200,
       "checkedAgainst": "Local clone route",
@@ -90,16 +90,16 @@
       "url": "http://localhost/dunnio-tailor-redesign/procedure"
     },
     {
-      "route": "/fit-guarantee",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/fit-guarantee"
-    },
-    {
       "route": "/silver-groom-outfit-idea.html",
       "status": 200,
       "checkedAgainst": "Local clone route",
       "url": "http://localhost/dunnio-tailor-redesign/silver-groom-outfit-idea.html"
+    },
+    {
+      "route": "/fit-guarantee",
+      "status": 200,
+      "checkedAgainst": "Local clone route",
+      "url": "http://localhost/dunnio-tailor-redesign/fit-guarantee"
     },
     {
       "route": "/soft-pink-outfit-idea.html",
@@ -114,16 +114,16 @@
       "url": "http://localhost/dunnio-tailor-redesign/outfit-ideas-072025.html"
     },
     {
-      "route": "/outfit-ideas-032025.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/outfit-ideas-032025.html"
-    },
-    {
       "route": "/fabric-samples.html",
       "status": 200,
       "checkedAgainst": "Local clone route",
       "url": "http://localhost/dunnio-tailor-redesign/fabric-samples.html"
+    },
+    {
+      "route": "/outfit-ideas-032025.html",
+      "status": 200,
+      "checkedAgainst": "Local clone route",
+      "url": "http://localhost/dunnio-tailor-redesign/outfit-ideas-032025.html"
     },
     {
       "route": "/men/wool-suits",
@@ -132,16 +132,16 @@
       "url": "http://localhost/dunnio-tailor-redesign/men/wool-suits"
     },
     {
-      "route": "/men/linen-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/linen-suits"
-    },
-    {
       "route": "/blog",
       "status": 200,
       "checkedAgainst": "Local clone route",
       "url": "http://localhost/dunnio-tailor-redesign/blog"
+    },
+    {
+      "route": "/men/linen-suits",
+      "status": 200,
+      "checkedAgainst": "Local clone route",
+      "url": "http://localhost/dunnio-tailor-redesign/men/linen-suits"
     },
     {
       "route": "/men/cotton-suits",

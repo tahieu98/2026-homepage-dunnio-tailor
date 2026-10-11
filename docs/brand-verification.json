@@ -1,0 +1,325 @@
+{
+  "revision": "brand-20261012",
+  "base": "http://localhost/dunnio-homepage-concepts/",
+  "viewports": [
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "17px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "width": 390,
+      "height": 844,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "17px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "width": 390,
+      "height": 844,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "17px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "14px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "width": 390,
+      "height": 844,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "17px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "width": 390,
+      "height": 844,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 1440,
+      "height": 1000,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "17px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 820,
+      "height": 1180,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "width": 390,
+      "height": 844,
+      "primary": "#0b1f3a",
+      "variant": "#04142a",
+      "gold": "#C8A96A",
+      "header": "rgb(255, 255, 255)",
+      "footer": "rgb(4, 20, 42)",
+      "cta": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(11, 31, 58)"
+      },
+      "uiFont": "Montserrat, Arial, Helvetica, sans-serif",
+      "bodyFontSize": "16px",
+      "fontReady": true,
+      "overflow": false,
+      "ratioPreserved": true,
+      "smallButtons": []
+    }
+  ],
+  "checks": [
+    "Brand primitives and computed header/footer/main CTA colours match the user contract across all 15 page/viewport combinations",
+    "Self-hosted fonts loaded, main mobile copy >=16px, buttons >=44px, no whole-page overflow and native banner ratios preserved",
+    "Missing/past occasion date has inline error and focus recovery; valid date prepares a draft; changing details clears the old draft",
+    "Finder clears stale recommendations and Start again restores unselected choices",
+    "Keyboard Tab reaches the finder submit control visibly between sticky header and CTA with a visible outline",
+    "Additional responsive checks at 320, 375, 768, 1024 and mobile landscape 844x390 pass",
+    "Reduced-motion preference disables smooth scroll and transitions",
+    "200% CSS zoom emulation reflows all five pages without whole-page horizontal overflow (not a physical-device/system-text test)"
+  ],
+  "errors": [],
+  "fontRequests": [],
+  "status": "passed",
+  "limitations": [
+    "Not a complete WCAG certification",
+    "No physical iOS/Safari or screen-reader session",
+    "Zoom uses CSS emulation",
+    "No new user research or A/B test"
+  ]
+}

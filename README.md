@@ -90,3 +90,16 @@ node tools/check-links.cjs
 Test scripts dùng Playwright và Chrome đã cài trên máy HP, có đường dẫn dependency tuyệt đối. Đây là tooling QA, không phải runtime site. Trên máy khác, cập nhật đường dẫn Playwright/Chrome trong script nếu muốn chạy lại.
 
 Chưa xác nhận bằng thiết bị vật lý, iOS Safari, screen reader, mạng di động thật hoặc A/B conversion. Không có dự báo uplift được chứng minh. Giá và policy cần Dunnio xác nhận lại trước production; các trang storefront có `noindex` để phân biệt prototype với website bán hàng.
+
+
+## Brand & UX/UI revision — 12/10/2026
+
+Màu thương hiệu đúng brief được áp dụng xuyên 5 phương án, hub, báo cáo và Banner Lab. `assets/brand.css` là semantic contract sau structural CSS. Font Cormorant/Montserrat self-hosted với OFL và font-display:swap. Không cần Google Fonts ở runtime.
+
+- [So sánh trước/sau](https://tahieu98.github.io/2026-homepage-dunnio-tailor/brand-review.html)
+- [Chương giải trình mới cho BOD](https://tahieu98.github.io/2026-homepage-dunnio-tailor/report.html#brand-update)
+- `docs/BRAND-UX-UPDATE.md`: audit, quyết định màu và giới hạn của skills.
+- `design-system/dunnio-tailor/MASTER.md`: source of truth; `DESIGN-LANGUAGE.md`: component inventory và flow.
+- `docs/brand-contrast.json`, `docs/brand-verification.json`: tính tương phản và browser checks.
+
+Typography/touch/focus/date validation/finder reset được cải thiện, nhưng không tuyên bố CR tăng hoặc chứng nhận WCAG toàn bộ. 4 USP vẫn ngay trước footer; banner giữ tỉ lệ thực. Các URL 5 phương án không thay đổi.
