@@ -2,482 +2,82 @@
 window.DUNNIO_BANNERS = {
   "heritage-atelier": [
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.38600941386851334,
-          0.18,
-          0.6139905861314867,
-          0.6
-        ],
-        "src": "assets/banners/heritage-atelier-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.4408326942255025,
-          0.23,
-          0.5591673057744975,
-          0.54
-        ],
-        "src": "assets/banners/heritage-atelier-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Heritage Atelier banner showcasing crafted tailoring excellence",
+      "desktop": { "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2", "width": 1659, "height": 948, "subject": [0.305, 0.055, 0.81, 1] },
+      "tablet": { "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2", "width": 1619, "height": 971, "subject": [0.3, 0.055, 0.815, 1] },
+      "mobile": { "src": "assets/banners/heritage-atelier-mobile.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1422, "subject": [0.386, 0.18, 0.614, 0.6] },
+      "compact": { "src": "assets/banners/heritage-atelier-compact.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1000, "subject": [0.441, 0.23, 0.559, 0.54] }
     },
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.2670909275276593,
-          0.18,
-          0.7329090724723407,
-          0.6
-        ],
-        "src": "assets/banners/heritage-atelier-second-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.3791075405759399,
-          0.23,
-          0.6208924594240601,
-          0.54
-        ],
-        "src": "assets/banners/heritage-atelier-second-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Heritage Atelier second banner with workshop perspective",
+      "desktop": { "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2", "width": 1619, "height": 971, "subject": [0.3, 0.055, 0.815, 1] },
+      "tablet": { "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2", "width": 1659, "height": 948, "subject": [0.305, 0.055, 0.81, 1] },
+      "mobile": { "src": "assets/banners/heritage-atelier-second-mobile.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1422, "subject": [0.267, 0.18, 0.733, 0.6] },
+      "compact": { "src": "assets/banners/heritage-atelier-second-compact.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1000, "subject": [0.379, 0.23, 0.621, 0.54] }
     }
   ],
   "design-studio": [
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.27220980824133706,
-          0.18,
-          0.727790191758663,
-          0.6
-        ],
-        "src": "assets/banners/design-studio-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.381764517706139,
-          0.23,
-          0.6182354822938609,
-          0.54
-        ],
-        "src": "assets/banners/design-studio-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Design Studio banner showcasing modern tailoring and personalization options",
+      "desktop": { "src": "assets/banners/design-studio-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/design-studio-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     },
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.3973797061213433,
-          0.18,
-          0.6026202938786566,
-          0.6
-        ],
-        "src": "assets/banners/design-studio-second-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.4467344934994582,
-          0.23,
-          0.5532655065005417,
-          0.54
-        ],
-        "src": "assets/banners/design-studio-second-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Design Studio second banner with additional style perspective",
+      "desktop": { "src": "assets/banners/design-studio-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/design-studio-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     }
   ],
   "wedding-story": [
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.2083902486456452,
-          0.18,
-          0.7916097513543547,
-          0.6
-        ],
-        "src": "assets/banners/wedding-story-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.3486386998194193,
-          0.23,
-          0.6513613001805807,
-          0.5400000000000001
-        ],
-        "src": "assets/banners/wedding-story-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Wedding Story banner showcasing wedding suits and occasion styling",
+      "desktop": { "src": "assets/banners/wedding-story-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/wedding-story-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     },
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.2670909275276593,
-          0.18,
-          0.7329090724723407,
-          0.6
-        ],
-        "src": "assets/banners/wedding-story-second-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.3791075405759399,
-          0.23,
-          0.6208924594240601,
-          0.54
-        ],
-        "src": "assets/banners/wedding-story-second-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Wedding Story second banner with alternate wedding styling",
+      "desktop": { "src": "assets/banners/wedding-story-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/wedding-story-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     }
   ],
   "modern-essentials": [
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.3003636521665651,
-          0.18,
-          0.699636347833435,
-          0.6
-        ],
-        "src": "assets/banners/modern-essentials-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.3963778919222342,
-          0.23,
-          0.6036221080777657,
-          0.54
-        ],
-        "src": "assets/banners/modern-essentials-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Modern Essentials banner showcasing versatile everyday tailoring",
+      "desktop": { "src": "assets/banners/modern-essentials-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/modern-essentials-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     },
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.2824475696686927,
-          0.18,
-          0.7175524303313072,
-          0.6
-        ],
-        "src": "assets/banners/modern-essentials-second-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.3870784719665372,
-          0.23,
-          0.6129215280334627,
-          0.54
-        ],
-        "src": "assets/banners/modern-essentials-second-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Modern Essentials second banner with additional wardrobe options",
+      "desktop": { "src": "assets/banners/modern-essentials-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/modern-essentials-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     }
   ],
   "fit-concierge": [
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.3973797061213433,
-          0.18,
-          0.6026202938786566,
-          0.6
-        ],
-        "src": "assets/banners/fit-concierge-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.4467344934994582,
-          0.23,
-          0.5532655065005417,
-          0.54
-        ],
-        "src": "assets/banners/fit-concierge-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Fit Concierge banner showcasing personalized tailoring guidance",
+      "desktop": { "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2", "width": 1659, "height": 948, "subject": [0.305, 0.055, 0.81, 1] },
+      "tablet": { "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2", "width": 1619, "height": 971, "subject": [0.3, 0.055, 0.815, 1] },
+      "mobile": { "src": "assets/banners/fit-concierge-mobile.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1422, "subject": [0.397, 0.18, 0.603, 0.6] },
+      "compact": { "src": "assets/banners/fit-concierge-compact.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1000, "subject": [0.447, 0.23, 0.553, 0.54] }
     },
     {
-      "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
-      "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
-        "width": 1619,
-        "height": 971,
-        "subject": [
-          0.3,
-          0.055,
-          0.815,
-          1
-        ]
-      },
-      "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
-        "width": 1659,
-        "height": 948,
-        "subject": [
-          0.305,
-          0.055,
-          0.81,
-          1
-        ]
-      },
-      "mobile": {
-        "subject": [
-          0.38600941386851334,
-          0.18,
-          0.6139905861314867,
-          0.6
-        ],
-        "src": "assets/banners/fit-concierge-second-mobile.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1422
-      },
-      "compact": {
-        "subject": [
-          0.4408326942255025,
-          0.23,
-          0.5591673057744975,
-          0.54
-        ],
-        "src": "assets/banners/fit-concierge-second-compact.svg?v=editor-banners-20261012-r2",
-        "width": 800,
-        "height": 1000
-      }
+      "alt": "Fit Concierge second banner with alternative styling perspective",
+      "desktop": { "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2", "width": 1619, "height": 971, "subject": [0.3, 0.055, 0.815, 1] },
+      "tablet": { "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2", "width": 1659, "height": 948, "subject": [0.305, 0.055, 0.81, 1] },
+      "mobile": { "src": "assets/banners/fit-concierge-second-mobile.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1422, "subject": [0.386, 0.18, 0.614, 0.6] },
+      "compact": { "src": "assets/banners/fit-concierge-second-compact.svg?v=editor-banners-20261012-r2", "width": 800, "height": 1000, "subject": [0.441, 0.23, 0.559, 0.54] }
     }
   ]
 };
