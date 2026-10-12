@@ -53,3 +53,17 @@
 @media(prefers-reduced-motion:reduce){.theme .topbar-menu,.theme .intro-line.service-index a{transition:none}}
 #mega-customize-outfit .mega-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:800px}
 #mega-shop .mega-grid,#mega-explore .mega-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+/* Request 13: equal header zones keep the official transparent logo at true screen centre. */
+.theme .topbar-menu{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);height:80px;margin-bottom:-80px;gap:24px}
+.theme .topbar-menu .wordmark{grid-column:2;grid-row:1;justify-self:center;margin:0;padding:0;position:static;transform:none}
+.header-left{grid-column:1;grid-row:1;display:flex;align-items:center;gap:18px;min-width:0}
+.theme .topbar-menu .header-actions{grid-column:3;grid-row:1;justify-self:end}
+.theme .topbar-menu .desktop-nav{gap:12px;font-size:15px}
+.theme .topbar-menu .menu-toggle{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:48px;height:48px;min-width:48px;padding:6px;background:transparent;color:inherit;border:0;cursor:pointer}
+.theme .topbar-menu .menu-toggle span{width:22px;height:2px;background:currentColor}
+.theme .topbar-menu .menu-toggle small{font:12px/1 var(--font-secondary)}
+.theme .topbar-menu .clothing-shortcut{display:none}
+@media(min-width:640px){.theme .mobile-nav.responsive-drawer{inset:0 auto 0 0;width:min(480px,90vw);box-shadow:0 0 0 100vmax rgba(4,20,42,.6)}.drawer-header{padding:20px 8%}.drawer-home,.drawer-panel{padding-left:8%;padding-right:8%}}
+@media(max-width:1399px){.theme .topbar-menu .desktop-nav{display:none}}
+@media(max-width:639px){.theme .topbar-menu{height:64px;margin-bottom:-64px;gap:8px}.theme .topbar-menu .wordmark>img{width:120px}.theme .topbar-menu .header-advice{display:inline-flex;font-size:13px;padding:10px;min-height:44px}.theme .topbar-menu .menu-toggle{width:44px;min-width:44px;height:44px}.header-left{gap:0}}
+@media(max-width:359px){.theme .topbar-menu .header-advice{font-size:12px;padding:8px}.theme .topbar-menu .wordmark>img{width:104px}}
