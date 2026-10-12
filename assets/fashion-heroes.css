@@ -13,7 +13,7 @@
 .theme .hockerty-hero .button{background:var(--color-secondary);color:var(--color-primary);border:1px solid var(--color-primary);min-height:52px;padding:14px 24px;font-size:16px}
 .theme .hockerty-hero .button:hover{background:var(--color-white);color:var(--color-primary);border-color:var(--color-white)}
 .theme .hockerty-hero .button:active{background:var(--color-primary);color:var(--color-white)}
-.theme .hockerty-hero .banner-controls{position:absolute;right:4.2%;bottom:28px;z-index:2;display:flex;align-items:center;gap:8px;color:var(--color-white);white-space:nowrap}
+.theme .hockerty-hero .banner-controls{position:absolute;right:4.2%;bottom:28px;z-index:4;display:flex;align-items:center;gap:8px;color:var(--color-white);white-space:nowrap}
 .theme .hockerty-hero .banner-controls button{width:44px;height:44px;min-width:44px;min-height:44px;border:1px solid rgba(255,255,255,.8);background:var(--color-primary-variant);color:var(--color-white)}
 .theme .hockerty-hero .banner-controls button:hover{background:var(--color-secondary);color:var(--color-primary)}
 .theme .hockerty-hero [data-banner-count]{font-size:13px;letter-spacing:0;line-height:1.5;min-width:32px;text-align:center}

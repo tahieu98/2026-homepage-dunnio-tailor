@@ -18,50 +18,55 @@ window.DUNNIO_BANNERS = {
   ],
   "design-studio": [
     {
-      "alt": "Design Studio banner showcasing modern tailoring and personalization options",
-      "desktop": { "src": "assets/banners/design-studio-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/design-studio-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "alt": "Tailor fitting a green three-piece suit in a wood-panelled studio",
+      "desktop": { "src": "assets/banners/design-studio-v2-7x4.webp", "width": 1600, "height": 914, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/design-studio-v2-5x3.webp", "width": 1600, "height": 960, "subject": [0.3, 0.05, 0.82, 1] }
     },
     {
-      "alt": "Design Studio second banner with additional style perspective",
-      "desktop": { "src": "assets/banners/design-studio-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/design-studio-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/design-studio-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "alt": "Tailors inspecting a jacket at the workbench",
+      "desktop": { "src": "assets/banners/design-studio-a-7x4.webp", "width": 1600, "height": 914, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/design-studio-a-5x3.webp", "width": 1600, "height": 960, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/design-studio-a-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/design-studio-a-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+    },
+    {
+      "alt": "Cutting room with cloth laid out for a pattern",
+      "desktop": { "src": "assets/banners/design-studio-b-7x4.webp", "width": 1600, "height": 914, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/design-studio-b-5x3.webp", "width": 1600, "height": 960, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/design-studio-b-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/design-studio-b-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     }
   ],
   "wedding-story": [
     {
-      "alt": "Wedding Story banner showcasing wedding suits and occasion styling",
-      "desktop": { "src": "assets/banners/wedding-story-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/wedding-story-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "alt": "Two men in grey suits walking through a garden wedding",
+      "desktop": { "src": "assets/banners/wedding-story-a-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/wedding-story-a-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/wedding-story-a-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/wedding-story-a-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     },
     {
-      "alt": "Wedding Story second banner with alternate wedding styling",
-      "desktop": { "src": "assets/banners/wedding-story-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/wedding-story-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/wedding-story-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "alt": "Groom in a light suit at a beach ceremony",
+      "desktop": { "src": "assets/banners/wedding-story-b-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/wedding-story-b-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/wedding-story-b-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/wedding-story-b-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     }
   ],
   "modern-essentials": [
     {
-      "alt": "Modern Essentials banner showcasing versatile everyday tailoring",
-      "desktop": { "src": "assets/banners/modern-essentials-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/modern-essentials-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "alt": "Man in a navy blazer walking a city street",
+      "desktop": { "src": "assets/banners/modern-essentials-a-7x4.webp", "width": 1600, "height": 914, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/modern-essentials-a-5x3.webp", "width": 1600, "height": 960, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/modern-essentials-a-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/modern-essentials-a-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     },
     {
-      "alt": "Modern Essentials second banner with additional wardrobe options",
-      "desktop": { "src": "assets/banners/modern-essentials-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/modern-essentials-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/modern-essentials-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "alt": "Man in a navy blazer walking through a park",
+      "desktop": { "src": "assets/banners/modern-essentials-b-7x4.webp", "width": 1600, "height": 914, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/modern-essentials-b-5x3.webp", "width": 1600, "height": 960, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/modern-essentials-b-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/modern-essentials-b-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     }
   ],
   "fit-concierge": [
