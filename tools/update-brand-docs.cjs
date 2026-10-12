@@ -40,3 +40,5 @@ let readme=fs.readFileSync('README.md','utf8');if(!readme.includes('## Brand & U
 require('./update-fashion-docs.cjs');
 require('./update-hockerty-docs.cjs')();
 console.log('Updated BOD rationale, retired the old colour narratives, and created before/after review.');
+
+require("./update-balanced-docs.cjs")();

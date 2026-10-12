@@ -123,3 +123,10 @@ The Fit Concierge và bốn hero còn lại dùng ảnh full-width, thông đi�
 - `docs/fashion-hero-verification.json`: full-width, một CTA, nhiều tỷ lệ ảnh và hành vi sticky CTA.
 - `node tools/fashion-heroes.cjs`: chỉ dựng lại hero và artwork của 5 trang; không cần build để xem trang.
 - Các browser verification tools nhận `DUNNIO_PREVIEW_URL`; có thể dùng URL `file:///C:/laragon/www/dunnio-homepage-concepts/` nếu Apache chưa chạy. `DUNNIO_STATIC_ONLY=1` bỏ HTTP route checks trong `tools/check-links.cjs`, vẫn kiểm tra link/anchor local.
+
+
+## Request 13 — responsive banner safe areas (12 October 2026)
+
+Current rules supersede the earlier fixed desktop 16:9 hero: desktop8:3, portrait tablet4:3, tall mobile800:1422 and compact mobile4:5. The official transparent logo is truly centred; the full drawer opens from the left on all devices. Blog/Explore/Shop are inside the drawer. Foreground photographs scale uniformly against subject bounding boxes. Runtime checks reserve head/copy/control space and move copy below unregistered or unsafe artwork.
+
+See [interactive formula](banner-guide.html), [editor recipe](docs/RESPONSIVE-BANNER-FORMULA.md), [configuration](assets/banner-layout.json), and [browser evidence](docs/responsive-banner-verification.json). Rebuild heroes using `node tools/fashion-heroes.cjs`; documentation using `node tools/update-balanced-docs.cjs`.
