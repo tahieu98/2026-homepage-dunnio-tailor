@@ -67,3 +67,6 @@
 @media(max-width:1399px){.theme .topbar-menu .desktop-nav{display:none}}
 @media(max-width:639px){.theme .topbar-menu{height:64px;margin-bottom:-64px;gap:8px}.theme .topbar-menu .wordmark>img{width:120px}.theme .topbar-menu .header-advice{display:inline-flex;font-size:13px;padding:10px;min-height:44px}.theme .topbar-menu .menu-toggle{width:44px;min-width:44px;height:44px}.header-left{gap:0}}
 @media(max-width:359px){.theme .topbar-menu .header-advice{font-size:12px;padding:8px}.theme .topbar-menu .wordmark>img{width:104px}}
+
+.theme .topbar-menu .menu-toggle span{margin:0;flex:0 0 2px}
+@media(min-width:640px) and (max-width:1199px){.theme .topbar-menu{height:64px;margin-bottom:-64px}.theme .topbar-menu .wordmark>img{width:130px}}
