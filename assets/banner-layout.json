@@ -1,5 +1,5 @@
 {
-  "revision": "balanced-20261012-r2",
+  "revision": "balanced-20261012-r3",
   "description": "Artboard safe areas; coordinates are fractions of the completed artwork. Keep source photographs unchanged.",
   "devices": {
     "desktop": {"width":1600,"height":600,"headTop":0.20,"subjectBottom":0.94,"subjectCenterX":0.58,"copyRight":0.40},

@@ -48,7 +48,7 @@ y0' = a
 y1' = (Y + S_h × y1 × k) / A_h
 ```
 
-PC: c=0.58 và Q=0.30A_w. Tablet: c=0.64 và Q=0.36A_w. Mobile: c=0.50 và Q=0.90A_w. Tâm hơi lệch phải trên PC/tablet để chừa vùng âm bên trái cho chữ; mobile đặt chính giữa. SVG mở rộng bối cảnh bằng phần mép trống và lớp navy, giữ tỉ lệ ảnh người mẫu. Không tạo thêm khuôn mặt hoặc chi tiết trang phục mới. Những phần vốn không có trong ảnh nguồn không thể được khôi phục bằng phép dàn này.
+PC: c=0.58 và Q=0.30A_w. Tablet: c=0.64 và Q=0.36A_w. Mobile: c=0.50 và Q=0.90A_w. Tâm hơi lệch phải trên PC/tablet để chừa vùng âm bên trái cho chữ; mobile đặt chính giữa. SVG hiển thị ảnh nguồn sắc nét trên canvas navy, giữ tỉ lệ ảnh người mẫu; đã bỏ nền mép kéo giãn/blur. Canvas navy là phần không có bối cảnh trong ảnh nguồn, không phải ảnh được mở rộng hoàn chỉnh. Editor nên thay bằng artwork toàn cảnh được thiết kế đúng từng khung. Không tạo thêm khuôn mặt hoặc chi tiết trang phục mới. Những phần vốn không có trong ảnh nguồn không thể được khôi phục bằng phép dàn này.
 
 ## 3. Kiểm tra an toàn ở kích thước hiển thị thật
 
