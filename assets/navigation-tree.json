@@ -1,0 +1,400 @@
+{
+  "source": "https://dunniotailor.com/",
+  "checkedAt": "2026-10-12",
+  "sourceSha256": "09df8de9b6d1ff994bcb361613d8d84526d6a6454a158bb6eb635989bcd40fa9",
+  "items": [
+    {
+      "label": "Customize outfit",
+      "children": [
+        {
+          "label": "Outfit Sets",
+          "children": [
+            {
+              "label": "Suit",
+              "href": "/3d-custom-outfit/suits.html"
+            },
+            {
+              "label": "3 Piece Suit",
+              "href": "/3d-custom-outfit/3piece-suits.html"
+            },
+            {
+              "label": "Tuxedo",
+              "href": "/3d-custom-outfit/tuxedo.html"
+            }
+          ]
+        },
+        {
+          "label": "Individual Items",
+          "children": [
+            {
+              "label": "Blazer",
+              "href": "/3d-custom-outfit/jacket.html"
+            },
+            {
+              "label": "Pants",
+              "href": "/3d-custom-outfit/pant.html"
+            },
+            {
+              "label": "Dress Shirts",
+              "href": "/3d-custom-outfit/shirt.html"
+            },
+            {
+              "label": "Vests",
+              "href": "/3d-custom-outfit/vest.html"
+            },
+            {
+              "label": "Classic Pants",
+              "href": "/3d-custom-outfit/vintage-pant.html"
+            },
+            {
+              "label": "Tuxedo shirts",
+              "href": "/3d-custom-outfit/tuxedo-shirt.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Custom clothing",
+      "children": [
+        {
+          "label": "Suits",
+          "children": [
+            {
+              "label": "Custom suits",
+              "href": "/men/custom-suits"
+            },
+            {
+              "label": "Custom 3 Piece Suits",
+              "href": "/men/3-pieces-suit"
+            },
+            {
+              "label": "Wool Suits",
+              "href": "/men/wool-suits"
+            },
+            {
+              "label": "Linen Suits",
+              "href": "/men/linen-suits"
+            },
+            {
+              "label": "Cotton Suits",
+              "href": "/men/cotton-suits"
+            },
+            {
+              "label": "Tweed Suits",
+              "href": "/men/tweed-suits"
+            }
+          ]
+        },
+        {
+          "label": "Shirts",
+          "children": [
+            {
+              "label": "Custom Dress Shirts",
+              "href": "/men/custom-dress-shirts"
+            },
+            {
+              "label": "Cotton Shirts",
+              "href": "/men/cotton-shirts"
+            },
+            {
+              "label": "Linen Shirts",
+              "href": "/men/linen-shirts"
+            },
+            {
+              "label": "Twill Shirts",
+              "href": "/men/twill-shirts"
+            },
+            {
+              "label": "Stretch Shirts",
+              "href": "/men/stretch-shirts"
+            }
+          ]
+        },
+        {
+          "label": "Pants",
+          "children": [
+            {
+              "label": "Custom Dress Pants",
+              "href": "/men/custom-dress-pants"
+            },
+            {
+              "label": "Wool Pants",
+              "href": "/men/wool-pants"
+            },
+            {
+              "label": "Linen Pants",
+              "href": "/men/linen-pants"
+            },
+            {
+              "label": "Stretch Pants",
+              "href": "/men/stretch-pants"
+            }
+          ]
+        },
+        {
+          "label": "Blazers",
+          "children": [
+            {
+              "label": "Custom Blazers",
+              "href": "/men/custom-blazers"
+            },
+            {
+              "label": "Wool Blazers",
+              "href": "/men/wool-blazers"
+            },
+            {
+              "label": "Linen Blazers",
+              "href": "/men/linen-blazers"
+            },
+            {
+              "label": "Cotton Blazers",
+              "href": "/men/cotton-blazers"
+            }
+          ]
+        },
+        {
+          "label": "Tuxedo",
+          "children": [
+            {
+              "label": "Custom Tuxedo",
+              "href": "https://dunniotailor.com/men/custom-tuxedo"
+            },
+            {
+              "label": "Wool Tuxedos",
+              "href": "/men/wool-tuxedos"
+            },
+            {
+              "label": "Velvet Tuxedos",
+              "href": "/men/velvet-tuxedos"
+            },
+            {
+              "label": "Stretch Tuxedos",
+              "href": "/men/stretch-tuxedos"
+            },
+            {
+              "label": "Silk Blend Tuxedos",
+              "href": "/men/silk-blend-tuxedos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Occasion",
+      "children": [
+        {
+          "label": "Wedding suits",
+          "children": [
+            {
+              "label": "Groom Suit",
+              "href": "/men/groom-suit"
+            },
+            {
+              "label": "Wedding Tuxedos",
+              "href": "/men/wedding-tuxedos"
+            },
+            {
+              "label": "Groomsmen Suits",
+              "href": "/men/groomsmen-suits"
+            },
+            {
+              "label": "Wedding Guest Suits",
+              "href": "/men/wedding-guest-suits"
+            },
+            {
+              "label": "Linen Wedding Suits",
+              "href": "/men/linen-wedding-suits"
+            },
+            {
+              "label": "Wedding Waistcoats",
+              "href": "/men/wedding-vest"
+            }
+          ]
+        },
+        {
+          "label": "Business",
+          "children": [
+            {
+              "label": "Business Suits",
+              "href": "/men/business-suits"
+            },
+            {
+              "label": "Interview Suits",
+              "href": "/men/interview-suits"
+            },
+            {
+              "label": "Business Blazers",
+              "href": "/men/business-blazers"
+            },
+            {
+              "label": "Dress Shirts",
+              "href": "/men/custom-dress-shirts"
+            },
+            {
+              "label": "Custom Pants",
+              "href": "/men/custom-pants"
+            }
+          ]
+        },
+        {
+          "label": "Formal Events",
+          "children": [
+            {
+              "label": "Formal Suits",
+              "href": "/men/formal-suits"
+            },
+            {
+              "label": "Black Tie Tuxedos",
+              "href": "/men/black-tie-tuxedos"
+            },
+            {
+              "label": "Gala Dinner",
+              "href": "/men/gala-dinner"
+            },
+            {
+              "label": "Awards Ceremony",
+              "href": "/men/awards-ceremony"
+            }
+          ]
+        },
+        {
+          "label": "Party",
+          "children": [
+            {
+              "label": "Party Suits",
+              "href": "/men/party-suits"
+            },
+            {
+              "label": "Birthday Party",
+              "href": "/men/birthday-party"
+            },
+            {
+              "label": "Christmas Party",
+              "href": "/men/christmas-party"
+            },
+            {
+              "label": "New Year Party",
+              "href": "/men/new-year-party"
+            }
+          ]
+        },
+        {
+          "label": "Casual",
+          "children": [
+            {
+              "label": "Smart Casual",
+              "href": "/men/smart-casual"
+            },
+            {
+              "label": "Vacation Outfit",
+              "href": "/men/vacation-outfit"
+            },
+            {
+              "label": "Weekend Style",
+              "href": "/men/weekend-style"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Shop",
+      "children": [
+        {
+          "label": "Neck ties",
+          "href": "https://dunniotailor.com/neck-ties.html"
+        },
+        {
+          "label": "Cufflinks",
+          "href": "https://dunniotailor.com/cufflinks.html"
+        },
+        {
+          "label": "Bow ties",
+          "href": "https://dunniotailor.com/bow-ties.html"
+        },
+        {
+          "label": "Suspender",
+          "href": "https://dunniotailor.com/suspender.html"
+        }
+      ]
+    },
+    {
+      "label": "Blog",
+      "href": "https://dunniotailor.com/blog"
+    },
+    {
+      "label": "Explore",
+      "children": [
+        {
+          "label": "Customers",
+          "children": [
+            {
+              "label": "Reviews",
+              "href": "/feedback"
+            },
+            {
+              "label": "How It Works",
+              "href": "/procedure"
+            },
+            {
+              "label": "Fit Guarantee",
+              "href": "/fit-guarantee"
+            }
+          ]
+        },
+        {
+          "label": "Support",
+          "children": [
+            {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            {
+              "label": "FAQs",
+              "href": "/faqs"
+            },
+            {
+              "label": "Shipping & Returns",
+              "href": "/shipping-returns.html"
+            }
+          ]
+        },
+        {
+          "label": "Policies",
+          "children": [
+            {
+              "label": "Terms & Conditions",
+              "href": "/terms-and-conditions"
+            },
+            {
+              "label": "Privacy Policy",
+              "href": "/privacy-policy.html"
+            }
+          ]
+        },
+        {
+          "label": "About Us",
+          "children": [
+            {
+              "label": "About Us",
+              "href": "/about"
+            },
+            {
+              "label": "Our Workshop",
+              "href": "/our-workshop"
+            },
+            {
+              "label": "Craftsmanship",
+              "href": "/our-tailors"
+            },
+            {
+              "label": "Partner With Us",
+              "href": "/partner"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

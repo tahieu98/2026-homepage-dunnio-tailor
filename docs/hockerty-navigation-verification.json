@@ -1,0 +1,16 @@
+{
+  "revision": "hockerty-20261012",
+  "staticChecks": {
+    "status": "passed",
+    "variants": 5,
+    "topGroups": 6,
+    "menuLinks": 72,
+    "customClothingLinks": 24,
+    "visibleServices": 10,
+    "homepageBlogSections": 0
+  },
+  "browserReview": {
+    "status": "pending_live_review"
+  },
+  "sourceHttpChecks": "navigation-source-checks.json"
+}

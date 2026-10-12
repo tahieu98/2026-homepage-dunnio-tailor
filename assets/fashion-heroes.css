@@ -1,35 +1,37 @@
-/* Image-led fashion banners. Full viewport width, natural uploaded image ratio. */
-.theme:has(.fashion-hero) .announcement{display:none}
-.theme .hero.fashion-hero{display:block;width:100%;max-width:none;margin:0;padding:0;gap:0;background:var(--color-white);color:var(--color-primary)}
-.theme .fashion-hero .hero-media{display:block;width:100%;margin:0;padding:0;border:0;border-radius:0;background:var(--color-primary);align-self:auto;overflow:visible}
-.theme .fashion-hero picture{display:block;width:100%;margin:0;line-height:0}
-.theme .fashion-hero picture img{display:block;width:100%;height:auto;max-height:none;border-radius:0;object-fit:contain}
-.theme .fashion-hero .hero-copy{position:static;display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:24px;width:100%;height:auto;max-width:none;margin:0;padding:24px 4.2%;background:var(--color-white);color:var(--color-primary);border-bottom:1px solid var(--border)}
-.theme .fashion-hero .fashion-heading{min-width:0}
-.theme .fashion-hero .hero-copy>.fashion-heading{order:0}
-.theme .fashion-hero .hero-copy>.actions{order:1}
-.theme .fashion-hero .hero-copy>.banner-controls{order:2}
-.theme .fashion-hero .eyebrow{margin:0 0 6px;padding:0;max-width:none;color:var(--color-primary);font-size:11px;letter-spacing:.14em;line-height:1.5}
-.theme .fashion-hero .hero-copy h1{font-size:clamp(36px,3.5vw,54px);line-height:1.12;max-width:none;margin:0;color:var(--color-primary)}
-.theme .fashion-hero .actions{display:flex;align-items:center;margin:0;padding:0;gap:0;min-width:0}
-.theme .fashion-hero .button{background:var(--color-secondary);color:var(--color-primary);border:1px solid var(--color-primary);min-height:52px;padding:14px 24px;font-size:16px}
-.theme .fashion-hero .button:hover{background:var(--color-primary);color:var(--color-white);border-color:var(--color-primary)}
-.theme .fashion-hero .button:active{background:var(--color-primary-variant);color:var(--color-white)}
-.theme .fashion-hero .banner-controls{display:flex;align-items:center;gap:8px;justify-self:end;color:var(--color-primary);white-space:nowrap}
-.theme .fashion-hero .banner-controls button{width:44px;height:44px;min-width:44px;min-height:44px}
-.theme .fashion-hero [data-banner-count]{font-size:13px;letter-spacing:0;line-height:1.5;min-width:32px;text-align:center}
-.theme .fashion-hero :focus-visible{outline:3px solid var(--color-primary);outline-offset:4px;box-shadow:0 0 0 2px var(--color-white)}
+/* Common Hockerty-inspired composition; completed upload artwork retains its ratio. */
+.theme .hero.hockerty-hero{display:block;position:relative;width:100%;max-width:none;margin:0;padding:0;gap:0;background:var(--color-primary-variant);color:var(--color-white);isolation:isolate}
+.theme .hockerty-hero .hero-media{display:block;position:relative;width:100%;margin:0;padding:0;border:0;border-radius:0;background:var(--color-primary-variant);align-self:auto;overflow:visible}
+.theme .hockerty-hero picture,.theme .hockerty-hero picture img{display:block;width:100%;margin:0;line-height:0}
+.theme .hockerty-hero picture img{height:auto;max-height:none;border-radius:0;object-fit:contain}
+.theme .hockerty-hero .hero-media:before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(4,20,42,.76),rgba(4,20,42,.08) 30%,rgba(4,20,42,.05) 45%,rgba(4,20,42,.88) 100%)}
+.theme .hockerty-hero .hero-copy{position:absolute;display:block;left:4.2%;right:auto;bottom:90px;top:auto;z-index:2;width:min(680px,65%);height:auto;margin:0;padding:0;background:none;color:var(--color-white);border:0}
+.theme .hockerty-hero .fashion-heading{min-width:0}
+.theme .hockerty-hero .eyebrow{margin:0 0 12px;padding:0;max-width:none;color:var(--color-secondary);font-size:12px;letter-spacing:.13em;line-height:1.5}
+.theme .hockerty-hero .hero-copy h1{font-family:var(--font-primary);font-size:clamp(42px,4.6vw,70px);font-weight:400;line-height:1.05;letter-spacing:-.015em;max-width:none;margin:0;color:var(--color-white)}
+.theme .hockerty-hero .hero-subtitle{font-family:var(--font-secondary);font-size:19px;line-height:1.5;color:var(--color-white);max-width:48ch;margin:16px 0 0}
+.theme .hockerty-hero .actions{display:flex;align-items:center;margin:24px 0 0;padding:0;gap:0;min-width:0}
+.theme .hockerty-hero .button{background:var(--color-secondary);color:var(--color-primary);border:1px solid var(--color-primary);min-height:52px;padding:14px 24px;font-size:16px}
+.theme .hockerty-hero .button:hover{background:var(--color-white);color:var(--color-primary);border-color:var(--color-white)}
+.theme .hockerty-hero .button:active{background:var(--color-primary);color:var(--color-white)}
+.theme .hockerty-hero .banner-controls{position:absolute;right:4.2%;bottom:28px;z-index:2;display:flex;align-items:center;gap:8px;color:var(--color-white);white-space:nowrap}
+.theme .hockerty-hero .banner-controls button{width:44px;height:44px;min-width:44px;min-height:44px;border:1px solid rgba(255,255,255,.8);background:var(--color-primary-variant);color:var(--color-white)}
+.theme .hockerty-hero .banner-controls button:hover{background:var(--color-secondary);color:var(--color-primary)}
+.theme .hockerty-hero [data-banner-count]{font-size:13px;letter-spacing:0;line-height:1.5;min-width:32px;text-align:center}
+.hero-scroll{position:absolute;left:4.2%;bottom:28px;z-index:2;display:inline-flex;align-items:center;gap:12px;min-height:44px;font-size:15px;color:var(--color-white);text-decoration:underline;text-underline-offset:5px}
+.theme .hockerty-hero :focus-visible{outline:3px solid var(--color-secondary);outline-offset:4px;box-shadow:0 0 0 2px var(--color-primary-variant)}
 .mobile-cta.hero-action-visible{display:none}
-@media(max-width:1023px){
-  .theme .fashion-hero .hero-copy{grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:22px 5%}
-  .theme .fashion-hero .fashion-heading{grid-column:1/-1}
-  .theme .fashion-hero .hero-copy h1{font-size:44px}
-}
+.theme .hockerty-hero.hero-copy-outside .hero-copy{position:static;width:100%;max-width:none;padding:28px 6%;background:var(--color-white);color:var(--color-primary)}
+.theme .hockerty-hero.hero-copy-outside .hero-copy :is(h1,.hero-subtitle,.eyebrow){color:var(--color-primary)}
+.theme .hockerty-hero.hero-copy-outside .banner-controls{position:static;padding:0 6% 20px;justify-content:flex-end;color:var(--color-primary)}
+.theme .hockerty-hero.hero-copy-outside .hero-scroll{position:static;padding:0 6% 20px;background:white;color:var(--color-primary)}
+.theme .hockerty-hero.hero-copy-outside .hero-media{background:white}
+.theme:has(.hero-copy-outside) .topbar-menu{margin-bottom:0}
+@media(max-width:1023px){.theme .hockerty-hero .hero-copy{bottom:84px;width:75%}.theme .hockerty-hero .hero-copy h1{font-size:52px}.theme .hockerty-hero .hero-subtitle{font-size:18px}}
 @media(max-width:639px){
-  .theme .fashion-hero .hero-copy{gap:16px 12px;padding:20px 6%}
-  .theme .fashion-hero .hero-copy h1{font-size:36px;line-height:1.15}
-  .theme .fashion-hero .eyebrow{font-size:10px;letter-spacing:.12em;margin-bottom:4px}
-  .theme .fashion-hero .button{width:100%;font-size:15px;line-height:1.5;padding:12px 16px}
-  .theme .fashion-hero .banner-controls{gap:6px}
+ .theme .hockerty-hero .hero-copy{left:6%;right:6%;bottom:88px;width:auto;text-align:center}.theme .hockerty-hero .eyebrow{font-size:10px;letter-spacing:.12em;margin-bottom:8px}
+ .theme .hockerty-hero .hero-copy h1{font-size:38px;line-height:1.1}.theme .hockerty-hero .hero-subtitle{font-size:16px;line-height:1.5;margin:12px auto 0}.theme .hockerty-hero .actions{justify-content:center;margin-top:20px}.theme .hockerty-hero .button{font-size:15px;padding:12px 20px}
+ .theme .hockerty-hero .banner-controls{right:6%;bottom:20px;gap:6px}.hero-scroll{left:6%;bottom:20px;font-size:14px;max-width:42%;line-height:1.4}
 }
-@media(max-width:359px){.theme .fashion-hero .hero-copy h1{font-size:32px}.theme .fashion-hero .button{font-size:14px;padding:12px}.theme .fashion-hero .banner-controls{gap:4px}}
+@media(max-width:359px){.theme .hockerty-hero .hero-copy h1{font-size:34px}.theme .hockerty-hero .hero-subtitle{font-size:15px}.hero-scroll{font-size:13px}}
+.theme .hockerty-hero.hero-copy-outside .hero-media:before{display:none}
+.theme .hockerty-hero.hero-copy-outside :focus-visible{outline-color:var(--color-primary);box-shadow:0 0 0 2px white}

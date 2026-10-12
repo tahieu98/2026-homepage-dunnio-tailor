@@ -13,7 +13,7 @@ Tên `Garamon Pro Display` giữ đúng alias CSS trên website gốc và yêu c
 
 | Nội dung | Font / trọng lượng | Cỡ chữ và nhịp đọc |
 | --- | --- | --- |
-| Tiêu đề editorial V1/V3/V5, hub và BOD | Garamon Pro Display 400 | Hero sau Yêu cầu 11: PC 36–54px, mobile 32–36px; line-height 1.12–1.15. Hub/BOD giữ thang tiêu đề riêng |
+| Tiêu đề banner cả 5 biến thể, hub và BOD | Garamon Pro Display 400 | Hero theo template Hockerty: PC 42–70px, mobile 34–38px; line-height 1.05–1.1. Hub/BOD giữ thang tiêu đề riêng |
 | Tiêu đề hiện đại V2/V4 | Afacad 500 | Giữ phân biệt bố cục studio/catalog; letter-spacing −0.03em |
 | Nội dung chính sau hero | Afacad 400 | Nội dung 16–17px mobile; copy giải thích đặt ở section dưới hero; line-height theo vai trò đọc |
 | CTA, labels, điều hướng | Afacad 500–600 | CTA 16px PC / 15px mobile, điều hướng PC 16px; không giảm vùng bấm |

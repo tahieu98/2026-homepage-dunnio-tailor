@@ -1,0 +1,22 @@
+/* Shared disclosure menus; ordinary links retain native navigation. */
+(()=>{'use strict';const header=document.querySelector('.topbar-menu'),drawer=document.getElementById('mobile-nav');if(!header||!drawer)return;
+ const triggers=[...header.querySelectorAll('[data-menu]')],panels=[...header.querySelectorAll('.mega-panel')],root=drawer.querySelector('.drawer-home'),pages=[...drawer.querySelectorAll('.drawer-panel')],closeButton=drawer.querySelector('.menu-close'),toggle=header.querySelector('.menu-toggle');let active=null,returnFocus=null,oldOverflow='',inertState=[];
+ const visible=n=>n.getClientRects().length>0&&!n.closest('[hidden]');
+ function syncHeader(){header.classList.toggle('scrolled',scrollY>24||document.querySelector('.hero-copy-outside')!==null)}
+ addEventListener('scroll',syncHeader,{passive:true});addEventListener('resize',()=>{syncHeader();if(innerWidth>=1200&&!drawer.hidden)closeDrawer(false);if(innerWidth<1200)closeDesktop(false)});syncHeader();
+ function closeDesktop(focus=false){const previous=active;active=null;panels.forEach(p=>p.hidden=true);triggers.forEach(t=>t.setAttribute('aria-expanded','false'));header.classList.remove('menu-open');if(focus&&previous)previous.focus()}
+ function openDesktop(key,focus=false){closeDesktop();const t=triggers.find(t=>t.dataset.menu===key),p=panels.find(p=>p.id==='mega-'+key);if(!t||!p)return;active=t;p.hidden=false;t.setAttribute('aria-expanded','true');header.classList.add('menu-open');if(focus)p.querySelector('a')?.focus()}
+ triggers.forEach(t=>{t.addEventListener('click',e=>active===t&&e.detail===0?closeDesktop():openDesktop(t.dataset.menu));t.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'&&innerWidth>=1200)openDesktop(t.dataset.menu)});t.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){e.preventDefault();openDesktop(t.dataset.menu,true)}})});
+ header.querySelectorAll('[data-close-mega]').forEach(b=>b.addEventListener('click',()=>closeDesktop(true)));
+ header.addEventListener('pointerleave',()=>{if(!header.contains(document.activeElement))closeDesktop()});document.addEventListener('click',e=>{if(!header.contains(e.target)&&!e.target.closest('[data-open-clothing]'))closeDesktop()});header.addEventListener('keydown',e=>{if(e.key==='Escape'&&active){e.preventDefault();closeDesktop(true)}});
+ function home(focus=false){root.hidden=false;pages.forEach(p=>p.hidden=true);if(focus)root.querySelector('button,a')?.focus()}
+ function showPage(key){root.hidden=true;pages.forEach(p=>p.hidden=p.dataset.panel!==key);const p=pages.find(p=>p.dataset.panel===key);p?.querySelector('h2')?.focus();drawer.scrollTop=0}
+ function openDrawer(origin,key){closeDesktop();returnFocus=origin;oldOverflow=document.body.style.overflow;drawer.hidden=false;toggle.setAttribute('aria-expanded','true');document.body.style.overflow='hidden';inertState=[...drawer.parentElement.children].filter(n=>n!==drawer).map(n=>[n,n.inert]);inertState.forEach(([n])=>n.inert=true);home();if(key)showPage(key);else closeButton.focus()}
+ function closeDrawer(focus=true){drawer.hidden=true;toggle.setAttribute('aria-expanded','false');document.body.style.overflow=oldOverflow;inertState.forEach(([n,old])=>n.inert=old);inertState=[];home();if(focus){const target=returnFocus&&visible(returnFocus)?returnFocus:innerWidth>=1200?triggers[0]:toggle;target?.focus()}}
+ toggle.addEventListener('click',()=>openDrawer(toggle));closeButton.addEventListener('click',()=>closeDrawer());
+ drawer.querySelectorAll('[data-mobile-panel]').forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.mobilePanel)));
+ drawer.querySelectorAll('[data-mobile-home]').forEach(b=>b.addEventListener('click',()=>{const key=b.closest('[data-panel]').dataset.panel;home();root.querySelector(`[data-mobile-panel="${key}"]`)?.focus();drawer.scrollTop=0}));
+ drawer.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>closeDrawer()));
+ drawer.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();closeDrawer()}if(e.key==='Tab'){const items=[...drawer.querySelectorAll('a,button')].filter(visible),first=items[0],last=items.at(-1);if(e.shiftKey&&(document.activeElement===first||!items.includes(document.activeElement))){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
+ document.querySelectorAll('[data-open-clothing]').forEach(b=>b.addEventListener('click',()=>innerWidth>=1200?openDesktop('custom-clothing',true):openDrawer(b,'custom-clothing')));
+})();

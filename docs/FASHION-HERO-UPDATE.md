@@ -1,5 +1,7 @@
 # Yêu cầu 11 — Banner thời trang dẫn dắt bằng hình ảnh
 
+Lưu ý: bố cục copy dưới ảnh của Yêu cầu 11 dưới đây đã được thay bằng template overlay Hockerty và hệ danh mục đầy đủ. Quyết định hiện hành: `HOCKERTY-NAVIGATION-UPDATE.md`.
+
 Ngày 12/10/2026. Phạm vi: banner của cả 5 homepage, ưu tiên thiết kế lại The Fit Concierge.
 
 The Fit Concierge chuyển từ bố cục chữ–ảnh hai cột, chân dung nhỏ và khung bo góc sang một ảnh editorial atelier tràn toàn chiều ngang màn hình. Thông điệp còn “Your style. Perfected.” và một CTA “Explore my options” tới bộ chọn đang có. Tiêu đề và hành động nằm trên dải trắng dưới ảnh để không che gương mặt hoặc trang phục.
