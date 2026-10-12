@@ -45,3 +45,14 @@
 @media(max-width:639px){.theme .hockerty-hero .hero-copy{width:auto;left:6%;right:6%;bottom:82px}.theme .hockerty-hero .hero-copy h1{font-size:clamp(30px,8.7vw,38px)}.theme .hockerty-hero .hero-subtitle{font-size:16px;line-height:1.4;margin-top:10px}.theme .hockerty-hero .actions{margin-top:14px}.theme .hockerty-hero .button{min-height:44px;padding:10px 18px}.theme .hockerty-hero .hero-media:before{background:linear-gradient(180deg,rgba(4,20,42,.55),transparent 22%,transparent 58%,rgba(4,20,42,.92))}.theme .hockerty-hero .banner-controls,.hero-scroll{bottom:18px}}
 @media(max-width:639px) and (max-height:760px){.theme .hockerty-hero .hero-copy{bottom:68px}.theme .hockerty-hero .eyebrow{display:none}.theme .hockerty-hero .hero-copy h1{font-size:30px}.theme .hockerty-hero .hero-subtitle{font-size:15px;margin-top:8px}.theme .hockerty-hero .actions{margin-top:12px}.theme .hockerty-hero .banner-controls,.hero-scroll{bottom:12px}}
 .theme .hockerty-hero.hero-copy-outside .hero-copy{width:100%}
+/* Finished editor artwork fills the canvas at its actual ratio; header occupies its own row. */
+.theme .topbar-menu{margin-bottom:0;background:var(--color-primary-variant)}
+@media(max-width:1199px){.theme .topbar-menu{margin-bottom:0}}
+.theme .hockerty-hero .hero-media{overflow-anchor:none}
+.theme .hockerty-hero .hero-copy{width:24%;bottom:calc(100% - var(--hero-visible-height,100%) + 88px)}
+.theme .hockerty-hero .banner-controls,.theme .hockerty-hero .hero-scroll{bottom:calc(100% - var(--hero-visible-height,100%) + 28px)}
+.theme .hockerty-hero .hero-media:before{background:linear-gradient(90deg,rgba(4,20,42,.82),rgba(4,20,42,.25) 28%,transparent 42%)}
+@media(max-width:1199px){.theme .hockerty-hero .hero-copy{width:24%}}
+@media(max-width:639px){.theme .hockerty-hero .hero-copy{width:auto;bottom:calc(100% - var(--hero-visible-height,100%) + 82px)}.theme .hockerty-hero .banner-controls,.theme .hockerty-hero .hero-scroll{bottom:calc(100% - var(--hero-visible-height,100%) + 18px)}.theme .hockerty-hero .hero-media:before{background:linear-gradient(180deg,transparent 58%,rgba(4,20,42,.75))}}
+@media(max-width:639px) and (max-height:760px){.theme .hockerty-hero .hero-copy{bottom:calc(100% - var(--hero-visible-height,100%) + 68px)}.theme .hockerty-hero .banner-controls,.theme .hockerty-hero .hero-scroll{bottom:calc(100% - var(--hero-visible-height,100%) + 12px)}}
+.theme .hockerty-hero.hero-copy-outside .hero-copy{width:100%}
