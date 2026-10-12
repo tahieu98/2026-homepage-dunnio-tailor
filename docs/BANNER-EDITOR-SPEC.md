@@ -4,30 +4,36 @@ Cập nhật12/10/2026, theo ảnh hoàn chỉnh người dùng cung cấp. Áp 
 
 ## Ảnh và khung hiển thị
 
-- PC slide1: `editor-banner-7x4.png`,1659×948px, chính xác7:4.
-- PC slide2: `editor-banner-5x3.png`,1619×971px, khoảng5:3 (sai khác tỷ lệ khoảng0.041% do số pixel nguyên). Giữ nguyên tỉ lệ thực.
-- Tablet640–1199px: slide1 dùng5:3, slide2 dùng7:4.
-- Mobile<640px: nguồn ảnh dọc riêng800×1422, gần9:16; màn hình cao≤760px dùng800×1000,4:5. Hai PNG ngang mới chưa thay thế các artwork mobile.
-- Ảnh ngang mới được hiển thị trực tiếp `width:100%;height:auto;object-fit:contain`. Không crop, blur, scale méo hay thêm bối cảnh.
-- Xuất ảnh mới theo khung7:4 (ví dụ2800×1600) và5:3 (ví dụ2500×1500 hoặc3000×1800). Giữ ảnh đủ nét theo màn hình mục tiêu; PNG hiện có1659px sẽ được nội suy khi hiển thị rộng1920px.
+**v1 Heritage Atelier và v5 Fit Concierge** vẫn dùng bộ editor chung: `editor-banner-7x4.png` 1659×948 (7:4) và `editor-banner-5x3.png` 1619×971 (~5:3). Tablet 640–1199px hoán đổi hai ảnh này theo slide; mobile dùng SVG dọc 800×1422 (~9:16) và compact 800×1000 (4:5).
 
-| W vùng ảnh (CSS px) | H ở7:4 | H ở5:3 lý thuyết |
-|---:|---:|---:|
-|1920|1097.1|1152|
-|1440|822.9|864|
-|1366|780.6|819.6|
-|1280|731.4|768|
-|1024|585.1|614.4|
-|820|468.6|492|
-|768|438.9|460.8|
+**v2 Design Studio, v3 Wedding Story, v4 Modern Essentials** đã chuẩn hóa theo thiết bị với ảnh thật:
 
-H=W/r. W là chiều rộng nội dung trang, thường nhỏ hơn viewport khoảng15px do scrollbar desktop. Bảng tính theo W, không tính thanh trình duyệt/Windows. Nếu dùng chính PNG1619×971 thì H=W×971/1619.
+| Concept | PC 7:4 | Tablet 5:3 | Mobile / Compact 4:5 | Định dạng |
+|---|---|---|---|---|
+| v2 Design Studio | 3 ảnh 1600×914 | 3 ảnh 1600×960 | 2 ảnh 1122×1402 (slide đầu không có 4:5) | WebP |
+| v3 Wedding Story | 2 ảnh 1600×914 | 2 ảnh 1600×960 | 2 ảnh 1122×1402 | WebP |
+| v4 Modern Essentials | 2 ảnh 1600×914 | 2 ảnh 1600×960 | 2 ảnh 1122×1402 | WebP |
+
+Tổng 7 WebP cho v2 (3+3+2, thiếu 1 bản 4:5 của cảnh v2), 6 WebP cho v3 và 6 WebP cho v4. Tất cả hiển thị `width:100%;height:auto`, không crop/blur/méo. `concept-strip` đã xóa nên không còn dải demo T=44px.
+
+| W vùng ảnh (CSS px) | H ở 7:4 (1600×914) | H ở 5:3 (1600×960) | H ở 4:5 (1122×1402) |
+|---:|---:|---:|---:|
+|1920|1097.1|1152|2400|
+|1440|822.9|864|1800|
+|1366|780.6|819.6|1707|
+|1280|731.4|768|1600|
+|1024|585.1|614.4|1280|
+|820|468.6|492|1025|
+|768|438.9|460.8|960|
+|390 (mobile 4:5)|—|—|487|
+
+H=W/r. r=7/4=1.75, 5/3≈1.667, 4/5=0.8. PC/tablet dùng H 7:4 hoặc 5:3; mobile dùng H 4:5. W thường nhỏ hơn viewport ~15px do scrollbar desktop.
 
 ## Vị trí nội dung — đúng CSS hiện hành
 
 Header: hàng riêng phía trên ảnh,80px PC≥1200 và64px tablet/mobile; logo SVG giữa bằng `1fr auto 1fr`. Ảnh bắt đầu sau header, tránh menu che tóc. Khi cuộn, header sticky có thể phủ nội dung đã cuộn qua như hành vi thông thường.
 
-Gọi V=chiều cao viewport,T=dải demo (44px hiện tại),N=header, H=chiều cao ảnh. **U=min(H,V−T−N)** là phần ảnh có thể nhìn thấy trong màn hình đầu. Chữ/nút neo theo U; ảnh vẫn giữ toàn bộ tỷ lệ và có thể kéo dài dưới màn hình đầu. Không thể đồng thời giữ nguyên ảnh7:4 rộng1920px và ép toàn bộ ảnh+header vào màn hình900px mà không crop/thu nhỏ.
+Gọi V=chiều cao viewport, N=header (80px PC ≥1200, 64px tablet/mobile), H=chiều cao ảnh. **U=min(H, V−N)** là phần ảnh nhìn thấy trong màn hình đầu. `concept-strip` đã xóa nên T=0; công thức cũ V−T−N chỉ còn V−N. Chữ/nút neo theo U; ảnh vẫn giữ toàn bộ tỷ lệ và có thể kéo dài dưới màn hình đầu. Không thể đồng thời giữ nguyên ảnh7:4 rộng1920px và ép toàn bộ ảnh+header vào màn hình900px mà không crop/thu nhỏ.
 
 | Thành phần | PC / tablet≥640px | Mobile cao | Mobile thấp≤760px |
 |---|---|---|---|

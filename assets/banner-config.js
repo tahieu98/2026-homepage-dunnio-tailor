@@ -40,17 +40,17 @@ window.DUNNIO_BANNERS = {
   "wedding-story": [
     {
       "alt": "Two men in grey suits walking through a garden wedding",
-      "desktop": { "src": "assets/banners/wedding-story-a-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/wedding-story-a-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/wedding-story-a-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/wedding-story-a-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "desktop": { "src": "assets/banners/wedding-story-a-7x4.webp", "width": 1600, "height": 914, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/wedding-story-a-5x3.webp", "width": 1600, "height": 960, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/wedding-story-a-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/wedding-story-a-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     },
     {
       "alt": "Groom in a light suit at a beach ceremony",
-      "desktop": { "src": "assets/banners/wedding-story-b-7x4.png", "width": 1659, "height": 948, "subject": [0.3, 0.05, 0.82, 1] },
-      "tablet": { "src": "assets/banners/wedding-story-b-5x3.png", "width": 1619, "height": 971, "subject": [0.3, 0.05, 0.82, 1] },
-      "mobile": { "src": "assets/banners/wedding-story-b-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
-      "compact": { "src": "assets/banners/wedding-story-b-4x5.png", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
+      "desktop": { "src": "assets/banners/wedding-story-b-7x4.webp", "width": 1600, "height": 914, "subject": [0.3, 0.05, 0.82, 1] },
+      "tablet": { "src": "assets/banners/wedding-story-b-5x3.webp", "width": 1600, "height": 960, "subject": [0.3, 0.05, 0.82, 1] },
+      "mobile": { "src": "assets/banners/wedding-story-b-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] },
+      "compact": { "src": "assets/banners/wedding-story-b-4x5.webp", "width": 1122, "height": 1402, "subject": [0.28, 0.08, 0.72, 0.98] }
     }
   ],
   "modern-essentials": [

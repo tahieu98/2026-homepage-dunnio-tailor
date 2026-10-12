@@ -71,7 +71,7 @@ git push origin main
 - `tools/build.cjs`: generator tùy chọn, dùng Node để tạo lại 5 file HTML. Chạy generator sẽ ghi đè chỉnh sửa trực tiếp trên 5 trang và cấu hình banner; dùng generator hoặc chỉnh HTML, không trộn mà chưa đồng bộ.
 - `tools/prepare-assets.cjs`, `optimise-assets.cjs`, `upgrade-assets.cjs` là lịch sử pipeline asset từ máy local. Không cần chạy để xem site.
 
-Ảnh banner được hiển thị `width:100%;height:auto` theo tỉ lệ thực, không ép khung cao cố định. Default: desktop 4:3 (V3 8:3), tablet 4:3 (V3 16:9), mobile 4:5. Có thể thay bằng 16:9 / 8:3 / 9:16 hoặc tỉ lệ bất kỳ; cần khai đúng dimensions. Mobile là art direction riêng, không tự cắt giữa ảnh ngang. Nếu V3 dùng banner có chữ sẵn, thêm `banner-copy-outside` vào class của hero. Script cũng đưa copy ra ngoài khi overlay không đủ chỗ.
+Ảnh banner `width:100%;height:auto` theo tỉ lệ thực, không ép khung cao cố định. `concept-strip` đã xóa. **v1/v5** vẫn dùng editor chung 1659×948 (7:4) / 1619×971 (~5:3) + SVG dọc 800×1422/800×1000. **v2** 3 slide PC 1600×914 (7:4) / 3 slide tablet 1600×960 (5:3) / 2 slide mobile 1122×1402 (4:5, slide v2 thiếu bản dọc); **v3/v4** mỗi concept 2 slide đủ 3 tỉ lệ, WebP 1600×914 / 1600×960 / 1122×1402. Mobile là art direction riêng, không tự cắt giữa ảnh ngang. Khi overlay thiếu chỗ `app.js` chuyển copy xuống dưới và tách header khỏi ảnh.
 
 Trong production CMS nên có 3 trường ảnh trên mỗi slide và tự đọc metadata width/height. Banner Lab là công cụ review trong browser, không phải admin CMS.
 
