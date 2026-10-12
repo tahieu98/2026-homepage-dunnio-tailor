@@ -1,238 +1,50 @@
 {
   "checkedAt": "2026-10-12",
+  "staticOnly": true,
+  "skippedDunnioRoutes": [
+    "/",
+    "/feedback",
+    "/men/custom-suits",
+    "/men/custom-tuxedo",
+    "/contact",
+    "/men/groom-suit",
+    "/our-workshop",
+    "/our-tailors",
+    "/men/3-pieces-suit",
+    "/men/custom-dress-shirts",
+    "/men/custom-blazers",
+    "/outfit-ideas",
+    "/3d-custom-outfit/suits.html",
+    "/procedure",
+    "/fit-guarantee",
+    "/silver-groom-outfit-idea.html",
+    "/soft-pink-outfit-idea.html",
+    "/outfit-ideas-072025.html",
+    "/outfit-ideas-032025.html",
+    "/fabric-samples.html",
+    "/men/wool-suits",
+    "/men/linen-suits",
+    "/men/cotton-suits",
+    "/blog",
+    "/blog/wedding-suits-vs-tuxedo",
+    "/blog/how-should-a-suit-fit.html",
+    "/gallery.html",
+    "/faqs",
+    "/shipping-returns.html",
+    "/about",
+    "/privacy-policy.html",
+    "/terms-and-conditions",
+    "/3d-custom-outfit/3piece-suits.html",
+    "/men/wedding-tuxedos",
+    "/men/groomsmen-suits",
+    "/men/business-suits",
+    "/men/black-tie-tuxedos",
+    "/men/smart-casual"
+  ],
   "staticFiles": 9,
-  "localReferences": 279,
+  "localReferences": 290,
   "missingLocal": [],
   "missingAnchors": [],
-  "dunnioDestinations": [
-    {
-      "route": "/feedback",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/feedback"
-    },
-    {
-      "route": "/",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/"
-    },
-    {
-      "route": "/men/custom-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/custom-suits"
-    },
-    {
-      "route": "/men/custom-tuxedo",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/custom-tuxedo"
-    },
-    {
-      "route": "/contact",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/contact"
-    },
-    {
-      "route": "/our-tailors",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/our-tailors"
-    },
-    {
-      "route": "/our-workshop",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/our-workshop"
-    },
-    {
-      "route": "/men/groom-suit",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/groom-suit"
-    },
-    {
-      "route": "/men/3-pieces-suit",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/3-pieces-suit"
-    },
-    {
-      "route": "/men/custom-dress-shirts",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/custom-dress-shirts"
-    },
-    {
-      "route": "/outfit-ideas",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/outfit-ideas"
-    },
-    {
-      "route": "/men/custom-blazers",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/custom-blazers"
-    },
-    {
-      "route": "/3d-custom-outfit/suits.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/3d-custom-outfit/suits.html"
-    },
-    {
-      "route": "/procedure",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/procedure"
-    },
-    {
-      "route": "/fit-guarantee",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/fit-guarantee"
-    },
-    {
-      "route": "/silver-groom-outfit-idea.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/silver-groom-outfit-idea.html"
-    },
-    {
-      "route": "/soft-pink-outfit-idea.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/soft-pink-outfit-idea.html"
-    },
-    {
-      "route": "/outfit-ideas-072025.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/outfit-ideas-072025.html"
-    },
-    {
-      "route": "/outfit-ideas-032025.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/outfit-ideas-032025.html"
-    },
-    {
-      "route": "/fabric-samples.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/fabric-samples.html"
-    },
-    {
-      "route": "/men/wool-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/wool-suits"
-    },
-    {
-      "route": "/blog",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/blog"
-    },
-    {
-      "route": "/men/linen-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/linen-suits"
-    },
-    {
-      "route": "/men/cotton-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/cotton-suits"
-    },
-    {
-      "route": "/blog/wedding-suits-vs-tuxedo",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/blog/wedding-suits-vs-tuxedo"
-    },
-    {
-      "route": "/blog/how-should-a-suit-fit.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/blog/how-should-a-suit-fit.html"
-    },
-    {
-      "route": "/gallery.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/gallery.html"
-    },
-    {
-      "route": "/faqs",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/faqs"
-    },
-    {
-      "route": "/shipping-returns.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/shipping-returns.html"
-    },
-    {
-      "route": "/about",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/about"
-    },
-    {
-      "route": "/privacy-policy.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/privacy-policy.html"
-    },
-    {
-      "route": "/terms-and-conditions",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/terms-and-conditions"
-    },
-    {
-      "route": "/3d-custom-outfit/3piece-suits.html",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/3d-custom-outfit/3piece-suits.html"
-    },
-    {
-      "route": "/men/wedding-tuxedos",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/wedding-tuxedos"
-    },
-    {
-      "route": "/men/groomsmen-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/groomsmen-suits"
-    },
-    {
-      "route": "/men/business-suits",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/business-suits"
-    },
-    {
-      "route": "/men/black-tie-tuxedos",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/black-tie-tuxedos"
-    },
-    {
-      "route": "/men/smart-casual",
-      "status": 200,
-      "checkedAgainst": "Local clone route",
-      "url": "http://localhost/dunnio-tailor-redesign/men/smart-casual"
-    }
-  ],
-  "limitations": "Route checks use the existing local clone; they do not guarantee future availability of the live domain. International benchmark links were read/searched via web tools during research."
+  "dunnioDestinations": [],
+  "limitations": "Static-only mode skips all Dunnio HTTP route checks. Route checks use the existing local clone; they do not guarantee future availability of the live domain. International benchmark links were read/searched via web tools during research."
 }

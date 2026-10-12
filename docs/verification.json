@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "browser": "Installed Chrome via Playwright",
-  "base": "http://localhost/dunnio-homepage-concepts/",
+  "base": "file:///C:/laragon/www/dunnio-homepage-concepts/",
   "viewports": [
     {
       "page": "v1-heritage-atelier.html",
@@ -14,144 +14,18 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "heritage-atelier-desktop.svg",
+        "source": "heritage-atelier-desktop.svg?v=fashion-20261012",
         "naturalWidth": 1600,
-        "naturalHeight": 1200,
-        "width": 718.796875,
-        "height": 539.09375,
-        "ratioError": 0.000009661275674810454
-      },
-      "links": 85,
-      "sections": 10
-    },
-    {
-      "page": "v1-heritage-atelier.html",
-      "device": "tablet",
-      "width": 820,
-      "height": 1180,
-      "overflow": false,
-      "brokenImages": [],
-      "uspBeforeFooter": true,
-      "uspItems": 4,
-      "h1": 1,
-      "hero": {
-        "source": "heritage-atelier-tablet.svg",
-        "naturalWidth": 1200,
-        "naturalHeight": 900,
-        "width": 404.390625,
-        "height": 303.28125,
-        "ratioError": 0.00005151983513651537
-      },
-      "links": 85,
-      "sections": 10
-    },
-    {
-      "page": "v1-heritage-atelier.html",
-      "device": "mobile",
-      "width": 390,
-      "height": 844,
-      "overflow": false,
-      "brokenImages": [],
-      "uspBeforeFooter": true,
-      "uspItems": 4,
-      "h1": 1,
-      "hero": {
-        "source": "heritage-atelier-mobile.svg",
-        "naturalWidth": 800,
-        "naturalHeight": 1000,
-        "width": 390,
-        "height": 487.5,
-        "ratioError": 0
-      },
-      "links": 85,
-      "sections": 10
-    },
-    {
-      "page": "v2-design-studio.html",
-      "device": "desktop",
-      "width": 1440,
-      "height": 1000,
-      "overflow": false,
-      "brokenImages": [],
-      "uspBeforeFooter": true,
-      "uspItems": 4,
-      "h1": 1,
-      "hero": {
-        "source": "design-studio-desktop.svg",
-        "naturalWidth": 1600,
-        "naturalHeight": 1200,
-        "width": 747.796875,
-        "height": 560.84375,
-        "ratioError": 0.000009286603146474448
-      },
-      "links": 86,
-      "sections": 11
-    },
-    {
-      "page": "v2-design-studio.html",
-      "device": "tablet",
-      "width": 820,
-      "height": 1180,
-      "overflow": false,
-      "brokenImages": [],
-      "uspBeforeFooter": true,
-      "uspItems": 4,
-      "h1": 1,
-      "hero": {
-        "source": "design-studio-tablet.svg",
-        "naturalWidth": 1200,
-        "naturalHeight": 900,
-        "width": 425.390625,
-        "height": 319.03125,
-        "ratioError": 0.0000489763933784193
-      },
-      "links": 86,
-      "sections": 11
-    },
-    {
-      "page": "v2-design-studio.html",
-      "device": "mobile",
-      "width": 390,
-      "height": 844,
-      "overflow": false,
-      "brokenImages": [],
-      "uspBeforeFooter": true,
-      "uspItems": 4,
-      "h1": 1,
-      "hero": {
-        "source": "design-studio-mobile.svg",
-        "naturalWidth": 800,
-        "naturalHeight": 1000,
-        "width": 389,
-        "height": 486.25,
-        "ratioError": 0
-      },
-      "links": 86,
-      "sections": 11
-    },
-    {
-      "page": "v3-wedding-story.html",
-      "device": "desktop",
-      "width": 1440,
-      "height": 1000,
-      "overflow": false,
-      "brokenImages": [],
-      "uspBeforeFooter": true,
-      "uspItems": 4,
-      "h1": 1,
-      "hero": {
-        "source": "wedding-story-desktop.svg",
-        "naturalWidth": 1600,
-        "naturalHeight": 600,
+        "naturalHeight": 880,
         "width": 1440,
-        "height": 540,
+        "height": 792,
         "ratioError": 0
       },
       "links": 84,
-      "sections": 11
+      "sections": 10
     },
     {
-      "page": "v3-wedding-story.html",
+      "page": "v1-heritage-atelier.html",
       "device": "tablet",
       "width": 820,
       "height": 1180,
@@ -161,14 +35,140 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "wedding-story-tablet.svg",
+        "source": "heritage-atelier-tablet.svg?v=fashion-20261012",
         "naturalWidth": 1200,
-        "naturalHeight": 675,
+        "naturalHeight": 900,
         "width": 820,
-        "height": 461.25,
+        "height": 615,
         "ratioError": 0
       },
       "links": 84,
+      "sections": 10
+    },
+    {
+      "page": "v1-heritage-atelier.html",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "brokenImages": [],
+      "uspBeforeFooter": true,
+      "uspItems": 4,
+      "h1": 1,
+      "hero": {
+        "source": "heritage-atelier-mobile.svg?v=fashion-20261012",
+        "naturalWidth": 800,
+        "naturalHeight": 1000,
+        "width": 390,
+        "height": 487.5,
+        "ratioError": 0
+      },
+      "links": 84,
+      "sections": 10
+    },
+    {
+      "page": "v2-design-studio.html",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "brokenImages": [],
+      "uspBeforeFooter": true,
+      "uspItems": 4,
+      "h1": 1,
+      "hero": {
+        "source": "design-studio-desktop.svg?v=fashion-20261012",
+        "naturalWidth": 1600,
+        "naturalHeight": 880,
+        "width": 1440,
+        "height": 792,
+        "ratioError": 0
+      },
+      "links": 85,
+      "sections": 11
+    },
+    {
+      "page": "v2-design-studio.html",
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "overflow": false,
+      "brokenImages": [],
+      "uspBeforeFooter": true,
+      "uspItems": 4,
+      "h1": 1,
+      "hero": {
+        "source": "design-studio-tablet.svg?v=fashion-20261012",
+        "naturalWidth": 1200,
+        "naturalHeight": 900,
+        "width": 820,
+        "height": 615,
+        "ratioError": 0
+      },
+      "links": 85,
+      "sections": 11
+    },
+    {
+      "page": "v2-design-studio.html",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "brokenImages": [],
+      "uspBeforeFooter": true,
+      "uspItems": 4,
+      "h1": 1,
+      "hero": {
+        "source": "design-studio-mobile.svg?v=fashion-20261012",
+        "naturalWidth": 800,
+        "naturalHeight": 1000,
+        "width": 390,
+        "height": 487.5,
+        "ratioError": 0
+      },
+      "links": 85,
+      "sections": 11
+    },
+    {
+      "page": "v3-wedding-story.html",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "brokenImages": [],
+      "uspBeforeFooter": true,
+      "uspItems": 4,
+      "h1": 1,
+      "hero": {
+        "source": "wedding-story-desktop.svg?v=fashion-20261012",
+        "naturalWidth": 1600,
+        "naturalHeight": 880,
+        "width": 1440,
+        "height": 792,
+        "ratioError": 0
+      },
+      "links": 83,
+      "sections": 11
+    },
+    {
+      "page": "v3-wedding-story.html",
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "overflow": false,
+      "brokenImages": [],
+      "uspBeforeFooter": true,
+      "uspItems": 4,
+      "h1": 1,
+      "hero": {
+        "source": "wedding-story-tablet.svg?v=fashion-20261012",
+        "naturalWidth": 1200,
+        "naturalHeight": 900,
+        "width": 820,
+        "height": 615,
+        "ratioError": 0
+      },
+      "links": 83,
       "sections": 11
     },
     {
@@ -182,14 +182,14 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "wedding-story-mobile.svg",
+        "source": "wedding-story-mobile.svg?v=fashion-20261012",
         "naturalWidth": 800,
         "naturalHeight": 1000,
         "width": 390,
         "height": 487.5,
         "ratioError": 0
       },
-      "links": 84,
+      "links": 83,
       "sections": 11
     },
     {
@@ -203,14 +203,14 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "modern-essentials-desktop.svg",
+        "source": "modern-essentials-desktop.svg?v=fashion-20261012",
         "naturalWidth": 1600,
-        "naturalHeight": 1200,
-        "width": 690,
-        "height": 517.5,
+        "naturalHeight": 880,
+        "width": 1440,
+        "height": 792,
         "ratioError": 0
       },
-      "links": 88,
+      "links": 87,
       "sections": 11
     },
     {
@@ -224,14 +224,14 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "modern-essentials-tablet.svg",
+        "source": "modern-essentials-tablet.svg?v=fashion-20261012",
         "naturalWidth": 1200,
         "naturalHeight": 900,
-        "width": 406.390625,
-        "height": 304.78125,
-        "ratioError": 0.000051266277043104935
+        "width": 820,
+        "height": 615,
+        "ratioError": 0
       },
-      "links": 88,
+      "links": 87,
       "sections": 11
     },
     {
@@ -245,14 +245,14 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "modern-essentials-mobile.svg",
+        "source": "modern-essentials-mobile.svg?v=fashion-20261012",
         "naturalWidth": 800,
         "naturalHeight": 1000,
         "width": 390,
         "height": 487.5,
         "ratioError": 0
       },
-      "links": 88,
+      "links": 87,
       "sections": 11
     },
     {
@@ -266,14 +266,14 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "fit-concierge-desktop.svg",
+        "source": "fit-concierge-desktop.svg?v=fashion-20261012",
         "naturalWidth": 1600,
-        "naturalHeight": 1200,
-        "width": 593.578125,
-        "height": 445.171875,
-        "ratioError": 0.000035098803130795275
+        "naturalHeight": 880,
+        "width": 1440,
+        "height": 792,
+        "ratioError": 0
       },
-      "links": 84,
+      "links": 83,
       "sections": 11
     },
     {
@@ -287,14 +287,14 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "fit-concierge-tablet.svg",
+        "source": "fit-concierge-tablet.svg?v=fashion-20261012",
         "naturalWidth": 1200,
         "naturalHeight": 900,
-        "width": 332.09375,
-        "height": 249.0625,
-        "ratioError": 0.00004182350480985697
+        "width": 820,
+        "height": 615,
+        "ratioError": 0
       },
-      "links": 84,
+      "links": 83,
       "sections": 11
     },
     {
@@ -308,14 +308,14 @@
       "uspItems": 4,
       "h1": 1,
       "hero": {
-        "source": "fit-concierge-mobile.svg",
+        "source": "fit-concierge-mobile.svg?v=fashion-20261012",
         "naturalWidth": 800,
         "naturalHeight": 1000,
         "width": 390,
         "height": 487.5,
         "ratioError": 0
       },
-      "links": 84,
+      "links": 83,
       "sections": 11
     }
   ],

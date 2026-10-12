@@ -10,28 +10,28 @@
     {
       "file": "v1-heritage-atelier.html",
       "width": 1440,
-      "checked": 204,
+      "checked": 197,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v1-heritage-atelier.html",
       "width": 390,
-      "checked": 198,
+      "checked": 191,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v2-design-studio.html",
       "width": 1440,
-      "checked": 217,
+      "checked": 210,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v2-design-studio.html",
       "width": 390,
-      "checked": 210,
+      "checked": 203,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
@@ -39,41 +39,41 @@
       "file": "v3-wedding-story.html",
       "width": 1440,
       "checked": 207,
-      "skippedGradientOrImageText": 7,
+      "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v3-wedding-story.html",
       "width": 390,
-      "checked": 208,
+      "checked": 201,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v4-modern-essentials.html",
       "width": 1440,
-      "checked": 223,
+      "checked": 216,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v4-modern-essentials.html",
       "width": 390,
-      "checked": 217,
+      "checked": 210,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v5-fit-concierge.html",
       "width": 1440,
-      "checked": 217,
+      "checked": 210,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "v5-fit-concierge.html",
       "width": 390,
-      "checked": 211,
+      "checked": 204,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
@@ -94,14 +94,14 @@
     {
       "file": "report.html",
       "width": 1440,
-      "checked": 694,
+      "checked": 733,
       "skippedGradientOrImageText": 0,
       "failures": []
     },
     {
       "file": "report.html",
       "width": 390,
-      "checked": 694,
+      "checked": 733,
       "skippedGradientOrImageText": 0,
       "failures": []
     },

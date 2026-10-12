@@ -1,0 +1,195 @@
+{
+  "revision": "fashion-20261012",
+  "origin": "Existing Dunnio clone editorial assets; not customer testimonials",
+  "newSourceFiles": [
+    {
+      "file": "assets/images/fashion-atelier-grey.webp",
+      "original": "C:/laragon/www/dunnio-tailor-redesign/wp-content/themes/dunnio-flatsome/assets/reference/dunniotailor.com/sites/default/files/u614/wedding_suits_aus/Mens_suits_and_tuxedo/modern_styling_and_application-3_1.webp",
+      "dimensions": [
+        2413,
+        1401
+      ],
+      "sha256": "0d99d008c7f0c0b623fdf46167afa62796e6aa46d40fb7a22fa334b348898519"
+    },
+    {
+      "file": "assets/images/fashion-atelier-navy.webp",
+      "original": "C:/laragon/www/dunnio-tailor-redesign/wp-content/themes/dunnio-flatsome/assets/reference/dunniotailor.com/sites/default/files/u614/wedding_suits_aus/Mens_suits_and_tuxedo/the_italian_concept_of_spezzato-1.webp",
+      "dimensions": [
+        2784,
+        1536
+      ],
+      "sha256": "a9711a7d67f4970d372c062127a4dd6adbdf7ef50e9095210905518d20ca3905"
+    }
+  ],
+  "compositions": {
+    "1": {
+      "kicker": "HERITAGE ATELIER",
+      "title": "Crafted to be yours.",
+      "cta": "Explore suits",
+      "url": "https://dunniotailor.com/men/custom-suits",
+      "slides": [
+        {
+          "desktop": [
+            "grey"
+          ],
+          "tablet": [
+            "grey"
+          ],
+          "mobile": [
+            "grey"
+          ],
+          "alt": "Grey tailored jacket styled in an atelier, from Dunnio’s existing editorial imagery"
+        },
+        {
+          "desktop": [
+            "workshop"
+          ],
+          "tablet": [
+            "workshop"
+          ],
+          "mobile": [
+            "cream"
+          ],
+          "alt": "A second perspective on craft and tailored style from Dunnio’s existing collection"
+        }
+      ]
+    },
+    "2": {
+      "kicker": "DESIGN STUDIO",
+      "title": "Make it your own.",
+      "cta": "Start designing",
+      "url": "https://dunniotailor.com/3d-custom-outfit/suits.html",
+      "slides": [
+        {
+          "desktop": [
+            "pink",
+            "garden",
+            "green"
+          ],
+          "tablet": [
+            "pink",
+            "garden"
+          ],
+          "mobile": [
+            "pink"
+          ],
+          "alt": "Pink, grey and green tailored looks from Dunnio’s style collection"
+        },
+        {
+          "desktop": [
+            "navy"
+          ],
+          "tablet": [
+            "navy"
+          ],
+          "mobile": [
+            "navy"
+          ],
+          "alt": "Navy jacket with contrasting trousers in an atelier editorial"
+        }
+      ]
+    },
+    "3": {
+      "kicker": "THE WEDDING EDIT",
+      "title": "Made for your moment.",
+      "cta": "Explore wedding suits",
+      "url": "https://dunniotailor.com/men/groom-suit",
+      "slides": [
+        {
+          "desktop": [
+            "wedding"
+          ],
+          "tablet": [
+            "wedding"
+          ],
+          "mobile": [
+            "weddingPortrait"
+          ],
+          "alt": "Wedding tailoring imagery from Dunnio’s existing collection"
+        },
+        {
+          "desktop": [
+            "cream",
+            "pink",
+            "garden"
+          ],
+          "tablet": [
+            "cream",
+            "pink"
+          ],
+          "mobile": [
+            "cream"
+          ],
+          "alt": "Warm neutral and pink occasion tailoring from the existing style collection"
+        }
+      ]
+    },
+    "4": {
+      "kicker": "MODERN ESSENTIALS",
+      "title": "Everyday. Elevated.",
+      "cta": "Explore the collection",
+      "url": "https://dunniotailor.com/men/custom-suits",
+      "slides": [
+        {
+          "desktop": [
+            "garden",
+            "green",
+            "cream"
+          ],
+          "tablet": [
+            "garden",
+            "green"
+          ],
+          "mobile": [
+            "garden"
+          ],
+          "alt": "Grey, green and warm neutral suits in an editorial wardrobe composition"
+        },
+        {
+          "desktop": [
+            "grey"
+          ],
+          "tablet": [
+            "grey"
+          ],
+          "mobile": [
+            "green"
+          ],
+          "alt": "Another direction for everyday tailored dressing from Dunnio’s imagery"
+        }
+      ]
+    },
+    "5": {
+      "kicker": "THE FIT CONCIERGE",
+      "title": "Your style. Perfected.",
+      "cta": "Explore my options",
+      "url": "#finder",
+      "slides": [
+        {
+          "desktop": [
+            "navy"
+          ],
+          "tablet": [
+            "navy"
+          ],
+          "mobile": [
+            "navy"
+          ],
+          "alt": "Navy tailored jacket styled in an atelier, from Dunnio’s existing editorial imagery"
+        },
+        {
+          "desktop": [
+            "grey"
+          ],
+          "tablet": [
+            "grey"
+          ],
+          "mobile": [
+            "grey"
+          ],
+          "alt": "Grey tailored jacket with contrasting trousers in an atelier editorial"
+        }
+      ]
+    }
+  }
+}

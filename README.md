@@ -112,3 +112,14 @@ Typography/touch/focus/date validation/finder reset được cải thiện, như
 - `docs/TYPOGRAPHY-UPDATE.md`: vai trò font, cỡ chữ và lý do UX/UI.
 - `docs/typography-verification.json`: kiểm tra font thật qua Chrome DevTools, tiếng Việt, responsive.
 - `node tools/prepare-brand-fonts.cjs`: sao chép lại từ clone; có thể chỉ định thư mục qua `DUNNIO_FONT_SOURCE`. Để xem live không cần chạy script này vì font đã nằm trong repository.
+
+## Banner thời trang — Yêu cầu 11
+
+The Fit Concierge và bốn hero còn lại dùng ảnh full-width, thông điệp ngắn và một CTA dưới ảnh. Nguồn PC/Tablet/Mobile riêng; ảnh upload giữ đúng tỷ lệ thực. Slider thủ công và các module bên dưới được giữ.
+
+- [Giải trình banner cho BOD](https://tahieu98.github.io/2026-homepage-dunnio-tailor/report.html#banner-update)
+- `docs/FASHION-HERO-UPDATE.md`: art direction, UX và cách thay ảnh.
+- `docs/fashion-hero-assets.json`: nguồn asset, kích thước và SHA-256.
+- `docs/fashion-hero-verification.json`: full-width, một CTA, nhiều tỷ lệ ảnh và hành vi sticky CTA.
+- `node tools/fashion-heroes.cjs`: chỉ dựng lại hero và artwork của 5 trang; không cần build để xem trang.
+- Các browser verification tools nhận `DUNNIO_PREVIEW_URL`; có thể dùng URL `file:///C:/laragon/www/dunnio-homepage-concepts/` nếu Apache chưa chạy. `DUNNIO_STATIC_ONLY=1` bỏ HTTP route checks trong `tools/check-links.cjs`, vẫn kiểm tra link/anchor local.

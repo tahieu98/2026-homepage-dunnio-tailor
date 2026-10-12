@@ -13,9 +13,9 @@ Tên `Garamon Pro Display` giữ đúng alias CSS trên website gốc và yêu c
 
 | Nội dung | Font / trọng lượng | Cỡ chữ và nhịp đọc |
 | --- | --- | --- |
-| Tiêu đề editorial V1/V3/V5, hub và BOD | Garamon Pro Display 400 | Hero PC responsive khoảng 48–82px; mobile 43–48px tùy viewport; line-height 1.12 |
+| Tiêu đề editorial V1/V3/V5, hub và BOD | Garamon Pro Display 400 | Hero sau Yêu cầu 11: PC 36–54px, mobile 32–36px; line-height 1.12–1.15. Hub/BOD giữ thang tiêu đề riêng |
 | Tiêu đề hiện đại V2/V4 | Afacad 500 | Giữ phân biệt bố cục studio/catalog; letter-spacing −0.03em |
-| Nội dung chính và mô tả hero | Afacad 400 | Body 16px; hero 18px PC / 17px tablet–mobile; line-height 1.65 |
+| Nội dung chính sau hero | Afacad 400 | Nội dung 16–17px mobile; copy giải thích đặt ở section dưới hero; line-height theo vai trò đọc |
 | CTA, labels, điều hướng | Afacad 500–600 | CTA 16px PC / 15px mobile, điều hướng PC 16px; không giảm vùng bấm |
 | Báo cáo và Brand Review | Afacad 400–600 | Prose 18px PC / 17px mobile; bảng 16px PC / 14px mobile, cho cuộn ngang khi cần |
 | Metadata, ghi chú ảnh | Afacad | 12–14px cho nội dung phụ; không dùng để chứa copy thuyết phục chính |

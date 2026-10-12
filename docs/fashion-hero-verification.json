@@ -1,0 +1,349 @@
+{
+  "revision": "fashion-20261012",
+  "base": "file:///C:/laragon/www/dunnio-homepage-concepts/",
+  "viewports": [
+    {
+      "file": "v1-heritage-atelier.html",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "imageWidth": 1440,
+      "imageHeight": 792,
+      "natural": [
+        1600,
+        880
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/heritage-atelier-desktop.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "HERITAGE ATELIERCrafted to be yours.Explore suits↗←1 / 2→",
+      "headline": "Crafted to be yours.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "imageWidth": 820,
+      "imageHeight": 615,
+      "natural": [
+        1200,
+        900
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/heritage-atelier-tablet.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "HERITAGE ATELIERCrafted to be yours.Explore suits↗←1 / 2→",
+      "headline": "Crafted to be yours.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "imageWidth": 390,
+      "imageHeight": 487.5,
+      "natural": [
+        800,
+        1000
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/heritage-atelier-mobile.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "HERITAGE ATELIERCrafted to be yours.Explore suits↗←1 / 2→",
+      "headline": "Crafted to be yours.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v2-design-studio.html",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "imageWidth": 1440,
+      "imageHeight": 792,
+      "natural": [
+        1600,
+        880
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/design-studio-desktop.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "DESIGN STUDIOMake it your own.Start designing↗←1 / 2→",
+      "headline": "Make it your own.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v2-design-studio.html",
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "imageWidth": 820,
+      "imageHeight": 615,
+      "natural": [
+        1200,
+        900
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/design-studio-tablet.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "DESIGN STUDIOMake it your own.Start designing↗←1 / 2→",
+      "headline": "Make it your own.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v2-design-studio.html",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "imageWidth": 390,
+      "imageHeight": 487.5,
+      "natural": [
+        800,
+        1000
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/design-studio-mobile.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "DESIGN STUDIOMake it your own.Start designing↗←1 / 2→",
+      "headline": "Make it your own.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "imageWidth": 1440,
+      "imageHeight": 792,
+      "natural": [
+        1600,
+        880
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/wedding-story-desktop.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "THE WEDDING EDITMade for your moment.Explore wedding suits↗←1 / 2→",
+      "headline": "Made for your moment.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "imageWidth": 820,
+      "imageHeight": 615,
+      "natural": [
+        1200,
+        900
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/wedding-story-tablet.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "THE WEDDING EDITMade for your moment.Explore wedding suits↗←1 / 2→",
+      "headline": "Made for your moment.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "imageWidth": 390,
+      "imageHeight": 487.5,
+      "natural": [
+        800,
+        1000
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/wedding-story-mobile.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "THE WEDDING EDITMade for your moment.Explore wedding suits↗←1 / 2→",
+      "headline": "Made for your moment.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "imageWidth": 1440,
+      "imageHeight": 792,
+      "natural": [
+        1600,
+        880
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/modern-essentials-desktop.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "MODERN ESSENTIALSEveryday. Elevated.Explore the collection↗←1 / 2→",
+      "headline": "Everyday. Elevated.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "imageWidth": 820,
+      "imageHeight": 615,
+      "natural": [
+        1200,
+        900
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/modern-essentials-tablet.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "MODERN ESSENTIALSEveryday. Elevated.Explore the collection↗←1 / 2→",
+      "headline": "Everyday. Elevated.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "imageWidth": 390,
+      "imageHeight": 487.5,
+      "natural": [
+        800,
+        1000
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/modern-essentials-mobile.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "MODERN ESSENTIALSEveryday. Elevated.Explore the collection↗←1 / 2→",
+      "headline": "Everyday. Elevated.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "imageWidth": 1440,
+      "imageHeight": 792,
+      "natural": [
+        1600,
+        880
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/fit-concierge-desktop.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "THE FIT CONCIERGEYour style. Perfected.Explore my options↗←1 / 2→",
+      "headline": "Your style. Perfected.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "imageWidth": 820,
+      "imageHeight": 615,
+      "natural": [
+        1200,
+        900
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/fit-concierge-tablet.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "THE FIT CONCIERGEYour style. Perfected.Explore my options↗←1 / 2→",
+      "headline": "Your style. Perfected.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "imageWidth": 390,
+      "imageHeight": 487.5,
+      "natural": [
+        800,
+        1000
+      ],
+      "source": "file:///C:/laragon/www/dunnio-homepage-concepts/assets/banners/fit-concierge-mobile.svg?v=fashion-20261012",
+      "ratioError": 0,
+      "copyBelowImage": true,
+      "copy": "THE FIT CONCIERGEYour style. Perfected.Explore my options↗←1 / 2→",
+      "headline": "Your style. Perfected.",
+      "ctaCount": 1,
+      "descriptionCount": 0,
+      "overflow": false,
+      "uspBeforeFooter": true,
+      "secondSlide": "passed"
+    }
+  ],
+  "checks": [
+    "All five heroes are full viewport width on PC/tablet/mobile with one CTA, short title and copy below the complete artwork",
+    "Each device selects its own image; both manual slides preserve the natural image ratio",
+    "Additional 320/640/1024/1920 widths have no whole-page overflow",
+    "Replacement artwork at 8:3 and 9:16 keeps its ratio and CTA below it without clipping or overlay",
+    "Hero CTA reaches the finder; sticky mobile CTA is hidden while the hero CTA is visible and returns below the hero"
+  ],
+  "errors": [],
+  "status": "passed",
+  "limitations": [
+    "Chrome desktop emulation; not physical-device testing",
+    "No conversion uplift measured"
+  ]
+}

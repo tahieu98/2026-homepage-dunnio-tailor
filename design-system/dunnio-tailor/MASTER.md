@@ -42,6 +42,10 @@ Gold on white is approximately 2.25:1. Do not use it for informational text or t
 
 ## Layout and interaction
 
+- Image-led hero revision (Request 11): all five variants use a full viewport width picture, with a short HTML heading and one CTA below the image. Artwork is selected separately for desktop/tablet/mobile; `height:auto` preserves any replacement upload ratio. Do not impose 100vh or crop completed artwork in CSS. Authoring compositions may crop source photos to preserve the intended subject per device.
+- Hero display size is now 36–54px desktop and 32–36px mobile. Remove descriptive copy, secondary CTA and repeated captions from hero; retain explanatory sections below. Sticky mobile CTA hides only while the hero CTA is fully visible below the sticky header.
+- `assets/fashion-heroes.css` overrides previous split/arched hero layouts; `tools/fashion-heroes.cjs` supplies shared image compositions and hero markup to the canonical generator.
+
 - Use the 8/16/24/32/48/64 spacing scale where a change is made. No universal mandatory “6px grid”; the ux-audit example is adapted to this project.
 - Breakpoints: mobile <640, tablet 640–1023, desktop >=1024. Overlay copy in Wedding Story is only attempted above 1200 and moves outside if it cannot fit.
 - Text remains HTML. Banner artwork is chosen per device and displayed at its intrinsic ratio; no forced height or object-fit:cover on the final banner image.

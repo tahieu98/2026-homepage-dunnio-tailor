@@ -1,6 +1,6 @@
 {
   "revision": "typography-20261012",
-  "base": "http://localhost/dunnio-homepage-concepts/",
+  "base": "file:///C:/laragon/www/dunnio-homepage-concepts/",
   "viewports": [
     {
       "file": "v1-heritage-atelier.html",
@@ -16,7 +16,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "18px",
+      "bodyFontSize": "16px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -36,7 +36,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "16px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -56,7 +56,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "16px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -96,7 +96,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "18px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -116,7 +116,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "16px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -156,7 +156,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "14px",
+      "bodyFontSize": "18px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -176,7 +176,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "16px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -216,7 +216,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "18px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -236,7 +236,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "16px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -276,7 +276,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "18px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,
@@ -296,7 +296,7 @@
         "color": "rgb(11, 31, 58)"
       },
       "uiFont": "Afacad, sans-serif",
-      "bodyFontSize": "17px",
+      "bodyFontSize": "16px",
       "fontReady": true,
       "overflow": false,
       "ratioPreserved": true,

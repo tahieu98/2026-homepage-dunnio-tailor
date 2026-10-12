@@ -1,6 +1,6 @@
 {
   "revision": "typography-20261012",
-  "base": "http://localhost/dunnio-homepage-concepts/",
+  "base": "file:///C:/laragon/www/dunnio-homepage-concepts/",
   "views": [
     {
       "file": "v1-heritage-atelier.html",
@@ -42,7 +42,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 35
+          "glyphCount": 20
         }
       ]
     },
@@ -86,7 +86,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 35
+          "glyphCount": 20
         }
       ]
     },
@@ -130,7 +130,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 35
+          "glyphCount": 20
         }
       ]
     },
@@ -174,7 +174,7 @@
           "familyName": "Afacad Medium",
           "postScriptName": "Afacad-Medium",
           "isCustomFont": true,
-          "glyphCount": 28
+          "glyphCount": 17
         }
       ]
     },
@@ -218,7 +218,7 @@
           "familyName": "Afacad Medium",
           "postScriptName": "Afacad-Medium",
           "isCustomFont": true,
-          "glyphCount": 28
+          "glyphCount": 17
         }
       ]
     },
@@ -262,7 +262,7 @@
           "familyName": "Afacad Medium",
           "postScriptName": "Afacad-Medium",
           "isCustomFont": true,
-          "glyphCount": 28
+          "glyphCount": 17
         }
       ]
     },
@@ -306,7 +306,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 36
+          "glyphCount": 21
         }
       ]
     },
@@ -350,7 +350,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 36
+          "glyphCount": 21
         }
       ]
     },
@@ -394,7 +394,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 35
+          "glyphCount": 21
         }
       ]
     },
@@ -438,7 +438,7 @@
           "familyName": "Afacad Medium",
           "postScriptName": "Afacad-Medium",
           "isCustomFont": true,
-          "glyphCount": 33
+          "glyphCount": 19
         }
       ]
     },
@@ -482,7 +482,7 @@
           "familyName": "Afacad Medium",
           "postScriptName": "Afacad-Medium",
           "isCustomFont": true,
-          "glyphCount": 33
+          "glyphCount": 19
         }
       ]
     },
@@ -526,7 +526,7 @@
           "familyName": "Afacad Medium",
           "postScriptName": "Afacad-Medium",
           "isCustomFont": true,
-          "glyphCount": 33
+          "glyphCount": 19
         }
       ]
     },
@@ -570,7 +570,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 39
+          "glyphCount": 22
         }
       ]
     },
@@ -614,7 +614,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 39
+          "glyphCount": 22
         }
       ]
     },
@@ -658,7 +658,7 @@
           "familyName": "Garamond Premr Pro Med Disp",
           "postScriptName": "GaramondPremrPro-MedDisp",
           "isCustomFont": true,
-          "glyphCount": 39
+          "glyphCount": 22
         }
       ]
     },
