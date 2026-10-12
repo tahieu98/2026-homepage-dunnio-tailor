@@ -4,7 +4,6 @@
   "skippedDunnioRoutes": [
     "/",
     "/feedback",
-    "/blog",
     "/contact",
     "/3d-custom-outfit/suits.html",
     "/3d-custom-outfit/3piece-suits.html",
@@ -74,6 +73,7 @@
     "/our-workshop",
     "/our-tailors",
     "/partner",
+    "/blog",
     "/outfit-ideas",
     "/silver-groom-outfit-idea.html",
     "/soft-pink-outfit-idea.html",

@@ -1,3 +1,5 @@
+> **Cập nhật hiện hành:** hai PNG7:4/5:3 đã thay thế thử nghiệm8:3 và canvas navy. Đọc [BANNER-EDITOR-SPEC.md](BANNER-EDITOR-SPEC.md) và [hướng dẫn HTML](../banner-guide.html) để dùng đúng thông số đang chạy. Phần dưới lưu công thức dàn artwork và lịch sử thử nghiệm; không dùng các tỷ lệ/neo header cũ cho ảnh PNG mới.
+
 # Công thức banner responsive — Yêu cầu 13
 
 Ngày: 12/10/2026. Quy tắc hiện hành áp dụng chung cho cả 5 concept.

@@ -1,0 +1,3121 @@
+{
+  "revision": "editor-banners-20261012-r2",
+  "date": "2026-10-12",
+  "views": [
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "pc1440",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 193.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 618.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 938.1625366210938,
+        "complete": true,
+        "h": 814.1625366210938,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 434.56401489257814,
+        "y": 168.77893951416016,
+        "right": 1154.0880395507813,
+        "bottom": 938.1625366210938
+      },
+      "errors": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "case": "pc1440",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 193.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 618.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 938.1625366210938,
+        "complete": true,
+        "h": 814.1625366210938,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 434.56401489257814,
+        "y": 168.77893951416016,
+        "right": 1154.0880395507813,
+        "bottom": 938.1625366210938
+      },
+      "errors": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "case": "pc1440",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 193.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 618.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 978.5250244140624,
+        "complete": true,
+        "h": 854.5250244140625,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 427.4400146484375,
+        "y": 170.99887634277343,
+        "right": 1161.2120397949218,
+        "bottom": 978.5250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "case": "pc1440",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 193.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 618.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 938.1625366210938,
+        "complete": true,
+        "h": 814.1625366210938,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 434.56401489257814,
+        "y": 168.77893951416016,
+        "right": 1154.0880395507813,
+        "bottom": 938.1625366210938
+      },
+      "errors": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "case": "pc1440",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 193.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 618.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 978.5250244140624,
+        "complete": true,
+        "h": 854.5250244140625,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 427.4400146484375,
+        "y": 170.99887634277343,
+        "right": 1161.2120397949218,
+        "bottom": 978.5250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "case": "pc1440",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 812.0000152587891,
+        "h": 246.4250030517578,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 565.5750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 938.1625366210938,
+        "complete": true,
+        "h": 814.1625366210938,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 434.56401489257814,
+        "y": 168.77893951416016,
+        "right": 1154.0880395507813,
+        "bottom": 938.1625366210938
+      },
+      "errors": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "case": "pc1440",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 812.0000152587891,
+        "h": 246.4250030517578,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 565.5750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 978.5250244140624,
+        "complete": true,
+        "h": 854.5250244140625,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 427.4400146484375,
+        "y": 170.99887634277343,
+        "right": 1161.2120397949218,
+        "bottom": 978.5250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "case": "pc1440",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 220.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 591.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 938.1625366210938,
+        "complete": true,
+        "h": 814.1625366210938,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 434.56401489257814,
+        "y": 168.77893951416016,
+        "right": 1154.0880395507813,
+        "bottom": 938.1625366210938
+      },
+      "errors": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "case": "pc1440",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 220.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 591.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 978.5250244140624,
+        "complete": true,
+        "h": 854.5250244140625,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 427.4400146484375,
+        "y": 170.99887634277343,
+        "right": 1161.2120397949218,
+        "bottom": 978.5250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "pc1440",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 193.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 618.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 938.1625366210938,
+        "complete": true,
+        "h": 814.1625366210938,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 434.56401489257814,
+        "y": 168.77893951416016,
+        "right": 1154.0880395507813,
+        "bottom": 938.1625366210938
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "pc1440",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1364.9625244140625,
+        "w": 136,
+        "x": 1228.9625244140625,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 811.9999847412109,
+        "h": 193.5124969482422,
+        "right": 401.78751373291016,
+        "w": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 618.4874877929688
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1424.800048828125,
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 978.5250244140624,
+        "complete": true,
+        "h": 854.5250244140625,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1424.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1424.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 787.4000244140625,
+        "w": 150,
+        "x": 637.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 179.76250457763672,
+        "w": 119.9250030517578,
+        "x": 59.837501525878906,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1425,
+        "h": 900,
+        "w": 1440
+      },
+      "subject": {
+        "x": 427.4400146484375,
+        "y": 170.99887634277343,
+        "right": 1161.2120397949218,
+        "bottom": 978.5250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "case": "tablet1032",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 645.8250122070312
+      },
+      "copy": {
+        "bottom": 629.8249969482422,
+        "h": 234.4499969482422,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 395.375
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 717.8250122070312,
+        "complete": true,
+        "h": 609.8250122070312,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 645.8250122070312
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 305.0399963378906,
+        "y": 141.54037567138673,
+        "right": 828.6919900512695,
+        "bottom": 717.8250122070312
+      },
+      "errors": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "case": "tablet1032",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 617.0250244140625
+      },
+      "copy": {
+        "bottom": 601.0250091552734,
+        "h": 234.4499969482422,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 366.5750122070313
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 689.0250244140625,
+        "complete": true,
+        "h": 581.0250244140625,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 617.0250244140625
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 310.12399627685545,
+        "y": 139.95637634277344,
+        "right": 823.6079901123047,
+        "bottom": 689.0250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "case": "tablet1032",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 645.8250122070312
+      },
+      "copy": {
+        "bottom": 629.8250122070312,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 369.875
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 717.8250122070312,
+        "complete": true,
+        "h": 609.8250122070312,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 645.8250122070312
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 305.0399963378906,
+        "y": 141.54037567138673,
+        "right": 828.6919900512695,
+        "bottom": 717.8250122070312
+      },
+      "errors": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "case": "tablet1032",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 617.0250244140625
+      },
+      "copy": {
+        "bottom": 601.0250244140625,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 341.07501220703125
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 689.0250244140625,
+        "complete": true,
+        "h": 581.0250244140625,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 617.0250244140625
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 310.12399627685545,
+        "y": 139.95637634277344,
+        "right": 823.6079901123047,
+        "bottom": 689.0250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "case": "tablet1032",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 645.8250122070312
+      },
+      "copy": {
+        "bottom": 629.8250122070312,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 369.875
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 717.8250122070312,
+        "complete": true,
+        "h": 609.8250122070312,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 645.8250122070312
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 305.0399963378906,
+        "y": 141.54037567138673,
+        "right": 828.6919900512695,
+        "bottom": 717.8250122070312
+      },
+      "errors": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "case": "tablet1032",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 617.0250244140625
+      },
+      "copy": {
+        "bottom": 601.0250244140625,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 341.07501220703125
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 689.0250244140625,
+        "complete": true,
+        "h": 581.0250244140625,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 617.0250244140625
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 310.12399627685545,
+        "y": 139.95637634277344,
+        "right": 823.6079901123047,
+        "bottom": 689.0250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "case": "tablet1032",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 645.8250122070312
+      },
+      "copy": {
+        "bottom": 629.8250122070312,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 369.875
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 717.8250122070312,
+        "complete": true,
+        "h": 609.8250122070312,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 645.8250122070312
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 305.0399963378906,
+        "y": 141.54037567138673,
+        "right": 828.6919900512695,
+        "bottom": 717.8250122070312
+      },
+      "errors": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "case": "tablet1032",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 617.0250244140625
+      },
+      "copy": {
+        "bottom": 601.0250244140625,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 341.07501220703125
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 689.0250244140625,
+        "complete": true,
+        "h": 581.0250244140625,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 617.0250244140625
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 310.12399627685545,
+        "y": 139.95637634277344,
+        "right": 823.6079901123047,
+        "bottom": 689.0250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "tablet1032",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 645.8250122070312
+      },
+      "copy": {
+        "bottom": 629.8250122070312,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 369.875
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 717.8250122070312,
+        "complete": true,
+        "h": 609.8250122070312,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 689.8250122070312,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 645.8250122070312
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 305.0399963378906,
+        "y": 141.54037567138673,
+        "right": 828.6919900512695,
+        "bottom": 717.8250122070312
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "tablet1032",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 974.1000366210938,
+        "w": 136,
+        "x": 838.1000366210938,
+        "y": 617.0250244140625
+      },
+      "copy": {
+        "bottom": 601.0250244140625,
+        "h": 259.95001220703125,
+        "right": 286.7250099182129,
+        "w": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 341.07501220703125
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1016.7999877929688,
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 689.0250244140625,
+        "complete": true,
+        "h": 581.0250244140625,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1016.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1016.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 573.3999938964844,
+        "w": 130,
+        "x": 443.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 661.0250244140625,
+        "h": 44,
+        "right": 162.6250038146973,
+        "w": 119.9250030517578,
+        "x": 42.70000076293945,
+        "y": 617.0250244140625
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1017,
+        "h": 1376,
+        "w": 1032
+      },
+      "subject": {
+        "x": 310.12399627685545,
+        "y": 139.95637634277344,
+        "right": 823.6079901123047,
+        "bottom": 689.0250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "case": "mobile390",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/heritage-atelier-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 144.8307367954952,
+        "y": 224.04425659179685,
+        "right": 230.36927541153614,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v1-heritage-atelier.html",
+      "case": "mobile390",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/heritage-atelier-second-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 100.21251926876508,
+        "y": 224.04425659179685,
+        "right": 274.98749293826626,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "case": "mobile390",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/design-studio-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 102.13312337502332,
+        "y": 224.04425659179685,
+        "right": 273.06688883200803,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v2-design-studio.html",
+      "case": "mobile390",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/design-studio-second-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 149.09687058755452,
+        "y": 224.04425659179685,
+        "right": 226.10314161947673,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "case": "mobile390",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 78.18802383567237,
+        "y": 224.04425659179685,
+        "right": 297.01198837135894,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v3-wedding-story.html",
+      "case": "mobile390",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-second-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 100.21251926876508,
+        "y": 224.04425659179685,
+        "right": 274.98749293826626,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "case": "mobile390",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 1064.1625366210938,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 1000.1625366210938
+      },
+      "copy": {
+        "bottom": 1000.1625366210938,
+        "h": 229.25,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 770.9125366210938
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/modern-essentials-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": true,
+      "scroll": {
+        "bottom": 1127.362476348877,
+        "h": 59.20000076293945,
+        "right": 157.5749969482422,
+        "w": 157.5749969482422,
+        "x": 0,
+        "y": 1068.1624755859375
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 112.69644595944372,
+        "y": 224.04425659179685,
+        "right": 262.5035662475876,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v4-modern-essentials.html",
+      "case": "mobile390",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 1064.1625366210938,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 1000.1625366210938
+      },
+      "copy": {
+        "bottom": 1000.1625366210938,
+        "h": 229.25,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 770.9125366210938
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/modern-essentials-second-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": true,
+      "scroll": {
+        "bottom": 1127.362476348877,
+        "h": 59.20000076293945,
+        "right": 157.5749969482422,
+        "w": 157.5749969482422,
+        "x": 0,
+        "y": 1068.1624755859375
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 105.97433158753984,
+        "y": 224.04425659179685,
+        "right": 269.22568061949147,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "mobile390",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/fit-concierge-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 149.09687058755452,
+        "y": 224.04425659179685,
+        "right": 226.10314161947673,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "mobile390",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 352.6999969482422,
+        "w": 132,
+        "x": 220.6999969482422,
+        "y": 708.9249877929688
+      },
+      "copy": {
+        "bottom": 688.9250183105469,
+        "h": 150.85000610351562,
+        "right": 352.70001220703125,
+        "w": 330.20001220703125,
+        "x": 22.5,
+        "y": 538.0750122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 104,
+        "h": 64,
+        "right": 375.2000122070313,
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 40
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 770.9125366210938,
+        "complete": true,
+        "h": 666.9125366210938,
+        "naturalH": 1422,
+        "naturalW": 800,
+        "right": 375.2000122070313,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/fit-concierge-second-mobile.svg?v=editor-banners-20261012-r2",
+        "w": 375.2000122070313,
+        "x": 0,
+        "y": 104
+      },
+      "logo": {
+        "bottom": 86.00000190734863,
+        "h": 28.80000114440918,
+        "right": 247.5999984741211,
+        "w": 120,
+        "x": 127.5999984741211,
+        "y": 57.20000076293945
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 752.9249877929688,
+        "h": 44,
+        "right": 135.2249984741211,
+        "w": 112.7249984741211,
+        "x": 22.5,
+        "y": 708.9249877929688
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 375,
+        "h": 844,
+        "w": 390
+      },
+      "subject": {
+        "x": 144.8307367954952,
+        "y": 224.04425659179685,
+        "right": 230.36927541153614,
+        "bottom": 504.14752197265625
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "pc1920",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1824.800048828125,
+        "w": 136,
+        "x": 1688.800048828125,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 812.0000152587891,
+        "h": 207.8000030517578,
+        "right": 537.1499938964844,
+        "w": 457.1499938964844,
+        "x": 80,
+        "y": 604.2000122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1904.800048828125,
+        "w": 1904.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 1212.4500732421875,
+        "complete": true,
+        "h": 1088.4500732421875,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1904.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1904.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 1027.4000244140625,
+        "w": 150,
+        "x": 877.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 199.9250030517578,
+        "w": 119.9250030517578,
+        "x": 80,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1905,
+        "h": 900,
+        "w": 1920
+      },
+      "subject": {
+        "x": 580.9640148925781,
+        "y": 183.8647540283203,
+        "right": 1542.8880395507813,
+        "bottom": 1212.4500732421875
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "pc1920",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 872,
+        "h": 44,
+        "right": 1824.800048828125,
+        "w": 136,
+        "x": 1688.800048828125,
+        "y": 828
+      },
+      "copy": {
+        "bottom": 812.0000152587891,
+        "h": 207.8000030517578,
+        "right": 537.1499938964844,
+        "w": 457.1499938964844,
+        "x": 80,
+        "y": 604.2000122070312
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1904.800048828125,
+        "w": 1904.800048828125,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 1266.4000244140625,
+        "complete": true,
+        "h": 1142.4000244140625,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1904.800048828125,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1904.800048828125,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 1027.4000244140625,
+        "w": 150,
+        "x": 877.4000244140625,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 872,
+        "h": 44,
+        "right": 199.9250030517578,
+        "w": 119.9250030517578,
+        "x": 80,
+        "y": 828
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1905,
+        "h": 900,
+        "w": 1920
+      },
+      "subject": {
+        "x": 571.4400146484375,
+        "y": 186.83200134277342,
+        "right": 1552.4120397949218,
+        "bottom": 1266.4000244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "pc1366",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 740,
+        "h": 44,
+        "right": 1294.4500732421875,
+        "w": 136,
+        "x": 1158.4500732421875,
+        "y": 696
+      },
+      "copy": {
+        "bottom": 680,
+        "h": 190.8125,
+        "right": 381.0375061035156,
+        "w": 324.2875061035156,
+        "x": 56.75,
+        "y": 489.1875
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1351.2000732421875,
+        "w": 1351.2000732421875,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 896.1124877929688,
+        "complete": true,
+        "h": 772.1124877929688,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1351.2000732421875,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1351.2000732421875,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 750.6000366210938,
+        "w": 150,
+        "x": 600.6000366210938,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 740,
+        "h": 44,
+        "right": 176.6750030517578,
+        "w": 119.9250030517578,
+        "x": 56.75,
+        "y": 696
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1351,
+        "h": 768,
+        "w": 1366
+      },
+      "subject": {
+        "x": 412.1160223388672,
+        "y": 166.46618682861327,
+        "right": 1094.472059326172,
+        "bottom": 896.1124877929688
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "pc1366",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 740,
+        "h": 44,
+        "right": 1294.4500732421875,
+        "w": 136,
+        "x": 1158.4500732421875,
+        "y": 696
+      },
+      "copy": {
+        "bottom": 680,
+        "h": 190.8125,
+        "right": 381.0375061035156,
+        "w": 324.2875061035156,
+        "x": 56.75,
+        "y": 489.1875
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 124,
+        "h": 80,
+        "right": 1351.2000732421875,
+        "w": 1351.2000732421875,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 934.375,
+        "complete": true,
+        "h": 810.375,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1351.2000732421875,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1351.2000732421875,
+        "x": 0,
+        "y": 124
+      },
+      "logo": {
+        "bottom": 101.5999984741211,
+        "h": 36,
+        "right": 750.6000366210938,
+        "w": 150,
+        "x": 600.6000366210938,
+        "y": 65.5999984741211
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 740,
+        "h": 44,
+        "right": 176.6750030517578,
+        "w": 119.9250030517578,
+        "x": 56.75,
+        "y": 696
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1351,
+        "h": 768,
+        "w": 1366
+      },
+      "subject": {
+        "x": 405.3600219726562,
+        "y": 168.570625,
+        "right": 1101.2280596923827,
+        "bottom": 934.375
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "tabletLandscape1024",
+      "slide": 1,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 685.0250244140625,
+        "h": 44,
+        "right": 966.4375,
+        "w": 136,
+        "x": 830.4375,
+        "y": 641.0250244140625
+      },
+      "copy": {
+        "bottom": 625.0250244140625,
+        "h": 259.20001220703125,
+        "right": 284.4625053405762,
+        "w": 242.1000061035156,
+        "x": 42.36249923706055,
+        "y": 365.8250122070313
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1008.7999877929688,
+        "w": 1008.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 713.0250244140625,
+        "complete": true,
+        "h": 605.0250244140625,
+        "naturalH": 971,
+        "naturalW": 1619,
+        "right": 1008.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+        "w": 1008.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 569.3999938964844,
+        "w": 130,
+        "x": 439.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 685.0250244140625,
+        "h": 44,
+        "right": 162.28750228881836,
+        "w": 119.9250030517578,
+        "x": 42.36249923706055,
+        "y": 641.0250244140625
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1009,
+        "h": 768,
+        "w": 1024
+      },
+      "subject": {
+        "x": 302.63999633789064,
+        "y": 141.27637634277343,
+        "right": 822.1719900512695,
+        "bottom": 713.0250244140625
+      },
+      "errors": []
+    },
+    {
+      "file": "v5-fit-concierge.html",
+      "case": "tabletLandscape1024",
+      "slide": 2,
+      "blogCards": 0,
+      "controls": {
+        "bottom": 656.4500122070312,
+        "h": 44,
+        "right": 966.4375,
+        "w": 136,
+        "x": 830.4375,
+        "y": 612.4500122070312
+      },
+      "copy": {
+        "bottom": 596.4500122070312,
+        "h": 259.20001220703125,
+        "right": 284.4625053405762,
+        "w": 242.1000061035156,
+        "x": 42.36249923706055,
+        "y": 337.25
+      },
+      "hamburger": [
+        2,
+        2
+      ],
+      "header": {
+        "bottom": 108,
+        "h": 64,
+        "right": 1008.7999877929688,
+        "w": 1008.7999877929688,
+        "x": 0,
+        "y": 44
+      },
+      "headlineFont": "\"Garamon Pro Display\", serif",
+      "image": {
+        "bottom": 684.4500122070312,
+        "complete": true,
+        "h": 576.4500122070312,
+        "naturalH": 948,
+        "naturalW": 1659,
+        "right": 1008.7999877929688,
+        "src": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+        "w": 1008.7999877929688,
+        "x": 0,
+        "y": 108
+      },
+      "logo": {
+        "bottom": 91.20000076293944,
+        "h": 31.200000762939453,
+        "right": 569.3999938964844,
+        "w": 130,
+        "x": 439.3999938964844,
+        "y": 60
+      },
+      "menuLinks": 72,
+      "nav": [
+        "Customize outfit ⌄",
+        "Custom clothing ⌄",
+        "Occasion ⌄"
+      ],
+      "outside": false,
+      "scroll": {
+        "bottom": 656.4500122070312,
+        "h": 44,
+        "right": 162.28750228881836,
+        "w": 119.9250030517578,
+        "x": 42.36249923706055,
+        "y": 612.4500122070312
+      },
+      "serviceCount": 10,
+      "uspBeforeFooter": true,
+      "viewport": {
+        "client": 1009,
+        "h": 768,
+        "w": 1024
+      },
+      "subject": {
+        "x": 307.68399627685545,
+        "y": 139.7047506713867,
+        "right": 817.1279901123047,
+        "bottom": 684.4500122070312
+      },
+      "errors": []
+    }
+  ],
+  "checks": [],
+  "limitations": [
+    "Subject boxes are manually estimated from source photographs. Full intrinsic-ratio artwork can extend below the first viewport; copy and controls are independently anchored within its visible portion."
+  ],
+  "status": "remaining_checks_skipped_at_user_request",
+  "checkedViews": 37,
+  "remainingChecksSkipped": true
+}

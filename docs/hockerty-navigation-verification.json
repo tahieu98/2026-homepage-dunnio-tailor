@@ -10,7 +10,9 @@
     "homepageBlogSections": 0
   },
   "browserReview": {
-    "status": "pending_live_review"
+    "status": "partial_review_remaining_skipped_at_user_request",
+    "evidence": "responsive-banner-verification.json",
+    "note": "Current recorded views confirm the visible inventory and safe geometry in those cases only. The user requested stopping remaining tests and pushing."
   },
   "sourceHttpChecks": "navigation-source-checks.json"
 }
