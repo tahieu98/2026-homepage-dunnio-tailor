@@ -4,7 +4,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -15,7 +15,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -32,7 +32,7 @@ window.DUNNIO_BANNERS = {
           0.6139905861314867,
           0.6
         ],
-        "src": "assets/banners/heritage-atelier-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/heritage-atelier-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -43,7 +43,7 @@ window.DUNNIO_BANNERS = {
           0.5591673057744975,
           0.54
         ],
-        "src": "assets/banners/heritage-atelier-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/heritage-atelier-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -51,7 +51,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -62,7 +62,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -79,7 +79,7 @@ window.DUNNIO_BANNERS = {
           0.7329090724723407,
           0.6
         ],
-        "src": "assets/banners/heritage-atelier-second-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/heritage-atelier-second-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -90,7 +90,7 @@ window.DUNNIO_BANNERS = {
           0.6208924594240601,
           0.54
         ],
-        "src": "assets/banners/heritage-atelier-second-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/heritage-atelier-second-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -100,7 +100,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -111,7 +111,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -128,7 +128,7 @@ window.DUNNIO_BANNERS = {
           0.727790191758663,
           0.6
         ],
-        "src": "assets/banners/design-studio-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/design-studio-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -139,7 +139,7 @@ window.DUNNIO_BANNERS = {
           0.6182354822938609,
           0.54
         ],
-        "src": "assets/banners/design-studio-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/design-studio-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -147,7 +147,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -158,7 +158,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -175,7 +175,7 @@ window.DUNNIO_BANNERS = {
           0.6026202938786566,
           0.6
         ],
-        "src": "assets/banners/design-studio-second-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/design-studio-second-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -186,7 +186,7 @@ window.DUNNIO_BANNERS = {
           0.5532655065005417,
           0.54
         ],
-        "src": "assets/banners/design-studio-second-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/design-studio-second-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -196,7 +196,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -207,7 +207,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -224,7 +224,7 @@ window.DUNNIO_BANNERS = {
           0.7916097513543547,
           0.6
         ],
-        "src": "assets/banners/wedding-story-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/wedding-story-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -235,7 +235,7 @@ window.DUNNIO_BANNERS = {
           0.6513613001805807,
           0.5400000000000001
         ],
-        "src": "assets/banners/wedding-story-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/wedding-story-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -243,7 +243,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -254,7 +254,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -271,7 +271,7 @@ window.DUNNIO_BANNERS = {
           0.7329090724723407,
           0.6
         ],
-        "src": "assets/banners/wedding-story-second-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/wedding-story-second-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -282,7 +282,7 @@ window.DUNNIO_BANNERS = {
           0.6208924594240601,
           0.54
         ],
-        "src": "assets/banners/wedding-story-second-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/wedding-story-second-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -292,7 +292,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -303,7 +303,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -320,7 +320,7 @@ window.DUNNIO_BANNERS = {
           0.699636347833435,
           0.6
         ],
-        "src": "assets/banners/modern-essentials-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/modern-essentials-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -331,7 +331,7 @@ window.DUNNIO_BANNERS = {
           0.6036221080777657,
           0.54
         ],
-        "src": "assets/banners/modern-essentials-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/modern-essentials-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -339,7 +339,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -350,7 +350,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -367,7 +367,7 @@ window.DUNNIO_BANNERS = {
           0.7175524303313072,
           0.6
         ],
-        "src": "assets/banners/modern-essentials-second-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/modern-essentials-second-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -378,7 +378,7 @@ window.DUNNIO_BANNERS = {
           0.6129215280334627,
           0.54
         ],
-        "src": "assets/banners/modern-essentials-second-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/modern-essentials-second-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -388,7 +388,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -399,7 +399,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -416,7 +416,7 @@ window.DUNNIO_BANNERS = {
           0.6026202938786566,
           0.6
         ],
-        "src": "assets/banners/fit-concierge-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/fit-concierge-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -427,7 +427,7 @@ window.DUNNIO_BANNERS = {
           0.5532655065005417,
           0.54
         ],
-        "src": "assets/banners/fit-concierge-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/fit-concierge-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }
@@ -435,7 +435,7 @@ window.DUNNIO_BANNERS = {
     {
       "alt": "User-supplied finished banner: green bespoke suit fitting in an atelier",
       "desktop": {
-        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
         "width": 1619,
         "height": 971,
         "subject": [
@@ -446,7 +446,7 @@ window.DUNNIO_BANNERS = {
         ]
       },
       "tablet": {
-        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012",
+        "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
         "width": 1659,
         "height": 948,
         "subject": [
@@ -463,7 +463,7 @@ window.DUNNIO_BANNERS = {
           0.6139905861314867,
           0.6
         ],
-        "src": "assets/banners/fit-concierge-second-mobile.svg?v=editor-banners-20261012",
+        "src": "assets/banners/fit-concierge-second-mobile.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1422
       },
@@ -474,7 +474,7 @@ window.DUNNIO_BANNERS = {
           0.5591673057744975,
           0.54
         ],
-        "src": "assets/banners/fit-concierge-second-compact.svg?v=editor-banners-20261012",
+        "src": "assets/banners/fit-concierge-second-compact.svg?v=editor-banners-20261012-r2",
         "width": 800,
         "height": 1000
       }

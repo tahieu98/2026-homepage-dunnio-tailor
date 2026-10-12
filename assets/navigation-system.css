@@ -70,3 +70,6 @@
 
 .theme .topbar-menu .menu-toggle span{margin:0;flex:0 0 2px}
 @media(min-width:640px) and (max-width:1199px){.theme .topbar-menu{height:64px;margin-bottom:-64px}.theme .topbar-menu .wordmark>img{width:130px}}
+/* Keep the menu outside finished photographs, so the hairline is never under navigation. */
+.theme .topbar-menu{margin-bottom:0;background:var(--color-primary-variant)}
+@media(max-width:1199px){.theme .topbar-menu{margin-bottom:0}}
