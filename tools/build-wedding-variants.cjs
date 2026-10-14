@@ -27,7 +27,7 @@ for (const variant of ['3.1', '3.2']) {
   let html = v3.replace(/<main id="main">[\s\S]*?<\/main>/, '<main id="main">\n'+content+'\n</main>');
   html = html.replace('<title>Wedding Story · Dunnio Tailor</title>', `<title>Wedding Story v${variant} · Dunnio Tailor</title>`).replace('Five responsive homepage design concepts for Dunnio Tailor. Static, buildless prototypes.', `Wedding Story v${variant}: bespoke wedding tailoring, Vietnamese craftsmanship and customer inspiration.`);
   html = html.replace('class="theme theme-3"', `class="theme theme-3 wedding-variant wedding-${variant.replace('.','')}"`);
-  html = html.replace('</head>', '<link rel="stylesheet" href="assets/wedding-variants.css?v=request17-r1"></head>');
+  html = html.replace('</head>', '<link rel="stylesheet" href="assets/wedding-variants.css?v=request17-r2"></head>');
   // Logos in the header and drawer are deliberately non-linking. Retain the footer verbatim.
   const footerStart = html.indexOf('<footer');
   let headerAndMain = html.slice(0, footerStart).replace(/<a class="wordmark" href="index.html" aria-label="Dunnio Tailor design concepts">([\s\S]*?)<\/a>/, '<span class="wordmark" aria-label="Dunnio Tailor">$1</span>').replace(/<a href="index.html" aria-label="Dunnio design concepts">([\s\S]*?)<\/a>/, '<span aria-label="Dunnio Tailor">$1</span>').replace('<a href="index.html">Back to the 5 concepts</a>', '');

@@ -1,0 +1,586 @@
+{
+  "date": "2026-10-14",
+  "base": "http://127.0.0.1:4173/",
+  "checks": [
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 1032,
+      "height": 1376,
+      "scrollY": 7273,
+      "viewportHeight": 1376,
+      "scrollHeight": 8649,
+      "overflow": "visible",
+      "footerTop": 927.171875,
+      "footerBottom": 1375.71875,
+      "footerHeight": 448.546875,
+      "lastLinkTop": 1319.71875,
+      "lastLinkBottom": 1351.71875,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 1376,
+      "height": 1032,
+      "scrollY": 8446,
+      "viewportHeight": 1032,
+      "scrollHeight": 9478,
+      "overflow": "visible",
+      "footerTop": 582.984375,
+      "footerBottom": 1031.53125,
+      "footerHeight": 448.546875,
+      "lastLinkTop": 975.53125,
+      "lastLinkBottom": 1007.53125,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 820,
+      "height": 1180,
+      "scrollY": 7657,
+      "viewportHeight": 1180,
+      "scrollHeight": 8837,
+      "overflow": "visible",
+      "footerTop": 414.203125,
+      "footerBottom": 1180.421875,
+      "footerHeight": 766.21875,
+      "lastLinkTop": 1124.421875,
+      "lastLinkBottom": 1156.421875,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 768,
+      "height": 1024,
+      "scrollY": 7715,
+      "viewportHeight": 1024,
+      "scrollHeight": 8739,
+      "overflow": "visible",
+      "footerTop": 257.359375,
+      "footerBottom": 1023.578125,
+      "footerHeight": 766.21875,
+      "lastLinkTop": 967.578125,
+      "lastLinkBottom": 999.578125,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 440,
+      "height": 956,
+      "scrollY": 9148,
+      "viewportHeight": 956,
+      "scrollHeight": 10104,
+      "overflow": "visible",
+      "footerTop": -22,
+      "footerBottom": 956.140625,
+      "footerHeight": 978.140625,
+      "lastLinkTop": 800.140625,
+      "lastLinkBottom": 832.140625,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        }
+      ]
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 390,
+      "height": 844,
+      "scrollY": 9158,
+      "viewportHeight": 844,
+      "scrollHeight": 10002,
+      "overflow": "visible",
+      "footerTop": -133.9375,
+      "footerBottom": 844.203125,
+      "footerHeight": 978.140625,
+      "lastLinkTop": 688.203125,
+      "lastLinkBottom": 720.203125,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        }
+      ]
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 1440,
+      "height": 900,
+      "scrollY": 8765,
+      "viewportHeight": 900,
+      "scrollHeight": 9665,
+      "overflow": "visible",
+      "footerTop": 451.765625,
+      "footerBottom": 900.3125,
+      "footerHeight": 448.546875,
+      "lastLinkTop": 844.3125,
+      "lastLinkBottom": 876.3125,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 1032,
+      "height": 1376,
+      "scrollY": 5795,
+      "viewportHeight": 1376,
+      "scrollHeight": 7171,
+      "overflow": "visible",
+      "footerTop": 927.3125,
+      "footerBottom": 1375.859375,
+      "footerHeight": 448.546875,
+      "lastLinkTop": 1319.859375,
+      "lastLinkBottom": 1351.859375,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 1376,
+      "height": 1032,
+      "scrollY": 6856,
+      "viewportHeight": 1032,
+      "scrollHeight": 7888,
+      "overflow": "visible",
+      "footerTop": 583.84375,
+      "footerBottom": 1032.390625,
+      "footerHeight": 448.546875,
+      "lastLinkTop": 976.390625,
+      "lastLinkBottom": 1008.390625,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 820,
+      "height": 1180,
+      "scrollY": 6326,
+      "viewportHeight": 1180,
+      "scrollHeight": 7506,
+      "overflow": "visible",
+      "footerTop": 413.515625,
+      "footerBottom": 1179.734375,
+      "footerHeight": 766.21875,
+      "lastLinkTop": 1123.734375,
+      "lastLinkBottom": 1155.734375,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 768,
+      "height": 1024,
+      "scrollY": 6402,
+      "viewportHeight": 1024,
+      "scrollHeight": 7426,
+      "overflow": "visible",
+      "footerTop": 258.171875,
+      "footerBottom": 1024.390625,
+      "footerHeight": 766.21875,
+      "lastLinkTop": 968.390625,
+      "lastLinkBottom": 1000.390625,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 440,
+      "height": 956,
+      "scrollY": 7697,
+      "viewportHeight": 956,
+      "scrollHeight": 8653,
+      "overflow": "visible",
+      "footerTop": -21.984375,
+      "footerBottom": 956.15625,
+      "footerHeight": 978.140625,
+      "lastLinkTop": 800.15625,
+      "lastLinkBottom": 832.15625,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        }
+      ]
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 390,
+      "height": 844,
+      "scrollY": 7658,
+      "viewportHeight": 844,
+      "scrollHeight": 8502,
+      "overflow": "visible",
+      "footerTop": -134.25,
+      "footerBottom": 843.890625,
+      "footerHeight": 978.140625,
+      "lastLinkTop": 687.890625,
+      "lastLinkBottom": 719.890625,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        }
+      ]
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 1440,
+      "height": 900,
+      "scrollY": 7147,
+      "viewportHeight": 900,
+      "scrollHeight": 8047,
+      "overflow": "visible",
+      "footerTop": 451.640625,
+      "footerBottom": 900.1875,
+      "footerHeight": 448.546875,
+      "lastLinkTop": 844.1875,
+      "lastLinkBottom": 876.1875,
+      "drawerHidden": true,
+      "colors": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "text": "rgb(200, 169, 106)",
+          "heading": "rgb(200, 169, 106)",
+          "paragraph": "rgb(200, 169, 106)"
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "text": "rgb(11, 31, 58)",
+          "heading": "rgb(11, 31, 58)",
+          "paragraph": "rgb(11, 31, 58)"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "limitations": [
+    "Chrome touch emulation; not physical iPad hardware.",
+    "Device emulation must fit inside the DevTools canvas to display the complete emulated viewport. A fixed 75% zoom can crop a tall iPad viewport even at the document end."
+  ]
+}
