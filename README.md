@@ -7,6 +7,8 @@ Hoàn thành ngày 12/10/2026. Bản clone `C:\laragon\www\dunnio-tailor-redesig
 1. [Heritage Atelier](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v1-heritage-atelier.html)
 2. [Design Studio](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v2-design-studio.html)
 3. [Wedding Story](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3-wedding-story.html)
+   - [Wedding Story v3.1 — đầy đủ section, banner mobile 4:5](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3.1-wedding-story.html)
+   - [Wedding Story v3.2 — rút gọn, hero mobile trong một màn hình](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3.2-wedding-story.html)
 4. [Modern Essentials](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v4-modern-essentials.html)
 5. [The Fit Concierge](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v5-fit-concierge.html)
 
@@ -33,6 +35,18 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 5. `v5-fit-concierge.html` — guided finder, measurement/fit support.
 
 Mỗi trang có nội dung đầy đủ, responsive, banner slider thủ công, carousel, FAQ, menu mobile, CTA. Các link sản phẩm và dịch vụ mở trang thật tại `https://dunniotailor.com`. Không có checkout, đăng ký tư vấn thật, lưu cấu hình 3D hay tracking trong prototype. Form cưới chỉ chuẩn bị email draft; người dùng tự xem và gửi trong ứng dụng email.
+
+## Wedding Story — Yêu cầu 17 (14/10/2026)
+
+Hai biến thể mới giữ nguyên bản v3 gốc và footer. Header và logo trong menu mobile không còn liên kết tới trang so sánh.
+
+- **v3.1:** mobile giữ banner 4:5; cụm nút chuyển ảnh căn giữa ngay dưới banner, trước hero-copy. Wedding party chuyển thành slider ngang trên mobile.
+- **v3.2:** bỏ Wedding party và FAQ; ẩn eyebrow trong hero mobile, đặt text/CTA gần chân ảnh. Hai nút cũ được tái sử dụng dưới ảnh, cách hai lề 20px. Khung ảnh hướng tới 4:7 và giới hạn chiều cao theo `100svh` để hero, CTA và hai nút nằm trong màn hình đầu.
+- Thứ tự chung: hero → (Wedding party ở v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → (FAQ ở v3.1) → closing → USP → footer. Products/studio/looks/craft lấy từ v2; products bỏ nội dung `.fine`.
+- Craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm. Feedback dùng ảnh/tên/ngày/rating tương ứng từ từng review gốc và bản tóm tắt có chú thích; một hàng slider thủ công, có prev/next, không tự chạy.
+- Style Gallery giữ bảy ảnh trên desktop/tablet, bốn ảnh trên mobile để tiêu đề, mô tả và CTA nằm cùng một khung nhìn. USP bo góc, xen kẽ navy/gold, giữ bốn thẻ cân đối.
+- `assets/wedding-variants.css` chỉ áp dụng cho hai biến thể. `tools/build-wedding-variants.cjs` tạo lại chúng từ v2/v3 và dữ liệu trong `docs/wedding-story-sources.json`; `tools/prepare-wedding-sources.cjs` cập nhật nguồn ảnh và metadata từ website thật.
+- Chạy `node tools/verify-wedding-variants.cjs` với biến môi trường `DUNNIO_PREVIEW_URL` trỏ tới HTTP preview để kiểm tra; kết quả tại `docs/wedding-story-verification.json`.
 
 ## Tên miền ảo Laragon
 

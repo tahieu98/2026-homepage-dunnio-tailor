@@ -1,0 +1,1534 @@
+{
+  "date": "2026-10-14",
+  "base": "http://127.0.0.1:4173/",
+  "viewports": [
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 717.5,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 653.5
+      },
+      "image": {
+        "top": 64,
+        "bottom": 464,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 400
+      },
+      "controls": {
+        "top": 464,
+        "bottom": 528,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 64
+      },
+      "copy": {
+        "top": 528,
+        "bottom": 717.5,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 189.5
+      },
+      "cta": {
+        "top": 645,
+        "bottom": 689.5,
+        "left": 64.96875,
+        "right": 255.03125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 472,
+        "bottom": 520,
+        "left": 72,
+        "right": 120,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 472,
+        "bottom": 520,
+        "left": 200,
+        "right": 248,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6820,
+        "bottom": 7201.625,
+        "left": 19.1875,
+        "right": 300.8125,
+        "width": 281.625,
+        "height": 381.625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 375,
+      "height": 667,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 786.25,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 722.25
+      },
+      "image": {
+        "top": 64,
+        "bottom": 532.75,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 468.75
+      },
+      "controls": {
+        "top": 532.75,
+        "bottom": 596.75,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 64
+      },
+      "copy": {
+        "top": 596.75,
+        "bottom": 786.25,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 189.5
+      },
+      "cta": {
+        "top": 713.75,
+        "bottom": 758.25,
+        "left": 92.46875,
+        "right": 282.53125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 540.75,
+        "bottom": 588.75,
+        "left": 99.5,
+        "right": 147.5,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 540.75,
+        "bottom": 588.75,
+        "left": 227.5,
+        "right": 275.5,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6822.875,
+        "bottom": 7240.125,
+        "left": 22.5,
+        "right": 352.5,
+        "width": 330,
+        "height": 417.25
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 814.71875,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 750.71875
+      },
+      "image": {
+        "top": 64,
+        "bottom": 551.5,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 487.5
+      },
+      "controls": {
+        "top": 551.5,
+        "bottom": 615.5,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 64
+      },
+      "copy": {
+        "top": 615.5,
+        "bottom": 814.71875,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 199.21875
+      },
+      "cta": {
+        "top": 742.21875,
+        "bottom": 786.71875,
+        "left": 99.96875,
+        "right": 290.03125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 559.5,
+        "bottom": 607.5,
+        "left": 107,
+        "right": 155,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 559.5,
+        "bottom": 607.5,
+        "left": 235,
+        "right": 283,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6812.828125,
+        "bottom": 7289.984375,
+        "left": 23.390625,
+        "right": 366.609375,
+        "width": 343.21875,
+        "height": 477.15625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 440,
+      "height": 956,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 881.6875,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 817.6875
+      },
+      "image": {
+        "top": 64,
+        "bottom": 614,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 550
+      },
+      "controls": {
+        "top": 614,
+        "bottom": 678,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 64
+      },
+      "copy": {
+        "top": 678,
+        "bottom": 881.6875,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 203.6875
+      },
+      "cta": {
+        "top": 809.1875,
+        "bottom": 853.6875,
+        "left": 124.96875,
+        "right": 315.03125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 622,
+        "bottom": 670,
+        "left": 132,
+        "right": 180,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 622,
+        "bottom": 670,
+        "left": 260,
+        "right": 308,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6915.140625,
+        "bottom": 7392.296875,
+        "left": 26.390625,
+        "right": 413.609375,
+        "width": 387.21875,
+        "height": 477.15625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 639,
+      "height": 844,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 1130.4375,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 1066.4375
+      },
+      "image": {
+        "top": 64,
+        "bottom": 862.75,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 798.75
+      },
+      "controls": {
+        "top": 862.75,
+        "bottom": 926.75,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 64
+      },
+      "copy": {
+        "top": 926.75,
+        "bottom": 1130.4375,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 203.6875
+      },
+      "cta": {
+        "top": 1057.9375,
+        "bottom": 1102.4375,
+        "left": 224.46875,
+        "right": 414.53125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 870.75,
+        "bottom": 918.75,
+        "left": 231.5,
+        "right": 279.5,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 870.75,
+        "bottom": 918.75,
+        "left": 359.5,
+        "right": 407.5,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 7451.375,
+        "bottom": 7928.53125,
+        "left": 38.328125,
+        "right": 600.671875,
+        "width": 562.34375,
+        "height": 477.15625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 640,
+      "height": 900,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 741.09375,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 677.09375
+      },
+      "image": {
+        "top": 64,
+        "bottom": 448,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 384
+      },
+      "controls": {
+        "top": 448,
+        "bottom": 512,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 64
+      },
+      "copy": {
+        "top": 512,
+        "bottom": 741.09375,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 229.09375
+      },
+      "cta": {
+        "top": 659.09375,
+        "bottom": 713.09375,
+        "left": 38.390625,
+        "right": 249.921875,
+        "width": 211.53125,
+        "height": 54
+      },
+      "prev": {
+        "top": 456,
+        "bottom": 504,
+        "left": 232,
+        "right": 280,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 456,
+        "bottom": 504,
+        "left": 360,
+        "right": 408,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6041.375,
+        "bottom": 6609.046875,
+        "left": 32,
+        "right": 608,
+        "width": 576,
+        "height": 567.671875
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero hero-copy-outside",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 820,
+      "height": 1180,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 620,
+        "left": 0,
+        "right": 820,
+        "width": 820,
+        "height": 556
+      },
+      "image": {
+        "top": 64,
+        "bottom": 556,
+        "left": 0,
+        "right": 820,
+        "width": 820,
+        "height": 492
+      },
+      "controls": {
+        "top": 556,
+        "bottom": 620,
+        "left": 0,
+        "right": 820,
+        "width": 820,
+        "height": 64
+      },
+      "copy": {
+        "top": 203.25,
+        "bottom": 468,
+        "left": 34.4375,
+        "right": 231.234375,
+        "width": 196.796875,
+        "height": 264.75
+      },
+      "cta": {
+        "top": 390,
+        "bottom": 468,
+        "left": 34.4375,
+        "right": 231.234375,
+        "width": 196.796875,
+        "height": 78
+      },
+      "prev": {
+        "top": 564,
+        "bottom": 612,
+        "left": 322,
+        "right": 370,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 564,
+        "bottom": 612,
+        "left": 450,
+        "right": 498,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 5881.921875,
+        "bottom": 6550.84375,
+        "left": 41,
+        "right": 779,
+        "width": 738,
+        "height": 668.921875
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 742.390625,
+        "left": 0,
+        "right": 1024,
+        "width": 1024,
+        "height": 678.390625
+      },
+      "image": {
+        "top": 64,
+        "bottom": 678.390625,
+        "left": 0,
+        "right": 1024,
+        "width": 1024,
+        "height": 614.390625
+      },
+      "controls": {
+        "top": 678.390625,
+        "bottom": 742.390625,
+        "left": 0,
+        "right": 1024,
+        "width": 1024,
+        "height": 64
+      },
+      "copy": {
+        "top": 330.765625,
+        "bottom": 590.390625,
+        "left": 43,
+        "right": 288.75,
+        "width": 245.75,
+        "height": 259.625
+      },
+      "cta": {
+        "top": 536.390625,
+        "bottom": 590.390625,
+        "left": 43,
+        "right": 254.53125,
+        "width": 211.53125,
+        "height": 54
+      },
+      "prev": {
+        "top": 686.390625,
+        "bottom": 734.390625,
+        "left": 424,
+        "right": 472,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 686.390625,
+        "bottom": 734.390625,
+        "left": 552,
+        "right": 600,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6096.234375,
+        "bottom": 6890.15625,
+        "left": 43,
+        "right": 981,
+        "width": 938,
+        "height": 793.921875
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "hero": {
+        "top": 80,
+        "bottom": 966.59375,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 886.59375
+      },
+      "image": {
+        "top": 80,
+        "bottom": 902.59375,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 822.59375
+      },
+      "controls": {
+        "top": 902.59375,
+        "bottom": 966.59375,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 64
+      },
+      "copy": {
+        "top": 565.15625,
+        "bottom": 812,
+        "left": 60.46875,
+        "right": 406.0625,
+        "width": 345.59375,
+        "height": 246.84375
+      },
+      "cta": {
+        "top": 758,
+        "bottom": 812,
+        "left": 60.46875,
+        "right": 272,
+        "width": 211.53125,
+        "height": 54
+      },
+      "prev": {
+        "top": 910.59375,
+        "bottom": 958.59375,
+        "left": 632,
+        "right": 680,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 910.59375,
+        "bottom": 958.59375,
+        "left": 760,
+        "right": 808,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6868.765625,
+        "bottom": 7914.359375,
+        "left": 60.46875,
+        "right": 1379.53125,
+        "width": 1319.0625,
+        "height": 1045.59375
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section occasions-section",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "section faq-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 568,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 504
+      },
+      "image": {
+        "top": 64,
+        "bottom": 504,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 440
+      },
+      "controls": {
+        "top": 504,
+        "bottom": 568,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 64
+      },
+      "copy": {
+        "top": 317.71875,
+        "bottom": 504,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 186.28125
+      },
+      "cta": {
+        "top": 435.5,
+        "bottom": 480,
+        "left": 64.96875,
+        "right": 255.03125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 512,
+        "bottom": 560,
+        "left": 20,
+        "right": 68,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 512,
+        "bottom": 560,
+        "left": 252,
+        "right": 300,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 5846.828125,
+        "bottom": 6228.453125,
+        "left": 19.1875,
+        "right": 300.8125,
+        "width": 281.625,
+        "height": 381.625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero hero-copy-outside",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 375,
+      "height": 667,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 667,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 603
+      },
+      "image": {
+        "top": 64,
+        "bottom": 603,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 539
+      },
+      "controls": {
+        "top": 603,
+        "bottom": 667,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 64
+      },
+      "copy": {
+        "top": 416.71875,
+        "bottom": 603,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 186.28125
+      },
+      "cta": {
+        "top": 534.5,
+        "bottom": 579,
+        "left": 92.46875,
+        "right": 282.53125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 611,
+        "bottom": 659,
+        "left": 20,
+        "right": 68,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 611,
+        "bottom": 659,
+        "left": 307,
+        "right": 355,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 5879.953125,
+        "bottom": 6297.203125,
+        "left": 22.5,
+        "right": 352.5,
+        "width": 330,
+        "height": 417.25
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero hero-copy-outside",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 810.5,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 746.5
+      },
+      "image": {
+        "top": 64,
+        "bottom": 746.5,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 682.5
+      },
+      "controls": {
+        "top": 746.5,
+        "bottom": 810.5,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 64
+      },
+      "copy": {
+        "top": 556.90625,
+        "bottom": 746.5,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 189.59375
+      },
+      "cta": {
+        "top": 678,
+        "bottom": 722.5,
+        "left": 99.96875,
+        "right": 290.03125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 754.5,
+        "bottom": 802.5,
+        "left": 20,
+        "right": 68,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 754.5,
+        "bottom": 802.5,
+        "left": 322,
+        "right": 370,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6027.734375,
+        "bottom": 6504.890625,
+        "left": 23.390625,
+        "right": 366.609375,
+        "width": 343.21875,
+        "height": 477.15625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero hero-copy-outside",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 440,
+      "height": 956,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 898,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 834
+      },
+      "image": {
+        "top": 64,
+        "bottom": 834,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 770
+      },
+      "controls": {
+        "top": 834,
+        "bottom": 898,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 64
+      },
+      "copy": {
+        "top": 640,
+        "bottom": 834,
+        "left": 0,
+        "right": 440,
+        "width": 440,
+        "height": 194
+      },
+      "cta": {
+        "top": 765.5,
+        "bottom": 810,
+        "left": 124.96875,
+        "right": 315.03125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 842,
+        "bottom": 890,
+        "left": 20,
+        "right": 68,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 842,
+        "bottom": 890,
+        "left": 372,
+        "right": 420,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6179.375,
+        "bottom": 6656.53125,
+        "left": 26.390625,
+        "right": 413.609375,
+        "width": 387.21875,
+        "height": 477.15625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero hero-copy-outside",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 639,
+      "height": 844,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 844,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 780
+      },
+      "image": {
+        "top": 64,
+        "bottom": 780,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 716
+      },
+      "controls": {
+        "top": 780,
+        "bottom": 844,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 64
+      },
+      "copy": {
+        "top": 585.125,
+        "bottom": 780,
+        "left": 0,
+        "right": 639,
+        "width": 639,
+        "height": 194.875
+      },
+      "cta": {
+        "top": 711.5,
+        "bottom": 756,
+        "left": 224.46875,
+        "right": 414.53125,
+        "width": 190.0625,
+        "height": 44.5
+      },
+      "prev": {
+        "top": 788,
+        "bottom": 836,
+        "left": 20,
+        "right": 68,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 788,
+        "bottom": 836,
+        "left": 571,
+        "right": 619,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 6412.859375,
+        "bottom": 6890.015625,
+        "left": 38.328125,
+        "right": 600.671875,
+        "width": 562.34375,
+        "height": 477.15625
+      },
+      "galleryCount": 4,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero hero-copy-outside",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 640,
+      "height": 900,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 741.09375,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 677.09375
+      },
+      "image": {
+        "top": 64,
+        "bottom": 448,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 384
+      },
+      "controls": {
+        "top": 448,
+        "bottom": 512,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 64
+      },
+      "copy": {
+        "top": 512,
+        "bottom": 741.09375,
+        "left": 0,
+        "right": 640,
+        "width": 640,
+        "height": 229.09375
+      },
+      "cta": {
+        "top": 659.09375,
+        "bottom": 713.09375,
+        "left": 38.390625,
+        "right": 249.921875,
+        "width": 211.53125,
+        "height": 54
+      },
+      "prev": {
+        "top": 456,
+        "bottom": 504,
+        "left": 232,
+        "right": 280,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 456,
+        "bottom": 504,
+        "left": 360,
+        "right": 408,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 5284.140625,
+        "bottom": 5851.8125,
+        "left": 32,
+        "right": 608,
+        "width": 576,
+        "height": 567.671875
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero hero-copy-outside",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 820,
+      "height": 1180,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 620,
+        "left": 0,
+        "right": 820,
+        "width": 820,
+        "height": 556
+      },
+      "image": {
+        "top": 64,
+        "bottom": 556,
+        "left": 0,
+        "right": 820,
+        "width": 820,
+        "height": 492
+      },
+      "controls": {
+        "top": 556,
+        "bottom": 620,
+        "left": 0,
+        "right": 820,
+        "width": 820,
+        "height": 64
+      },
+      "copy": {
+        "top": 203.25,
+        "bottom": 468,
+        "left": 34.4375,
+        "right": 231.234375,
+        "width": 196.796875,
+        "height": 264.75
+      },
+      "cta": {
+        "top": 390,
+        "bottom": 468,
+        "left": 34.4375,
+        "right": 231.234375,
+        "width": 196.796875,
+        "height": 78
+      },
+      "prev": {
+        "top": 564,
+        "bottom": 612,
+        "left": 322,
+        "right": 370,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 564,
+        "bottom": 612,
+        "left": 450,
+        "right": 498,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 5057.1875,
+        "bottom": 5726.109375,
+        "left": 41,
+        "right": 779,
+        "width": 738,
+        "height": 668.921875
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "hero": {
+        "top": 64,
+        "bottom": 742.390625,
+        "left": 0,
+        "right": 1024,
+        "width": 1024,
+        "height": 678.390625
+      },
+      "image": {
+        "top": 64,
+        "bottom": 678.390625,
+        "left": 0,
+        "right": 1024,
+        "width": 1024,
+        "height": 614.390625
+      },
+      "controls": {
+        "top": 678.390625,
+        "bottom": 742.390625,
+        "left": 0,
+        "right": 1024,
+        "width": 1024,
+        "height": 64
+      },
+      "copy": {
+        "top": 330.765625,
+        "bottom": 590.390625,
+        "left": 43,
+        "right": 288.75,
+        "width": 245.75,
+        "height": 259.625
+      },
+      "cta": {
+        "top": 536.390625,
+        "bottom": 590.390625,
+        "left": 43,
+        "right": 254.53125,
+        "width": 211.53125,
+        "height": 54
+      },
+      "prev": {
+        "top": 686.390625,
+        "bottom": 734.390625,
+        "left": 424,
+        "right": 472,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 686.390625,
+        "bottom": 734.390625,
+        "left": 552,
+        "right": 600,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 5160.375,
+        "bottom": 5954.296875,
+        "left": 43,
+        "right": 981,
+        "width": 938,
+        "height": 793.921875
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "hero": {
+        "top": 80,
+        "bottom": 966.59375,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 886.59375
+      },
+      "image": {
+        "top": 80,
+        "bottom": 902.59375,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 822.59375
+      },
+      "controls": {
+        "top": 902.59375,
+        "bottom": 966.59375,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 64
+      },
+      "copy": {
+        "top": 565.15625,
+        "bottom": 812,
+        "left": 60.46875,
+        "right": 406.0625,
+        "width": 345.59375,
+        "height": 246.84375
+      },
+      "cta": {
+        "top": 758,
+        "bottom": 812,
+        "left": 60.46875,
+        "right": 272,
+        "width": 211.53125,
+        "height": 54
+      },
+      "prev": {
+        "top": 910.59375,
+        "bottom": 958.59375,
+        "left": 632,
+        "right": 680,
+        "width": 48,
+        "height": 48
+      },
+      "next": {
+        "top": 910.59375,
+        "bottom": 958.59375,
+        "left": 760,
+        "right": 808,
+        "width": 48,
+        "height": 48
+      },
+      "gallery": {
+        "top": 5789.59375,
+        "bottom": 6835.1875,
+        "left": 60.46875,
+        "right": 1379.53125,
+        "width": 1319.0625,
+        "height": 1045.59375
+      },
+      "galleryCount": 7,
+      "reviewRows": 1,
+      "sections": [
+        "hero hero-3 fashion-hero hockerty-hero",
+        "section products",
+        "section studio-section",
+        "section looks-section",
+        "section craft-section",
+        "section community-section",
+        "section gallery-section",
+        "closing-section"
+      ],
+      "badLocalLinks": []
+    }
+  ],
+  "checks": [
+    "18 responsive viewports; no page overflow",
+    "Section order, variant omissions and unchanged footer",
+    "Banner controls placement, manual next/previous and slide count",
+    "v3.1 4:5 mobile images and horizontal occasions",
+    "v3.2 first-viewport hero and 20px button edge spacing",
+    "Mobile balanced eyebrow, four gallery images and gallery fitting between header and sticky CTA",
+    "One-row manual reviews; products/looks/reviews navigation",
+    "Studio swatches and details, mobile menu and FAQ"
+  ],
+  "errors": [],
+  "status": "passed",
+  "limitations": [
+    "Chrome responsive emulation; not a physical device test",
+    "v3.2 mobile artwork uses a cropped viewport-dependent frame; v3.1 preserves the whole 4:5 image"
+  ]
+}

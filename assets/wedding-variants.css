@@ -1,0 +1,88 @@
+/* Request 17: isolated overrides; the five original concepts retain their styles. */
+.theme.wedding-variant .hockerty-hero .banner-controls{position:static;inset:auto;width:100%;margin:0;min-height:64px;padding:8px 20px;justify-content:center;gap:16px;background:var(--color-white);color:var(--color-primary)}
+.theme.wedding-variant .hockerty-hero .banner-controls button{width:48px;height:48px;min-width:48px;min-height:48px;border-radius:50%;border-color:var(--color-primary);background:var(--color-primary);color:var(--color-secondary);font-size:22px}
+.theme.wedding-variant .hockerty-hero .banner-controls button:hover{background:var(--color-secondary);color:var(--color-primary)}
+.theme.wedding-variant .hockerty-hero [data-banner-count]{min-width:48px;color:var(--color-primary)}
+.wedding-variant .products h2,.wedding-variant .studio-section h2,.wedding-variant .looks-section h2,.wedding-variant .craft-section h2{font-family:var(--font-ui);font-weight:500;letter-spacing:-.03em;line-height:1.13}
+.wedding-variant .looks-section{background:var(--color-dark-blue)}
+.wedding-variant .look-card h3{font-family:var(--font-ui);font-size:20px;font-weight:500}
+.theme.wedding-variant .look-rail{grid-auto-columns:calc((100% - 60px)/3)}
+.theme.wedding-variant .community-section{display:block}
+.wedding-variant .community-section>.rail-controls{margin-top:32px}
+.wedding-variant .community-section>.section-head,.wedding-variant .community-section>div:first-child{max-width:760px}
+.wedding-variant .review-rail{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/3);gap:24px;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x mandatory;scrollbar-width:thin;padding:4px 4px 20px;scroll-padding:4px}
+.wedding-variant .review-item{display:flex;flex-direction:column;min-width:0;scroll-snap-align:start;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--color-white)}
+.wedding-variant .review-item-thumbnail img{width:100%;aspect-ratio:5/4;object-fit:cover}
+.wedding-variant .review-item-content{display:flex;flex-direction:column;align-items:flex-start;padding:24px;flex:1}
+.wedding-variant .review-item-title{font-size:22px;line-height:1.3}
+.wedding-variant .review-item-time{display:block;font-size:13px;color:var(--text-muted);margin-top:4px}
+.wedding-variant .review-item-rating{color:var(--color-primary);font-size:18px;letter-spacing:3px;margin-top:8px}
+.wedding-variant .review-summary-label{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-top:12px}
+.wedding-variant .review-item-content-inner{font-size:16px;line-height:1.6;margin:8px 0 16px}
+.wedding-variant .review-item-content .text-link{margin-top:auto}
+.wedding-variant .gallery-section{background:var(--surface-gold)}
+.wedding-variant .gallery-section-title{margin:0 0 12px}
+.wedding-variant .section-desc{max-width:60ch;font-size:18px;line-height:1.6;color:var(--text-muted)}
+.wedding-variant .gallery-section-list-wrapper{margin:28px 0}
+.wedding-variant .gallery-section-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.wedding-variant .gallery-item{display:block;overflow:hidden;border-radius:8px}
+.wedding-variant .gallery-item img{width:100%;height:100%;aspect-ratio:4/5;object-fit:cover;transition:transform var(--motion-standard)}
+.wedding-variant .gallery-item:hover img{transform:scale(1.03)}
+.wedding-variant .gallery-action{text-align:center}
+.theme.wedding-variant .usp-inner{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;align-items:stretch}
+.theme.wedding-variant .usp-item{display:flex;flex-direction:column;align-items:flex-start;border:0;border-radius:12px;padding:28px 24px;background:var(--color-primary);color:var(--color-secondary)}
+.theme.wedding-variant .usp-item:nth-child(even){background:var(--color-secondary);color:var(--color-primary)}
+.theme.wedding-variant .usp-item :is(h3,p,.usp-icon,.text-link){color:inherit}
+.theme.wedding-variant .usp-icon:after{background:currentColor}
+.theme.wedding-variant .usp-item .text-link{margin-top:auto;border-color:currentColor}
+.theme.wedding-variant .usp-item p{margin-bottom:16px}
+.theme.wedding-variant .usp-item:hover{box-shadow:0 8px 24px rgba(11,31,58,.18)}
+@media(min-width:640px) and (max-width:1023px){
+ .wedding-variant .review-rail{grid-auto-columns:calc((100% - 24px)/2)}
+ .theme.wedding-variant .usp-inner{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:639px){
+ .theme.wedding-variant .eyebrow{display:flex;align-items:center;justify-content:center;gap:10px;text-align:center;max-width:none}
+ .theme.wedding-variant .eyebrow:before,.theme.wedding-variant .eyebrow:after{content:'';display:block;flex:0 0 20px;width:20px;height:2px;margin:0;background:var(--color-secondary)}
+ .theme.wedding-variant .hockerty-hero .hero-media{display:grid;grid-template-columns:minmax(0,1fr);background:var(--color-white)}
+ .theme.wedding-variant .hockerty-hero picture{grid-row:1;grid-column:1}
+ .theme.wedding-variant .hockerty-hero .banner-controls{grid-row:2;grid-column:1;min-height:64px;padding:8px 20px;justify-content:center}
+ .theme.wedding-31 .hockerty-hero .hero-media:before{display:none}
+ .theme.wedding-31 .hockerty-hero picture img{aspect-ratio:4/5;height:auto;object-fit:contain}
+ .theme.wedding-31 .hockerty-hero .hero-copy{position:static;grid-row:3;grid-column:1;display:block;width:100%;padding:20px 6% 28px;margin:0;background:var(--color-white);color:var(--color-primary)}
+ .theme.wedding-31 .hockerty-hero .hero-copy :is(h1,.hero-subtitle,.eyebrow){color:var(--color-primary)}
+ .theme.wedding-31 .hockerty-hero .eyebrow{display:flex;margin-bottom:8px}
+ .theme.wedding-32 .hockerty-hero picture img{height:min(175vw,calc(100svh - 128px));min-height:240px;object-fit:cover;object-position:center 35%}
+ .theme.wedding-32 .hockerty-hero .hero-media:before{display:block;inset:0 0 64px;background:linear-gradient(180deg,transparent 45%,rgba(4,20,42,.4) 65%,rgba(4,20,42,.96))}
+ .theme.wedding-32 .hockerty-hero .hero-copy{position:relative;inset:auto;grid-row:1;grid-column:1;align-self:end;display:block;width:100%;padding:20px 20px 24px;margin:0;background:none;color:var(--color-white);z-index:2}
+ .theme.wedding-32 .hockerty-hero .hero-copy :is(h1,.hero-subtitle){color:var(--color-white)}
+ .theme.wedding-32 .hockerty-hero .eyebrow{display:none}
+ .theme.wedding-32 .hockerty-hero .hero-copy h1{font-size:clamp(30px,8vw,36px)}
+ .theme.wedding-32 .hockerty-hero .hero-subtitle{max-width:28ch;margin:8px auto 0;font-size:16px}
+ .theme.wedding-32 .hockerty-hero .banner-controls{justify-content:space-between;gap:0}
+ .theme.wedding-variant .hockerty-hero .button:hover{background:var(--color-primary);color:var(--color-white);border-color:var(--color-primary)}
+ .theme.wedding-variant .hockerty-hero :focus-visible{outline-color:var(--color-secondary);box-shadow:0 0 0 2px var(--color-primary)}
+ .theme.wedding-variant .occasion-grid{display:grid;grid-auto-flow:column;grid-auto-columns:86%;grid-template-columns:none;gap:16px;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x mandatory;padding-bottom:16px;scrollbar-width:thin}
+ .theme.wedding-variant .occasion-grid>a{display:block;min-width:0;margin:0;scroll-snap-align:start}
+ .theme.wedding-variant .occasion-grid img{width:100%;height:300px;min-height:0;aspect-ratio:4/5;object-fit:cover}
+ .theme.wedding-variant .occasion-grid>a>div{padding:20px}
+ .theme.wedding-variant .occasion-grid .eyebrow{font-size:10px}
+ .theme.wedding-variant .occasion-grid h3{font-size:28px}
+ .theme.wedding-variant .look-rail{grid-auto-columns:80%}
+ .wedding-variant .review-rail{grid-auto-columns:88%;gap:16px}
+ .wedding-variant .review-item-content{padding:20px}
+ .theme.wedding-variant .gallery-section{padding:24px 6%;scroll-margin-top:64px}
+ .wedding-variant .gallery-section-title{font-size:34px;margin-bottom:8px}
+ .wedding-variant .section-desc{font-size:16px;line-height:1.4}
+ .wedding-variant .gallery-section-list-wrapper{margin:16px 0}
+ .wedding-variant .gallery-section-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .wedding-variant .gallery-item:nth-child(n+5){display:none}
+ .wedding-variant .gallery-item img{height:clamp(76px,18svh,150px);aspect-ratio:auto;object-position:center}
+ .wedding-variant .gallery-action .button{min-height:48px;padding:10px 20px}
+ .theme.wedding-variant .usp-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .theme.wedding-variant .usp-item{padding:20px 16px}
+ .theme.wedding-variant .usp-item h3{font-size:17px;line-height:1.3;min-height:44px}
+ .theme.wedding-variant .usp-item p{font-size:15px;line-height:1.5}
+ .theme.wedding-variant .usp-item .text-link{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){.wedding-variant .gallery-item img{transition:none}}

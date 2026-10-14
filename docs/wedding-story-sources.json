@@ -1,0 +1,100 @@
+{
+  "checked": "2026-10-14",
+  "feedbackSource": "https://dunniotailor.com/feedback",
+  "gallerySource": "https://dunniotailor.com/",
+  "reviewText": "Editorial summaries; photographs, names, dates and ratings are paired from each original review.",
+  "reviews": [
+    {
+      "name": "Daniel Moore",
+      "date": "13/09/2024",
+      "rating": 5,
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_555x557/public/feedback_khach_hang.jpg?itok=6cbcs_mx",
+      "image": "assets/images/feedback-1.webp",
+      "summary": "A first online order with a perfect fit, clear measurement guidance and an easy process."
+    },
+    {
+      "name": "Henry Evans",
+      "date": "13/09/2024",
+      "rating": 5,
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_555x557/public/anh_khach_hang_1.jpg?itok=0H5458Hz",
+      "image": "assets/images/feedback-2.webp",
+      "summary": "A wonderful three-piece suit and attentive service, with plans to return after years of ordering."
+    },
+    {
+      "name": "Bram Smit",
+      "date": "13/09/2024",
+      "rating": 5,
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_555x557/public/chon_1.jpg?itok=NcgAN5X5",
+      "image": "assets/images/feedback-3.webp",
+      "summary": "A simple ordering experience, attentive customer service and a suit that fits well."
+    },
+    {
+      "name": "Elias",
+      "date": "13/09/2024",
+      "rating": 5,
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_555x557/public/feedback.jpg?itok=tOLQjMeg",
+      "image": "assets/images/feedback-4.webp",
+      "summary": "Fitting issues were resolved professionally, with helpful customer service."
+    },
+    {
+      "name": "Mendel Pevzner",
+      "date": "13/09/2024",
+      "rating": 5,
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_555x557/public/fb.jpg?itok=WI_MFIBi",
+      "image": "assets/images/feedback-5.webp",
+      "summary": "A beautiful jacket for a proposal, and a wish to return to Vietnam."
+    },
+    {
+      "name": "David Miller",
+      "date": "13/09/2024",
+      "rating": 5,
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_555x557/public/fb1.jpg?itok=cXDZ1Wbg",
+      "image": "assets/images/feedback-6.webp",
+      "summary": "Wedding suits for the groom and his brothers, with fabric variety and careful attention to detail."
+    }
+  ],
+  "gallery": [
+    {
+      "href": "https://dunniotailor.com/sites/default/files/styles/style_default/public/2b3a9570.jpg?itok=bECUyrai",
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_565x865/public/2b3a9570.jpg?itok=AsqpNxOS",
+      "image": "assets/images/gallery-1.webp",
+      "alt": "Customer in a tailored suit"
+    },
+    {
+      "href": "https://dunniotailor.com/sites/default/files/styles/style_default/public/13_3.jpg?itok=SeFoVy5O",
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_565x865/public/13_3.jpg?itok=em12W2uV",
+      "image": "assets/images/gallery-2.webp",
+      "alt": "Customer wearing Dunnio tailoring"
+    },
+    {
+      "href": "https://dunniotailor.com/sites/default/files/styles/style_default/public/11_4.jpg?itok=xnhfoica",
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_370x271/public/11_4.jpg?itok=Bj_3EJVD",
+      "image": "assets/images/gallery-3.webp",
+      "alt": "A look from the Dunnio style gallery"
+    },
+    {
+      "href": "https://dunniotailor.com/sites/default/files/styles/style_default/public/kh10.jpg?itok=X-Kgyqd-",
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_303x484/public/kh10.jpg?itok=cfKS0osL",
+      "image": "assets/images/gallery-4.webp",
+      "alt": "A customer style from Dunnio"
+    },
+    {
+      "href": "https://dunniotailor.com/sites/default/files/styles/style_default/public/1_1_0.jpg?itok=4OI5DEBX",
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_303x484/public/1_1_0.jpg?itok=Uk0kr_ip",
+      "image": "assets/images/gallery-5.webp",
+      "alt": "Personal tailoring from the Dunnio gallery"
+    },
+    {
+      "href": "https://dunniotailor.com/sites/default/files/styles/style_default/public/_dnt7080_0.jpg?itok=S4_39i13",
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_565x865/public/_dnt7080_0.jpg?itok=iNQQXFQI",
+      "image": "assets/images/gallery-6.webp",
+      "alt": "A suit from the Dunnio collection"
+    },
+    {
+      "href": "https://dunniotailor.com/sites/default/files/styles/style_default/public/_mg_4388.jpg?itok=arTH1qH-",
+      "imageSource": "https://dunniotailor.com/sites/default/files/styles/style_303x484/public/_mg_4388.jpg?itok=WokCsw6I",
+      "image": "assets/images/gallery-7.webp",
+      "alt": "Dunnio customer style inspiration"
+    }
+  ]
+}
