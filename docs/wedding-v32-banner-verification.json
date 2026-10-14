@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-15",
+  "base": "http://127.0.0.1:4173/",
+  "viewports": [
+    {
+      "width": 1200,
+      "height": 800,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "natural": [
+        1536,
+        1024
+      ],
+      "cta": {
+        "top": 738,
+        "bottom": 792,
+        "left": 50.390625,
+        "right": 261.921875
+      },
+      "overflow": false,
+      "heroBottom": 944,
+      "count": "1 / 2"
+    },
+    {
+      "width": 1200,
+      "height": 800,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-3x2-01.webp",
+      "natural": [
+        1536,
+        1024
+      ],
+      "cta": {
+        "top": 582,
+        "bottom": 636,
+        "left": 50.390625,
+        "right": 261.921875
+      },
+      "overflow": false,
+      "heroBottom": 788,
+      "count": "2 / 2"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "natural": [
+        1536,
+        1024
+      ],
+      "cta": {
+        "top": 758,
+        "bottom": 812,
+        "left": 60.46875,
+        "right": 272
+      },
+      "overflow": false,
+      "heroBottom": 1104,
+      "count": "1 / 2"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-3x2-01.webp",
+      "natural": [
+        1536,
+        1024
+      ],
+      "cta": {
+        "top": 182,
+        "bottom": 236,
+        "left": 60.46875,
+        "right": 272
+      },
+      "overflow": false,
+      "heroBottom": 528,
+      "count": "2 / 2"
+    },
+    {
+      "width": 1920,
+      "height": 1280,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "natural": [
+        1536,
+        1024
+      ],
+      "cta": {
+        "top": 938,
+        "bottom": 992,
+        "left": 80.625,
+        "right": 292.15625
+      },
+      "overflow": false,
+      "heroBottom": 1424,
+      "count": "1 / 2"
+    },
+    {
+      "width": 1920,
+      "height": 1280,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-3x2-01.webp",
+      "natural": [
+        1536,
+        1024
+      ],
+      "cta": {
+        "top": 132,
+        "bottom": 186,
+        "left": 80.625,
+        "right": 292.15625
+      },
+      "overflow": false,
+      "heroBottom": 618,
+      "count": "2 / 2"
+    },
+    {
+      "width": 1199,
+      "height": 719.390625,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-5x3.webp",
+      "natural": [
+        1600,
+        960
+      ],
+      "cta": {
+        "top": 641.390625,
+        "bottom": 695.390625,
+        "left": 50.34375,
+        "right": 261.875
+      },
+      "overflow": false,
+      "heroBottom": 847.390625,
+      "count": "1 / 2"
+    },
+    {
+      "width": 1199,
+      "height": 719.390625,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-5x3.webp",
+      "natural": [
+        1600,
+        960
+      ],
+      "cta": {
+        "top": 582.390625,
+        "bottom": 636.390625,
+        "left": 50.34375,
+        "right": 261.875
+      },
+      "overflow": false,
+      "heroBottom": 788.390625,
+      "count": "2 / 2"
+    },
+    {
+      "width": 1032,
+      "height": 619.1875,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-5x3.webp",
+      "natural": [
+        1600,
+        960
+      ],
+      "cta": {
+        "top": 541.1875,
+        "bottom": 595.1875,
+        "left": 43.34375,
+        "right": 254.875
+      },
+      "overflow": false,
+      "heroBottom": 747.1875,
+      "count": "1 / 2"
+    },
+    {
+      "width": 1032,
+      "height": 619.1875,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-5x3.webp",
+      "natural": [
+        1600,
+        960
+      ],
+      "cta": {
+        "top": 541.1875,
+        "bottom": 595.1875,
+        "left": 43.34375,
+        "right": 254.875
+      },
+      "overflow": false,
+      "heroBottom": 747.1875,
+      "count": "2 / 2"
+    },
+    {
+      "width": 820,
+      "height": 492,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-5x3.webp",
+      "natural": [
+        1600,
+        960
+      ],
+      "cta": {
+        "top": 390,
+        "bottom": 468,
+        "left": 34.4375,
+        "right": 231.234375
+      },
+      "overflow": false,
+      "heroBottom": 620,
+      "count": "1 / 2"
+    },
+    {
+      "width": 820,
+      "height": 492,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-5x3.webp",
+      "natural": [
+        1600,
+        960
+      ],
+      "cta": {
+        "top": 390,
+        "bottom": 468,
+        "left": 34.4375,
+        "right": 231.234375
+      },
+      "overflow": false,
+      "heroBottom": 620,
+      "count": "2 / 2"
+    },
+    {
+      "width": 440,
+      "height": 770,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-4x5.webp",
+      "natural": [
+        1122,
+        1402
+      ],
+      "cta": {
+        "top": 765.5,
+        "bottom": 810,
+        "left": 124.96875,
+        "right": 315.03125
+      },
+      "overflow": false,
+      "heroBottom": 898,
+      "count": "1 / 2"
+    },
+    {
+      "width": 440,
+      "height": 770,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-4x5.webp",
+      "natural": [
+        1122,
+        1402
+      ],
+      "cta": {
+        "top": 599.5,
+        "bottom": 644,
+        "left": 124.96875,
+        "right": 315.03125
+      },
+      "overflow": false,
+      "heroBottom": 732,
+      "count": "2 / 2"
+    },
+    {
+      "width": 390,
+      "height": 682.5,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-4x5.webp",
+      "natural": [
+        1122,
+        1402
+      ],
+      "cta": {
+        "top": 678,
+        "bottom": 722.5,
+        "left": 99.96875,
+        "right": 290.03125
+      },
+      "overflow": false,
+      "heroBottom": 810.5,
+      "count": "1 / 2"
+    },
+    {
+      "width": 390,
+      "height": 682.5,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-4x5.webp",
+      "natural": [
+        1122,
+        1402
+      ],
+      "cta": {
+        "top": 309,
+        "bottom": 353.5,
+        "left": 99.96875,
+        "right": 290.03125
+      },
+      "overflow": false,
+      "heroBottom": 441.5,
+      "count": "2 / 2"
+    },
+    {
+      "width": 375,
+      "height": 539,
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-4x5.webp",
+      "natural": [
+        1122,
+        1402
+      ],
+      "cta": {
+        "top": 534.5,
+        "bottom": 579,
+        "left": 92.46875,
+        "right": 282.53125
+      },
+      "overflow": false,
+      "heroBottom": 667,
+      "count": "1 / 2"
+    },
+    {
+      "width": 375,
+      "height": 539,
+      "slide": 2,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-4x5.webp",
+      "natural": [
+        1122,
+        1402
+      ],
+      "cta": {
+        "top": 220.5,
+        "bottom": 265,
+        "left": 92.46875,
+        "right": 282.53125
+      },
+      "overflow": false,
+      "heroBottom": 353,
+      "count": "2 / 2"
+    }
+  ],
+  "checks": [
+    "Both slides across 9 viewports; desktop 3:2, tablet 5:3 and unchanged responsive mobile frame",
+    "Next/previous controls and slide index preserved across device resizing",
+    "v3 and v3.1 retain original desktop 7:4 assets",
+    "Desktop first paint remains 3:2 with JavaScript disabled",
+    "Published image bytes match user-supplied originals"
+  ],
+  "errors": [],
+  "assets": [
+    {
+      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-3x2-01.png",
+      "file": "assets/banners/wedding-story-v3.2-3x2-01.webp",
+      "sha256": "ae76ddfe366c99213820ebc30740ce87494c42fc0f039fef2caa152e442967f2",
+      "bytes": 196536
+    },
+    {
+      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-3x2-02.png",
+      "file": "assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "sha256": "de13ccb5e6300066afc75f45af7d42108368d75b57bd8e1b75802b6982a95f1b",
+      "bytes": 326644
+    }
+  ],
+  "status": "passed",
+  "limitations": [
+    "Chrome responsive emulation; not physical-device testing"
+  ]
+}

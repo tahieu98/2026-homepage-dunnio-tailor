@@ -49,6 +49,14 @@ Hai biến thể mới giữ nguyên bản v3 gốc và footer. Header và logo 
 - Chạy `node tools/verify-wedding-variants.cjs` với biến môi trường `DUNNIO_PREVIEW_URL` trỏ tới HTTP preview để kiểm tra; kết quả tại `docs/wedding-story-verification.json`.
 - `node tools/verify-wedding-footer.cjs` kiểm tra cuộn cảm ứng tới cuối footer sau khi đổi kích thước trên cùng một trang, gồm iPad 1032×1376, xoay ngang, tablet, mobile và PC; đồng thời kiểm tra màu nền/chữ USP. Kết quả 14 trường hợp tại `docs/wedding-footer-verification.json`. Khi kiểm thử bằng Chrome DevTools, chọn **Fit to window** để khung iPad không bị cắt bởi vùng hiển thị; footer giữ nguyên nội dung và bố cục.
 
+## Wedding Story v3.2 — Yêu cầu 18 (15/10/2026)
+
+- Banner PC (từ 1200px) chuyển sang khung **3:2**, dùng hai ảnh 1536×1024 do người dùng cung cấp trong `Banner-dunnio/original/wedding-story/processed/`. Các file nguồn có đuôi `.png` nhưng dữ liệu thực là WebP; bản đưa lên website dùng đuôi `.webp` đúng định dạng và giữ nguyên byte gốc.
+- Thứ tự giữ cùng cảnh trên các thiết bị: slide 1 là ảnh vườn (`wedding-story-v3.2-3x2-02`), slide 2 là ảnh bãi biển (`wedding-story-v3.2-3x2-01`).
+- Tablet tiếp tục dùng ảnh **5:3**, mobile giữ khung **4:7** có giới hạn chiều cao theo viewport như trước. v3 và v3.1 giữ nguyên cấu hình banner.
+- `assets/wedding-story-v32-banners.js` chỉ được nạp ở v3.2, sau cấu hình chung và trước `app.js`; nó chỉ thay hai trường `desktop`. Generator đã đồng bộ ảnh mặc định, kích thước và thứ tự nạp script để tránh hiển thị ảnh PC cũ lúc tải trang.
+- `node tools/verify-wedding-v32-banners.cjs` kiểm tra hai slide ở chín kích thước, nút chuyển ảnh, đổi thiết bị, ảnh mặc định khi tắt JavaScript và tính toàn vẹn ảnh nguồn; kết quả tại `docs/wedding-v32-banner-verification.json`.
+
 ## Tên miền ảo Laragon
 
 Đã chuẩn bị vhost `config/auto.dunnio-homepage-concepts.test.conf` và sao chép vào `C:\laragon\etc\apache2\sites-enabled`.
