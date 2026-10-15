@@ -1,0 +1,420 @@
+{
+  "date": "2026-10-15",
+  "status": "passed",
+  "method": "Read-only browser DOM observations with viewport capability; asset hashes checked locally.",
+  "assetCount": 3,
+  "browserCases": [
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "desktop",
+      "duration": 75.96,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 451.4125061035156,
+        "width": 722.2750244140625
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        1600,
+        1000
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-desktop.mp4",
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      }
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "desktop",
+      "duration": 75.96,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 373.4875183105469,
+        "width": 597.5875244140625
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        1600,
+        1000
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-desktop.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 1200
+      }
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "tablet",
+      "duration": 74.12,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 573.2250366210938,
+        "width": 400.3999938964844
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        834,
+        1194
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-tablet.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 1199
+      }
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "tablet",
+      "duration": 74.12,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 573.2250366210938,
+        "width": 400.3999938964844
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        834,
+        1194
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-tablet.mp4",
+      "viewport": {
+        "height": 1376,
+        "width": 1032
+      }
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "tablet",
+      "duration": 74.12,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 386.0750122070313,
+        "width": 269.6750183105469
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        834,
+        1194
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-tablet.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 640
+      }
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "mobile",
+      "duration": 62.32,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 578.2125244140625,
+        "width": 267.1875
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-mobile.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 639
+      }
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "mobile",
+      "duration": 62.32,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 540.1500244140625,
+        "width": 249.6000061035156
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-mobile.mp4",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "file": "v3.1-wedding-story.html",
+      "controls": true,
+      "device": "mobile",
+      "duration": 62.32,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 352.4750061035156,
+        "width": 162.875
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-mobile.mp4",
+      "viewport": {
+        "height": 568,
+        "width": 320
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "desktop",
+      "duration": 75.96,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 451.4125061035156,
+        "width": 722.2750244140625
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        1600,
+        1000
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-desktop.mp4",
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "desktop",
+      "duration": 75.96,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 373.4875183105469,
+        "width": 597.5875244140625
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        1600,
+        1000
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-desktop.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 1200
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "tablet",
+      "duration": 74.12,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 573.2250366210938,
+        "width": 400.3999938964844
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        834,
+        1194
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-tablet.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 1199
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "tablet",
+      "duration": 74.12,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 573.2250366210938,
+        "width": 400.3999938964844
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        834,
+        1194
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-tablet.mp4",
+      "viewport": {
+        "height": 1376,
+        "width": 1032
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "tablet",
+      "duration": 74.12,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 386.0750122070313,
+        "width": 269.6750183105469
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        834,
+        1194
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-tablet.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 640
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "mobile",
+      "duration": 62.32,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 578.2125244140625,
+        "width": 267.1875
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-mobile.mp4",
+      "viewport": {
+        "height": 900,
+        "width": 639
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "mobile",
+      "duration": 62.32,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 540.1500244140625,
+        "width": 249.6000061035156
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-mobile.mp4",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "file": "v3.2-wedding-story.html",
+      "controls": true,
+      "device": "mobile",
+      "duration": 62.32,
+      "error": null,
+      "fit": "contain",
+      "frame": {
+        "height": 352.4750061035156,
+        "width": 162.875
+      },
+      "inline": true,
+      "loop": true,
+      "muted": true,
+      "natural": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "src": "assets/videos/dunnio-custom-outfit-mobile.mp4",
+      "viewport": {
+        "height": 568,
+        "width": 320
+      }
+    }
+  ],
+  "additionalObservedChecks": [
+    "PC/tablet/mobile playback advances with the correct video duration and dimensions",
+    "Native keyboard pause remains paused after scrolling away and returning",
+    "Offscreen video pauses; the initial offscreen video remains unloaded at readyState 0",
+    "Navigation opens and closes after the studio change",
+    "No browser error logs on the checked local preview"
+  ],
+  "limits": [
+    "Chrome desktop emulation, not physical iOS/Android devices",
+    "Reduced-motion and Save-Data guards inspected in code; preference-specific browser simulation was not performed",
+    "Full legacy Wedding Story and documentation browser suites were not rerun for this change"
+  ]
+}

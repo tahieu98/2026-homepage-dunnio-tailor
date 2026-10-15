@@ -1,5 +1,5 @@
 <!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Trạng thái phiên bản · Dunnio Tailor</title><link rel="stylesheet" href="../assets/fonts.css"><style>*{box-sizing:border-box}body{margin:0;background:#f3f5f7;color:#0b1f3a;font:18px/1.6 Afacad,Arial,sans-serif}header{background:#0b1f3a;border-bottom:4px solid #c8a96a;padding:20px 5%;display:flex;gap:24px;flex-wrap:wrap}header a{color:#e1c990}a{color:#1e4a74;text-underline-offset:3px}summary{cursor:pointer;padding:12px;border:1px solid #bbc6d2;border-radius:6px}details nav{margin-top:16px}nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:32px;font-size:15px}nav a{padding:8px 12px;border:1px solid #bbc6d2;border-radius:6px}main{max-width:1180px;margin:32px auto;background:white;padding:40px;border:1px solid #d8dfe6;border-radius:12px;overflow-wrap:anywhere}h1{font:400 clamp(34px,4vw,52px)/1.15 'Garamon Pro Display',Georgia,serif}h2{font-size:28px;border-top:1px solid #d8dfe6;padding-top:28px;margin-top:40px;scroll-margin-top:24px}code{font:14px/1.5 Consolas,monospace;background:#eff2f5;padding:2px 4px}.table-scroll{overflow:auto}table{border-collapse:collapse;min-width:620px;width:100%;font-size:16px}th,td{border:1px solid #d8dfe6;padding:12px;text-align:left;vertical-align:top}th{background:#0b1f3a;color:#e1c990}img{display:block;max-width:100%;height:auto;border:1px solid #d8dfe6}li{margin:10px 0}a:focus-visible{outline:3px solid #c8a96a;outline-offset:3px}@media(max-width:639px){main{margin:12px;padding:20px;font-size:17px}h2{font-size:25px}}@media print{body{background:white}header,nav{display:none}main{border:0;max-width:none;margin:0;padding:0}.table-scroll{overflow:visible}table{min-width:0}img{max-height:620px;object-fit:contain}}</style></head><body><header><a href="../report.html#wedding-current">Báo cáo BOD</a><a href="../banner-guide.html">Hướng dẫn banner</a><a href="VERSION-STATUS.md">Markdown</a><a href="VERSION-STATUS.json">Manifest</a></header><main><h1>Trạng thái hiện hành của các phiên bản Dunnio Tailor</h1>
-<p>Cập nhật <strong>15/10/2026 · giờ Việt Nam</strong>. Cấu hình homepage được đối chiếu với commit <strong>233efc0</strong> và mã nguồn hiện tại. Tài liệu này ưu tiên hơn các thông số lịch sử Yêu cầu 11–19 khi có khác biệt về Wedding Story. Đây là thông số bản demo đã triển khai, không phải phương án viewport tự co chiều cao được đề xuất trong báo cáo Hockerty.</p>
+<p>Cập nhật <strong>15/10/2026 · giờ Việt Nam</strong>. Bộ banner được đối chiếu với commit <strong>233efc0</strong>; studio video đã cập nhật theo <strong>Yêu cầu 21</strong>. Tài liệu này ưu tiên hơn các thông số lịch sử Yêu cầu 11–19 khi có khác biệt về Wedding Story. Đây là thông số bản demo đã triển khai, không phải phương án viewport tự co chiều cao được đề xuất trong báo cáo Hockerty.</p>
 <details><summary>Mục lục — 8 phần</summary><nav aria-label="Mục lục"><a href="#section-1">1. URL và khung banner đang dùng</a><a href="#section-2">2. Hai ảnh PC hiện hành của v3.2</a><a href="#section-3">3. Bố cục Wedding Story v3.1 và v3.2</a><a href="#section-4">4. Chiều cao banner PC v3.2 và giới hạn một màn hình</a><a href="#section-5">5. Nguồn chỉnh sửa và quy trình cập nhật</a><a href="#section-6">6. Bằng chứng và trạng thái kiểm tra</a><a href="#section-7">7. Ảnh chụp cấu hình hiện hành</a><a href="#section-8">8. Lịch sử quyết định banner v3.2</a></nav></details><h2 id="section-1">1. URL và khung banner đang dùng</h2>
 <p>Breakpoint chọn nguồn ảnh: <strong>PC ≥1200px</strong>, <strong>Tablet 640–1199px</strong>, <strong>Mobile ≤639px</strong>, theo chiều rộng CSS viewport. Breakpoint của từng lưới nội dung có thể khác, ví dụ USP chuyển hai cột dưới 1024px.</p>
 <div class="table-scroll"><table>
@@ -91,14 +91,24 @@
 <h2 id="section-3">3. Bố cục Wedding Story v3.1 và v3.2</h2>
 <p>Thứ tự: <strong>hero → Wedding party (chỉ v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → FAQ (chỉ v3.1) → closing → USP → footer</strong>.</p>
 <ul>
-<li>Products/studio/looks/craft dựa trên v2; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.</li>
-<li>Hai bản có hàng điều khiển banner ngay dưới ảnh, cao tối thiểu 64px; nút 48×48px. v3.1 căn giữa; v3.2 trên mobile đặt hai nút về hai phía, cách mép 20px, counter ở giữa.</li>
-<li>v3.1 mobile: ảnh 4:5 → nút → hero-copy trên nền trắng. Wedding party cuộn ngang.</li>
-<li>v3.2 mobile: chữ/CTA nằm gần chân ảnh, ẩn hero eyebrow, hàng nút nằm bên dưới. <code>H = max(240px, min(1.75 × viewportWidth, 100svh − 128px))</code>; vì vậy màn hình thấp có thể hiển thị khung ngắn hơn 4:7. Nguồn gần 4:5 được <code>object-fit:cover</code> và <code>object-position:center 35%</code> trong khung dọc.</li>
-<li>Eyebrow mobile ở các phần còn lại có hai gạch cân đối. Review một hàng có prev/next, không tự chạy; ảnh/tên/ngày/rating từ nguồn review, đoạn giới thiệu có nhãn Review summary.</li>
-<li>Gallery: bảy ảnh trên PC/Tablet, bốn ảnh trong lưới 2×2 mobile; giảm chiều cao để gom tiêu đề, mô tả, ảnh và See more gallery. Font/zoom lớn vẫn có thể cần cuộn.</li>
-<li>USP mobile: 01/04 nền navy <strong>#0b1f3a</strong>, chữ gold <strong>#C8A96A</strong>; 02/03 nền gold, chữ navy. Bố cục hai cột tạo đường chéo. PC/Tablet giữ màu xen kẽ 01/03 navy, 02/04 gold; breakpoint bố cục lưới độc lập với breakpoint ảnh.</li>
-<li>Header và logo trong drawer của hai biến thể không dẫn về index. Footer được giữ nguyên theo yêu cầu ban đầu, bao gồm các liên kết vốn có của footer.</li>
+<li><p>Products/looks/craft và cấu trúc studio ban đầu dựa trên v2; studio-board nay đã thay bằng video demo theo Yêu cầu 21; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.</p>
+</li>
+<li><p>Hai bản có hàng điều khiển banner ngay dưới ảnh, cao tối thiểu 64px; nút 48×48px. v3.1 căn giữa; v3.2 trên mobile đặt hai nút về hai phía, cách mép 20px, counter ở giữa.</p>
+</li>
+<li><p>v3.1 mobile: ảnh 4:5 → nút → hero-copy trên nền trắng. Wedding party cuộn ngang.</p>
+</li>
+<li><p>v3.2 mobile: chữ/CTA nằm gần chân ảnh, ẩn hero eyebrow, hàng nút nằm bên dưới. <code>H = max(240px, min(1.75 × viewportWidth, 100svh − 128px))</code>; vì vậy màn hình thấp có thể hiển thị khung ngắn hơn 4:7. Nguồn gần 4:5 được <code>object-fit:cover</code> và <code>object-position:center 35%</code> trong khung dọc.</p>
+</li>
+<li><p>Eyebrow mobile ở các phần còn lại có hai gạch cân đối. Review một hàng có prev/next, không tự chạy; ảnh/tên/ngày/rating từ nguồn review, đoạn giới thiệu có nhãn Review summary.</p>
+</li>
+<li><p>Gallery: bảy ảnh trên PC/Tablet, bốn ảnh trong lưới 2×2 mobile; giảm chiều cao để gom tiêu đề, mô tả, ảnh và See more gallery. Font/zoom lớn vẫn có thể cần cuộn.</p>
+</li>
+<li><p>USP mobile: 01/04 nền navy <strong>#0b1f3a</strong>, chữ gold <strong>#C8A96A</strong>; 02/03 nền gold, chữ navy. Bố cục hai cột tạo đường chéo. PC/Tablet giữ màu xen kẽ 01/03 navy, 02/04 gold; breakpoint bố cục lưới độc lập với breakpoint ảnh.</p>
+</li>
+<li><p>Header và logo trong drawer của hai biến thể không dẫn về index. Footer được giữ nguyên theo yêu cầu ban đầu, bao gồm các liên kết vốn có của footer.</p>
+</li>
+<li><p><strong>Studio video — Yêu cầu 21:</strong> thay bộ chọn style bằng video Custom Outfit 3D: PC <strong>1600×1000 (8:5)</strong>, Tablet <strong>834×1194 (139:199)</strong>, Mobile <strong>390×844 (195:422)</strong>. Một player chọn một nguồn theo breakpoint 640/1200px; khung contain giữ trọn nội dung, native controls, muted/loop/playsinline. Tải khi cuộn gần, phát khi nhìn thấy; tạm dừng ngoài viewport, giữ trạng thái user pause; reduced-motion/Save-Data không autoplay. <a href="STUDIO-VIDEO-UPDATE.md">Chi tiết và quy trình</a> · <a href="studio-video-assets.json">Nguồn/SHA-256</a> · <a href="studio-video-verification.json">Kiểm tra 16 trường hợp</a>.</p>
+</li>
 </ul>
 <h2 id="section-4">4. Chiều cao banner PC v3.2 và giới hạn một màn hình</h2>
 <p>Header PC <strong>80px</strong>, hàng nút <strong>64px</strong> nằm ngoài ảnh. Với W là chiều rộng vùng ảnh CSS, chiều cao ảnh <strong>H = W × 7/16</strong>. Tổng khối đầu trang thường là <strong>80 + H + 64</strong> khi copy nằm trong ảnh; fallback nội dung hoặc zoom có thể làm khối cao hơn.</p>
@@ -142,7 +152,7 @@
 <li>Cấu hình chung: <code>assets/banner-config.js</code>. Override PC riêng v3.2: <code>assets/wedding-story-v32-banners.js</code>, được nạp sau cấu hình chung và trước <code>assets/app.js</code>.</li>
 <li><code>assets/wedding-variants.css</code> chứa khung PC v3.2 16:7, khung mobile và các bố cục dùng chung hai biến thể. Không đổi bộ Tablet/Mobile nếu chỉ thay ảnh PC.</li>
 <li>Đồng bộ ảnh fallback đầu tiên và width/height trong <code>tools/build-wedding-variants.cjs</code>, rồi chạy <code>node tools/build-wedding-variants.cjs</code>. Generator này dựng lại v3.1/v3.2 từ v2/v3; không chỉ sửa HTML đầu ra rồi bỏ quên generator.</li>
-<li>Khi thay URL/config ảnh, tăng revision script. Hiện v3.2 dùng CSS <code>request20-r1</code>, JS override <code>request20-r2</code>; v3.1 dùng CSS <code>request17-r3</code>.</li>
+<li>Khi thay URL/config ảnh, tăng revision script. Cả hai biến thể dùng CSS và studio-video.js revision request21-r1; riêng JS override banner PC v3.2 vẫn dùng request20-r2.</li>
 <li>Chạy <code>node tools/verify-wedding-v32-banners.cjs</code> với HTTP preview đang phục vụ dự án. <code>DUNNIO_PREVIEW_URL</code> đổi địa chỉ kiểm thử; <code>DUNNIO_VERIFICATION_OUTPUT</code> đổi file kết quả. Dữ liệu phân biệt <code>viewport.width/height</code> với <code>width/height</code> của ảnh hiển thị.</li>
 <li>Chạy <code>node tools/build-version-status-docs.cjs</code> để dựng lại tài liệu này và manifest. Khi sửa dữ liệu/mẫu của báo cáo Hockerty lịch sử, dùng <code>node tools/build-hockerty-audit-report.cjs</code>.</li>
 <li>Commit các file thuộc bản sửa, push main, chờ Pages báo built cho đúng commit và kiểm tra URL online. Git push thành công chưa đồng nghĩa Pages đã triển khai xong.</li>
@@ -189,6 +199,10 @@
 <tr>
 <td>Yêu cầu 20 — b621c39</td>
 <td>PC 16:7, nguồn mới 1896×829</td>
+</tr>
+<tr>
+<td>Yêu cầu 21</td>
+<td>Studio-board v3.1/v3.2 thay bằng ba video MP4 theo thiết bị; cấu hình banner giữ nguyên</td>
 </tr>
 <tr>
 <td>Thay ảnh — 233efc0</td>

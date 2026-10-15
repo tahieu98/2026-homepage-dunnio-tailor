@@ -80,10 +80,11 @@ const files = ['v3.1-wedding-story.html','v3.2-wedding-story.html'];
         await page.waitForFunction(()=>document.getElementById('review-rail').scrollLeft<2);
       }
       await page.setViewportSize({width:390,height:844});
-      await page.locator('[data-style="grey"]').click();
-      assert.equal(await page.locator('#studio-caption').innerText(),'Grey · 2-piece suit');
-      await page.locator('[data-detail="lining"]').click();
-      assert((await page.locator('#detail-copy').innerText()).includes('lining'));
+      assert.equal(await page.locator('.studio-board video').count(),1);
+      assert.equal(await page.locator('.studio-board [data-style]').count(),0);
+      assert((await page.locator('.studio-video').getAttribute('src')).includes('outfit-mobile.mp4'));
+      assert.equal(await page.locator('.studio-video source').count(),3);
+      assert(await page.locator('.studio-video').evaluate(v=>v.controls&&v.muted&&v.playsInline&&v.loop));
       await page.locator('.menu-toggle').click();assert(await page.locator('#mobile-nav').isVisible());
       await page.locator('.menu-close').click();assert.equal(await page.locator('#mobile-nav').isVisible(),false);
       if(file.includes('3.1')){await page.locator('.faq-list summary').first().click();assert(await page.locator('.faq-list details').first().getAttribute('open')!==null);}

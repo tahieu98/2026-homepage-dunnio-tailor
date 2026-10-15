@@ -7,7 +7,7 @@ vm.runInContext(fs.readFileSync('assets/wedding-story-v32-banners.js','utf8'),co
 const current=context.window.DUNNIO_BANNERS['wedding-story'];
 const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const clean=v=>JSON.parse(JSON.stringify(v));
-const manifest={updated:'2026-10-15',timezone:'Asia/Saigon',homepageRevision:'233efc0',
+const manifest={updated:'2026-10-15',timezone:'Asia/Saigon',bannerRevision:'233efc0',studioRevision:'request21-r1',
  breakpoints:{mobile:'0–639 CSS px',tablet:'640–1199 CSS px',desktop:'1200 CSS px and above'},
  versions:[
   {id:'v1',page:'v1-heritage-atelier.html',slides:clean(original['heritage-atelier'])},
@@ -18,14 +18,15 @@ const manifest={updated:'2026-10-15',timezone:'Asia/Saigon',homepageRevision:'23
   {id:'v4',page:'v4-modern-essentials.html',slides:clean(original['modern-essentials'])},
   {id:'v5',page:'v5-fit-concierge.html',slides:clean(original['fit-concierge'])}
  ],
+ studioVideo:JSON.parse(fs.readFileSync('docs/studio-video-assets.json','utf8')),
  activeWeddingDesktop:current.map((slide,i)=>{const file=slide.desktop.src;return {slide:i+1,...clean(slide.desktop),bytes:fs.statSync(file).size,sha256:hash(file),source:'C:/laragon/www/Banner-dunnio/original/wedding-story/processed/'+file.split('/').pop().replace('.webp','.png')};}),
- evidence:{latestBanner:'wedding-v32-banner-verification.json',variants:'wedding-story-verification.json',footer:'wedding-footer-verification.json',historicalAudit:'hockerty-banner-audit-20261015.json',documentation:'documentation-verification.json'}
+ evidence:{latestBanner:'wedding-v32-banner-verification.json',variants:'wedding-story-verification.json',footer:'wedding-footer-verification.json',historicalAudit:'hockerty-banner-audit-20261015.json',documentation:'documentation-verification.json',studioVideo:'studio-video-verification.json'}
 };
 if(manifest.versions.some(v=>!v.slides))throw Error('Missing banner config key');
 fs.writeFileSync('docs/VERSION-STATUS.json',JSON.stringify(manifest,null,2)+'\n');
 const md=`# Trạng thái hiện hành của các phiên bản Dunnio Tailor
 
-Cập nhật **15/10/2026 · giờ Việt Nam**. Cấu hình homepage được đối chiếu với commit **233efc0** và mã nguồn hiện tại. Tài liệu này ưu tiên hơn các thông số lịch sử Yêu cầu 11–19 khi có khác biệt về Wedding Story. Đây là thông số bản demo đã triển khai, không phải phương án viewport tự co chiều cao được đề xuất trong báo cáo Hockerty.
+Cập nhật **15/10/2026 · giờ Việt Nam**. Bộ banner được đối chiếu với commit **233efc0**; studio video đã cập nhật theo **Yêu cầu 21**. Tài liệu này ưu tiên hơn các thông số lịch sử Yêu cầu 11–19 khi có khác biệt về Wedding Story. Đây là thông số bản demo đã triển khai, không phải phương án viewport tự co chiều cao được đề xuất trong báo cáo Hockerty.
 
 ## 1. URL và khung banner đang dùng
 
@@ -57,7 +58,7 @@ File nguồn nằm tại \`C:\\laragon\\www\\Banner-dunnio\\original\\wedding-st
 
 Thứ tự: **hero → Wedding party (chỉ v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → FAQ (chỉ v3.1) → closing → USP → footer**.
 
-- Products/studio/looks/craft dựa trên v2; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.
+- Products/looks/craft và cấu trúc studio ban đầu dựa trên v2; studio-board nay đã thay bằng video demo theo Yêu cầu 21; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.
 - Hai bản có hàng điều khiển banner ngay dưới ảnh, cao tối thiểu 64px; nút 48×48px. v3.1 căn giữa; v3.2 trên mobile đặt hai nút về hai phía, cách mép 20px, counter ở giữa.
 - v3.1 mobile: ảnh 4:5 → nút → hero-copy trên nền trắng. Wedding party cuộn ngang.
 - v3.2 mobile: chữ/CTA nằm gần chân ảnh, ẩn hero eyebrow, hàng nút nằm bên dưới. \`H = max(240px, min(1.75 × viewportWidth, 100svh − 128px))\`; vì vậy màn hình thấp có thể hiển thị khung ngắn hơn 4:7. Nguồn gần 4:5 được \`object-fit:cover\` và \`object-position:center 35%\` trong khung dọc.
@@ -65,6 +66,9 @@ Thứ tự: **hero → Wedding party (chỉ v3.1) → products → studio → lo
 - Gallery: bảy ảnh trên PC/Tablet, bốn ảnh trong lưới 2×2 mobile; giảm chiều cao để gom tiêu đề, mô tả, ảnh và See more gallery. Font/zoom lớn vẫn có thể cần cuộn.
 - USP mobile: 01/04 nền navy **#0b1f3a**, chữ gold **#C8A96A**; 02/03 nền gold, chữ navy. Bố cục hai cột tạo đường chéo. PC/Tablet giữ màu xen kẽ 01/03 navy, 02/04 gold; breakpoint bố cục lưới độc lập với breakpoint ảnh.
 - Header và logo trong drawer của hai biến thể không dẫn về index. Footer được giữ nguyên theo yêu cầu ban đầu, bao gồm các liên kết vốn có của footer.
+
+
+- **Studio video — Yêu cầu 21:** thay bộ chọn style bằng video Custom Outfit 3D: PC **1600×1000 (8:5)**, Tablet **834×1194 (139:199)**, Mobile **390×844 (195:422)**. Một player chọn một nguồn theo breakpoint 640/1200px; khung contain giữ trọn nội dung, native controls, muted/loop/playsinline. Tải khi cuộn gần, phát khi nhìn thấy; tạm dừng ngoài viewport, giữ trạng thái user pause; reduced-motion/Save-Data không autoplay. [Chi tiết và quy trình](STUDIO-VIDEO-UPDATE.md) · [Nguồn/SHA-256](studio-video-assets.json) · [Kiểm tra 16 trường hợp](studio-video-verification.json).
 
 ## 4. Chiều cao banner PC v3.2 và giới hạn một màn hình
 
@@ -81,7 +85,7 @@ W có thể nhỏ hơn viewport do scrollbar. Không cam kết tất cả cửa 
 1. Cấu hình chung: \`assets/banner-config.js\`. Override PC riêng v3.2: \`assets/wedding-story-v32-banners.js\`, được nạp sau cấu hình chung và trước \`assets/app.js\`.
 2. \`assets/wedding-variants.css\` chứa khung PC v3.2 16:7, khung mobile và các bố cục dùng chung hai biến thể. Không đổi bộ Tablet/Mobile nếu chỉ thay ảnh PC.
 3. Đồng bộ ảnh fallback đầu tiên và width/height trong \`tools/build-wedding-variants.cjs\`, rồi chạy \`node tools/build-wedding-variants.cjs\`. Generator này dựng lại v3.1/v3.2 từ v2/v3; không chỉ sửa HTML đầu ra rồi bỏ quên generator.
-4. Khi thay URL/config ảnh, tăng revision script. Hiện v3.2 dùng CSS \`request20-r1\`, JS override \`request20-r2\`; v3.1 dùng CSS \`request17-r3\`.
+4. Khi thay URL/config ảnh, tăng revision script. Cả hai biến thể dùng CSS và studio-video.js revision request21-r1; riêng JS override banner PC v3.2 vẫn dùng request20-r2.
 5. Chạy \`node tools/verify-wedding-v32-banners.cjs\` với HTTP preview đang phục vụ dự án. \`DUNNIO_PREVIEW_URL\` đổi địa chỉ kiểm thử; \`DUNNIO_VERIFICATION_OUTPUT\` đổi file kết quả. Dữ liệu phân biệt \`viewport.width/height\` với \`width/height\` của ảnh hiển thị.
 6. Chạy \`node tools/build-version-status-docs.cjs\` để dựng lại tài liệu này và manifest. Khi sửa dữ liệu/mẫu của báo cáo Hockerty lịch sử, dùng \`node tools/build-hockerty-audit-report.cjs\`.
 7. Commit các file thuộc bản sửa, push main, chờ Pages báo built cho đúng commit và kiểm tra URL online. Git push thành công chưa đồng nghĩa Pages đã triển khai xong.
@@ -116,6 +120,7 @@ Các generator cũ \`tools/fashion-heroes.cjs\`, \`tools/build.cjs\`, \`tools/up
 | Cập nhật tiếp theo | Đã từng chuyển PC v3.2 sang 5:3, dùng chung nguồn Tablet |
 | Yêu cầu 19 | Khảo sát Hockerty, báo cáo và đề xuất; không triển khai cơ chế viewport của đề xuất |
 | Yêu cầu 20 — b621c39 | PC 16:7, nguồn mới 1896×829 |
+| Yêu cầu 21 | Studio-board v3.1/v3.2 thay bằng ba video MP4 theo thiết bị; cấu hình banner giữ nguyên |
 | Thay ảnh — 233efc0 | Thay riêng slide 1 PC từ ảnh 02 sang **02-new**; Tablet/Mobile và slide 2 PC giữ nguyên |
 `;
 fs.writeFileSync('docs/VERSION-STATUS.md',md);

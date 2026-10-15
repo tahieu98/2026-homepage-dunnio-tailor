@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="assets/brand.css?v=banner-slides-20261012-r4">
 <link rel="stylesheet" href="assets/fashion-heroes.css?v=banner-slides-20261012-r4">
 <link rel="stylesheet" href="assets/navigation-system.css?v=banner-slides-20261012-r4">
-<link rel="stylesheet" href="assets/wedding-variants.css?v=request17-r3">
+<link rel="stylesheet" href="assets/wedding-variants.css?v=request21-r1">
 </head>
 <body>
 <div class="theme theme-3 wedding-variant wedding-31">
@@ -532,40 +532,25 @@
 </section>
 <section class="section studio-section" id="studio">
 <div class="studio-intro">
-<p class="eyebrow">TRY A LITTLE PERSONALISATION</p>
+<p class="eyebrow">YOUR OUTFIT, YOUR WAY</p>
 <h2>Small details.<br>Your signature.</h2>
-<p>Explore a style direction here, then continue to the full Dunnio designer to select the actual fabric and garment options.</p>
-<span class="demo-chip">Interactive style preview</span>
+<p>See Dunnio’s 3D designer in action. Explore fabrics, colours and finishing details, then create your own outfit.</p>
+<a class="button" href="https://dunniotailor.com/3d-custom-outfit/suits.html" data-event="cta_click">Explore the 3D designer <span aria-hidden="true">↗</span>
+</a>
 </div>
-<div class="studio-board">
-<div class="studio-model">
-<img id="studio-model" src="assets/images/product-1.jpg" alt="Navy three-piece style preview">
-<span id="studio-caption">Navy · 3-piece suit</span>
+<div class="studio-board studio-video-board" data-studio-video>
+<div class="studio-device-frame">
+<video class="studio-video" width="1600" height="1000" poster="assets/videos/dunnio-custom-outfit-desktop-poster.webp" controls muted loop playsinline preload="none" aria-label="Dunnio 3D outfit designer demonstration" aria-describedby="studio-video-caption">
+<source data-device="desktop" src="assets/videos/dunnio-custom-outfit-desktop.mp4" type="video/mp4" media="(min-width: 1200px)" data-width="1600" data-height="1000" data-poster="assets/videos/dunnio-custom-outfit-desktop-poster.webp">
+<source data-device="tablet" src="assets/videos/dunnio-custom-outfit-tablet.mp4" type="video/mp4" media="(640px <= width < 1200px)" data-width="834" data-height="1194" data-poster="assets/videos/dunnio-custom-outfit-tablet-poster.webp">
+<source data-device="mobile" src="assets/videos/dunnio-custom-outfit-mobile.mp4" type="video/mp4" media="(width < 640px)" data-width="390" data-height="844" data-poster="assets/videos/dunnio-custom-outfit-mobile-poster.webp">Your browser does not support this video. <a href="assets/videos/dunnio-custom-outfit-desktop.mp4">Watch the designer demonstration</a>.</video>
 </div>
-<div class="studio-options">
-<fieldset>
-<legend>01 / Choose a direction</legend>
-<div class="swatch-buttons">
-<button class="color-button selected" style="--swatch:#192638" data-style="navy" aria-label="Navy three-piece suit" aria-pressed="true">
-</button>
-<button class="color-button" style="--swatch:#a7a7a4" data-style="grey" aria-label="Grey two-piece suit" aria-pressed="false">
-</button>
-<button class="color-button" style="--swatch:#284a69" data-style="tuxedo" aria-label="Blue tuxedo" aria-pressed="false">
-</button>
-</div>
-</fieldset>
-<fieldset>
-<legend>02 / Select a detail to explore</legend>
-<div class="filter-tabs">
-<button data-detail="lapels" aria-pressed="true">Lapels</button>
-<button data-detail="lining" aria-pressed="false">Lining</button>
-<button data-detail="buttons" aria-pressed="false">Buttons</button>
-</div>
-<p id="detail-copy" aria-live="polite">The lapel changes the character of your jacket. Compare the actual options in the full designer.</p>
-</fieldset>
-<a id="studio-continue" class="button" href="https://dunniotailor.com/3d-custom-outfit/3piece-suits.html">Continue to the full designer ↗</a>
-<p class="fine">Illustrative preview. Selections here are not saved to an order.</p>
-</div>
+<p class="studio-video-caption" id="studio-video-caption">A closer look at the Dunnio 3D designer.</p>
+<p class="studio-video-error" data-video-error hidden>Video unavailable. <a href="assets/videos/dunnio-custom-outfit-desktop.mp4" data-video-link>Open the demonstration video ↗</a>
+</p>
+<noscript>
+<p>Watch the recording for your screen: <a href="assets/videos/dunnio-custom-outfit-desktop.mp4">PC</a> · <a href="assets/videos/dunnio-custom-outfit-tablet.mp4">Tablet</a> · <a href="assets/videos/dunnio-custom-outfit-mobile.mp4">Mobile</a>.</p>
+</noscript>
 </div>
 </section>
 <section class="section looks-section" id="inspiration">
@@ -949,6 +934,8 @@
 <script src="assets/banner-config.js?v=banner-slides-20261012-r4" defer>
 </script>
 <script src="assets/app.js?v=banner-slides-20261012-r4" defer>
+</script>
+<script src="assets/studio-video.js?v=request21-r1" defer>
 </script>
 <script src="assets/navigation-system.js?v=banner-slides-20261012-r4" defer>
 </script>

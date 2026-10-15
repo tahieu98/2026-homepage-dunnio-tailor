@@ -6,6 +6,8 @@ Revision: `brand-20261012`; variant status updated 15/10/2026.
 
 [Current version contract](../../docs/VERSION-STATUS.md) takes precedence over the dated hero decisions below. v3.2 desktop uses a **16:7** frame, 1896×829 WebP artwork (garden **02-new**, beach **01**); tablet keeps **5:3**. Mobile uses a nominal **4:7** capped frame with cover and copy inside the image. v3.1 mobile remains **4:5**, copy below the image. Both have a 64px control row below the image and 48px buttons; v3.2 mobile edge spacing is 20px. Image breakpoints: desktop ≥1200, tablet 640–1199, mobile ≤639 CSS px. Other component grids may change at 1024px. Mobile USP colours are navy/gold for 01/04 and gold/navy for 02/03. Header/drawer logos do not link to the comparison index; footer is retained.
 
+Request 21 replaces the two Wedding Story studio boards with a responsive video demo (PC 8:5, Tablet 139:199, Mobile 195:422). Preserve the full recording with contain, native controls and visible-state autoplay; do not restore the old interactive swatches in these variants. See [studio video rules](../../docs/STUDIO-VIDEO-UPDATE.md).
+
 The historical requests below explain earlier choices; generic statements such as no-cover, copy-below-image and 8:3 do not override these variant rules.
 
  The human user's specified colours take precedence over palette suggestions from skills.

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-15",
+  "sourceRoot": "C:/laragon/www/Banner-dunnio/mp4-demo-custom-3d-outfit",
+  "reference": "https://www.hockerty.com/en-us/",
+  "referencePattern": "Muted inline looping demo in a device frame; only the selected device video is loaded.",
+  "assets": [
+    {
+      "device": "desktop",
+      "source": "C:\\laragon\\www\\Banner-dunnio\\mp4-demo-custom-3d-outfit\\Dunnio_Custom_Outfit_PC.mp4",
+      "file": "assets/videos/dunnio-custom-outfit-desktop.mp4",
+      "poster": "assets/videos/dunnio-custom-outfit-desktop-poster.webp",
+      "width": 1600,
+      "height": 1000,
+      "ratio": 1.6,
+      "durationSeconds": 75.96,
+      "codec": "H.264 High / yuv420p",
+      "fps": 25,
+      "audio": false,
+      "bytes": 731801,
+      "sha256": "78e7cad44d39b17f3786a281ddc4aa51f229dd837f4dcc5bb3eed1ce1695f3df"
+    },
+    {
+      "device": "tablet",
+      "source": "C:\\laragon\\www\\Banner-dunnio\\mp4-demo-custom-3d-outfit\\Dunnio_Custom_Outfit_Tablet.mp4",
+      "file": "assets/videos/dunnio-custom-outfit-tablet.mp4",
+      "poster": "assets/videos/dunnio-custom-outfit-tablet-poster.webp",
+      "width": 834,
+      "height": 1194,
+      "ratio": 0.6984924623115578,
+      "durationSeconds": 74.12,
+      "codec": "H.264 High / yuv420p",
+      "fps": 25,
+      "audio": false,
+      "bytes": 702521,
+      "sha256": "eef99a46bf7e3d137d0f367c4a463281ee95190f658c5466f5c24e97441df296"
+    },
+    {
+      "device": "mobile",
+      "source": "C:\\laragon\\www\\Banner-dunnio\\mp4-demo-custom-3d-outfit\\Dunnio_Custom_Outfit_Mobile.mp4",
+      "file": "assets/videos/dunnio-custom-outfit-mobile.mp4",
+      "poster": "assets/videos/dunnio-custom-outfit-mobile-poster.webp",
+      "width": 390,
+      "height": 844,
+      "ratio": 0.46208530805687204,
+      "durationSeconds": 62.32,
+      "codec": "H.264 High / yuv420p",
+      "fps": 25,
+      "audio": false,
+      "bytes": 214684,
+      "sha256": "9dbbeb11aab7a26428b1b5fa1a040bde43a4748f23b6f5eafca18114c7071ce4"
+    }
+  ]
+}
