@@ -2610,10 +2610,10 @@
   ],
   "snapshot": {
     "dunnioDesktopFrameAtMeasurement": "3:2",
-    "subsequentHomepageRevision": "233efc0",
-    "currentDunnioDesktopFrame": "16:7",
-    "currentSlide1": "wedding-story-v3.2-16x7-02-new.webp",
+    "subsequentHomepageRevision": "Request 22 final, 2026-10-16",
+    "currentDunnioDesktopFrame": "7:4",
+    "currentSlide1": "wedding-story-a-7x4.webp",
     "currentReference": "VERSION-STATUS.html",
-    "note": "Measurements and screenshots below are retained from the original Request 19 audit; they are not measurements of the current 16:7 homepage."
+    "note": "Original measurements remain the Request 19 3:2 snapshot. Current Request 22 final uses 7:4, shared v3.1 artwork and 6-second autoplay; see VERSION-STATUS."
   }
 }

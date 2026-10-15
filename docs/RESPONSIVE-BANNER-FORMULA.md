@@ -1,4 +1,4 @@
-> **Hiện hành 15/10/2026:** v3.2 PC **16:7**, nguồn 1896×829, slide 1 **02-new**, slide 2 **01**; Tablet **5:3**, Mobile khung hướng tới **4:7** có giới hạn chiều cao. v3.1 giữ PC gần 7:4, Tablet 5:3, Mobile 4:5. Xem [trạng thái phiên bản hiện hành](VERSION-STATUS.md) và [bản HTML](VERSION-STATUS.html). Các tỷ lệ/ảnh trong phần lịch sử không ghi đè cấu hình này.
+> **Hiện hành 16/10/2026 — Yêu cầu 22:** v3.2 PC **7:4**, dùng ảnh v3.1 1600×914; Tablet **5:3**; Mobile hướng tới **4:7**, chiều cao tối đa 100svh−64px. Không còn hàng banner-controls, tự chuyển 6 giây và có nút dừng/phát trên ảnh. v3.1 giữ nguyên. Xem [bản final](WEDDING-FINAL-REQUEST22.md) và [hồ sơ hiện hành](VERSION-STATUS.html).
 
 > **Cập nhật trước đó:** hai PNG7:4/5:3 đã thay thế thử nghiệm8:3 và canvas navy. Đọc [BANNER-EDITOR-SPEC.md](BANNER-EDITOR-SPEC.md) và [hướng dẫn HTML](../banner-guide.html). Phần dưới lưu công thức dàn artwork và lịch sử thử nghiệm; không dùng các tỷ lệ/neo header cũ cho ảnh mới.
 
@@ -8,7 +8,7 @@ Ngày: 12/10/2026. Hồ sơ công thức của Yêu cầu 13; không dùng để
 
 ## Công thức hiện hành của v3.2
 
-PC: H=W×7/16; tổng header + ảnh + nút thường là 80+H+64px. Tablet: H=W×3/5. Mobile: H=max(240px,min(175vw,100svh−128px)), nên 4:7 là tỉ lệ mục tiêu trước khi giới hạn chiều cao. Ảnh nguồn mobile gần 4:5 được cover vào khung; PC dùng contain. Xem bảng chiều cao và hướng dẫn cập nhật trong VERSION-STATUS.md.
+PC: H=W×4/7; tổng header + ảnh thường là 80+H px. Tablet: H=W×3/5. Mobile: H=max(240px,min(W×7/4,100svh−64px)), nên 4:7 là tỉ lệ mục tiêu trước khi giới hạn chiều cao. Ảnh nguồn mobile gần 4:5 được cover vào khung; PC dùng contain. Xem bảng chiều cao và hướng dẫn cập nhật trong VERSION-STATUS.md.
 
 ## Hồ sơ Yêu cầu 13
 

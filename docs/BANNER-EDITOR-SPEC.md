@@ -1,6 +1,6 @@
 # Thông số cho editor thiết kế banner Dunnio Tailor
 
-> **Hiện hành 15/10/2026:** v3.2 PC **16:7**, nguồn 1896×829, slide 1 **02-new**, slide 2 **01**; Tablet **5:3**, Mobile khung hướng tới **4:7** có giới hạn chiều cao. v3.1 giữ PC gần 7:4, Tablet 5:3, Mobile 4:5. Xem [trạng thái phiên bản hiện hành](VERSION-STATUS.md) và [bản HTML](VERSION-STATUS.html). Các tỷ lệ/ảnh trong phần lịch sử không ghi đè cấu hình này.
+> **Hiện hành 16/10/2026 — Yêu cầu 22:** v3.2 PC **7:4**, dùng ảnh 1600×914 của v3.1; Tablet **5:3**, Mobile hướng tới **4:7** với giới hạn 100svh−64px. Bỏ banner-controls; tự chuyển 6 giây và có nút dừng/phát trên ảnh. v3.1 giữ nguyên. Xem [bản final](WEDDING-FINAL-REQUEST22.md) và [hồ sơ hiện hành](VERSION-STATUS.html).
 
 ## Bộ thông số nền tảng ngày 12/10/2026 — năm concept gốc
 

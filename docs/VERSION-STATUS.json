@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "timezone": "Asia/Saigon",
-  "bannerRevision": "233efc0",
+  "bannerRevision": "request22-r1",
   "studioRevision": "request21-r1",
   "breakpoints": {
     "mobile": "0–639 CSS px",
@@ -443,14 +443,14 @@
         {
           "alt": "Two men in grey suits walking through a garden wedding",
           "desktop": {
-            "src": "assets/banners/wedding-story-v3.2-16x7-02-new.webp",
-            "width": 1896,
-            "height": 829,
+            "src": "assets/banners/wedding-story-a-7x4.webp",
+            "width": 1600,
+            "height": 914,
             "subject": [
-              0.415,
-              0.16,
-              0.69,
-              0.94
+              0.3,
+              0.05,
+              0.82,
+              1
             ]
           },
           "tablet": {
@@ -490,13 +490,13 @@
         {
           "alt": "Groom in a light suit at a beach ceremony",
           "desktop": {
-            "src": "assets/banners/wedding-story-v3.2-16x7-01.webp",
-            "width": 1896,
-            "height": 829,
+            "src": "assets/banners/wedding-story-b-7x4.webp",
+            "width": 1600,
+            "height": 914,
             "subject": [
-              0.59,
-              0.15,
-              0.78,
+              0.3,
+              0.05,
+              0.82,
               1
             ]
           },
@@ -535,10 +535,10 @@
           }
         }
       ],
-      "desktopFrame": "16:7",
+      "desktopFrame": "7:4",
       "tabletFrame": "5:3",
-      "mobileFrame": "nominal 4:7; height max(240px, min(175vw, 100svh - 128px))",
-      "controls": "Below image; mobile edge padding 20px"
+      "mobileFrame": "4:7 with max-height 100svh - 64px and min-height 240px",
+      "controls": "No banner-controls; 6000ms autoplay and an in-image pause toggle"
     },
     {
       "id": "v4",
@@ -797,37 +797,37 @@
   "activeWeddingDesktop": [
     {
       "slide": 1,
-      "src": "assets/banners/wedding-story-v3.2-16x7-02-new.webp",
-      "width": 1896,
-      "height": 829,
+      "src": "assets/banners/wedding-story-a-7x4.webp",
+      "width": 1600,
+      "height": 914,
       "subject": [
-        0.415,
-        0.16,
-        0.69,
-        0.94
+        0.3,
+        0.05,
+        0.82,
+        1
       ],
-      "bytes": 398944,
-      "sha256": "1f8c1ad669951b17b3cd3e65629148fd7518b38047ac3c6f822c97c84619d406",
-      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-16x7-02-new.png"
+      "bytes": 214728,
+      "sha256": "6bd65b6dcc0a23c8e61f964a0d9eacd9f6a5becb641f2f2e03df5b6ae52c10ee",
+      "reusedFrom": "v3.1 Wedding Story desktop"
     },
     {
       "slide": 2,
-      "src": "assets/banners/wedding-story-v3.2-16x7-01.webp",
-      "width": 1896,
-      "height": 829,
+      "src": "assets/banners/wedding-story-b-7x4.webp",
+      "width": 1600,
+      "height": 914,
       "subject": [
-        0.59,
-        0.15,
-        0.78,
+        0.3,
+        0.05,
+        0.82,
         1
       ],
-      "bytes": 292664,
-      "sha256": "9b940b6ab9d9b1a975a7f6322cd6ee6f2ee86e06f6cd5f4e20c042a82c54744e",
-      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-16x7-01.png"
+      "bytes": 101984,
+      "sha256": "1d53e2d3ef2c8cf68a4b095b53d2d3e8e31f246ecf30ba8737253f7a3e9461db",
+      "reusedFrom": "v3.1 Wedding Story desktop"
     }
   ],
   "evidence": {
-    "latestBanner": "wedding-v32-banner-verification.json",
+    "latestBanner": "wedding-final-verification.json",
     "variants": "wedding-story-verification.json",
     "footer": "wedding-footer-verification.json",
     "historicalAudit": "hockerty-banner-audit-20261015.json",

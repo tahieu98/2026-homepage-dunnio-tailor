@@ -2,7 +2,7 @@
 
 **Yêu cầu 19 · Kiểm tra ngày 15/10/2026, giờ Việt Nam.** Phạm vi đã chọn: báo cáo và đề xuất trước. Các cấu hình homepage đang chạy được giữ nguyên; chưa triển khai phương án mới trong báo cáo này.
 
-> **Phạm vi lịch sử:** toàn bộ số đo và ảnh chụp Dunnio trong báo cáo này thuộc bản PC **3:2 trước Yêu cầu 20**. Bản hiện hành đã đổi sang **16:7**, slide 1 dùng **02-new**, slide 2 dùng **01**; Tablet 5:3 và Mobile hướng tới 4:7 giữ nguyên. Xem [thông số phiên bản hiện hành](VERSION-STATUS.html) và [manifest](VERSION-STATUS.json). Các đề xuất về chiều cao theo viewport dưới đây vẫn là đề xuất; không đọc các bảng 3:2 như số đo của bản 16:7.
+> **Phạm vi lịch sử:** toàn bộ số đo và ảnh chụp Dunnio trong báo cáo này thuộc bản PC **3:2 trước Yêu cầu 20**. Bản final Yêu cầu 22 hiện dùng **7:4**, tái sử dụng ảnh PC v3.1 và tự chuyển mỗi 6 giây; Tablet 5:3, Mobile hướng tới 4:7. Các ảnh 16:7/02-new thuộc bước trung gian đã thay thế. Xem [thông số phiên bản hiện hành](VERSION-STATUS.html) và [manifest](VERSION-STATUS.json). Các đề xuất về chiều cao theo viewport dưới đây vẫn là đề xuất; không đọc các bảng 3:2 như số đo của bản final 7:4.
 
 ## 1. Kết quả chính để ra quyết định
 

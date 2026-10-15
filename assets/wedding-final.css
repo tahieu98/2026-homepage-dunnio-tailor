@@ -1,0 +1,49 @@
+/* Request 22 final layout. Every override is confined to Wedding Story v3.2. */
+@media(min-width:1200px){.theme.wedding-32 .hockerty-hero picture img{aspect-ratio:7/4;height:auto;object-fit:contain}}
+.theme.wedding-32 .hero-autoplay-toggle{position:absolute;top:20px;right:20px;z-index:4;width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--color-secondary);border-radius:50%;background:var(--color-primary);color:var(--color-secondary);font-size:19px;line-height:1}
+.theme.wedding-32 :is(.products,.looks-section,.craft-section,.community-section){padding-top:56px;padding-bottom:48px}
+.theme.wedding-32 :is(.products,.looks-section) .section-head{margin-bottom:20px}
+.theme.wedding-32 :is(.product-rail,.look-rail){padding-bottom:8px}
+.theme.wedding-32 .outfit-ideas-button{flex-shrink:0;background:var(--color-secondary);color:var(--color-dark-blue);border:1px solid var(--color-secondary);min-height:52px;text-align:center}
+.theme.wedding-32 .outfit-ideas-button:hover{background:var(--color-white);color:var(--color-dark-blue)}
+.theme.wedding-32 .craft-copy h2{margin-bottom:16px}
+.theme.wedding-32 .craft-copy p+p{margin-top:12px}
+.theme.wedding-32 .craft-links{margin-top:18px;gap:16px}
+.theme.wedding-32 .community-section>div:first-child{max-width:760px;margin-bottom:24px}
+.theme.wedding-32 .community-review-action{text-align:center;margin-top:24px}
+.theme.wedding-32 .community-review-action .button{background:var(--color-secondary);color:var(--color-primary);border:1px solid var(--color-primary)}
+.theme.wedding-32 .usp-section{padding-top:32px;padding-bottom:32px}
+.theme.wedding-32 .usp-item{aspect-ratio:1;min-width:0;justify-content:center;align-items:center;text-align:center;gap:12px;padding:clamp(14px,2vw,24px)}
+.theme.wedding-32 .usp-item .usp-icon{font-size:clamp(28px,2.5vw,36px);line-height:1;margin:0}
+.theme.wedding-32 .usp-icon:after{margin:10px auto 0}
+.theme.wedding-32 .usp-item h3{min-height:0;margin:0;line-height:1.3;text-align:center}
+@media(width < 640px){
+ .theme.wedding-32 .hockerty-hero .hero-media{display:grid;grid-template-columns:minmax(0,1fr)}
+ .theme.wedding-32 .hockerty-hero picture{grid-row:1;grid-column:1}
+ .theme.wedding-32 .hockerty-hero picture img{aspect-ratio:4/7;height:auto;max-height:calc(100svh - 64px);min-height:240px;object-fit:cover;object-position:center 35%}
+ .theme.wedding-32 .hockerty-hero .hero-media:before{inset:0}
+ .theme.wedding-32 .hockerty-hero .hero-copy{position:relative;inset:auto;grid-row:1;grid-column:1;align-self:end;display:block;width:100%;margin:0;padding:20px 20px 24px;background:none;text-align:center}
+ .theme.wedding-32 .hockerty-hero .hero-copy :is(h1,.hero-subtitle){color:var(--color-white)}
+ .theme.wedding-32 .hockerty-hero .hero-copy h1{font-size:clamp(30px,8vw,36px)}
+ .theme.wedding-32 .hockerty-hero .actions{justify-content:center}
+ .theme.wedding-32 .hockerty-hero .hero-copy .eyebrow{display:none}
+ .theme.wedding-32 .hockerty-hero .hero-copy .hero-subtitle{font-size:14px;line-height:1.6}
+ .theme.wedding-32 .hero-autoplay-toggle{top:16px;right:16px}
+ .theme.wedding-32 :is(.products,.looks-section,.craft-section,.community-section){padding-top:36px;padding-bottom:32px}
+ .theme.wedding-32 :is(.products,.looks-section) .section-head{margin-bottom:16px}
+ .theme.wedding-32 :is(.section,.closing-section) .eyebrow{font-size:16px;line-height:1.4;letter-spacing:.1em;margin-bottom:12px;max-width:100%}
+ .theme.wedding-32 main p:not(.eyebrow){font-size:14px;line-height:1.6}
+ .theme.wedding-32 .section-desc{font-size:14px;line-height:1.6}
+ .theme.wedding-32 .studio-intro .button{display:flex;width:fit-content;max-width:100%;margin:22px auto 0}
+ .theme.wedding-32 .looks-section .section-head .outfit-ideas-button{display:flex;width:fit-content;margin:18px auto 0}
+ .theme.wedding-32 .craft-photo{margin-bottom:20px}
+ .theme.wedding-32 .craft-copy h2{margin-bottom:14px}
+ .theme.wedding-32 .community-section>div:first-child{margin-bottom:20px}
+ .theme.wedding-32 .community-review-action{margin-top:20px}
+ .theme.wedding-32 .community-review-action .button{min-height:48px;padding:10px 20px}
+ .theme.wedding-32 .usp-item{padding:14px;gap:10px}
+ .theme.wedding-32 .usp-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .theme.wedding-32 .usp-item:nth-child(1),.theme.wedding-32 .usp-item:nth-child(4){background:var(--color-primary);color:var(--color-secondary)}
+ .theme.wedding-32 .usp-item:nth-child(2),.theme.wedding-32 .usp-item:nth-child(3){background:var(--color-secondary);color:var(--color-primary)}
+ .theme.wedding-32 .usp-item h3{font-size:16px}
+}

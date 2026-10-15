@@ -1,0 +1,1291 @@
+{
+  "date": "2026-10-16",
+  "status": "passed",
+  "scope": "Final v3.2, Request 22; v3.1 HTML and the footer remain unchanged",
+  "matrix": [
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "16px"
+      ],
+      "gaps": {
+        "looks": "16px",
+        "products": "16px"
+      },
+      "image": {
+        "bottom": 568,
+        "height": 504,
+        "left": 0,
+        "natural": [
+          1122,
+          1402
+        ],
+        "right": 304.8000183105469,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-4x5.webp",
+        "top": 64,
+        "width": 304.8000183105469
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "14px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4629.55029296875,
+        "height": 48,
+        "left": 46.11249923706055,
+        "right": 258.68749618530273,
+        "top": 4581.55029296875,
+        "width": 212.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4561.549987792969,
+        "height": 520.7999877929688,
+        "left": 18.287500381469727,
+        "right": 286.51250648498535,
+        "top": 4040.75,
+        "width": 268.2250061035156
+      },
+      "studioCTA": {
+        "bottom": 1650.2500267028809,
+        "height": 57.60000228881836,
+        "left": 39.63750076293945,
+        "right": 265.14999771118164,
+        "top": 1592.6500244140625,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 5638.512405395508,
+          "clientHeight": 128,
+          "color": "rgb(200, 169, 106)",
+          "height": 128.1125030517578,
+          "left": 18.287500381469727,
+          "right": 146.40000343322754,
+          "scrollHeight": 128,
+          "top": 5510.39990234375,
+          "width": 128.1125030517578
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 5638.512405395508,
+          "clientHeight": 128,
+          "color": "rgb(11, 31, 58)",
+          "height": 128.1125030517578,
+          "left": 158.40000915527344,
+          "right": 286.51251220703125,
+          "scrollHeight": 128,
+          "top": 5510.39990234375,
+          "width": 128.1125030517578
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 5778.625198364258,
+          "clientHeight": 128,
+          "color": "rgb(11, 31, 58)",
+          "height": 128.1125030517578,
+          "left": 18.287500381469727,
+          "right": 146.40000343322754,
+          "scrollHeight": 128,
+          "top": 5650.5126953125,
+          "width": 128.1125030517578
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 5778.625198364258,
+          "clientHeight": 128,
+          "color": "rgb(200, 169, 106)",
+          "height": 128.1125030517578,
+          "left": 158.40000915527344,
+          "right": 286.51251220703125,
+          "scrollHeight": 128,
+          "top": 5650.5126953125,
+          "width": 128.1125030517578
+        }
+      ],
+      "viewport": {
+        "contentWidth": 305,
+        "height": 568,
+        "width": 320
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "16px"
+      ],
+      "gaps": {
+        "looks": "16px",
+        "products": "16px"
+      },
+      "image": {
+        "bottom": 667.2000122070312,
+        "height": 603.2000122070312,
+        "left": 0,
+        "natural": [
+          1122,
+          1402
+        ],
+        "right": 360,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-4x5.webp",
+        "top": 64,
+        "width": 360
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "14px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4748.2626953125,
+        "height": 48,
+        "left": 73.7125015258789,
+        "right": 286.2874984741211,
+        "top": 4700.2626953125,
+        "width": 212.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4680.2626953125,
+        "height": 555,
+        "left": 21.600000381469727,
+        "right": 338.4000186920166,
+        "top": 4125.2626953125,
+        "width": 316.8000183105469
+      },
+      "studioCTA": {
+        "bottom": 1788.199977874756,
+        "height": 57.60000228881836,
+        "left": 67.23750305175781,
+        "right": 292.75,
+        "top": 1730.5999755859375,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 5817.212509155273,
+          "clientHeight": 152,
+          "color": "rgb(200, 169, 106)",
+          "height": 152.40000915527344,
+          "left": 21.600000381469727,
+          "right": 174.00000953674316,
+          "scrollHeight": 152,
+          "top": 5664.8125,
+          "width": 152.40000915527344
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 5817.212509155273,
+          "clientHeight": 152,
+          "color": "rgb(11, 31, 58)",
+          "height": 152.40000915527344,
+          "left": 186,
+          "right": 338.40000915527344,
+          "scrollHeight": 152,
+          "top": 5664.8125,
+          "width": 152.40000915527344
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 5981.612411499023,
+          "clientHeight": 152,
+          "color": "rgb(11, 31, 58)",
+          "height": 152.40000915527344,
+          "left": 21.600000381469727,
+          "right": 174.00000953674316,
+          "scrollHeight": 152,
+          "top": 5829.21240234375,
+          "width": 152.40000915527344
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 5981.612411499023,
+          "clientHeight": 152,
+          "color": "rgb(200, 169, 106)",
+          "height": 152.40000915527344,
+          "left": 186,
+          "right": 338.40000915527344,
+          "scrollHeight": 152,
+          "top": 5829.21240234375,
+          "width": 152.40000915527344
+        }
+      ],
+      "viewport": {
+        "contentWidth": 360,
+        "height": 667,
+        "width": 375
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "16px"
+      ],
+      "gaps": {
+        "looks": "16px",
+        "products": "16px"
+      },
+      "image": {
+        "bottom": 720.6000366210938,
+        "height": 656.6000366210938,
+        "left": 0,
+        "natural": [
+          1122,
+          1402
+        ],
+        "right": 375.2000122070313,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-4x5.webp",
+        "top": 64,
+        "width": 375.2000122070313
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "14px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4974.3125,
+        "height": 48,
+        "left": 81.3125,
+        "right": 293.8874969482422,
+        "top": 4926.3125,
+        "width": 212.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4906.3125,
+        "height": 564.4375,
+        "left": 22.5,
+        "right": 352.70001220703125,
+        "top": 4341.875,
+        "width": 330.20001220703125
+      },
+      "studioCTA": {
+        "bottom": 1858.449977874756,
+        "height": 57.60000228881836,
+        "left": 74.8375015258789,
+        "right": 300.3499984741211,
+        "top": 1800.8499755859375,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6066.987701416016,
+          "clientHeight": 159,
+          "color": "rgb(200, 169, 106)",
+          "height": 159.10000610351562,
+          "left": 22.5,
+          "right": 181.6000061035156,
+          "scrollHeight": 159,
+          "top": 5907.8876953125,
+          "width": 159.10000610351562
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6066.987701416016,
+          "clientHeight": 159,
+          "color": "rgb(11, 31, 58)",
+          "height": 159.10000610351562,
+          "left": 193.6000061035156,
+          "right": 352.70001220703125,
+          "scrollHeight": 159,
+          "top": 5907.8876953125,
+          "width": 159.10000610351562
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6238.087799072266,
+          "clientHeight": 159,
+          "color": "rgb(11, 31, 58)",
+          "height": 159.10000610351562,
+          "left": 22.5,
+          "right": 181.6000061035156,
+          "scrollHeight": 159,
+          "top": 6078.98779296875,
+          "width": 159.10000610351562
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6238.087799072266,
+          "clientHeight": 159,
+          "color": "rgb(200, 169, 106)",
+          "height": 159.10000610351562,
+          "left": 193.6000061035156,
+          "right": 352.70001220703125,
+          "scrollHeight": 159,
+          "top": 6078.98779296875,
+          "width": 159.10000610351562
+        }
+      ],
+      "viewport": {
+        "contentWidth": 375,
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "16px"
+      ],
+      "gaps": {
+        "looks": "16px",
+        "products": "16px"
+      },
+      "image": {
+        "bottom": 807.4000244140625,
+        "height": 743.4000244140625,
+        "left": 0,
+        "natural": [
+          1122,
+          1402
+        ],
+        "right": 424.8000183105469,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-4x5.webp",
+        "top": 64,
+        "width": 424.8000183105469
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "14px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 5195.96240234375,
+        "height": 48,
+        "left": 106.1125030517578,
+        "right": 318.6875,
+        "top": 5147.96240234375,
+        "width": 212.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 5127.96240234375,
+        "height": 572.75,
+        "left": 25.48750114440918,
+        "right": 399.3125133514404,
+        "top": 4555.21240234375,
+        "width": 373.8250122070313
+      },
+      "studioCTA": {
+        "bottom": 1977.7750511169431,
+        "height": 57.60000228881836,
+        "left": 99.63750457763672,
+        "right": 325.1500015258789,
+        "top": 1920.175048828125,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6310.450103759766,
+          "clientHeight": 181,
+          "color": "rgb(200, 169, 106)",
+          "height": 180.9125061035156,
+          "left": 25.48750114440918,
+          "right": 206.4000072479248,
+          "scrollHeight": 181,
+          "top": 6129.53759765625,
+          "width": 180.9125061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6310.450103759766,
+          "clientHeight": 181,
+          "color": "rgb(11, 31, 58)",
+          "height": 180.9125061035156,
+          "left": 218.40000915527344,
+          "right": 399.31251525878906,
+          "scrollHeight": 181,
+          "top": 6129.53759765625,
+          "width": 180.9125061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6503.362701416016,
+          "clientHeight": 181,
+          "color": "rgb(11, 31, 58)",
+          "height": 180.9125061035156,
+          "left": 25.48750114440918,
+          "right": 206.4000072479248,
+          "scrollHeight": 181,
+          "top": 6322.4501953125,
+          "width": 180.9125061035156
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6503.362701416016,
+          "clientHeight": 181,
+          "color": "rgb(200, 169, 106)",
+          "height": 180.9125061035156,
+          "left": 218.40000915527344,
+          "right": 399.31251525878906,
+          "scrollHeight": 181,
+          "top": 6322.4501953125,
+          "width": 180.9125061035156
+        }
+      ],
+      "viewport": {
+        "contentWidth": 425,
+        "height": 956,
+        "width": 440
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "16px"
+      ],
+      "gaps": {
+        "looks": "16px",
+        "products": "16px"
+      },
+      "image": {
+        "bottom": 916,
+        "height": 836,
+        "left": 0,
+        "natural": [
+          1600,
+          960
+        ],
+        "right": 624,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-5x3.webp",
+        "top": 80,
+        "width": 624
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "14px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4696.67529296875,
+        "height": 48,
+        "left": 205.71250915527344,
+        "right": 418.2875061035156,
+        "top": 4648.67529296875,
+        "width": 212.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4628.675048828125,
+        "height": 562.4375,
+        "left": 31.200000762939453,
+        "right": 592.8000373840332,
+        "top": 4066.237548828125,
+        "width": 561.6000366210938
+      },
+      "studioCTA": {
+        "bottom": 1863.425075531006,
+        "height": 57.60000228881836,
+        "left": 199.2375030517578,
+        "right": 424.75,
+        "top": 1805.8250732421875,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6020.025115966797,
+          "clientHeight": 280,
+          "color": "rgb(200, 169, 106)",
+          "height": 279.8000183105469,
+          "left": 26.200000762939453,
+          "right": 306.0000190734863,
+          "scrollHeight": 280,
+          "top": 5740.22509765625,
+          "width": 279.8000183105469
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6020.025115966797,
+          "clientHeight": 280,
+          "color": "rgb(11, 31, 58)",
+          "height": 279.8000183105469,
+          "left": 318,
+          "right": 597.8000183105469,
+          "scrollHeight": 280,
+          "top": 5740.22509765625,
+          "width": 279.8000183105469
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6311.824920654297,
+          "clientHeight": 280,
+          "color": "rgb(11, 31, 58)",
+          "height": 279.8000183105469,
+          "left": 26.200000762939453,
+          "right": 306.0000190734863,
+          "scrollHeight": 280,
+          "top": 6032.02490234375,
+          "width": 279.8000183105469
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6311.824920654297,
+          "clientHeight": 280,
+          "color": "rgb(200, 169, 106)",
+          "height": 279.8000183105469,
+          "left": 318,
+          "right": 597.8000183105469,
+          "scrollHeight": 280,
+          "top": 6032.02490234375,
+          "width": 279.8000183105469
+        }
+      ],
+      "viewport": {
+        "contentWidth": 624,
+        "height": 900,
+        "width": 639
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "12px"
+      ],
+      "gaps": {
+        "looks": "20px",
+        "products": "20px"
+      },
+      "image": {
+        "bottom": 438.875,
+        "height": 374.875,
+        "left": 0,
+        "natural": [
+          1600,
+          960
+        ],
+        "right": 624.7999877929688,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-5x3.webp",
+        "top": 64,
+        "width": 624.7999877929688
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "17px",
+        "18px",
+        "14px",
+        "16px",
+        "15px",
+        "11px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4322.675197601318,
+        "height": 57.60000228881836,
+        "left": 202.1125030517578,
+        "right": 422.6875,
+        "top": 4265.0751953125,
+        "width": 220.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4241.0750732421875,
+        "height": 563.6500244140625,
+        "left": 31.23750114440918,
+        "right": 593.5625133514404,
+        "top": 3677.425048828125,
+        "width": 562.3250122070312
+      },
+      "studioCTA": {
+        "bottom": 1789.5250511169434,
+        "height": 57.60000228881836,
+        "left": 31.23750114440918,
+        "right": 256.74999809265137,
+        "top": 1731.925048828125,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 5678.637603759766,
+          "clientHeight": 276,
+          "color": "rgb(200, 169, 106)",
+          "height": 276.1625061035156,
+          "left": 26.23750114440918,
+          "right": 302.4000072479248,
+          "scrollHeight": 276,
+          "top": 5402.47509765625,
+          "width": 276.1625061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 5678.637603759766,
+          "clientHeight": 276,
+          "color": "rgb(11, 31, 58)",
+          "height": 276.1625061035156,
+          "left": 322.3999938964844,
+          "right": 598.5625,
+          "scrollHeight": 276,
+          "top": 5402.47509765625,
+          "width": 276.1625061035156
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 5974.800201416016,
+          "clientHeight": 276,
+          "color": "rgb(200, 169, 106)",
+          "height": 276.1625061035156,
+          "left": 26.23750114440918,
+          "right": 302.4000072479248,
+          "scrollHeight": 276,
+          "top": 5698.6376953125,
+          "width": 276.1625061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 5974.800201416016,
+          "clientHeight": 276,
+          "color": "rgb(11, 31, 58)",
+          "height": 276.1625061035156,
+          "left": 322.3999938964844,
+          "right": 598.5625,
+          "scrollHeight": 276,
+          "top": 5698.6376953125,
+          "width": 276.1625061035156
+        }
+      ],
+      "viewport": {
+        "contentWidth": 625,
+        "height": 900,
+        "width": 640
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "12px"
+      ],
+      "gaps": {
+        "looks": "20px",
+        "products": "20px"
+      },
+      "image": {
+        "bottom": 546.875,
+        "height": 482.875,
+        "left": 0,
+        "natural": [
+          1600,
+          960
+        ],
+        "right": 804.7999877929688,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-5x3.webp",
+        "top": 64,
+        "width": 804.7999877929688
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "17px",
+        "18px",
+        "14px",
+        "16px",
+        "15px",
+        "11px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4293.275295257568,
+        "height": 57.60000228881836,
+        "left": 292.1125183105469,
+        "right": 512.6875152587891,
+        "top": 4235.67529296875,
+        "width": 220.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4211.675109863281,
+        "height": 628.4500122070312,
+        "left": 40.23749923706055,
+        "right": 764.5625114440918,
+        "top": 3583.22509765625,
+        "width": 724.3250122070312
+      },
+      "studioCTA": {
+        "bottom": 1796.612575531006,
+        "height": 57.60000228881836,
+        "left": 40.23749923706055,
+        "right": 265.74999618530273,
+        "top": 1739.0125732421875,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 5832.925201416016,
+          "clientHeight": 359,
+          "color": "rgb(200, 169, 106)",
+          "height": 358.6000061035156,
+          "left": 33.79999923706055,
+          "right": 392.4000053405762,
+          "scrollHeight": 359,
+          "top": 5474.3251953125,
+          "width": 358.6000061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 5832.925201416016,
+          "clientHeight": 359,
+          "color": "rgb(11, 31, 58)",
+          "height": 358.6000061035156,
+          "left": 412.3999938964844,
+          "right": 771,
+          "scrollHeight": 359,
+          "top": 5474.3251953125,
+          "width": 358.6000061035156
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6211.525299072266,
+          "clientHeight": 359,
+          "color": "rgb(200, 169, 106)",
+          "height": 358.6000061035156,
+          "left": 33.79999923706055,
+          "right": 392.4000053405762,
+          "scrollHeight": 359,
+          "top": 5852.92529296875,
+          "width": 358.6000061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6211.525299072266,
+          "clientHeight": 359,
+          "color": "rgb(11, 31, 58)",
+          "height": 358.6000061035156,
+          "left": 412.3999938964844,
+          "right": 771,
+          "scrollHeight": 359,
+          "top": 5852.92529296875,
+          "width": 358.6000061035156
+        }
+      ],
+      "viewport": {
+        "contentWidth": 805,
+        "height": 1180,
+        "width": 820
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "12px"
+      ],
+      "gaps": {
+        "looks": "20px",
+        "products": "20px"
+      },
+      "image": {
+        "bottom": 674.0750122070312,
+        "height": 610.0750122070312,
+        "left": 0,
+        "natural": [
+          1600,
+          960
+        ],
+        "right": 1016.7999877929688,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-5x3.webp",
+        "top": 64,
+        "width": 1016.7999877929688
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "17px",
+        "18px",
+        "14px",
+        "16px",
+        "15px",
+        "11px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4511.350002288818,
+        "height": 57.60000228881836,
+        "left": 398.1125183105469,
+        "right": 618.6875152587891,
+        "top": 4453.75,
+        "width": 220.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4429.750061035156,
+        "height": 584.9500122070312,
+        "left": 42.70000076293945,
+        "right": 974.100025177002,
+        "top": 3844.800048828125,
+        "width": 931.4000244140624
+      },
+      "studioCTA": {
+        "bottom": 1975.3125267028809,
+        "height": 57.60000228881836,
+        "left": 42.70000076293945,
+        "right": 268.21249771118164,
+        "top": 1917.7125244140625,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6071.675201416016,
+          "clientHeight": 218,
+          "color": "rgb(200, 169, 106)",
+          "height": 217.8500061035156,
+          "left": 42.70000076293945,
+          "right": 260.5500068664551,
+          "scrollHeight": 218,
+          "top": 5853.8251953125,
+          "width": 217.8500061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6071.675201416016,
+          "clientHeight": 218,
+          "color": "rgb(11, 31, 58)",
+          "height": 217.8500061035156,
+          "left": 280.5500183105469,
+          "right": 498.4000244140625,
+          "scrollHeight": 218,
+          "top": 5853.8251953125,
+          "width": 217.8500061035156
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6071.675201416016,
+          "clientHeight": 218,
+          "color": "rgb(200, 169, 106)",
+          "height": 217.8500061035156,
+          "left": 518.4000244140625,
+          "right": 736.2500305175781,
+          "scrollHeight": 218,
+          "top": 5853.8251953125,
+          "width": 217.8500061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6071.675201416016,
+          "clientHeight": 218,
+          "color": "rgb(11, 31, 58)",
+          "height": 217.8500061035156,
+          "left": 756.25,
+          "right": 974.1000061035156,
+          "scrollHeight": 218,
+          "top": 5853.8251953125,
+          "width": 217.8500061035156
+        }
+      ],
+      "viewport": {
+        "contentWidth": 1017,
+        "height": 1376,
+        "width": 1032
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "12px"
+      ],
+      "gaps": {
+        "looks": "20px",
+        "products": "20px"
+      },
+      "image": {
+        "bottom": 757.0250244140625,
+        "height": 677.0250244140625,
+        "left": 0,
+        "natural": [
+          1600,
+          914
+        ],
+        "right": 1184.800048828125,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-7x4.webp",
+        "top": 80,
+        "width": 1184.800048828125
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "18px",
+        "14px",
+        "16px",
+        "15px",
+        "11px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 4487.475002288818,
+        "height": 57.60000228881836,
+        "left": 482.1125183105469,
+        "right": 702.6875152587891,
+        "top": 4429.875,
+        "width": 220.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4405.874938964844,
+        "height": 625.9874877929688,
+        "left": 49.75,
+        "right": 1135.050048828125,
+        "top": 3779.887451171875,
+        "width": 1085.300048828125
+      },
+      "studioCTA": {
+        "bottom": 1928.362575531006,
+        "height": 57.60000228881836,
+        "left": 49.75,
+        "right": 275.2624969482422,
+        "top": 1870.7625732421875,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6192.300109863281,
+          "clientHeight": 256,
+          "color": "rgb(200, 169, 106)",
+          "height": 256.32501220703125,
+          "left": 49.75,
+          "right": 306.07501220703125,
+          "scrollHeight": 256,
+          "top": 5935.97509765625,
+          "width": 256.32501220703125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6192.300109863281,
+          "clientHeight": 256,
+          "color": "rgb(11, 31, 58)",
+          "height": 256.32501220703125,
+          "left": 326.07501220703125,
+          "right": 582.4000244140625,
+          "scrollHeight": 256,
+          "top": 5935.97509765625,
+          "width": 256.32501220703125
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6192.300109863281,
+          "clientHeight": 256,
+          "color": "rgb(200, 169, 106)",
+          "height": 256.32501220703125,
+          "left": 602.4000244140625,
+          "right": 858.7250366210938,
+          "scrollHeight": 256,
+          "top": 5935.97509765625,
+          "width": 256.32501220703125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6192.300109863281,
+          "clientHeight": 256,
+          "color": "rgb(11, 31, 58)",
+          "height": 256.32501220703125,
+          "left": 878.7250366210938,
+          "right": 1135.050048828125,
+          "scrollHeight": 256,
+          "top": 5935.97509765625,
+          "width": 256.32501220703125
+        }
+      ],
+      "viewport": {
+        "contentWidth": 1185,
+        "height": 900,
+        "width": 1200
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "12px"
+      ],
+      "gaps": {
+        "looks": "20px",
+        "products": "20px"
+      },
+      "image": {
+        "bottom": 894.1625366210938,
+        "height": 814.1625366210938,
+        "left": 0,
+        "natural": [
+          1600,
+          914
+        ],
+        "right": 1424.800048828125,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-7x4.webp",
+        "top": 80,
+        "width": 1424.800048828125
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "18px",
+        "14px",
+        "16px",
+        "15px",
+        "11px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 5038.512599945068,
+        "height": 57.60000228881836,
+        "left": 602.1124877929688,
+        "right": 822.6874847412109,
+        "top": 4980.91259765625,
+        "width": 220.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 4956.91259765625,
+        "height": 659,
+        "left": 59.837501525878906,
+        "right": 1364.962501525879,
+        "top": 4297.91259765625,
+        "width": 1305.125
+      },
+      "studioCTA": {
+        "bottom": 2196.612453460694,
+        "height": 57.60000228881836,
+        "left": 59.837501525878906,
+        "right": 285.3499984741211,
+        "top": 2139.012451171875,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6952.900299072266,
+          "clientHeight": 311,
+          "color": "rgb(200, 169, 106)",
+          "height": 311.2875061035156,
+          "left": 59.837501525878906,
+          "right": 371.1250076293946,
+          "scrollHeight": 311,
+          "top": 6641.61279296875,
+          "width": 311.2875061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6952.900299072266,
+          "clientHeight": 311,
+          "color": "rgb(11, 31, 58)",
+          "height": 311.2875061035156,
+          "left": 391.1125183105469,
+          "right": 702.4000244140625,
+          "scrollHeight": 311,
+          "top": 6641.61279296875,
+          "width": 311.2875061035156
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 6952.900299072266,
+          "clientHeight": 311,
+          "color": "rgb(200, 169, 106)",
+          "height": 311.2875061035156,
+          "left": 722.4000244140625,
+          "right": 1033.687530517578,
+          "scrollHeight": 311,
+          "top": 6641.61279296875,
+          "width": 311.2875061035156
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 6952.900299072266,
+          "clientHeight": 311,
+          "color": "rgb(11, 31, 58)",
+          "height": 311.2875061035156,
+          "left": 1053.675048828125,
+          "right": 1364.9625549316406,
+          "scrollHeight": 311,
+          "top": 6641.61279296875,
+          "width": 311.2875061035156
+        }
+      ],
+      "viewport": {
+        "contentWidth": 1425,
+        "height": 1000,
+        "width": 1440
+      }
+    },
+    {
+      "bannerControls": 0,
+      "eyebrowSizes": [
+        "12px"
+      ],
+      "gaps": {
+        "looks": "20px",
+        "products": "20px"
+      },
+      "image": {
+        "bottom": 1168.4500732421875,
+        "height": 1088.4500732421875,
+        "left": 0,
+        "natural": [
+          1600,
+          914
+        ],
+        "right": 1904.800048828125,
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-a-7x4.webp",
+        "top": 80,
+        "width": 1904.800048828125
+      },
+      "outfitColors": {
+        "background": "rgb(200, 169, 106)",
+        "color": "rgb(17, 26, 76)"
+      },
+      "overflow": false,
+      "paragraphSizes": [
+        "18px",
+        "14px",
+        "16px",
+        "15px",
+        "11px"
+      ],
+      "removed": 0,
+      "reviewCTA": {
+        "bottom": 6008.275295257568,
+        "height": 57.60000228881836,
+        "left": 842.1124877929688,
+        "right": 1062.687484741211,
+        "top": 5950.67529296875,
+        "width": 220.5749969482422
+      },
+      "reviewRail": {
+        "bottom": 5926.674987792969,
+        "height": 716.2999877929688,
+        "left": 192.40000915527344,
+        "right": 1712.4000091552734,
+        "top": 5210.375,
+        "width": 1520
+      },
+      "studioCTA": {
+        "bottom": 2638.312648773194,
+        "height": 57.60000228881836,
+        "left": 80,
+        "right": 305.5124969482422,
+        "top": 2580.712646484375,
+        "width": 225.5124969482422
+      },
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 8143.9501953125,
+          "clientHeight": 385,
+          "color": "rgb(200, 169, 106)",
+          "height": 385,
+          "left": 152.40000915527344,
+          "right": 537.4000091552734,
+          "scrollHeight": 385,
+          "top": 7758.9501953125,
+          "width": 385
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 8143.9501953125,
+          "clientHeight": 385,
+          "color": "rgb(11, 31, 58)",
+          "height": 385,
+          "left": 557.4000244140625,
+          "right": 942.4000244140624,
+          "scrollHeight": 385,
+          "top": 7758.9501953125,
+          "width": 385
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "bottom": 8143.9501953125,
+          "clientHeight": 385,
+          "color": "rgb(200, 169, 106)",
+          "height": 385,
+          "left": 962.4000244140624,
+          "right": 1347.4000244140625,
+          "scrollHeight": 385,
+          "top": 7758.9501953125,
+          "width": 385
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "bottom": 8143.9501953125,
+          "clientHeight": 385,
+          "color": "rgb(11, 31, 58)",
+          "height": 385,
+          "left": 1367.4000244140625,
+          "right": 1752.4000244140625,
+          "scrollHeight": 385,
+          "top": 7758.9501953125,
+          "width": 385
+        }
+      ],
+      "viewport": {
+        "contentWidth": 1905,
+        "height": 1080,
+        "width": 1920
+      }
+    }
+  ],
+  "interactions": {
+    "automatic": {
+      "delay": 6000,
+      "slide": "2",
+      "transitions": 21
+    },
+    "pausedBefore": {
+      "slide": "1",
+      "state": "paused",
+      "transitions": 0
+    },
+    "pausedAfter": {
+      "heroTop": 64,
+      "slide": "1",
+      "state": "paused",
+      "transitions": 0
+    },
+    "rails": [
+      {
+        "id": "product-rail",
+        "left": 260
+      },
+      {
+        "id": "look-rail",
+        "left": 280.79998779296875
+      },
+      {
+        "id": "review-rail",
+        "left": 299.20001220703125
+      }
+    ]
+  },
+  "limits": [
+    "Chrome desktop responsive testing; not physical-device or screen-reader certification",
+    "Earlier broad suites remain dated evidence; this check targets the final layout"
+  ]
+}

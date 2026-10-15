@@ -1,5 +1,7 @@
 # Dunnio Tailor — Chuẩn hóa typography
 
+> **Ngoại lệ final v3.2 — 16/10/2026:** eyebrow ở các section Mobile 16px, mô tả p trong main 14px theo Yêu cầu 22. v3.1 và năm concept gốc giữ thông số trước đó. Xem [bản final](WEDDING-FINAL-REQUEST22.md).
+
 Ngày 12/10/2026. Áp dụng cho 5 homepage, trang chọn phương án, Brand Review, Banner Lab, thư viện ảnh và báo cáo BOD.
 
 ## Font sử dụng

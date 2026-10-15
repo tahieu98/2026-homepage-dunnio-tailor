@@ -10,6 +10,8 @@ Cập nhật 15/10/2026. Áp dụng cho **v3.1 Wedding Story** và **v3.2 Weddin
 
 Nguồn: `C:/laragon/www/Banner-dunnio/mp4-demo-custom-3d-outfit/Dunnio_Custom_Outfit_PC.mp4`, `Dunnio_Custom_Outfit_Tablet.mp4`, `Dunnio_Custom_Outfit_Mobile.mp4`. Đã đọc stream metadata bằng FFmpeg và xác nhận kích thước/thời lượng qua trình duyệt. Cả ba dùng H.264 High, yuv420p, 25fps và không có track âm thanh. File website được sao chép nguyên byte; [manifest nguồn và SHA-256](studio-video-assets.json).
 
+> **Bổ sung 16/10/2026:** Yêu cầu 22 căn giữa CTA studio riêng trên Mobile v3.2 và dùng mô tả p 14px. Video và cơ chế chọn nguồn vẫn giữ nguyên.
+
 ## Khung và bố cục
 
 Video hiển thị `width:100%; height:auto; object-fit:contain`, giữ toàn bộ nội dung giao diện thay vì crop. Khung PC ngang; Tablet dọc tối đa 420px; Mobile dùng viền điện thoại, rộng tối đa 320px và giới hạn theo 68svh để khung vừa vùng nhìn khi cuộn tới video. Không thêm notch phủ lên nội dung ghi hình.

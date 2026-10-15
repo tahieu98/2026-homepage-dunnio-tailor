@@ -1,6 +1,6 @@
 # Dunnio Tailor — 5 homepage concepts
 
-Năm concept gốc hoàn thành ngày 12/10/2026; tài liệu và hai biến thể Wedding Story cập nhật đến 15/10/2026. Bản clone `C:\laragon\www\dunnio-tailor-redesign` được giữ nguyên.
+Năm concept gốc hoàn thành ngày 12/10/2026; tài liệu và hai biến thể Wedding Story cập nhật đến 16/10/2026. Bản clone `C:\laragon\www\dunnio-tailor-redesign` được giữ nguyên.
 
 ## Xem online — URL riêng cho từng phương án
 
@@ -8,7 +8,7 @@ Năm concept gốc hoàn thành ngày 12/10/2026; tài liệu và hai biến th�
 2. [Design Studio](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v2-design-studio.html)
 3. [Wedding Story](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3-wedding-story.html)
    - [Wedding Story v3.1 — đầy đủ section, banner mobile 4:5](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3.1-wedding-story.html)
-   - [Wedding Story v3.2 — rút gọn, hero mobile trong một màn hình](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3.2-wedding-story.html)
+   - [Wedding Story v3.2 final — PC 7:4, slideshow tự động](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3.2-wedding-story.html)
 4. [Modern Essentials](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v4-modern-essentials.html)
 5. [The Fit Concierge](https://tahieu98.github.io/2026-homepage-dunnio-tailor/v5-fit-concierge.html)
 
@@ -28,7 +28,7 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 
 ## Thông số phiên bản hiện hành
 
-[Hồ sơ hiện hành dạng HTML](docs/VERSION-STATUS.html) · [Markdown](docs/VERSION-STATUS.md) · [Manifest ảnh và SHA-256](docs/VERSION-STATUS.json). Tài liệu này ưu tiên hơn các bước lịch sử bên dưới. v3.2 hiện dùng PC **16:7 / ảnh 02-new và 01**, Tablet **5:3**, Mobile **hướng tới 4:7** có giới hạn chiều cao. v3.1 giữ Mobile **4:5**. Các nút chuyển ảnh của cả hai biến thể nằm dưới ảnh.
+[Hồ sơ hiện hành dạng HTML](docs/VERSION-STATUS.html) · [Markdown](docs/VERSION-STATUS.md) · [Manifest ảnh và SHA-256](docs/VERSION-STATUS.json). Tài liệu này ưu tiên hơn các bước lịch sử bên dưới. v3.2 final hiện dùng PC **7:4 / nguồn ảnh v3.1**, Tablet **5:3**, Mobile **hướng tới 4:7** có giới hạn chiều cao; tự chuyển mỗi **6 giây**, không còn banner-controls. v3.1 giữ các nút thủ công và Mobile **4:5**.
 
 Chạy `node tools/build-version-status-docs.cjs` để đồng bộ hồ sơ từ cấu hình đang dùng.
 
@@ -55,13 +55,21 @@ Chạy `node tools/build-hockerty-audit-report.cjs` để dựng lại báo cáo
 Hai biến thể mới giữ nguyên bản v3 gốc và footer. Header và logo trong menu mobile không còn liên kết tới trang so sánh.
 
 - **v3.1:** mobile giữ banner 4:5; cụm nút chuyển ảnh căn giữa ngay dưới banner, trước hero-copy. Wedding party chuyển thành slider ngang trên mobile.
-- **v3.2:** bỏ Wedding party và FAQ; ẩn eyebrow trong hero mobile, đặt text/CTA gần chân ảnh. Hai nút cũ được tái sử dụng dưới ảnh, cách hai lề 20px. Khung ảnh hướng tới 4:7 và giới hạn chiều cao theo `100svh` để hero, CTA và hai nút nằm trong màn hình đầu.
+- **v3.2 ở Yêu cầu 17 (đã cập nhật bởi Yêu cầu 22):** bỏ Wedding party và FAQ; ẩn eyebrow trong hero mobile, đặt text/CTA gần chân ảnh. Hai nút cũ được tái sử dụng dưới ảnh, cách hai lề 20px. Khung ảnh hướng tới 4:7 và giới hạn chiều cao theo `100svh` để hero, CTA và hai nút nằm trong màn hình đầu.
 - Thứ tự chung: hero → (Wedding party ở v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → (FAQ ở v3.1) → closing → USP → footer. Products/studio/looks/craft ban đầu lấy từ v2; studio-board hiện đã thay bằng video theo Yêu cầu 21; products bỏ nội dung `.fine`.
 - Craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm. Feedback dùng ảnh/tên/ngày/rating tương ứng từ từng review gốc và bản tóm tắt có chú thích; một hàng slider thủ công, có prev/next, không tự chạy.
 - Style Gallery giữ bảy ảnh trên desktop/tablet, bốn ảnh trên mobile để tiêu đề, mô tả và CTA nằm cùng một khung nhìn. USP bo góc; trên mobile bố cục chéo: 01/04 nền navy, chữ gold; 02/03 nền gold, chữ navy. Desktop/tablet giữ bảng màu trước đó.
 - `assets/wedding-variants.css` chỉ áp dụng cho hai biến thể. `tools/build-wedding-variants.cjs` tạo lại chúng từ v2/v3 và dữ liệu trong `docs/wedding-story-sources.json`; `tools/prepare-wedding-sources.cjs` cập nhật nguồn ảnh và metadata từ website thật.
 - Chạy `node tools/verify-wedding-variants.cjs` với biến môi trường `DUNNIO_PREVIEW_URL` trỏ tới HTTP preview để kiểm tra; kết quả tại `docs/wedding-story-verification.json`.
 - `node tools/verify-wedding-footer.cjs` kiểm tra cuộn cảm ứng tới cuối footer sau khi đổi kích thước trên cùng một trang, gồm iPad 1032×1376, xoay ngang, tablet, mobile và PC; đồng thời kiểm tra màu nền/chữ USP. Kết quả 14 trường hợp tại `docs/wedding-footer-verification.json`. Khi kiểm thử bằng Chrome DevTools, chọn **Fit to window** để khung iPad không bị cắt bởi vùng hiển thị; footer giữ nguyên nội dung và bố cục.
+
+## Wedding Story v3.2 final — Yêu cầu 22 (16/10/2026)
+
+- PC trở về 7:4, dùng hai ảnh hiện có của v3.1; Tablet 5:3, Mobile 4:7 có cap theo chiều cao. Bỏ banner-controls, auto slide 6000ms; có nút dừng/phát nhỏ trên ảnh, tạm dừng khi hover/focus/offscreen/tab ẩn.
+- Bỏ rail-controls ở products/looks/community; looks bỏ fine, craft bỏ detail-line. Thu gọn khoảng cách section, căn giữa CTA studio trên Mobile. All outfit ideas dùng nút gold/dark-blue; Read customer reviews nằm giữa dưới review rail.
+- USP chỉ giữ số và tiêu đề, căn giữa trong các ô vuông. Eyebrow Mobile 16px, mô tả p trong main 14px. Footer/v3.1 giữ nguyên.
+- [Hướng dẫn final](docs/WEDDING-FINAL-REQUEST22.md) · [Biên bản kiểm tra](docs/wedding-final-verification.json). Generator v3.2 áp dụng module tools/wedding-final.cjs; CSS/JS riêng ở assets/wedding-final.* revision request22-r1.
+- Chạy `node tools/verify-wedding-final.cjs` để kiểm tra cấu trúc và ma trận quan sát browser đã lưu. Các biên bản trước 16/10 là hồ sơ theo thời điểm.
 
 ## Studio video — Yêu cầu 21 (15/10/2026)
 
@@ -70,7 +78,7 @@ Hai biến thể mới giữ nguyên bản v3 gốc và footer. Header và logo 
 - [Hướng dẫn triển khai](docs/STUDIO-VIDEO-UPDATE.md) · [Metadata và SHA-256](docs/studio-video-assets.json) · [16 trường hợp kiểm tra](docs/studio-video-verification.json). Các file MP4 được sao chép nguyên byte từ nguồn người dùng.
 - Generator `tools/build-wedding-variants.cjs`, CSS `assets/wedding-variants.css?v=request21-r1`, script `assets/studio-video.js?v=request21-r1`; v2 và các banner hiện hành giữ nguyên.
 
-## Wedding Story v3.2 — Yêu cầu 20: PC 16:7 (15/10/2026)
+## Lịch sử Wedding Story v3.2 — Yêu cầu 20: PC 16:7 (đã thay thế) (15/10/2026)
 
 - PC từ 1200px chuyển sang khung **16:7**, thay thế cấu hình PC 5:3 trước đó; Tablet giữ **5:3**, Mobile giữ khung **4:7** và giới hạn chiều cao hiện tại.
 - Dùng hai ảnh mới do người dùng cung cấp, kích thước thực **1896×829** (xấp xỉ 16:7). File nguồn đuôi .png chứa dữ liệu WebP; website dùng .webp đúng định dạng và giữ nguyên byte gốc. Slide 1 ảnh vườn: `wedding-story-v3.2-16x7-02-new.webp`; slide 2 bãi biển: `wedding-story-v3.2-16x7-01.webp`.

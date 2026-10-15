@@ -1,8 +1,7 @@
 {
-  "date": "2026-10-15",
-  "base": "http://127.0.0.1:4173/",
+  "date": "2026-10-16",
   "status": "passed",
-  "localLinks": 194,
+  "localLinks": 217,
   "checks": [
     {
       "file": "docs/VERSION-STATUS.html",
@@ -10,21 +9,10 @@
         "width": 1440,
         "height": 1000
       },
+      "brokenImages": [],
+      "scrollWidth": 1425,
       "width": 1440,
-      "scrollWidth": 1440,
-      "images": [],
-      "anchors": []
-    },
-    {
-      "file": "report.html",
-      "viewport": {
-        "width": 1440,
-        "height": 1000
-      },
-      "width": 1440,
-      "scrollWidth": 1440,
-      "images": [],
-      "anchors": []
+      "calculator": null
     },
     {
       "file": "banner-guide.html",
@@ -32,21 +20,10 @@
         "width": 1440,
         "height": 1000
       },
+      "brokenImages": [],
+      "scrollWidth": 1425,
       "width": 1440,
-      "scrollWidth": 1440,
-      "images": [],
-      "anchors": []
-    },
-    {
-      "file": "docs/hockerty-banner-audit-20261015.html",
-      "viewport": {
-        "width": 1440,
-        "height": 1000
-      },
-      "width": 1440,
-      "scrollWidth": 1440,
-      "images": [],
-      "anchors": []
+      "calculator": "Ảnh H = 1088.6px · ngân sách ảnh B = 820.0px · tổng dải trên + header + ảnh + nút = 1168.6px. Khối cao hơn viewport 268.6px; cần cuộn để xem hết."
     },
     {
       "file": "docs/VERSION-STATUS.html",
@@ -54,21 +31,10 @@
         "width": 390,
         "height": 844
       },
+      "brokenImages": [],
+      "scrollWidth": 375,
       "width": 390,
-      "scrollWidth": 390,
-      "images": [],
-      "anchors": []
-    },
-    {
-      "file": "report.html",
-      "viewport": {
-        "width": 390,
-        "height": 844
-      },
-      "width": 390,
-      "scrollWidth": 390,
-      "images": [],
-      "anchors": []
+      "calculator": null
     },
     {
       "file": "banner-guide.html",
@@ -76,31 +42,18 @@
         "width": 390,
         "height": 844
       },
+      "brokenImages": [],
+      "scrollWidth": 375,
       "width": 390,
-      "scrollWidth": 390,
-      "images": [],
-      "anchors": []
-    },
-    {
-      "file": "docs/hockerty-banner-audit-20261015.html",
-      "viewport": {
-        "width": 390,
-        "height": 844
-      },
-      "width": 390,
-      "scrollWidth": 390,
-      "images": [],
-      "anchors": []
+      "calculator": "Ảnh H = 1088.6px · ngân sách ảnh B = 820.0px · tổng dải trên + header + ảnh + nút = 1168.6px. Khối cao hơn viewport 268.6px; cần cuộn để xem hết."
     }
   ],
   "calculator": [
-    "16:7 default with 64px controls",
-    "taller viewport",
-    "5:3 comparison"
+    "7:4 default, header 80px, controls row 0px"
   ],
   "limits": [
-    "Chrome desktop responsive emulation",
-    "Lazy images checked for local file existence; eager images also checked for browser decode"
-  ],
-  "errors": []
+    "Four current-document layouts checked through the in-app browser",
+    "Local links checked on disk; not every external URL was fetched",
+    "Historical report layouts retain their previous evidence"
+  ]
 }

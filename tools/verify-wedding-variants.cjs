@@ -1,10 +1,11 @@
 const fs = require('fs'), assert = require('assert/strict');
 const {chromium} = require('C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const base = process.env.DUNNIO_PREVIEW_URL || 'http://127.0.0.1:4173/';
-const files = ['v3.1-wedding-story.html','v3.2-wedding-story.html'];
+// v3.2 final layout is checked by tools/verify-wedding-final.cjs.
+const files = ['v3.1-wedding-story.html'];
 (async () => {
   const browser = await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
-  const report = {date:'2026-10-14',base,viewports:[],checks:[],errors:[]};
+  const report = {date:'2026-10-16',base,viewports:[],checks:[],errors:[]};
   fs.mkdirSync('.local/wedding-qa', {recursive:true});
   try {
     const page = await browser.newPage({reducedMotion:'reduce'});

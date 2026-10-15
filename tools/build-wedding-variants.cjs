@@ -21,9 +21,6 @@ for (const variant of ['3.1', '3.2']) {
   const controls = hero.match(/<div class="banner-controls"[\s\S]*?<\/div>/)[0];
   hero = hero.replace(controls, '').replace('</picture>', '</picture>'+controls).replace(/<a class="hero-scroll"[\s\S]*?<\/a>/, '');
   hero = hero.replace('aria-label="Wedding Story"', 'aria-label="Wedding Story" data-mobile-layout="'+variant+'"');
-  if (variant === '3.2') {
-    hero = hero.replace('src="assets/banners/wedding-story-a-7x4.webp" width="1600" height="914"', 'src="assets/banners/wedding-story-v3.2-16x7-02-new.webp" width="1896" height="829"');
-  }
   let products = section(v2, 'section products').replace(/<p class="fine">[\s\S]*?<\/p>/, '');
   const videoSources = studioVideos.map(v=>`<source data-device="${v.device}" src="${v.file}" type="video/mp4" media="${v.device==='desktop'?'(min-width: 1200px)':v.device==='tablet'?'(640px <= width < 1200px)':'(width < 640px)'}" data-width="${v.width}" data-height="${v.height}" data-poster="${v.poster}">`).join('');
   const studio = `<section class="section studio-section" id="studio"><div class="studio-intro"><p class="eyebrow">YOUR OUTFIT, YOUR WAY</p><h2>Small details.<br>Your signature.</h2><p>See Dunnio’s 3D designer in action. Explore fabrics, colours and finishing details, then create your own outfit.</p><a class="button" href="https://dunniotailor.com/3d-custom-outfit/suits.html" data-event="cta_click">Explore the 3D designer <span aria-hidden="true">↗</span></a></div><div class="studio-board studio-video-board" data-studio-video><div class="studio-device-frame"><video class="studio-video" width="1600" height="1000" poster="assets/videos/dunnio-custom-outfit-desktop-poster.webp" controls muted loop playsinline preload="none" aria-label="Dunnio 3D outfit designer demonstration" aria-describedby="studio-video-caption">${videoSources}Your browser does not support this video. <a href="assets/videos/dunnio-custom-outfit-desktop.mp4">Watch the designer demonstration</a>.</video></div><p class="studio-video-caption" id="studio-video-caption">A closer look at the Dunnio 3D designer.</p><p class="studio-video-error" data-video-error hidden>Video unavailable. <a href="assets/videos/dunnio-custom-outfit-desktop.mp4" data-video-link>Open the demonstration video ↗</a></p><noscript><p>Watch the recording for your screen: ${studioVideos.map(v=>`<a href="${v.file}">${v.device==='desktop'?'PC':v.device==='tablet'?'Tablet':'Mobile'}</a>`).join(' · ')}.</p></noscript></div></section>`;
@@ -33,14 +30,12 @@ for (const variant of ['3.1', '3.2']) {
   html = html.replace('<title>Wedding Story · Dunnio Tailor</title>', `<title>Wedding Story v${variant} · Dunnio Tailor</title>`).replace('Five responsive homepage design concepts for Dunnio Tailor. Static, buildless prototypes.', `Wedding Story v${variant}: bespoke wedding tailoring, Vietnamese craftsmanship and customer inspiration.`);
   html = html.replace('class="theme theme-3"', `class="theme theme-3 wedding-variant wedding-${variant.replace('.','')}"`);
   html = html.replace('</head>', '<link rel="stylesheet" href="assets/wedding-variants.css?v=request21-r1"></head>');
-  if (variant === '3.2') {
-    html = html.replace('<script src="assets/app.js', '<script src="assets/wedding-story-v32-banners.js?v=request20-r2" defer></script><script src="assets/app.js');
-  }
   html = html.replace('<script src="assets/navigation-system.js', '<script src="assets/studio-video.js?v=request21-r1" defer></script><script src="assets/navigation-system.js');
   // Logos in the header and drawer are deliberately non-linking. Retain the footer verbatim.
   const footerStart = html.indexOf('<footer');
   let headerAndMain = html.slice(0, footerStart).replace(/<a class="wordmark" href="index.html" aria-label="Dunnio Tailor design concepts">([\s\S]*?)<\/a>/, '<span class="wordmark" aria-label="Dunnio Tailor">$1</span>').replace(/<a href="index.html" aria-label="Dunnio design concepts">([\s\S]*?)<\/a>/, '<span aria-label="Dunnio Tailor">$1</span>').replace('<a href="index.html">Back to the 5 concepts</a>', '');
   html = headerAndMain + html.slice(footerStart);
+  if(variant==='3.2')html=require('./wedding-final.cjs')(html);
   fs.writeFileSync(`v${variant}-wedding-story.html`, html.replaceAll('><','>\n<')+'\n');
 }
 console.log('Built v3.1-wedding-story.html and v3.2-wedding-story.html.');
