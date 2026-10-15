@@ -48,7 +48,7 @@ const files = ['v3.1-wedding-story.html','v3.2-wedding-story.html'];
       } else assert.equal(state.galleryCount,7);
       await page.locator('[data-banner-next]').click();
       await page.waitForFunction(()=>document.querySelector('[data-banner-count]').textContent==='2 / 2'&&document.querySelector('[data-banner] img').complete);
-      const secondSource='wedding-story-b-';
+      const secondSource=file.includes('3.2')&&width>=1200?'wedding-story-v3.2-16x7-01.webp':'wedding-story-b-';
       assert(await page.locator('[data-banner] img').evaluate((e,expected)=>e.currentSrc.includes(expected),secondSource));
       await page.locator('[data-banner-prev]').click();
       assert.equal(await page.locator('[data-banner-count]').innerText(),'1 / 2');

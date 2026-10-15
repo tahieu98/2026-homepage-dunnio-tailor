@@ -4,7 +4,7 @@
 .theme.wedding-variant .hockerty-hero .banner-controls button:hover{background:var(--color-secondary);color:var(--color-primary)}
 .theme.wedding-variant .hockerty-hero [data-banner-count]{min-width:48px;color:var(--color-primary)}
 @media(min-width:1200px){
- .theme.wedding-32 .hockerty-hero picture img{aspect-ratio:5/3;height:auto;object-fit:contain}
+ .theme.wedding-32 .hockerty-hero picture img{aspect-ratio:16/7;height:auto;object-fit:contain}
 }
 .wedding-variant .products h2,.wedding-variant .studio-section h2,.wedding-variant .looks-section h2,.wedding-variant .craft-section h2{font-family:var(--font-ui);font-weight:500;letter-spacing:-.03em;line-height:1.13}
 .wedding-variant .looks-section{background:var(--color-dark-blue)}

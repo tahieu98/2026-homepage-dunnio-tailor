@@ -49,6 +49,13 @@ Hai biến thể mới giữ nguyên bản v3 gốc và footer. Header và logo 
 - Chạy `node tools/verify-wedding-variants.cjs` với biến môi trường `DUNNIO_PREVIEW_URL` trỏ tới HTTP preview để kiểm tra; kết quả tại `docs/wedding-story-verification.json`.
 - `node tools/verify-wedding-footer.cjs` kiểm tra cuộn cảm ứng tới cuối footer sau khi đổi kích thước trên cùng một trang, gồm iPad 1032×1376, xoay ngang, tablet, mobile và PC; đồng thời kiểm tra màu nền/chữ USP. Kết quả 14 trường hợp tại `docs/wedding-footer-verification.json`. Khi kiểm thử bằng Chrome DevTools, chọn **Fit to window** để khung iPad không bị cắt bởi vùng hiển thị; footer giữ nguyên nội dung và bố cục.
 
+## Wedding Story v3.2 — Yêu cầu 20: PC 16:7 (15/10/2026)
+
+- PC từ 1200px chuyển sang khung **16:7**, thay thế cấu hình PC 5:3 trước đó; Tablet giữ **5:3**, Mobile giữ khung **4:7** và giới hạn chiều cao hiện tại.
+- Dùng hai ảnh mới do người dùng cung cấp, kích thước thực **1896×829** (xấp xỉ 16:7). File nguồn đuôi .png chứa dữ liệu WebP; website dùng .webp đúng định dạng và giữ nguyên byte gốc. Slide 1 ảnh vườn: `wedding-story-v3.2-16x7-02.webp`; slide 2 bãi biển: `wedding-story-v3.2-16x7-01.webp`.
+- Đồng bộ cấu hình riêng v3.2, ảnh mặc định không JavaScript, CSS và generator; mã tải CSS/JS là `request20-r1`. v3/v3.1 giữ nguyên.
+- Hai slide trên chín kích thước, đổi thiết bị, prev/next, tắt JavaScript và SHA-256 ảnh nguồn đều đạt: `docs/wedding-v32-banner-verification.json`.
+
 ## Wedding Story v3.2 — cập nhật PC 5:3 (15/10/2026)
 
 - PC từ 1200px dùng khung **5:3**, tái sử dụng hai ảnh Tablet 1600×960: `wedding-story-a-5x3.webp` và `wedding-story-b-5x3.webp`. Cập nhật này thay thế cấu hình PC 3:2 của Yêu cầu 18 bên dưới.
