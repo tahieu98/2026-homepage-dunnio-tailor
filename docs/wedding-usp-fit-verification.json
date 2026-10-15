@@ -1,0 +1,676 @@
+{
+  "date": "2026-10-16",
+  "scope": "Requests 23–24, v3.2 only",
+  "status": "passed",
+  "matrix": [
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 268.2250061035156,
+        "x": 18.287500381469727,
+        "y": 5434.39990234375
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 128.1125030517578,
+          "width": 128.1125030517578,
+          "x": 18.287500381469727,
+          "y": 5580
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 128.1125030517578,
+          "width": 128.1125030517578,
+          "x": 158.40000915527344,
+          "y": 5580
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 128.1125030517578,
+          "width": 128.1125030517578,
+          "x": 18.287500381469727,
+          "y": 5720.11279296875
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 128.1125030517578,
+          "width": 128.1125030517578,
+          "x": 158.40000915527344,
+          "y": 5720.11279296875
+        }
+      ],
+      "viewport": {
+        "height": 568,
+        "width": 320
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 316.8000183105469,
+        "x": 21.600000381469727,
+        "y": 5588.8125
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 152.40000915527344,
+          "width": 152.40000915527344,
+          "x": 21.600000381469727,
+          "y": 5734.41259765625
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 152.40000915527344,
+          "width": 152.40000915527344,
+          "x": 186,
+          "y": 5734.41259765625
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 152.40000915527344,
+          "width": 152.40000915527344,
+          "x": 21.600000381469727,
+          "y": 5898.8125
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 152.40000915527344,
+          "width": 152.40000915527344,
+          "x": 186,
+          "y": 5898.8125
+        }
+      ],
+      "viewport": {
+        "height": 667,
+        "width": 375
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 373.8250122070313,
+        "x": 25.48750114440918,
+        "y": 6053.53759765625
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180.9125061035156,
+          "width": 180.9125061035156,
+          "x": 25.48750114440918,
+          "y": 6199.1376953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180.9125061035156,
+          "width": 180.9125061035156,
+          "x": 218.40000915527344,
+          "y": 6199.1376953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180.9125061035156,
+          "width": 180.9125061035156,
+          "x": 25.48750114440918,
+          "y": 6392.05029296875
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180.9125061035156,
+          "width": 180.9125061035156,
+          "x": 218.40000915527344,
+          "y": 6392.05029296875
+        }
+      ],
+      "viewport": {
+        "height": 956,
+        "width": 440
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 231.3500061035156,
+        "y": 5648.22509765625
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 279.8000183105469,
+          "width": 279.8000183105469,
+          "x": 26.200000762939453,
+          "y": 5809.8251953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 279.8000183105469,
+          "width": 279.8000183105469,
+          "x": 318,
+          "y": 5809.8251953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 279.8000183105469,
+          "width": 279.8000183105469,
+          "x": 26.200000762939453,
+          "y": 6101.625
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 279.8000183105469,
+          "width": 279.8000183105469,
+          "x": 318,
+          "y": 6101.625
+        }
+      ],
+      "viewport": {
+        "height": 900,
+        "width": 639
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 231.75,
+        "y": 5310.47509765625
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 276.1625061035156,
+          "width": 276.1625061035156,
+          "x": 26.23750114440918,
+          "y": 5472.0751953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 276.1625061035156,
+          "width": 276.1625061035156,
+          "x": 322.3999938964844,
+          "y": 5472.0751953125
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 276.1625061035156,
+          "width": 276.1625061035156,
+          "x": 26.23750114440918,
+          "y": 5768.23779296875
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 276.1625061035156,
+          "width": 276.1625061035156,
+          "x": 322.3999938964844,
+          "y": 5768.23779296875
+        }
+      ],
+      "viewport": {
+        "height": 900,
+        "width": 640
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 526.2250366210938,
+        "y": 5312.72509765625
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 358.6000061035156,
+          "width": 358.6000061035156,
+          "x": 33.79999923706055,
+          "y": 5474.3251953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 358.6000061035156,
+          "width": 358.6000061035156,
+          "x": 412.3999938964844,
+          "y": 5474.3251953125
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 358.6000061035156,
+          "width": 358.6000061035156,
+          "x": 33.79999923706055,
+          "y": 5852.92529296875
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 358.6000061035156,
+          "width": 358.6000061035156,
+          "x": 412.3999938964844,
+          "y": 5852.92529296875
+        }
+      ],
+      "viewport": {
+        "height": 1180,
+        "width": 820
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 632.2250366210938,
+        "y": 5692.22509765625
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 217.8500061035156,
+          "width": 217.8500061035156,
+          "x": 42.70000076293945,
+          "y": 5853.8251953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 217.8500061035156,
+          "width": 217.8500061035156,
+          "x": 280.5500183105469,
+          "y": 5853.8251953125
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 217.8500061035156,
+          "width": 217.8500061035156,
+          "x": 518.4000244140625,
+          "y": 5853.8251953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 217.8500061035156,
+          "width": 217.8500061035156,
+          "x": 756.25,
+          "y": 5853.8251953125
+        }
+      ],
+      "viewport": {
+        "height": 1376,
+        "width": 1032
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 715.8250122070312,
+        "y": 6007.7626953125
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 256.13751220703125,
+          "width": 256.13751220703125,
+          "x": 49.72500228881836,
+          "y": 6169.36279296875
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 256.13751220703125,
+          "width": 256.13751220703125,
+          "x": 325.8625183105469,
+          "y": 6169.36279296875
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 256.13751220703125,
+          "width": 256.13751220703125,
+          "x": 602,
+          "y": 6169.36279296875
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 256.13751220703125,
+          "width": 256.13751220703125,
+          "x": 878.1375122070312,
+          "y": 6169.36279296875
+        }
+      ],
+      "viewport": {
+        "height": 900,
+        "width": 1199
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 716.2250366210938,
+        "y": 5774.375
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 202.40000915527344,
+          "y": 5935.97509765625
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 402.3999938964844,
+          "y": 5935.97509765625
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 602.4000244140625,
+          "y": 5935.97509765625
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 802.4000244140625,
+          "y": 5935.97509765625
+        }
+      ],
+      "viewport": {
+        "height": 900,
+        "width": 1200
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 836.2250366210938,
+        "y": 6480.0126953125
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 322.3999938964844,
+          "y": 6641.61279296875
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 522.4000244140625,
+          "y": 6641.61279296875
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 722.4000244140625,
+          "y": 6641.61279296875
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 922.4000244140624,
+          "y": 6641.61279296875
+        }
+      ],
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      }
+    },
+    {
+      "cta": {
+        "buttons": 3,
+        "fits": true,
+        "height": 57.60000228881836,
+        "href": "https://dunniotailor.com/fit-guarantee",
+        "labelHeight": 24,
+        "lineHeight": "24px",
+        "whiteSpace": "nowrap",
+        "width": 161.28750610351562,
+        "x": 1076.2249755859375,
+        "y": 7597.35009765625
+      },
+      "overflow": false,
+      "usp": [
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 562.4000244140625,
+          "y": 7758.9501953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 762.4000244140625,
+          "y": 7758.9501953125
+        },
+        {
+          "background": "rgb(11, 31, 58)",
+          "color": "rgb(200, 169, 106)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 962.4000244140624,
+          "y": 7758.9501953125
+        },
+        {
+          "background": "rgb(200, 169, 106)",
+          "color": "rgb(11, 31, 58)",
+          "contentFits": true,
+          "height": 180,
+          "width": 180,
+          "x": 1162.4000244140625,
+          "y": 7758.9501953125
+        }
+      ],
+      "viewport": {
+        "height": 1080,
+        "width": 1920
+      }
+    }
+  ],
+  "regression": [
+    {
+      "width": 320,
+      "baselineAvailable": true,
+      "unchanged": true
+    },
+    {
+      "width": 375,
+      "baselineAvailable": true,
+      "unchanged": true
+    },
+    {
+      "width": 440,
+      "baselineAvailable": true,
+      "unchanged": true
+    },
+    {
+      "width": 639,
+      "baselineAvailable": true,
+      "unchanged": true
+    },
+    {
+      "width": 640,
+      "baselineAvailable": true,
+      "unchanged": true
+    },
+    {
+      "width": 820,
+      "baselineAvailable": true,
+      "unchanged": true
+    },
+    {
+      "width": 1032,
+      "baselineAvailable": true,
+      "unchanged": true
+    },
+    {
+      "width": 1199,
+      "baselineAvailable": false,
+      "unchanged": null
+    }
+  ]
+}

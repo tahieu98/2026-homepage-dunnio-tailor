@@ -88,6 +88,7 @@
 </tbody></table></div>
 <p>Hai file PC hiện tại dùng chung nguồn với v3.1; không xử lý lại ảnh. Nguồn 1600×914 gần 7:4; CSS v3.2 khóa khung 7:4 và dùng contain. Các ảnh 3:2, 16:7 và 02-new vẫn lưu làm lịch sử nhưng không còn được v3.2 nạp để phát banner. Tablet/Mobile giữ bộ nguồn gốc.</p>
 <h2 id="section-3">3. Bố cục Wedding Story v3.1 và v3.2</h2>
+<p><strong>Yêu cầu 23–24:</strong> v3.2 thu USP về <strong>180×180px</strong> chỉ trên PC ≥1200px, căn giữa bốn ô; Tablet/Mobile giữ kích thước và màu hiện có. Cụm CTA cuối trang thêm <strong>Fit Guarantee</strong>, chữ một dòng, dẫn đến trang đảm bảo độ vừa vặn. <a href="WEDDING-USP-FIT-UPDATE.md">Chi tiết và biên bản</a>. CSS v3.2 revision <strong>request23-24-r1</strong>; JS/app.js vẫn request22-r1.</p>
 <p>Thứ tự: <strong>hero → Wedding party (chỉ v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → FAQ (chỉ v3.1) → closing → USP → footer</strong>.</p>
 <ul>
 <li><p>Products/looks/craft và cấu trúc studio ban đầu dựa trên v2; studio-board nay đã thay bằng video demo theo Yêu cầu 21; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.</p>
@@ -118,7 +119,7 @@
 <li>Cấu hình chung: <code>assets/banner-config.js</code>. v3.2 không còn nạp override 16:7; dữ liệu PC dùng chung v3.1. <code>assets/wedding-final.js</code> quản lý autoplay và sự kiện slide-step của app.js.</li>
 <li><code>assets/wedding-variants.css</code> chứa baseline của hai biến thể; wedding-final.css ghi đè riêng v3.2 sang PC 7:4, bỏ hàng nút và điều chỉnh mobile/section. Không đổi bộ Tablet/Mobile nếu chỉ thay ảnh PC.</li>
 <li>Đồng bộ ảnh fallback đầu tiên và width/height trong <code>tools/build-wedding-variants.cjs</code>, rồi chạy <code>node tools/build-wedding-variants.cjs</code>. Generator này dựng lại v3.1/v3.2 từ v2/v3; không chỉ sửa HTML đầu ra rồi bỏ quên generator.</li>
-<li>Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp thêm wedding-final.css, wedding-final.js và app.js revision request22-r1.</li>
+<li>Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css revision request23-24-r1; wedding-final.js và app.js giữ revision request22-r1.</li>
 <li>Chạy <code>node tools/verify-wedding-v32-banners.cjs</code> với HTTP preview đang phục vụ dự án. <code>DUNNIO_PREVIEW_URL</code> đổi địa chỉ kiểm thử; <code>DUNNIO_VERIFICATION_OUTPUT</code> đổi file kết quả. Dữ liệu phân biệt <code>viewport.width/height</code> với <code>width/height</code> của ảnh hiển thị.</li>
 <li>Chạy <code>node tools/build-version-status-docs.cjs</code> để dựng lại tài liệu này và manifest. Khi sửa dữ liệu/mẫu của báo cáo Hockerty lịch sử, dùng <code>node tools/build-hockerty-audit-report.cjs</code>.</li>
 <li>Commit các file thuộc bản sửa, push main, chờ Pages báo built cho đúng commit và kiểm tra URL online. Git push thành công chưa đồng nghĩa Pages đã triển khai xong.</li>

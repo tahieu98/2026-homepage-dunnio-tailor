@@ -2,6 +2,8 @@
 
 Ngày cập nhật: **16/10/2026**, giờ Việt Nam. Áp dụng riêng [v3.2](../v3.2-wedding-story.html); v3.1 giữ nguyên HTML và bố cục của Yêu cầu 21.
 
+**Bổ sung Yêu cầu 23–24:** USP PC ≥1200px hiện là 180×180px; Tablet/Mobile giữ nguyên. Cụm closing có thêm nút Fit Guarantee. CSS hiện dùng revision `request23-24-r1`; JS giữ `request22-r1`. [Chi tiết cập nhật](WEDDING-USP-FIT-UPDATE.md). Các ảnh và biên bản Yêu cầu 22 bên dưới mô tả thời điểm trước bổ sung này.
+
 | Hạng mục | Cấu hình final |
 |---|---|
 | Banner PC ≥1200px | Khung **7:4**, dùng lại `wedding-story-a-7x4.webp` và `wedding-story-b-7x4.webp` của v3.1, nguồn 1600×914 |

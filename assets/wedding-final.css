@@ -17,6 +17,12 @@
 .theme.wedding-32 .usp-item .usp-icon{font-size:clamp(28px,2.5vw,36px);line-height:1;margin:0}
 .theme.wedding-32 .usp-icon:after{margin:10px auto 0}
 .theme.wedding-32 .usp-item h3{min-height:0;margin:0;line-height:1.3;text-align:center}
+/* Requests 23–24: compact desktop squares; preserve tablet/mobile USP sizing. */
+@media(min-width:1200px){
+ .theme.wedding-32 .usp-inner{grid-template-columns:repeat(4,180px);justify-content:center}
+ .theme.wedding-32 .usp-item{padding:16px}
+}
+.theme.wedding-32 .fit-guarantee-button{white-space:nowrap}
 @media(width < 640px){
  .theme.wedding-32 .hockerty-hero .hero-media{display:grid;grid-template-columns:minmax(0,1fr)}
  .theme.wedding-32 .hockerty-hero picture{grid-row:1;grid-column:1}
