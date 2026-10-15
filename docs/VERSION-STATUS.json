@@ -2,10 +2,12 @@
   "updated": "2026-10-16",
   "timezone": "Asia/Saigon",
   "bannerRevision": "request22-r1",
-  "layoutRevision": "request23-24-r1",
+  "layoutRevision": "request23-24-r2",
   "studioRevision": "request21-r1",
   "desktopUspSize": 180,
   "fitGuaranteeCTA": "https://dunniotailor.com/fit-guarantee",
+  "fitGuaranteeLabel": "See how we ensure your fit",
+  "fitGuaranteePlacement": "Centered below usp-inner, inside usp-section",
   "breakpoints": {
     "mobile": "0–639 CSS px",
     "tablet": "640–1199 CSS px",

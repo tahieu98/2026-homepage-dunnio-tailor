@@ -21,9 +21,9 @@ module.exports=html=>{
   html=block(html,'craft-section',s=>remove(s,'detail-line'));
   html=block(html,'community-section',s=>remove(remove(s,'actions'),'rail-controls')
     .replace('</section>','<div class="community-review-action"><a class="btn btn-primary button" href="https://dunniotailor.com/feedback" data-event="cta_click">Read customer reviews <span aria-hidden="true">↗</span></a></div></section>'));
-  html=block(html,'usp-section',s=>s.replace(/<p\b[^>]*>[\s\S]*?<\/p>/g,'').replace(/<span class="text-link">[\s\S]*?<\/span>/g,''));
-  html=block(html,'closing-section',s=>block(s,'actions',actions=>actions.replace('</div>','<a class="button secondary fit-guarantee-button" href="https://dunniotailor.com/fit-guarantee" data-event="cta_click"><span class="fit-guarantee-label">Fit Guarantee</span> <span aria-hidden="true">↗</span></a></div>')));
-  html=html.replace('</head>','<link rel="stylesheet" href="assets/wedding-final.css?v=request23-24-r1"></head>')
+  html=block(html,'usp-section',s=>s.replace(/<p\b[^>]*>[\s\S]*?<\/p>/g,'').replace(/<span class="text-link">[\s\S]*?<\/span>/g,'')
+    .replace('</section>','<div class="usp-fit-action"><a class="button secondary fit-guarantee-button" href="https://dunniotailor.com/fit-guarantee" data-event="cta_click"><span class="fit-guarantee-label">See how we ensure your fit</span> <span aria-hidden="true">↗</span></a></div></section>'));
+  html=html.replace('</head>','<link rel="stylesheet" href="assets/wedding-final.css?v=request23-24-r2"></head>')
     .replace('assets/app.js?v=banner-slides-20261012-r4','assets/app.js?v=request22-r1')
     .replace('<script src="assets/studio-video.js','<script src="assets/wedding-final.js?v=request22-r1" defer></script><script src="assets/studio-video.js');
   return html;

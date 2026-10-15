@@ -28,7 +28,7 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 
 ## Thông số phiên bản hiện hành
 
-**Yêu cầu 23–24 (v3.2):** bốn USP trên PC ≥1200px thu gọn về **180×180px**, căn giữa hàng; kích thước và màu USP Tablet/Mobile giữ nguyên. Thêm nút **Fit Guarantee** trong cụm CTA cuối trang, dẫn đến trang đảm bảo độ vừa vặn; chữ một dòng trên cả ba giao diện. [Chi tiết và kiểm tra](docs/WEDDING-USP-FIT-UPDATE.md).
+**Yêu cầu 23–24 (v3.2):** bốn USP trên PC ≥1200px thu gọn về **180×180px**, căn giữa hàng; kích thước và màu USP Tablet/Mobile giữ nguyên. Nút **See how we ensure your fit ↗** căn giữa ngay dưới bốn ô USP, dẫn đến trang Fit Guarantee; chữ một dòng trên cả ba giao diện. [Chi tiết và kiểm tra](docs/WEDDING-USP-FIT-UPDATE.md).
 
 [Hồ sơ hiện hành dạng HTML](docs/VERSION-STATUS.html) · [Markdown](docs/VERSION-STATUS.md) · [Manifest ảnh và SHA-256](docs/VERSION-STATUS.json). Tài liệu này ưu tiên hơn các bước lịch sử bên dưới. v3.2 final hiện dùng PC **7:4 / nguồn ảnh v3.1**, Tablet **5:3**, Mobile **hướng tới 4:7** có giới hạn chiều cao; tự chuyển mỗi **6 giây**, không còn banner-controls. v3.1 giữ các nút thủ công và Mobile **4:5**.
 
