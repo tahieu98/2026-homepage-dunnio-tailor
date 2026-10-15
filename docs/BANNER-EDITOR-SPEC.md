@@ -1,6 +1,10 @@
 # Thông số cho editor thiết kế banner Dunnio Tailor
 
-Cập nhật12/10/2026, theo ảnh hoàn chỉnh người dùng cung cấp. Áp dụng chung5 concept; headline/CTA thay theo chủ đề. Quyết định hiện hành thay thế thử nghiệm8:3 và nền kéo giãn/blur.
+> **Hiện hành 15/10/2026:** v3.2 PC **16:7**, nguồn 1896×829, slide 1 **02-new**, slide 2 **01**; Tablet **5:3**, Mobile khung hướng tới **4:7** có giới hạn chiều cao. v3.1 giữ PC gần 7:4, Tablet 5:3, Mobile 4:5. Xem [trạng thái phiên bản hiện hành](VERSION-STATUS.md) và [bản HTML](VERSION-STATUS.html). Các tỷ lệ/ảnh trong phần lịch sử không ghi đè cấu hình này.
+
+## Bộ thông số nền tảng ngày 12/10/2026 — năm concept gốc
+
+Phần này mô tả năm concept gốc v1–v5. Hai biến thể v3.1/v3.2 có ngoại lệ trong tài liệu hiện hành ở trên; đặc biệt vị trí nút dưới ảnh và khung mobile v3.2 không dùng bảng điều khiển trên ảnh dưới đây.
 
 ## Ảnh và khung hiển thị
 
@@ -29,7 +33,7 @@ Tổng 7 WebP cho v2 (3+3+2, thiếu 1 bản 4:5 của cảnh v2), 6 WebP cho v3
 
 H=W/r. r=7/4=1.75, 5/3≈1.667, 4/5=0.8. PC/tablet dùng H 7:4 hoặc 5:3; mobile dùng H 4:5. W thường nhỏ hơn viewport ~15px do scrollbar desktop.
 
-## Vị trí nội dung — đúng CSS hiện hành
+## Vị trí nội dung — nền tảng năm concept gốc
 
 Header: hàng riêng phía trên ảnh,80px PC≥1200 và64px tablet/mobile; logo SVG giữa bằng `1fr auto 1fr`. Ảnh bắt đầu sau header, tránh menu che tóc. Khi cuộn, header sticky có thể phủ nội dung đã cuộn qua như hành vi thông thường.
 

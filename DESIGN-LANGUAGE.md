@@ -34,4 +34,4 @@ The header and mobile CTA must not cover a focused input/button. All forms retai
 
 ## Responsive banner contract
 
-The final image element remains width:100%, height:auto. PC/tablet/mobile sources may have different intrinsic proportions. On narrow screens, copy stays outside the image. Workshop/style imagery and gallery content must not be represented as verified testimonials without supporting attribution.
+Current device and variant rules are in [VERSION-STATUS](docs/VERSION-STATUS.md). Wedding Story v3.2 uses a 16:7 desktop frame with supplied 1896×829 artwork (garden 02-new, beach 01), tablet 5:3 and a nominal 4:7 mobile frame with a viewport cap. v3.1 keeps mobile 4:5 with copy below the image; v3.2 overlays copy near the bottom on mobile. Both variants place banner controls below the image. Current source/config and template generators must be updated together. Workshop/style imagery and gallery content must not be represented as verified testimonials without supporting attribution.

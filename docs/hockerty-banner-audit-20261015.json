@@ -1,0 +1,2619 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Saigon",
+  "method": "Read-only Chrome DOM/CSS inspection with viewport resizing; intrinsic file metadata read from exact CDN URLs found in active CSS.",
+  "scope": "Report and recommendations only; existing homepage code is unchanged.",
+  "sources": {
+    "hockerty": "https://www.hockerty.com/en-us/",
+    "dunnio": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3.2-wedding-story.html",
+    "hockertyCss": "https://www.hockerty.com/css/1791979980/default.css?v=v51",
+    "campaign": "2026/2026-10"
+  },
+  "assets": [
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024_pan.webp",
+      "file": "dkt_1024_pan.webp",
+      "width": 1024,
+      "height": 480,
+      "ratio": 2.1333333333333333,
+      "bytes": 81880,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024.webp",
+      "file": "dkt_1024.webp",
+      "width": 1024,
+      "height": 683,
+      "ratio": 1.499267935578331,
+      "bytes": 101370,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1200_pan.webp",
+      "file": "dkt_1200_pan.webp",
+      "width": 1200,
+      "height": 562,
+      "ratio": 2.1352313167259784,
+      "bytes": 102428,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1200.webp",
+      "file": "dkt_1200.webp",
+      "width": 1200,
+      "height": 800,
+      "ratio": 1.5,
+      "bytes": 121670,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500_pan.webp",
+      "file": "dkt_1500_pan.webp",
+      "width": 1500,
+      "height": 703,
+      "ratio": 2.1337126600284493,
+      "bytes": 135066,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500.webp",
+      "file": "dkt_1500.webp",
+      "width": 1500,
+      "height": 1000,
+      "ratio": 1.5,
+      "bytes": 167120,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1800_pan.webp",
+      "file": "dkt_1800_pan.webp",
+      "width": 1800,
+      "height": 844,
+      "ratio": 2.132701421800948,
+      "bytes": 168298,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1800.webp",
+      "file": "dkt_1800.webp",
+      "width": 1800,
+      "height": 1200,
+      "ratio": 1.5,
+      "bytes": 206108,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500_pan.webp",
+      "file": "dkt_2500_pan.webp",
+      "width": 2500,
+      "height": 1172,
+      "ratio": 2.1331058020477816,
+      "bytes": 257568,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500.webp",
+      "file": "dkt_2500.webp",
+      "width": 2500,
+      "height": 1667,
+      "ratio": 1.4997000599880024,
+      "bytes": 305564,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_1024.webp",
+      "file": "mob_1024.webp",
+      "width": 1024,
+      "height": 2048,
+      "ratio": 0.5,
+      "bytes": 182040,
+      "format": "webp"
+    },
+    {
+      "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_800.webp",
+      "file": "mob_800.webp",
+      "width": 800,
+      "height": 1600,
+      "ratio": 0.5,
+      "bytes": 133890,
+      "format": "webp"
+    }
+  ],
+  "hockerty": [
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 1130.000015258789,
+        "height": 224.8000030517578,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 905.2000122070312
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 995.2000122070312,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 935.2000122070312
+      },
+      "hero": {
+        "bottom": 1130,
+        "height": 1080,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "1080px",
+        "maxHeight": "1080px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 1130,
+        "height": 1080,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500_pan.webp\"), url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500.webp\")",
+        "backgroundPosition": "0% 0%, 0% 0%",
+        "backgroundSize": "cover, cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 1045.0000133514404,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 1020.2000122070312
+      },
+      "viewport": {
+        "clientWidth": 1905,
+        "dpr": 1.0000000149011612,
+        "height": 1080,
+        "width": 1920
+      },
+      "primaryAsset": "dkt_2500_pan.webp",
+      "renderedRatio": 1.7637037489149305,
+      "extraScroll": 50,
+      "coverCrop": {
+        "xPercent": 17.317568250868064,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 950.0000152587892,
+        "height": 224.8000030517578,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 725.2000122070312
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 815.2000122070312,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 755.2000122070312
+      },
+      "hero": {
+        "bottom": 950,
+        "height": 900,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "900px",
+        "maxHeight": "900px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 950,
+        "height": 900,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500_pan.webp\"), url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500.webp\")",
+        "backgroundPosition": "0% 0%, 0% 0%",
+        "backgroundSize": "cover, cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 865.0000133514404,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 840.2000122070312
+      },
+      "viewport": {
+        "clientWidth": 1905,
+        "dpr": 1.0000000149011612,
+        "height": 900,
+        "width": 1920
+      },
+      "primaryAsset": "dkt_2500_pan.webp",
+      "renderedRatio": 2.1164444986979167,
+      "extraScroll": 50,
+      "coverCrop": {
+        "xPercent": 0.7810819010416692,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 950.0000152587892,
+        "height": 224.8000030517578,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 725.2000122070312
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 815.2000122070312,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 755.2000122070312
+      },
+      "hero": {
+        "bottom": 950,
+        "height": 900,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "900px",
+        "maxHeight": "900px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 950,
+        "height": 900,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 865.0000133514404,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 840.2000122070312
+      },
+      "viewport": {
+        "clientWidth": 1425,
+        "dpr": 1.0000000149011612,
+        "height": 900,
+        "width": 1440
+      },
+      "primaryAsset": "dkt_1500.webp",
+      "renderedRatio": 1.5831111653645833,
+      "extraScroll": 50,
+      "coverCrop": {
+        "xPercent": 0,
+        "yPercent": 5.249862876524103
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 1000.4000396728516,
+        "height": 224.8000030517578,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 775.6000366210938
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 865.6000366210938,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 805.6000366210938
+      },
+      "hero": {
+        "bottom": 1000.4000244140624,
+        "height": 950.4000244140624,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "950.4px",
+        "maxHeight": "1000px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 1000.4000244140624,
+        "height": 950.4000244140624,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 915.4000377655028,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 890.6000366210938
+      },
+      "viewport": {
+        "clientWidth": 1425,
+        "dpr": 1.0000000149011612,
+        "height": 1000,
+        "width": 1440
+      },
+      "primaryAsset": "dkt_1500.webp",
+      "renderedRatio": 1.4991582620239705,
+      "extraScroll": 0.4000244140623863,
+      "coverCrop": {
+        "xPercent": 0.056115865068617765,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 818.0000152587891,
+        "height": 224.8000030517578,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 593.2000122070312
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 683.2000122070312,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 623.2000122070312
+      },
+      "hero": {
+        "bottom": 818,
+        "height": 768,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "768px",
+        "maxHeight": "768px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 818,
+        "height": 768,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500_pan.webp\"), url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500.webp\")",
+        "backgroundPosition": "0% 0%, 0% 0%",
+        "backgroundSize": "cover, cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 733.0000133514404,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 708.2000122070312
+      },
+      "viewport": {
+        "clientWidth": 1351,
+        "dpr": 1.0000000149011612,
+        "height": 768,
+        "width": 1366
+      },
+      "primaryAsset": "dkt_1500_pan.webp",
+      "renderedRatio": 1.7593750953674316,
+      "extraScroll": 50,
+      "coverCrop": {
+        "xPercent": 17.543953863779716,
+        "yPercent": 1.1102230246251565e-14
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 770.0000152587891,
+        "height": 224.8000030517578,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 545.2000122070312
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 635.2000122070312,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 575.2000122070312
+      },
+      "hero": {
+        "bottom": 770,
+        "height": 720,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "720px",
+        "maxHeight": "720px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 770,
+        "height": 720,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500_pan.webp\"), url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500.webp\")",
+        "backgroundPosition": "0% 0%, 0% 0%",
+        "backgroundSize": "cover, cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 685.0000133514404,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 660.2000122070312
+      },
+      "viewport": {
+        "clientWidth": 1265,
+        "dpr": 1.0000000149011612,
+        "height": 720,
+        "width": 1280
+      },
+      "primaryAsset": "dkt_1500_pan.webp",
+      "renderedRatio": 1.756666734483507,
+      "extraScroll": 50,
+      "coverCrop": {
+        "xPercent": 17.67088571053965,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 731.1125030517578,
+        "height": 224.8000030517578,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 506.3125
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 596.3125,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 536.3125
+      },
+      "hero": {
+        "bottom": 731.1124877929688,
+        "height": 681.1124877929688,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "681.112px",
+        "maxHeight": "1376px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 731.1124877929688,
+        "height": 681.1124877929688,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1200.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 646.1125011444092,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 621.3125
+      },
+      "viewport": {
+        "clientWidth": 1017,
+        "dpr": 1.0000000149011612,
+        "height": 1376,
+        "width": 1032
+      },
+      "primaryAsset": "dkt_1200.webp",
+      "renderedRatio": 1.492851777079788,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0.47654819468080367,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 725.8375091552734,
+        "height": 224.8000030517578,
+        "width": 1008.7999877929688,
+        "x": 0,
+        "y": 501.0375061035156
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 591.0375366210938,
+        "height": 60,
+        "width": 850,
+        "x": 50,
+        "y": 531.0375366210938
+      },
+      "hero": {
+        "bottom": 725.8375244140625,
+        "height": 675.8375244140625,
+        "width": 1008.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "675.838px",
+        "maxHeight": "768px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 725.8375244140625,
+        "height": 675.8375244140625,
+        "width": 1008.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 1008.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 1008.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 640.8375377655029,
+        "height": 24.80000114440918,
+        "width": 850,
+        "x": 50,
+        "y": 616.0375366210938
+      },
+      "viewport": {
+        "clientWidth": 1009,
+        "dpr": 1.0000000149011612,
+        "height": 768,
+        "width": 1024
+      },
+      "primaryAsset": "dkt_1024.webp",
+      "renderedRatio": 1.4926664343883214,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0.44031497195082814,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 591.1999969482422,
+        "height": 224.8000030517578,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 366.3999938964844
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 456.3999938964844,
+        "height": 60,
+        "width": 704.7999877929688,
+        "x": 50,
+        "y": 396.3999938964844
+      },
+      "hero": {
+        "bottom": 591.2000122070312,
+        "height": 541.2000122070312,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "541.2px",
+        "maxHeight": "1180px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 591.2000122070312,
+        "height": 541.2000122070312,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 506.1999950408935,
+        "height": 24.80000114440918,
+        "width": 704.7999877929688,
+        "x": 50,
+        "y": 481.3999938964844
+      },
+      "viewport": {
+        "clientWidth": 805,
+        "dpr": 1.0000000149011612,
+        "height": 1180,
+        "width": 820
+      },
+      "primaryAsset": "dkt_1024.webp",
+      "renderedRatio": 1.4870657236517202,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0.8138780025268577,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 579.0500030517578,
+        "height": 224.8000030517578,
+        "width": 786.4000244140625,
+        "x": 0,
+        "y": 354.25
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 444.25,
+        "height": 60,
+        "width": 686.4000244140625,
+        "x": 50,
+        "y": 384.25
+      },
+      "hero": {
+        "bottom": 579.0499877929688,
+        "height": 529.0499877929688,
+        "width": 786.4000244140625,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "529.05px",
+        "maxHeight": "1180px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 579.0499877929688,
+        "height": 529.0499877929688,
+        "width": 786.4000244140625,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 786.4000244140625,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 786.4000244140625,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 494.0500011444092,
+        "height": 24.80000114440918,
+        "width": 686.4000244140625,
+        "x": 50,
+        "y": 469.25
+      },
+      "viewport": {
+        "clientWidth": 786,
+        "dpr": 1.0000000149011612,
+        "height": 1180,
+        "width": 802
+      },
+      "primaryAsset": "dkt_1024.webp",
+      "renderedRatio": 1.4864380352689879,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0.8557443272735665,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 1112.0000457763672,
+        "height": 200.40000915527344,
+        "width": 784.7999877929688,
+        "x": 0,
+        "y": 911.6000366210938
+      },
+      "copyStyle": {
+        "fontH1": "42px",
+        "fontH2": "16px",
+        "padding": "20px 20px 40px",
+        "position": "absolute",
+        "textAlign": "center"
+      },
+      "heading": {
+        "bottom": 971.6000366210938,
+        "height": 40,
+        "width": 744.7999877929688,
+        "x": 20,
+        "y": 931.6000366210938
+      },
+      "hero": {
+        "bottom": 1112,
+        "height": 1062,
+        "width": 784.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "1062px",
+        "maxHeight": "1180px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 1112,
+        "height": 1062,
+        "width": 784.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_1024.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 100,
+        "height": 50,
+        "width": 784.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 784.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 1071.9999752044678,
+        "height": 30.399999618530273,
+        "width": 108.51250457763672,
+        "x": 338.13751220703125,
+        "y": 1041.5999755859375
+      },
+      "scrollCueDisplay": "inline",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 1016.6000366210938,
+        "height": 20,
+        "width": 744.7999877929688,
+        "x": 20,
+        "y": 996.6000366210938
+      },
+      "viewport": {
+        "clientWidth": 785,
+        "dpr": 1.0000000149011612,
+        "height": 1180,
+        "width": 800
+      },
+      "primaryAsset": "mob_1024.webp",
+      "renderedRatio": 0.738983039353078,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0,
+        "yPercent": 32.33944848887046
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 971.6000213623048,
+        "height": 200.40000915527344,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 771.2000122070312
+      },
+      "copyStyle": {
+        "fontH1": "42px",
+        "fontH2": "16px",
+        "padding": "20px 20px 40px",
+        "position": "absolute",
+        "textAlign": "center"
+      },
+      "heading": {
+        "bottom": 831.2000122070312,
+        "height": 40,
+        "width": 712.7999877929688,
+        "x": 20,
+        "y": 791.2000122070312
+      },
+      "hero": {
+        "bottom": 971.6000366210938,
+        "height": 921.6000366210938,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "921.6px",
+        "maxHeight": "1024px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 971.6000366210938,
+        "height": 921.6000366210938,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_1024.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 100,
+        "height": 50,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 931.6000118255616,
+        "height": 30.399999618530273,
+        "width": 108.51250457763672,
+        "x": 322.13751220703125,
+        "y": 901.2000122070312
+      },
+      "scrollCueDisplay": "inline",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 876.2000122070312,
+        "height": 20,
+        "width": 712.7999877929688,
+        "x": 20,
+        "y": 856.2000122070312
+      },
+      "viewport": {
+        "clientWidth": 753,
+        "dpr": 1.0000000149011612,
+        "height": 1024,
+        "width": 768
+      },
+      "primaryAsset": "mob_1024.webp",
+      "renderedRatio": 0.8168402320739866,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0,
+        "yPercent": 38.78851942313344
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 860.0000457763672,
+        "height": 200.40000915527344,
+        "width": 586.4000244140625,
+        "x": 0,
+        "y": 659.6000366210938
+      },
+      "copyStyle": {
+        "fontH1": "42px",
+        "fontH2": "16px",
+        "padding": "20px 20px 40px",
+        "position": "absolute",
+        "textAlign": "center"
+      },
+      "heading": {
+        "bottom": 719.6000366210938,
+        "height": 40,
+        "width": 546.4000244140625,
+        "x": 20,
+        "y": 679.6000366210938
+      },
+      "hero": {
+        "bottom": 860,
+        "height": 810,
+        "width": 586.4000244140625,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "810px",
+        "maxHeight": "900px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 860,
+        "height": 810,
+        "width": 586.4000244140625,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_1024.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 100,
+        "height": 50,
+        "width": 586.4000244140625,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 586.4000244140625,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 820.000036239624,
+        "height": 30.399999618530273,
+        "width": 108.51250457763672,
+        "x": 238.9375,
+        "y": 789.6000366210938
+      },
+      "scrollCueDisplay": "inline",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 764.6000366210938,
+        "height": 20,
+        "width": 546.4000244140625,
+        "x": 20,
+        "y": 744.6000366210938
+      },
+      "viewport": {
+        "clientWidth": 586,
+        "dpr": 1.0000000149011612,
+        "height": 900,
+        "width": 602
+      },
+      "primaryAsset": "mob_1024.webp",
+      "renderedRatio": 0.7239506474247686,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0,
+        "yPercent": 30.93451856440822
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 860.0000457763672,
+        "height": 200.40000915527344,
+        "width": 584.7999877929688,
+        "x": 0,
+        "y": 659.6000366210938
+      },
+      "copyStyle": {
+        "fontH1": "42px",
+        "fontH2": "16px",
+        "padding": "20px 20px 40px",
+        "position": "absolute",
+        "textAlign": "center"
+      },
+      "heading": {
+        "bottom": 719.6000366210938,
+        "height": 40,
+        "width": 544.7999877929688,
+        "x": 20,
+        "y": 679.6000366210938
+      },
+      "hero": {
+        "bottom": 860,
+        "height": 810,
+        "width": 584.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "810px",
+        "maxHeight": "900px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 860,
+        "height": 810,
+        "width": 584.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_800.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 100,
+        "height": 50,
+        "width": 584.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 584.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 820.000036239624,
+        "height": 30.399999618530273,
+        "width": 108.51250457763672,
+        "x": 238.1374969482422,
+        "y": 789.6000366210938
+      },
+      "scrollCueDisplay": "inline",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 764.6000366210938,
+        "height": 20,
+        "width": 544.7999877929688,
+        "x": 20,
+        "y": 744.6000366210938
+      },
+      "viewport": {
+        "clientWidth": 585,
+        "dpr": 1.0000000149011612,
+        "height": 900,
+        "width": 600
+      },
+      "primaryAsset": "mob_800.webp",
+      "renderedRatio": 0.7219752935715663,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0,
+        "yPercent": 30.745552589960322
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 910.4000091552734,
+        "height": 200.40000915527344,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 710
+      },
+      "copyStyle": {
+        "fontH1": "42px",
+        "fontH2": "16px",
+        "padding": "20px 20px 40px",
+        "position": "absolute",
+        "textAlign": "center"
+      },
+      "heading": {
+        "bottom": 770,
+        "height": 40,
+        "width": 384.8000183105469,
+        "x": 20,
+        "y": 730
+      },
+      "hero": {
+        "bottom": 910.4000244140624,
+        "height": 860.4000244140625,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "860.4px",
+        "maxHeight": "956px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 910.4000244140624,
+        "height": 860.4000244140625,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_800.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 100,
+        "height": 50,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 870.3999996185303,
+        "height": 30.399999618530273,
+        "width": 108.51250457763672,
+        "x": 158.1374969482422,
+        "y": 840
+      },
+      "scrollCueDisplay": "inline",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 815,
+        "height": 20,
+        "width": 384.8000183105469,
+        "x": 20,
+        "y": 795
+      },
+      "viewport": {
+        "clientWidth": 425,
+        "dpr": 1.0000000149011612,
+        "height": 956,
+        "width": 440
+      },
+      "primaryAsset": "mob_800.webp",
+      "renderedRatio": 0.4937238566442838,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 1.255228671143238,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 809.6000061035156,
+        "height": 260.3999938964844,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 549.2000122070312
+      },
+      "copyStyle": {
+        "fontH1": "42px",
+        "fontH2": "16px",
+        "padding": "20px 20px 40px",
+        "position": "absolute",
+        "textAlign": "center"
+      },
+      "heading": {
+        "bottom": 649.2000122070312,
+        "height": 80,
+        "width": 335.20001220703125,
+        "x": 20,
+        "y": 569.2000122070312
+      },
+      "hero": {
+        "bottom": 809.6000366210938,
+        "height": 759.6000366210938,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "759.6px",
+        "maxHeight": "844px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 809.6000366210938,
+        "height": 759.6000366210938,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_800.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 100,
+        "height": 50,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 769.6000118255615,
+        "height": 30.399999618530273,
+        "width": 108.51250457763672,
+        "x": 133.33750915527344,
+        "y": 739.2000122070312
+      },
+      "scrollCueDisplay": "inline",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 714.2000122070312,
+        "height": 40,
+        "width": 335.20001220703125,
+        "x": 20,
+        "y": 674.2000122070312
+      },
+      "viewport": {
+        "clientWidth": 375,
+        "dpr": 1.0000000149011612,
+        "height": 844,
+        "width": 390
+      },
+      "primaryAsset": "mob_800.webp",
+      "renderedRatio": 0.49394417340475966,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 1.2111653190480687,
+        "yPercent": 0
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 650.4750061035156,
+        "height": 260.3999938964844,
+        "width": 360,
+        "x": 0,
+        "y": 390.0750122070313
+      },
+      "copyStyle": {
+        "fontH1": "42px",
+        "fontH2": "16px",
+        "padding": "20px 20px 40px",
+        "position": "absolute",
+        "textAlign": "center"
+      },
+      "heading": {
+        "bottom": 490.0750122070313,
+        "height": 80,
+        "width": 320,
+        "x": 20,
+        "y": 410.0750122070313
+      },
+      "hero": {
+        "bottom": 650.4750366210938,
+        "height": 600.4750366210938,
+        "width": 360,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "600.475px",
+        "maxHeight": "667.2px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 650.4750366210938,
+        "height": 600.4750366210938,
+        "width": 360,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_800.webp\")",
+        "backgroundPosition": "0% 0%",
+        "backgroundSize": "cover"
+      },
+      "nav": {
+        "bottom": 100,
+        "height": 50,
+        "width": 360,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 360,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 610.4750118255615,
+        "height": 30.399999618530273,
+        "width": 108.51250457763672,
+        "x": 125.7375030517578,
+        "y": 580.0750122070312
+      },
+      "scrollCueDisplay": "inline",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 555.0750122070312,
+        "height": 40,
+        "width": 320,
+        "x": 20,
+        "y": 515.0750122070312
+      },
+      "viewport": {
+        "clientWidth": 360,
+        "dpr": 1.0000000149011612,
+        "height": 667,
+        "width": 375
+      },
+      "primaryAsset": "mob_800.webp",
+      "renderedRatio": 0.5995253391810256,
+      "extraScroll": 0,
+      "coverCrop": {
+        "xPercent": 0,
+        "yPercent": 16.60068935818142
+      }
+    },
+    {
+      "activeSource": "main_img img ",
+      "bodyClass": "man home body_en has_bbar",
+      "copy": {
+        "bottom": 440.40000915527344,
+        "height": 224.8000030517578,
+        "width": 828.7999877929688,
+        "x": 0,
+        "y": 215.6000061035156
+      },
+      "copyStyle": {
+        "fontH1": "70px",
+        "fontH2": "20px",
+        "padding": "30px 50px 60px",
+        "position": "absolute",
+        "textAlign": "left"
+      },
+      "heading": {
+        "bottom": 305.6000061035156,
+        "height": 60,
+        "width": 728.7999877929688,
+        "x": 50,
+        "y": 245.6000061035156
+      },
+      "hero": {
+        "bottom": 440.3999938964844,
+        "height": 390.3999938964844,
+        "width": 828.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "heroLinks": 0,
+      "heroStyle": {
+        "aspectRatio": "auto",
+        "height": "390.4px",
+        "maxHeight": "390.4px"
+      },
+      "htmlClass": " css-fonts-nc-nav webp",
+      "image": {
+        "bottom": 440.3999938964844,
+        "height": 390.3999938964844,
+        "width": 828.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "imageStyle": {
+        "backgroundImage": "url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024_pan.webp\"), url(\"https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024.webp\")",
+        "backgroundPosition": "0% 0%, 0% 0%",
+        "backgroundSize": "cover, cover"
+      },
+      "nav": {
+        "bottom": 115,
+        "height": 65,
+        "width": 828.7999877929688,
+        "x": 0,
+        "y": 50
+      },
+      "overflow": false,
+      "promo": {
+        "bottom": 50,
+        "height": 50,
+        "width": 828.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCue": {
+        "bottom": 0,
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "scrollCueDisplay": "none",
+      "scrollY": 0,
+      "subtitle": {
+        "bottom": 355.4000072479248,
+        "height": 24.80000114440918,
+        "width": 728.7999877929688,
+        "x": 50,
+        "y": 330.6000061035156
+      },
+      "viewport": {
+        "clientWidth": 829,
+        "dpr": 1.0000000149011612,
+        "height": 390,
+        "width": 844
+      },
+      "primaryAsset": "dkt_1024_pan.webp",
+      "renderedRatio": 2.122950821594345,
+      "extraScroll": 50.399993896484375,
+      "coverCrop": {
+        "xPercent": 0.4866802377650914,
+        "yPercent": 0
+      }
+    }
+  ],
+  "dunnio": [
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 1413.862548828125,
+        "height": 64,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 1349.862548828125
+      },
+      "copy": {
+        "bottom": 992,
+        "height": 275,
+        "width": 457.1499938964844,
+        "x": 80,
+        "y": 717
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 992.0000267028807,
+        "height": 53.60000228881836,
+        "width": 211.125,
+        "x": 80,
+        "y": 938.4000244140624
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 1413.862548828125,
+        "height": 1333.862548828125,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "image": {
+        "bottom": 1349.862548828125,
+        "height": 1269.862548828125,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "imageAspect": "3 / 2",
+      "imageFit": "contain",
+      "natural": [
+        1536,
+        1024
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "viewport": {
+        "clientWidth": 1905,
+        "height": 1080,
+        "width": 1920
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 1413.862548828125,
+        "height": 64,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 1349.862548828125
+      },
+      "copy": {
+        "bottom": 812,
+        "height": 275,
+        "width": 457.1499938964844,
+        "x": 80,
+        "y": 537
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 812.0000267028809,
+        "height": 53.60000228881836,
+        "width": 211.125,
+        "x": 80,
+        "y": 758.4000244140625
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 1413.862548828125,
+        "height": 1333.862548828125,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "image": {
+        "bottom": 1349.862548828125,
+        "height": 1269.862548828125,
+        "width": 1904.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "imageAspect": "3 / 2",
+      "imageFit": "contain",
+      "natural": [
+        1536,
+        1024
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "viewport": {
+        "clientWidth": 1905,
+        "height": 900,
+        "width": 1920
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 1093.862548828125,
+        "height": 64,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 1029.862548828125
+      },
+      "copy": {
+        "bottom": 812.0000152587891,
+        "height": 246.4250030517578,
+        "width": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 565.5750122070312
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 812.0000267028809,
+        "height": 53.60000228881836,
+        "width": 211.125,
+        "x": 59.837501525878906,
+        "y": 758.4000244140625
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 1093.8624877929688,
+        "height": 1013.8624877929688,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "image": {
+        "bottom": 1029.8624877929688,
+        "height": 949.8624877929688,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "imageAspect": "3 / 2",
+      "imageFit": "contain",
+      "natural": [
+        1536,
+        1024
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "viewport": {
+        "clientWidth": 1425,
+        "height": 900,
+        "width": 1440
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 1093.862548828125,
+        "height": 64,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 1029.862548828125
+      },
+      "copy": {
+        "bottom": 912.0000152587892,
+        "height": 246.4250030517578,
+        "width": 341.95001220703125,
+        "x": 59.837501525878906,
+        "y": 665.5750122070312
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 912.0000267028807,
+        "height": 53.60000228881836,
+        "width": 211.125,
+        "x": 59.837501525878906,
+        "y": 858.4000244140625
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 1093.8624877929688,
+        "height": 1013.8624877929688,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "image": {
+        "bottom": 1029.8624877929688,
+        "height": 949.8624877929688,
+        "width": 1424.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "imageAspect": "3 / 2",
+      "imageFit": "contain",
+      "natural": [
+        1536,
+        1024
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "viewport": {
+        "clientWidth": 1425,
+        "height": 1000,
+        "width": 1440
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 1044.7999877929688,
+        "height": 64,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 980.7999877929688
+      },
+      "copy": {
+        "bottom": 680,
+        "height": 268.0249938964844,
+        "width": 324.2875061035156,
+        "x": 56.75,
+        "y": 411.9750061035156
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 680.0000267028809,
+        "height": 53.60000228881836,
+        "width": 211.125,
+        "x": 56.75,
+        "y": 626.4000244140625
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 1044.7999877929688,
+        "height": 964.7999877929688,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 80
+      },
+      "image": {
+        "bottom": 980.7999877929688,
+        "height": 900.7999877929688,
+        "width": 1351.2000732421875,
+        "x": 0,
+        "y": 80
+      },
+      "imageAspect": "3 / 2",
+      "imageFit": "contain",
+      "natural": [
+        1536,
+        1024
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "viewport": {
+        "clientWidth": 1351,
+        "height": 768,
+        "width": 1366
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 987.2000122070312,
+        "height": 64,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 923.2000122070312
+      },
+      "copy": {
+        "bottom": 632.0000305175781,
+        "height": 261.6750183105469,
+        "width": 303.5500183105469,
+        "x": 53.11249923706055,
+        "y": 370.3250122070313
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 632.0000267028809,
+        "height": 53.60000228881836,
+        "width": 211.125,
+        "x": 53.11249923706055,
+        "y": 578.4000244140625
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 987.2000122070312,
+        "height": 907.2000122070312,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "image": {
+        "bottom": 923.2000122070312,
+        "height": 843.2000122070312,
+        "width": 1264.800048828125,
+        "x": 0,
+        "y": 80
+      },
+      "imageAspect": "3 / 2",
+      "imageFit": "contain",
+      "natural": [
+        1536,
+        1024
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-v3.2-3x2-02.webp",
+      "viewport": {
+        "clientWidth": 1265,
+        "height": 720,
+        "width": 1280
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 738.0750122070312,
+        "height": 64,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 674.0750122070312
+      },
+      "copy": {
+        "bottom": 586.0750122070312,
+        "height": 259.95001220703125,
+        "width": 244.02500915527344,
+        "x": 42.70000076293945,
+        "y": 326.125
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 586.0750389099121,
+        "height": 53.60000228881836,
+        "width": 211.125,
+        "x": 42.70000076293945,
+        "y": 532.4750366210938
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 738.0750122070312,
+        "height": 674.0750122070312,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 64
+      },
+      "image": {
+        "bottom": 674.0750122070312,
+        "height": 610.0750122070312,
+        "width": 1016.7999877929688,
+        "x": 0,
+        "y": 64
+      },
+      "imageAspect": "auto 1600 / 960",
+      "imageFit": "contain",
+      "natural": [
+        1600,
+        960
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-a-5x3.webp",
+      "viewport": {
+        "clientWidth": 1017,
+        "height": 1376,
+        "width": 1032
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 610.875,
+        "height": 64,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 546.875
+      },
+      "copy": {
+        "bottom": 458.87501525878906,
+        "height": 264.3500061035156,
+        "width": 193.15000915527344,
+        "x": 33.79999923706055,
+        "y": 194.52500915527344
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 458.8749923706054,
+        "height": 77.5999984741211,
+        "width": 193.15000915527344,
+        "x": 33.79999923706055,
+        "y": 381.2749938964844
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 610.875,
+        "height": 546.875,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 64
+      },
+      "image": {
+        "bottom": 546.875,
+        "height": 482.875,
+        "width": 804.7999877929688,
+        "x": 0,
+        "y": 64
+      },
+      "imageAspect": "auto 1600 / 960",
+      "imageFit": "contain",
+      "natural": [
+        1600,
+        960
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-a-5x3.webp",
+      "viewport": {
+        "clientWidth": 805,
+        "height": 1180,
+        "width": 820
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 579.6749877929688,
+        "height": 64,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 515.6749877929688
+      },
+      "copy": {
+        "bottom": 427.68751525878906,
+        "height": 285.0500183105469,
+        "width": 180.6625061035156,
+        "x": 31.61250114440918,
+        "y": 142.6374969482422
+      },
+      "copyGridRow": "auto",
+      "copyPosition": "absolute",
+      "cta": {
+        "bottom": 427.6874923706054,
+        "height": 77.5999984741211,
+        "width": 180.6625061035156,
+        "x": 31.61250114440918,
+        "y": 350.0874938964844
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 579.6749877929688,
+        "height": 515.6749877929688,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 64
+      },
+      "image": {
+        "bottom": 515.6750183105469,
+        "height": 451.6750183105469,
+        "width": 752.7999877929688,
+        "x": 0,
+        "y": 64
+      },
+      "imageAspect": "auto 1600 / 960",
+      "imageFit": "contain",
+      "natural": [
+        1600,
+        960
+      ],
+      "outsideClass": false,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-a-5x3.webp",
+      "viewport": {
+        "clientWidth": 753,
+        "height": 1024,
+        "width": 768
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 898,
+        "height": 64,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 834
+      },
+      "copy": {
+        "bottom": 834.0000152587891,
+        "height": 193.6125030517578,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 640.3875122070312
+      },
+      "copyGridRow": "1",
+      "copyPosition": "relative",
+      "cta": {
+        "bottom": 810.0000267028809,
+        "height": 44.10000228881836,
+        "width": 189.6625061035156,
+        "x": 117.5625,
+        "y": 765.9000244140625
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 898,
+        "height": 834,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 64
+      },
+      "image": {
+        "bottom": 834,
+        "height": 770,
+        "width": 424.8000183105469,
+        "x": 0,
+        "y": 64
+      },
+      "imageAspect": "auto 1122 / 1402",
+      "imageFit": "cover",
+      "natural": [
+        1122,
+        1402
+      ],
+      "outsideClass": true,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-a-4x5.webp",
+      "viewport": {
+        "clientWidth": 425,
+        "height": 956,
+        "width": 440
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 811.2000122070312,
+        "height": 64,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 747.2000122070312
+      },
+      "copy": {
+        "bottom": 747.2000122070312,
+        "height": 189.25,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 557.9500122070312
+      },
+      "copyGridRow": "1",
+      "copyPosition": "relative",
+      "cta": {
+        "bottom": 723.2000389099121,
+        "height": 44.10000228881836,
+        "width": 189.6625061035156,
+        "x": 92.76250457763672,
+        "y": 679.1000366210938
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 811.2000122070312,
+        "height": 747.2000122070312,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 64
+      },
+      "image": {
+        "bottom": 747.2000122070312,
+        "height": 683.2000122070312,
+        "width": 375.2000122070313,
+        "x": 0,
+        "y": 64
+      },
+      "imageAspect": "auto 1122 / 1402",
+      "imageFit": "cover",
+      "natural": [
+        1122,
+        1402
+      ],
+      "outsideClass": true,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-a-4x5.webp",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "width": 390
+      },
+      "settled": true
+    },
+    {
+      "complete": true,
+      "controls": {
+        "bottom": 667.2000122070312,
+        "height": 64,
+        "width": 360,
+        "x": 0,
+        "y": 603.2000122070312
+      },
+      "copy": {
+        "bottom": 603.2000122070312,
+        "height": 185.9125061035156,
+        "width": 360,
+        "x": 0,
+        "y": 417.2875061035156
+      },
+      "copyGridRow": "1",
+      "copyPosition": "relative",
+      "cta": {
+        "bottom": 579.2000389099121,
+        "height": 44.10000228881836,
+        "width": 189.6625061035156,
+        "x": 85.1624984741211,
+        "y": 535.1000366210938
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "width": 360,
+        "x": 0,
+        "y": 0
+      },
+      "hero": {
+        "bottom": 667.2000122070312,
+        "height": 603.2000122070312,
+        "width": 360,
+        "x": 0,
+        "y": 64
+      },
+      "image": {
+        "bottom": 603.2000122070312,
+        "height": 539.2000122070312,
+        "width": 360,
+        "x": 0,
+        "y": 64
+      },
+      "imageAspect": "auto 1122 / 1402",
+      "imageFit": "cover",
+      "natural": [
+        1122,
+        1402
+      ],
+      "outsideClass": true,
+      "overflow": false,
+      "source": "https://tahieu98.github.io/2026-homepage-dunnio-tailor/assets/banners/wedding-story-a-4x5.webp",
+      "viewport": {
+        "clientWidth": 360,
+        "height": 667,
+        "width": 375
+      },
+      "settled": true
+    }
+  ],
+  "limitations": [
+    "Desktop browser viewport resizing; not physical iPhone/iPad testing.",
+    "CSS pixels and actual content width are measured independently of screen resolution.",
+    "Classic scrollbars reduce the content width by about 15 CSS pixels in this environment.",
+    "Hockerty content may differ by date, region, experiment or session; this report describes the observed campaign.",
+    "Scroll distance is document geometry, not a promised number of physical mouse-wheel notches."
+  ],
+  "artifactChecks": [
+    {
+      "brokenImages": [],
+      "headings": 12,
+      "overflow": false,
+      "tableCount": 10,
+      "tocBroken": [],
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      }
+    },
+    {
+      "brokenImages": [],
+      "headings": 12,
+      "overflow": false,
+      "tableCount": 10,
+      "tocBroken": [],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    }
+  ],
+  "snapshot": {
+    "dunnioDesktopFrameAtMeasurement": "3:2",
+    "subsequentHomepageRevision": "233efc0",
+    "currentDunnioDesktopFrame": "16:7",
+    "currentSlide1": "wedding-story-v3.2-16x7-02-new.webp",
+    "currentReference": "VERSION-STATUS.html",
+    "note": "Measurements and screenshots below are retained from the original Request 19 audit; they are not measurements of the current 16:7 homepage."
+  }
+}

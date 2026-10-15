@@ -1,8 +1,16 @@
-> **Cập nhật hiện hành:** hai PNG7:4/5:3 đã thay thế thử nghiệm8:3 và canvas navy. Đọc [BANNER-EDITOR-SPEC.md](BANNER-EDITOR-SPEC.md) và [hướng dẫn HTML](../banner-guide.html) để dùng đúng thông số đang chạy. Phần dưới lưu công thức dàn artwork và lịch sử thử nghiệm; không dùng các tỷ lệ/neo header cũ cho ảnh PNG mới.
+> **Hiện hành 15/10/2026:** v3.2 PC **16:7**, nguồn 1896×829, slide 1 **02-new**, slide 2 **01**; Tablet **5:3**, Mobile khung hướng tới **4:7** có giới hạn chiều cao. v3.1 giữ PC gần 7:4, Tablet 5:3, Mobile 4:5. Xem [trạng thái phiên bản hiện hành](VERSION-STATUS.md) và [bản HTML](VERSION-STATUS.html). Các tỷ lệ/ảnh trong phần lịch sử không ghi đè cấu hình này.
+
+> **Cập nhật trước đó:** hai PNG7:4/5:3 đã thay thế thử nghiệm8:3 và canvas navy. Đọc [BANNER-EDITOR-SPEC.md](BANNER-EDITOR-SPEC.md) và [hướng dẫn HTML](../banner-guide.html). Phần dưới lưu công thức dàn artwork và lịch sử thử nghiệm; không dùng các tỷ lệ/neo header cũ cho ảnh mới.
 
 # Công thức banner responsive — Yêu cầu 13
 
-Ngày: 12/10/2026. Quy tắc hiện hành áp dụng chung cho cả 5 concept.
+Ngày: 12/10/2026. Hồ sơ công thức của Yêu cầu 13; không dùng để ghi đè cấu hình các biến thể Wedding Story mới.
+
+## Công thức hiện hành của v3.2
+
+PC: H=W×7/16; tổng header + ảnh + nút thường là 80+H+64px. Tablet: H=W×3/5. Mobile: H=max(240px,min(175vw,100svh−128px)), nên 4:7 là tỉ lệ mục tiêu trước khi giới hạn chiều cao. Ảnh nguồn mobile gần 4:5 được cover vào khung; PC dùng contain. Xem bảng chiều cao và hướng dẫn cập nhật trong VERSION-STATUS.md.
+
+## Hồ sơ Yêu cầu 13
 
 ## 1. Chọn khung trước khi dàn ảnh
 

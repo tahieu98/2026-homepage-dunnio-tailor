@@ -1,6 +1,14 @@
 # Dunnio Tailor — Brand and UX/UI contract
 
-Revision: `brand-20261012`. The human user's specified colours take precedence over palette suggestions from skills.
+Revision: `brand-20261012`; variant status updated 15/10/2026.
+
+## Current variant overrides — 15/10/2026
+
+[Current version contract](../../docs/VERSION-STATUS.md) takes precedence over the dated hero decisions below. v3.2 desktop uses a **16:7** frame, 1896×829 WebP artwork (garden **02-new**, beach **01**); tablet keeps **5:3**. Mobile uses a nominal **4:7** capped frame with cover and copy inside the image. v3.1 mobile remains **4:5**, copy below the image. Both have a 64px control row below the image and 48px buttons; v3.2 mobile edge spacing is 20px. Image breakpoints: desktop ≥1200, tablet 640–1199, mobile ≤639 CSS px. Other component grids may change at 1024px. Mobile USP colours are navy/gold for 01/04 and gold/navy for 02/03. Header/drawer logos do not link to the comparison index; footer is retained.
+
+The historical requests below explain earlier choices; generic statements such as no-cover, copy-below-image and 8:3 do not override these variant rules.
+
+ The human user's specified colours take precedence over palette suggestions from skills.
 
 ## Primitive colours
 
@@ -87,7 +95,7 @@ The published Dunnio menu is the source of truth in `assets/navigation-tree.json
 
 Current rules supersede the earlier fixed desktop 16:9 hero: desktop8:3, portrait tablet4:3, tall mobile800:1422 and compact mobile4:5. The official transparent logo is truly centred; the full drawer opens from the left on all devices. Blog/Explore/Shop are inside the drawer. Foreground photographs scale uniformly against subject bounding boxes. Runtime checks reserve head/copy/control space and move copy below unregistered or unsafe artwork.
 
-See [interactive formula](banner-guide.html), [editor recipe](docs/RESPONSIVE-BANNER-FORMULA.md), [configuration](assets/banner-layout.json), and [browser evidence](docs/responsive-banner-verification.json). Rebuild heroes using `node tools/fashion-heroes.cjs`; documentation using `node tools/update-balanced-docs.cjs`.
+See [interactive formula](../../banner-guide.html), [editor recipe](../../docs/RESPONSIVE-BANNER-FORMULA.md), [configuration](../../assets/banner-layout.json), and [browser evidence](../../docs/responsive-banner-verification.json). Rebuild heroes using `node tools/fashion-heroes.cjs`; documentation using `node tools/update-balanced-docs.cjs`.
 
 
 ### Current editor artwork update

@@ -3,14 +3,18 @@
   "base": "http://127.0.0.1:4173/",
   "viewports": [
     {
-      "width": 1200,
-      "height": 525,
+      "viewport": {
+        "width": 1200,
+        "height": 900
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02-new.webp",
       "natural": [
         1896,
         829
       ],
+      "width": 1200,
+      "height": 525,
       "cta": {
         "top": 463,
         "bottom": 517,
@@ -22,14 +26,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 1200,
-      "height": 525,
+      "viewport": {
+        "width": 1200,
+        "height": 900
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-01.webp",
       "natural": [
         1896,
         829
       ],
+      "width": 1200,
+      "height": 525,
       "cta": {
         "top": 463,
         "bottom": 517,
@@ -41,14 +49,18 @@
       "count": "2 / 2"
     },
     {
-      "width": 1440,
-      "height": 630,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02-new.webp",
       "natural": [
         1896,
         829
       ],
+      "width": 1440,
+      "height": 630,
       "cta": {
         "top": 568,
         "bottom": 622,
@@ -60,14 +72,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 1440,
-      "height": 630,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-01.webp",
       "natural": [
         1896,
         829
       ],
+      "width": 1440,
+      "height": 630,
       "cta": {
         "top": 568,
         "bottom": 622,
@@ -79,14 +95,18 @@
       "count": "2 / 2"
     },
     {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "slide": 1,
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02-new.webp",
+      "natural": [
+        1896,
+        829
+      ],
       "width": 1920,
       "height": 840,
-      "slide": 1,
-      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02-new.webp",
-      "natural": [
-        1896,
-        829
-      ],
       "cta": {
         "top": 778,
         "bottom": 832,
@@ -98,14 +118,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 1920,
-      "height": 840,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-01.webp",
       "natural": [
         1896,
         829
       ],
+      "width": 1920,
+      "height": 840,
       "cta": {
         "top": 762,
         "bottom": 816,
@@ -117,14 +141,18 @@
       "count": "2 / 2"
     },
     {
-      "width": 1199,
-      "height": 719.390625,
+      "viewport": {
+        "width": 1199,
+        "height": 900
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-5x3.webp",
       "natural": [
         1600,
         960
       ],
+      "width": 1199,
+      "height": 719.390625,
       "cta": {
         "top": 641.390625,
         "bottom": 695.390625,
@@ -136,14 +164,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 1199,
-      "height": 719.390625,
+      "viewport": {
+        "width": 1199,
+        "height": 900
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-5x3.webp",
       "natural": [
         1600,
         960
       ],
+      "width": 1199,
+      "height": 719.390625,
       "cta": {
         "top": 582.390625,
         "bottom": 636.390625,
@@ -155,14 +187,18 @@
       "count": "2 / 2"
     },
     {
-      "width": 1032,
-      "height": 619.1875,
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-5x3.webp",
       "natural": [
         1600,
         960
       ],
+      "width": 1032,
+      "height": 619.1875,
       "cta": {
         "top": 541.1875,
         "bottom": 595.1875,
@@ -174,14 +210,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 1032,
-      "height": 619.1875,
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-5x3.webp",
       "natural": [
         1600,
         960
       ],
+      "width": 1032,
+      "height": 619.1875,
       "cta": {
         "top": 541.1875,
         "bottom": 595.1875,
@@ -193,14 +233,18 @@
       "count": "2 / 2"
     },
     {
-      "width": 820,
-      "height": 492,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-5x3.webp",
       "natural": [
         1600,
         960
       ],
+      "width": 820,
+      "height": 492,
       "cta": {
         "top": 390,
         "bottom": 468,
@@ -212,14 +256,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 820,
-      "height": 492,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-5x3.webp",
       "natural": [
         1600,
         960
       ],
+      "width": 820,
+      "height": 492,
       "cta": {
         "top": 390,
         "bottom": 468,
@@ -231,14 +279,18 @@
       "count": "2 / 2"
     },
     {
-      "width": 440,
-      "height": 770,
+      "viewport": {
+        "width": 440,
+        "height": 956
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-4x5.webp",
       "natural": [
         1122,
         1402
       ],
+      "width": 440,
+      "height": 770,
       "cta": {
         "top": 765.5,
         "bottom": 810,
@@ -250,14 +302,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 440,
-      "height": 770,
+      "viewport": {
+        "width": 440,
+        "height": 956
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-4x5.webp",
       "natural": [
         1122,
         1402
       ],
+      "width": 440,
+      "height": 770,
       "cta": {
         "top": 599.5,
         "bottom": 644,
@@ -269,14 +325,18 @@
       "count": "2 / 2"
     },
     {
-      "width": 390,
-      "height": 682.5,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-4x5.webp",
       "natural": [
         1122,
         1402
       ],
+      "width": 390,
+      "height": 682.5,
       "cta": {
         "top": 678,
         "bottom": 722.5,
@@ -288,14 +348,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 390,
-      "height": 682.5,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-4x5.webp",
       "natural": [
         1122,
         1402
       ],
+      "width": 390,
+      "height": 682.5,
       "cta": {
         "top": 309,
         "bottom": 353.5,
@@ -307,14 +371,18 @@
       "count": "2 / 2"
     },
     {
-      "width": 375,
-      "height": 539,
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
       "slide": 1,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-a-4x5.webp",
       "natural": [
         1122,
         1402
       ],
+      "width": 375,
+      "height": 539,
       "cta": {
         "top": 534.5,
         "bottom": 579,
@@ -326,14 +394,18 @@
       "count": "1 / 2"
     },
     {
-      "width": 375,
-      "height": 539,
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
       "slide": 2,
       "source": "http://127.0.0.1:4173/assets/banners/wedding-story-b-4x5.webp",
       "natural": [
         1122,
         1402
       ],
+      "width": 375,
+      "height": 539,
       "cta": {
         "top": 220.5,
         "bottom": 265,

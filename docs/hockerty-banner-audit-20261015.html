@@ -1,0 +1,625 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Yêu cầu 19 · Banner Hockerty và Dunnio Tailor</title><link rel="stylesheet" href="../assets/fonts.css"><style>
+ :root{--navy:#0b1f3a;--gold:#c8a96a;--ink:#18314d;--muted:#52657a;--line:#d9e0e7}*{box-sizing:border-box}html{scroll-padding-top:24px}body{margin:0;background:#f1f3f5;color:var(--ink);font:18px/1.65 Afacad,Arial,sans-serif}a{color:#214e7a;text-underline-offset:3px}a:hover{color:#775a21}header{padding:24px max(5vw,24px);background:var(--navy);color:white;border-bottom:5px solid var(--gold);display:flex;justify-content:space-between;gap:24px;align-items:center}header strong{letter-spacing:.08em;font-size:16px}header a{color:var(--gold);font-size:16px}header div{display:flex;gap:24px}.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:36px;max-width:1560px;margin:auto;padding:36px 32px}nav{position:sticky;top:24px;align-self:start;max-height:calc(100vh - 48px);overflow-y:auto;font-size:15px}nav a{display:block;padding:10px 0;border-bottom:1px solid var(--line);text-decoration:none}main{min-width:0;background:white;border:1px solid var(--line);border-radius:12px;padding:44px 48px;box-shadow:0 10px 35px #0b1f3a08}h1{font:400 clamp(36px,4vw,54px)/1.13 'Garamon Pro Display',Georgia,serif;margin:0 0 24px;letter-spacing:-.02em;max-width:900px}h2{font:400 34px/1.2 'Garamon Pro Display',Georgia,serif;border-top:1px solid var(--line);padding-top:32px;margin:40px 0 24px;scroll-margin-top:24px}h3{font-size:23px;margin:32px 0 16px}p{margin:16px 0}li{margin-bottom:9px}strong{color:var(--navy)}header strong{color:white}table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;font-size:16px;line-height:1.45;margin:24px 0}th{background:var(--navy);color:white;text-align:left;font-weight:600}th,td{padding:14px 16px;border:1px solid var(--line);vertical-align:top;min-width:100px}td:nth-child(1){font-weight:600}tr:nth-child(even) td{background:#f6f8fa}table a{overflow-wrap:anywhere}code{font:13px/1.5 Consolas,monospace;background:#eef2f5;padding:2px 5px;overflow-wrap:anywhere;border-radius:3px}pre{overflow:auto;padding:20px;background:#eef2f5}img{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:20px auto}details{border:1px solid var(--line);border-radius:8px;padding:14px 18px;margin:12px 0;background:#fafbfc}summary{cursor:pointer;font-weight:600;min-height:32px}details img{max-height:900px;width:auto}details p{font-size:15px;color:var(--muted)}main>p:first-of-type{padding:20px 24px;border-left:4px solid var(--gold);background:#faf7ef;color:var(--muted)}footer{max-width:1560px;margin:auto;padding:0 32px 32px;color:var(--muted);font-size:15px}@media(max-width:1050px){.layout{grid-template-columns:1fr;padding:24px 16px}nav{position:static;max-height:none;display:flex;gap:20px;overflow:auto;white-space:nowrap}nav a{border:0}main{padding:28px 24px}header{display:block}header div{margin-top:12px}}@media print{body{background:white;font-size:11pt}header,nav,footer{display:none}.layout{display:block;padding:0}main{padding:0;border:0;box-shadow:none}h2{break-after:avoid}table{display:table;width:100%;font-size:9pt}th,td{padding:7px}a{color:inherit}details{break-inside:avoid}details img{max-height:650px}}
+ </style></head><body><header><strong>DUNNIO TAILOR · NGHIÊN CỨU RESPONSIVE</strong><div><a href="hockerty-banner-audit-20261015.md">Bản Markdown</a><a href="hockerty-banner-audit-20261015.json">Dữ liệu đo</a><a href="../report.html">Báo cáo BOD</a></div></header><div class="layout"><nav aria-label="Mục lục báo cáo"><a href="#section-1">1. Kết quả chính để ra quyết định</a><a href="#section-2">2. Nguồn, phương pháp và giới hạn</a><a href="#section-3">3. Ảnh banner Hockerty hiện có kích thước bao nhiêu?</a><a href="#section-4">4. Khung phát banner PC của Hockerty có tỉ lệ bao nhiêu?</a><a href="#section-5">5. Hockerty thay ảnh và bố trí chữ theo responsive như thế nào?</a><a href="#section-6">6. Hockerty có hiển thị đầy đủ ảnh gốc không?</a><a href="#section-7">7. Đối chiếu Dunnio v3.2 bản đo 3:2</a><a href="#section-8">8. Mục tiêu UX nên định nghĩa lại bằng phép đo</a><a href="#section-9">9. Đề xuất responsive cho Dunnio — chưa triển khai</a><a href="#section-10">10. Tiêu chí nghiệm thu cho bước triển khai sau</a><a href="#section-11">11. Ảnh kiểm tra và dữ liệu bàn giao</a><a href="#section-12">12. Quyết định đề xuất</a></nav><main><h1>Banner Hockerty và đề xuất responsive cho Dunnio Tailor</h1>
+<p><strong>Yêu cầu 19 · Kiểm tra ngày 15/10/2026, giờ Việt Nam.</strong> Phạm vi đã chọn: báo cáo và đề xuất trước. Các cấu hình homepage đang chạy được giữ nguyên; chưa triển khai phương án mới trong báo cáo này.</p>
+<blockquote>
+<p><strong>Phạm vi lịch sử:</strong> toàn bộ số đo và ảnh chụp Dunnio trong báo cáo này thuộc bản PC <strong>3:2 trước Yêu cầu 20</strong>. Bản hiện hành đã đổi sang <strong>16:7</strong>, slide 1 dùng <strong>02-new</strong>, slide 2 dùng <strong>01</strong>; Tablet 5:3 và Mobile hướng tới 4:7 giữ nguyên. Xem <a href="VERSION-STATUS.html">thông số phiên bản hiện hành</a> và <a href="VERSION-STATUS.json">manifest</a>. Các đề xuất về chiều cao theo viewport dưới đây vẫn là đề xuất; không đọc các bảng 3:2 như số đo của bản 16:7.</p>
+</blockquote>
+<h2 id="section-1">1. Kết quả chính để ra quyết định</h2>
+<ul>
+<li>Hockerty đang dùng <strong>một hệ ảnh</strong>, không phải một file cho mọi màn hình: ảnh PC thường gần <strong>3:2</strong>, ảnh panorama gần <strong>2,133:1</strong> (xấp xỉ 32:15), ảnh dọc mobile <strong>1:2</strong>.</li>
+<li><strong>Tỉ lệ ảnh nguồn khác tỉ lệ khung phát.</strong> Ở PC, khung Hockerty không bị khóa vào 3:2 hoặc 16:9: chiều cao lấy mức nhỏ hơn giữa 66% chiều rộng viewport và toàn bộ chiều cao viewport. Ở ≤800px, chiều cao đổi thành 90% chiều cao viewport.</li>
+<li>Hockerty dùng background phủ kín khung và chấp nhận cắt mép ảnh. Họ điều chỉnh ảnh ngang/dọc, cỡ chữ, vị trí chữ và vị trí menu theo breakpoint. Đổi riêng tỉ lệ nguồn chưa tạo ra trải nghiệm tương đương.</li>
+<li>Dunnio v3.2 trong bản đo giữ nguyên toàn bộ ảnh PC 3:2, có header 80px và hàng nút 64px riêng. Ở viewport 1920×900, khối ảnh + nút kết thúc tại khoảng <strong>1414px</strong>: còn khoảng <strong>514px</strong> dưới màn hình đầu.</li>
+<li>Mục tiêu nên đo bằng <strong>toàn bộ khung banner, chữ, CTA và nút chuyển ảnh cùng nằm trong viewport</strong>, thay vì hứa “đúng một nấc chuột”. Nếu muốn giữ cả đầu và toàn bộ trang phục của ảnh hiện có, cần thu ảnh vừa ngân sách chiều cao hoặc thiết kế lại artwork ngang rộng; không ép ảnh 3:2 vào khung ngắn bằng cover mà không kiểm tra crop.</li>
+</ul>
+<p><img src="hockerty-banner-audit-20261015.svg" alt="So sánh ngân sách chiều cao ở cùng viewport"></p>
+<h2 id="section-2">2. Nguồn, phương pháp và giới hạn</h2>
+<p>Đo trực tiếp <a href="https://www.hockerty.com/en-us/">Hockerty US</a> và <a href="https://tahieu98.github.io/2026-homepage-dunnio-tailor/v3.2-wedding-story.html">Dunnio v3.2</a>. Hockerty trả 403 với công cụ trích xuất web thông thường, nhưng tải được bằng browser; báo cáo sử dụng DOM, CSS và số đo trong browser đó. Không suy kích thước từ ảnh chụp màn hình.</p>
+<p>Đã đọc metadata của <strong>12 file WebP</strong> từ chính các URL CDN trong CSS hiện hành, đo <strong>18 viewport Hockerty</strong> và <strong>12 viewport Dunnio</strong>. Dữ liệu kiểm tra: <a href="hockerty-banner-audit-20261015.json">JSON đầy đủ</a>. Ảnh minh họa nằm ở mục 11.</p>
+<p>Các kích thước hiển thị trong báo cáo dùng <strong>CSS px</strong>, không phải độ phân giải vật lý của màn hình. Browser thử nghiệm có scrollbar dọc khoảng 15px: viewport 1440px cho vùng ảnh rộng khoảng 1424,8px. Một vài giá trị có sai số dưới 1px do làm tròn viewport/scale. Đây là kiểm tra responsive bằng cách đổi viewport trên Chrome desktop; chưa phải thử nghiệm iPhone/iPad thật, Safari hay đo chuyển đổi bán hàng. Không khẳng định mọi khách truy cập đều nhận cùng chiến dịch, A/B test, cookie hoặc ngôn ngữ.</p>
+<h2 id="section-3">3. Ảnh banner Hockerty hiện có kích thước bao nhiêu?</h2>
+<p>Chiến dịch quan sát: thư mục CDN <strong>2026/2026-10</strong>. Ảnh là hai người mẫu mặc áo khoác màu be và xanh đậm. Kích thước dưới đây được đọc từ dữ liệu ảnh thực, không lấy tên file làm bằng chứng duy nhất.</p>
+<table>
+<thead>
+<tr>
+<th>Nhóm rộng</th>
+<th>Ảnh PC thường · gần 3:2</th>
+<th>Ảnh panorama · gần 2,133:1</th>
+<th>Dung lượng thường / panorama</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1024px</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024.webp">dkt_1024.webp</a> · 1024×683</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1024_pan.webp">dkt_1024_pan.webp</a> · 1024×480</td>
+<td>99 / 80 KiB</td>
+</tr>
+<tr>
+<td>1200px</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1200.webp">dkt_1200.webp</a> · 1200×800</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1200_pan.webp">dkt_1200_pan.webp</a> · 1200×562</td>
+<td>118.8 / 100 KiB</td>
+</tr>
+<tr>
+<td>1500px</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500.webp">dkt_1500.webp</a> · 1500×1000</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1500_pan.webp">dkt_1500_pan.webp</a> · 1500×703</td>
+<td>163.2 / 131.9 KiB</td>
+</tr>
+<tr>
+<td>1800px</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1800.webp">dkt_1800.webp</a> · 1800×1200</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_1800_pan.webp">dkt_1800_pan.webp</a> · 1800×844</td>
+<td>201.3 / 164.4 KiB</td>
+</tr>
+<tr>
+<td>2500px</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500.webp">dkt_2500.webp</a> · 2500×1667</td>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/dkt_2500_pan.webp">dkt_2500_pan.webp</a> · 2500×1172</td>
+<td>298.4 / 251.5 KiB</td>
+</tr>
+</tbody></table>
+<p>Chênh lệch 1px ở một số file do xuất ảnh/làm tròn; ví dụ 1024×683 không phải đúng tuyệt đối 3:2. Panorama <strong>không phải 16:9</strong>: 2500×1172 ≈2,133:1, trong khi 16:9≈1,778:1.</p>
+<table>
+<thead>
+<tr>
+<th>Ảnh dọc</th>
+<th>Kích thước thực</th>
+<th>Tỉ lệ nguồn</th>
+<th>Dung lượng</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_800.webp">mob_800.webp</a></td>
+<td>800×1600</td>
+<td>1:2</td>
+<td>130.8 KiB</td>
+</tr>
+<tr>
+<td><a href="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/2026/2026-10/mob_1024.webp">mob_1024.webp</a></td>
+<td>1024×2048</td>
+<td>1:2</td>
+<td>177.8 KiB</td>
+</tr>
+</tbody></table>
+<p><strong>Ví dụ lựa chọn thực tế:</strong> 1440×900 dùng <code>dkt_1500.webp</code> 1500×1000. 1920×1080 dùng <code>dkt_2500_pan.webp</code> 2500×1172 ở lớp nền trên. 440×956 dùng <code>mob_800.webp</code> 800×1600. Do đó không có câu trả lời duy nhất kiểu “banner Hockerty luôn là 1920×1080”.</p>
+<h2 id="section-4">4. Khung phát banner PC của Hockerty có tỉ lệ bao nhiêu?</h2>
+<p>Gọi <strong>Wv</strong> là chiều rộng viewport, <strong>Wc</strong> là chiều rộng vùng nội dung thực sau scrollbar, <strong>V</strong> là chiều cao viewport, <strong>H</strong> là chiều cao khung hero.</p>
+<p>Quy tắc quan sát từ CSS đang áp dụng:</p>
+<ul>
+<li>Trên 800px: <strong>H = min(0,66 × Wv, V)</strong>.</li>
+<li>Từ 800px trở xuống: <strong>H = 0,90 × V</strong>, vẫn chịu trần V.</li>
+<li>Tỉ lệ khung thực = <strong>Wc / H</strong>. Khung không có một tỉ lệ cố định chung cho PC/tablet/mobile.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Viewport CSS</th>
+<th>Khung hero thực W×H</th>
+<th>Tỉ lệ khung (làm tròn)</th>
+<th>Ảnh ở lớp nền trên</th>
+<th>Khoảng còn dưới màn hình đầu</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1920×1080</td>
+<td>1904.8×1080</td>
+<td>1.764:1</td>
+<td>dkt_2500_pan.webp</td>
+<td>50px</td>
+</tr>
+<tr>
+<td>1920×900</td>
+<td>1904.8×900</td>
+<td>2.116:1</td>
+<td>dkt_2500_pan.webp</td>
+<td>50px</td>
+</tr>
+<tr>
+<td>1440×900</td>
+<td>1424.8×900</td>
+<td>1.583:1</td>
+<td>dkt_1500.webp</td>
+<td>50px</td>
+</tr>
+<tr>
+<td>1440×1000</td>
+<td>1424.8×950.4</td>
+<td>1.499:1</td>
+<td>dkt_1500.webp</td>
+<td>0.4px</td>
+</tr>
+<tr>
+<td>1366×768</td>
+<td>1351.2×768</td>
+<td>1.759:1</td>
+<td>dkt_1500_pan.webp</td>
+<td>50px</td>
+</tr>
+<tr>
+<td>1280×720</td>
+<td>1264.8×720</td>
+<td>1.757:1</td>
+<td>dkt_1500_pan.webp</td>
+<td>50px</td>
+</tr>
+<tr>
+<td>1032×1376</td>
+<td>1016.8×681.1</td>
+<td>1.493:1</td>
+<td>dkt_1200.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>1024×768</td>
+<td>1008.8×675.8</td>
+<td>1.493:1</td>
+<td>dkt_1024.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>820×1180</td>
+<td>804.8×541.2</td>
+<td>1.487:1</td>
+<td>dkt_1024.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>802×1180</td>
+<td>786.4×529</td>
+<td>1.486:1</td>
+<td>dkt_1024.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>800×1180</td>
+<td>784.8×1062</td>
+<td>0.739:1</td>
+<td>mob_1024.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>768×1024</td>
+<td>752.8×921.6</td>
+<td>0.817:1</td>
+<td>mob_1024.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>602×900</td>
+<td>586.4×810</td>
+<td>0.724:1</td>
+<td>mob_1024.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>600×900</td>
+<td>584.8×810</td>
+<td>0.722:1</td>
+<td>mob_800.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>440×956</td>
+<td>424.8×860.4</td>
+<td>0.494:1</td>
+<td>mob_800.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>390×844</td>
+<td>375.2×759.6</td>
+<td>0.494:1</td>
+<td>mob_800.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>375×667</td>
+<td>360×600.5</td>
+<td>0.6:1</td>
+<td>mob_800.webp</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>844×390</td>
+<td>828.8×390.4</td>
+<td>2.123:1</td>
+<td>dkt_1024_pan.webp</td>
+<td>50.4px</td>
+</tr>
+</tbody></table>
+<p>Trong mẫu đo này, dải thông điệp phía trên cao <strong>50px</strong>. Menu PC cao <strong>65px</strong>, nằm đè lên phần đầu ảnh, nên không được cộng thêm như một hàng layout ngoài hero. Vì hero bắt đầu tại y=50px, nhiều màn hình PC có đáy hero ở V+50px. Điều đó có nghĩa <strong>Hockerty cũng chưa đặt nguyên cả khối promo + hero trong màn hình đầu ở mọi viewport</strong>. Dẫu vậy, tiêu đề và mô tả được chừa khoảng cách tới đáy nên vẫn nằm trong vùng nhìn thấy ở các PC phổ biến đã đo. Phần ảnh bị menu che và phần ảnh bị cover cắt cũng không đồng nghĩa với việc người dùng xem được mọi pixel của ảnh gốc.</p>
+<p>Ví dụ: 1920×1080 cho khung khoảng 1904,8×1080 (gần 16:9); 1440×900 cho khung 1424,8×900 (gần 1,583:1); 1920×900 cho khung 1904,8×900 (gần 2,116:1). Đây là hệ quả của ngân sách chiều cao, không phải ba tỉ lệ được gán cố định.</p>
+<h2 id="section-5">5. Hockerty thay ảnh và bố trí chữ theo responsive như thế nào?</h2>
+<table>
+<thead>
+<tr>
+<th>Điều kiện chiều rộng viewport</th>
+<th>Ảnh nền WebP cơ sở</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>≤600px</td>
+<td>mob_800.webp · 800×1600</td>
+</tr>
+<tr>
+<td>601–800px</td>
+<td>mob_1024.webp · 1024×2048</td>
+</tr>
+<tr>
+<td>801–1024px</td>
+<td>dkt_1024.webp</td>
+</tr>
+<tr>
+<td>1025–1200px</td>
+<td>dkt_1200.webp</td>
+</tr>
+<tr>
+<td>1201–1500px</td>
+<td>dkt_1500.webp</td>
+</tr>
+<tr>
+<td>1501–1800px</td>
+<td>dkt_1800.webp</td>
+</tr>
+<tr>
+<td>≥1801px</td>
+<td>dkt_2500.webp</td>
+</tr>
+</tbody></table>
+<p>Với nhóm ngang (&gt;800px), khi <strong>Wv/V ≥16/9</strong>, CSS khai báo thêm file cùng cỡ có hậu tố <strong>_pan</strong> ở lớp background trên. Điều kiện này xét <strong>tỉ lệ viewport</strong>, không phải tỉ lệ ảnh nguồn hay khung hero. Chẳng hạn 1366×768 kích hoạt panorama, còn 1440×900 thì không. Hai URL background được khai báo thành hai lớp; không nên mô tả chúng như một <code>srcset</code> đảm bảo chỉ có một file tải về. Browser có hỗ trợ WebP dùng nhánh WebP; CSS còn có nhánh JPEG cho môi trường không hỗ trợ.</p>
+<p>Ảnh nằm trong <strong>div background</strong>, không phải ảnh hero dạng <code>picture</code>. Khung ảnh được định vị tuyệt đối, vùng chứa cắt overflow; nền phủ kín theo cover. Vị trí nền quan sát là <strong>0% 0%</strong>, nên không được mặc định coi ảnh đang căn giữa. Quy tắc crop của cover được giải thích trong <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-size">MDN background-size</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Nội dung</th>
+<th>Trên 800px</th>
+<th>≤800px</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Vị trí copy</td>
+<td>Nằm trong hero, sát phía dưới</td>
+<td>Nằm trong hero, sát phía dưới</td>
+</tr>
+<tr>
+<td>Căn chữ</td>
+<td>Trái</td>
+<td>Giữa</td>
+</tr>
+<tr>
+<td>Đệm copy</td>
+<td>Trên 30px; hai bên 50px; dưới 60px</td>
+<td>Trên 20px; hai bên 20px; dưới 40px</td>
+</tr>
+<tr>
+<td>Tiêu đề chính</td>
+<td>70px; line-height 60px</td>
+<td>42px; line-height 40px</td>
+</tr>
+<tr>
+<td>Mô tả phụ</td>
+<td>20px</td>
+<td>16px</td>
+</tr>
+<tr>
+<td>Độ rộng vùng chữ</td>
+<td>Tối đa 850px</td>
+<td>Tối đa 850px, giới hạn bởi khung</td>
+</tr>
+<tr>
+<td>Dòng gợi ý cuộn</td>
+<td>Ẩn</td>
+<td>Hiện</td>
+</tr>
+<tr>
+<td>Eyebrow / nút prev-next trong hero đang quan sát</td>
+<td>Không có</td>
+<td>Không có</td>
+</tr>
+</tbody></table>
+<p>Lớp gradient phía dưới hỗ trợ độ tương phản. Hiện hero có tiêu đề, mô tả và lời gợi ý cuộn; không có link CTA bán hàng trong hero đang quan sát. Trong script hiện hành, khi hero không có link, click vào hero sẽ cuộn tới khối sản phẩm. Đây là một hành vi click được quan sát trong mã nguồn; không phải bằng chứng rằng site bắt toàn bộ wheel để cuộn theo trang.</p>
+<p>Một điểm đáng lưu ý: ở 800px, hero dùng 90vh và ảnh dọc; khi tăng qua 800px, nó chuyển sang 66vw và ảnh ngang. Đây là thay đổi mạnh, nên Hockerty không dùng một bố cục “tablet” duy nhất theo tên thiết bị. Màn hình 820px dọc đã nằm trong nhóm ngang, còn tablet 768px dọc nằm trong nhóm dọc.</p>
+<h2 id="section-6">6. Hockerty có hiển thị đầy đủ ảnh gốc không?</h2>
+<p><strong>Không nhất thiết.</strong> Cover giữ tỉ lệ nhưng cắt phần dư để khớp khung. Việc thấy đủ khung hero khác với việc thấy nguyên ảnh nguồn. Với nguồn Sw×Sh và khung W×H:</p>
+<p><code>k = max(W/Sw, H/Sh)</code>; ảnh sau scale là <code>Sw×k, Sh×k</code>. Phần dư trên từng trục là kích thước sau scale trừ kích thước khung. Vị trí nền quyết định phần dư bị cắt ở mép nào.</p>
+<p>Ví dụ tính hình học từ số đo và metadata:</p>
+<ul>
+<li>1440×900, ảnh 1500×1000: khung 1424,8×900 cắt khoảng <strong>5,25% chiều cao ảnh sau scale</strong>. Với vị trí nền 0% 0%, phần dư chủ yếu nằm dưới.</li>
+<li>1920×1080, ảnh panorama 2500×1172: khung 1904,8×1080 cắt khoảng <strong>17,32% chiều rộng ảnh sau scale</strong>, chủ yếu ở bên phải.</li>
+<li>Tablet 768×1024 dùng ảnh dọc 1024×2048 trong khung 752,8×921,6; mức crop dọc lớn hơn nhiều so với điện thoại. Vì vậy không thể lấy screenshot mobile đẹp để kết luận mọi tablet đều giữ nguyên toàn bộ ảnh.</li>
+</ul>
+<p>Các tỉ lệ crop là tính toán hình học, không phải kết quả nhận diện người mẫu hay đánh giá phần trang phục nào đã mất. Cần xem ảnh thực ở từng khung trước khi áp dụng cho Dunnio.</p>
+<h2 id="section-7">7. Đối chiếu Dunnio v3.2 bản đo 3:2</h2>
+<p>Theo Yêu cầu 18, bản đang chạy dùng hai ảnh PC <strong>1536×1024, 3:2</strong>, header riêng <strong>80px</strong> từ 1200px, hàng chuyển ảnh riêng <strong>64px</strong>. Khung ảnh PC giữ nguyên tỉ lệ, nên chiều cao ảnh <strong>Himg = Wc / 1,5</strong>. Chữ/CTA được neo theo phần ảnh đang nhìn thấy, nhưng toàn bộ ảnh và hàng nút vẫn có thể kéo dài xuống dưới viewport.</p>
+<p>Điểm cuối khối banner v3.2 trên PC là <strong>80 + Himg + 64</strong>. Đây là lý do không thể chỉ dựa vào việc “tiêu đề và CTA đã thấy” để kết luận cả banner đã vừa màn hình.</p>
+<table>
+<thead>
+<tr>
+<th>Viewport</th>
+<th>Hockerty: H ảnh</th>
+<th>Hockerty: còn phải cuộn</th>
+<th>Dunnio: H ảnh 3:2</th>
+<th>Dunnio: còn phải cuộn</th>
+<th>Ngân sách ảnh nếu vừa màn hình</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1920×1080</td>
+<td>1080px</td>
+<td>50px</td>
+<td>1269.9px</td>
+<td>333.9px</td>
+<td>936px</td>
+</tr>
+<tr>
+<td>1920×900</td>
+<td>900px</td>
+<td>50px</td>
+<td>1269.9px</td>
+<td>513.9px</td>
+<td>756px</td>
+</tr>
+<tr>
+<td>1440×900</td>
+<td>900px</td>
+<td>50px</td>
+<td>949.9px</td>
+<td>193.9px</td>
+<td>756px</td>
+</tr>
+<tr>
+<td>1440×1000</td>
+<td>950.4px</td>
+<td>0.4px</td>
+<td>949.9px</td>
+<td>93.9px</td>
+<td>856px</td>
+</tr>
+<tr>
+<td>1366×768</td>
+<td>768px</td>
+<td>50px</td>
+<td>900.8px</td>
+<td>276.8px</td>
+<td>624px</td>
+</tr>
+<tr>
+<td>1280×720</td>
+<td>720px</td>
+<td>50px</td>
+<td>843.2px</td>
+<td>267.2px</td>
+<td>576px</td>
+</tr>
+</tbody></table>
+<p>Ở 1920×900: Dunnio còn khoảng 514px, trong khi Hockerty còn 50px. Ở 1440×900: Dunnio còn khoảng 194px. Giữ nguyên 3:2 toàn chiều ngang và thêm hàng header/nút bên ngoài làm khối cao hơn thiết kế giới hạn theo viewport. Đây là giới hạn hình học, không phải lỗi GitHub chưa cập nhật ảnh.</p>
+<p>Tablet v3.2 vẫn dùng ảnh <strong>1600×960, 5:3</strong> ở 640–1199px. Mobile dùng <strong>file 1122×1402, gần 4:5</strong>, đặt vào khung hướng tới <strong>4:7</strong>, có cap theo chiều cao viewport; vì dùng cover nên có crop. Như vậy <strong>khung mobile 4:7 không có nghĩa file mobile là 4:7</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Viewport</th>
+<th>Ảnh nguồn</th>
+<th>Khung ảnh thực</th>
+<th>Đáy hero + nút từ đầu trang</th>
+<th>Position thực của copy</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1032×1376</td>
+<td>1600×960</td>
+<td>1016.8×610.1</td>
+<td>738.1px</td>
+<td>absolute</td>
+</tr>
+<tr>
+<td>820×1180</td>
+<td>1600×960</td>
+<td>804.8×482.9</td>
+<td>610.9px</td>
+<td>absolute</td>
+</tr>
+<tr>
+<td>768×1024</td>
+<td>1600×960</td>
+<td>752.8×451.7</td>
+<td>579.7px</td>
+<td>absolute</td>
+</tr>
+<tr>
+<td>440×956</td>
+<td>1122×1402</td>
+<td>424.8×770</td>
+<td>898px</td>
+<td>relative</td>
+</tr>
+<tr>
+<td>390×844</td>
+<td>1122×1402</td>
+<td>375.2×683.2</td>
+<td>811.2px</td>
+<td>relative</td>
+</tr>
+<tr>
+<td>375×667</td>
+<td>1122×1402</td>
+<td>360×539.2</td>
+<td>667.2px</td>
+<td>relative</td>
+</tr>
+</tbody></table>
+<p>Trên mobile, <code>hero-copy-outside</code> có thể vẫn xuất hiện như một class do logic chung, nhưng CSS riêng của v3.2 bố trí copy theo grid bên trong hàng ảnh. Vì vậy báo cáo kiểm tra position và tọa độ thực, không chỉ đọc tên class. v3.1 vẫn là biến thể khác: ảnh PC 7:4, mobile 4:5 và copy dưới ảnh; báo cáo ngân sách ở trên tập trung vào v3.2 đang được tối ưu.</p>
+<h2 id="section-8">8. Mục tiêu UX nên định nghĩa lại bằng phép đo</h2>
+<p>“Một cuộn chuột” không có số pixel chung cho mọi chuột, trackpad, hệ điều hành và cài đặt. Wheel có thể báo đơn vị pixel, dòng hoặc trang; xem <a href="https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent/deltaMode">MDN WheelEvent.deltaMode</a>. Cần phân biệt:</p>
+<ol>
+<li><strong>Thấy đủ khung banner:</strong> ảnh hiển thị, headline, CTA và nút chuyển ảnh cùng nằm trong viewport.</li>
+<li><strong>Thấy nguyên ảnh gốc:</strong> không cắt tóc, tay, gấu áo, quần hoặc bối cảnh; cần contain hoặc ảnh có tỉ lệ phù hợp.</li>
+<li><strong>Một thao tác tới section tiếp theo:</strong> có thể bổ sung link cuộn rõ ràng; vẫn giữ thao tác cuộn tự nhiên.</li>
+</ol>
+<p>Đề xuất đặt mục tiêu mạnh hơn cho PC tiêu chuẩn: <strong>0 lần cuộn để thấy đủ khung ảnh + nội dung + nút</strong>. Nếu muốn tới sản phẩm bằng một thao tác chắc chắn, cung cấp link tới collection. Không dùng <code>preventDefault</code> trên wheel để ép tất cả người dùng sang section khác.</p>
+<h2 id="section-9">9. Đề xuất responsive cho Dunnio — chưa triển khai</h2>
+<h3>9.1. Chốt ngân sách chiều cao trước, rồi chọn cách đặt ảnh</h3>
+<p>Gọi N là tổng chiều cao các phần ngoài ảnh phía trên, C là hàng nút, P là phần hé section sau (mặc định 0), V là chiều cao viewport an toàn. Ngân sách ảnh <strong>B = V − N − C − P</strong>. Với v3.2 PC hiện tại: N=80px, C=64px. Nếu sau này có promo bar ngoài banner, cộng nó vào N đúng một lần. Header đặt đè lên ảnh thì không trừ hai lần.</p>
+<table>
+<thead>
+<tr>
+<th>Viewport</th>
+<th>B ảnh tối đa (P=0)</th>
+<th>Tỉ lệ khung ngang nếu phủ kín</th>
+<th>Nếu crop ảnh 3:2: mất chiều cao</th>
+<th>Nếu giữ nguyên ảnh: rộng ảnh / rộng trang</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1920×1080</td>
+<td>936px</td>
+<td>2.035:1</td>
+<td>26.3%</td>
+<td>1404px / 1904.8px</td>
+</tr>
+<tr>
+<td>1920×900</td>
+<td>756px</td>
+<td>2.52:1</td>
+<td>40.5%</td>
+<td>1134px / 1904.8px</td>
+</tr>
+<tr>
+<td>1440×900</td>
+<td>756px</td>
+<td>1.885:1</td>
+<td>20.4%</td>
+<td>1134px / 1424.8px</td>
+</tr>
+<tr>
+<td>1440×1000</td>
+<td>856px</td>
+<td>1.664:1</td>
+<td>9.9%</td>
+<td>1284px / 1424.8px</td>
+</tr>
+<tr>
+<td>1366×768</td>
+<td>624px</td>
+<td>2.165:1</td>
+<td>30.7%</td>
+<td>936px / 1351.2px</td>
+</tr>
+<tr>
+<td>1280×720</td>
+<td>576px</td>
+<td>2.196:1</td>
+<td>31.7%</td>
+<td>864px / 1264.8px</td>
+</tr>
+</tbody></table>
+<p>Các hàng này là <strong>tính toán đề xuất</strong>, chưa phải giao diện được triển khai. Giới hạn chiều cao phải được giải quyết trước khi chọn tỉ lệ cố định 3:2, 16:9 hay 7:4. Ở 1920×900, thậm chí 16:9 toàn chiều ngang cũng có thể cao quá khi cộng header và nút.</p>
+<h3>9.2. Hai phương án nên đưa ra duyệt</h3>
+<table>
+<thead>
+<tr>
+<th>Phương án</th>
+<th>Cách đặt ảnh</th>
+<th>Ưu điểm</th>
+<th>Đánh đổi / điều kiện</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A · Ưu tiên nguyên ảnh hiện có</td>
+<td>Giới hạn khung theo B; contain ảnh 3:2; bố trí nền navy/gold và khoảng trống có chủ ý</td>
+<td>Giữ đầy đủ người mẫu và trang phục; ảnh/nút nằm trong một viewport</td>
+<td>Ảnh không luôn tràn kín chiều ngang. Có thể bố trí copy ở cột trái, ảnh ở phải; cần dàn lại, không chỉ đổi object-fit</td>
+</tr>
+<tr>
+<td>B · Ưu tiên ảnh tràn ngang như Hockerty</td>
+<td>Khung theo B; dùng bộ artwork ngang thường/panorama; cover với vùng an toàn theo slide</td>
+<td>Hiệu ứng ảnh lớn, full bleed; banner gọn theo viewport</td>
+<td>Cần ảnh rộng được dàn lại hoặc crop đã duyệt. Ảnh 3:2 hiện có sẽ bị crop mạnh ở màn hình rộng, thấp</td>
+</tr>
+</tbody></table>
+<p><strong>Khuyến nghị trước mắt:</strong> nếu “trọn vẹn” bao gồm nguyên đầu, tay và toàn bộ bộ suit trong hai ảnh hiện có, ưu tiên duyệt <strong>A</strong>. Nếu muốn full bleed gần Hockerty, chọn <strong>B</strong> sau khi chuẩn bị artwork ngang và kiểm tra crop; không áp dụng cover mạnh lên ảnh 3:2 một cách tự động. Bản 3:2 hiện tại có thể tiếp tục giữ như một phương án so sánh, nhưng không đạt tiêu chí vừa một viewport ở mọi PC.</p>
+<h3>9.3. Cách lập khung và xử lý các thiết bị</h3>
+<ul>
+<li><strong>PC ≥1200px:</strong> dùng khung hero tổng cao tối đa V−N; chia hàng ảnh có thể co và hàng nút 64px. Header giữ vị trí đã duyệt. Nút và CTA phải có chỗ riêng trong ngân sách, không đẩy ra ngoài bằng margin/padding phát sinh. Ratio hiển thị được phép thay đổi khi viewport thấp nếu duyệt phương án B.</li>
+<li><strong>Tablet 640–1199px:</strong> giữ artwork 5:3 hiện tại làm nền tảng. Kiểm tra thêm chiều cao và hướng màn hình; 1032×1376 và 1024×768 có cùng khoảng rộng nhưng ngân sách dọc khác. Không ép tablet dọc và ngang vào một preset chỉ dựa trên tên thiết bị.</li>
+<li><strong>Mobile ≤639px:</strong> giữ cách đặt copy gần chân ảnh và hai nút dưới ảnh của v3.2. Khung hướng tới 4:7, vẫn giới hạn theo chiều cao an toàn. Nên chuẩn bị artwork dọc gần khung đích nếu muốn giảm crop so với file 4:5 hiện dùng. Khi chữ phóng lớn hoặc landscape quá thấp, cho phép layout dài hơn để đọc/nhấn được, thay vì cắt hoặc ẩn CTA.</li>
+<li><strong>Viewport units:</strong> desktop dùng chiều cao viewport thực; với mobile cân nhắc svh cho khung ổn định khi thanh địa chỉ xuất hiện. dvh theo chiều cao động và có thể làm khung đổi theo thanh trình duyệt. Đây là lựa chọn kỹ thuật cần test Safari/Chrome thật, không chỉ Inspect. Xem <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/length">MDN về đơn vị chiều dài</a>.</li>
+</ul>
+<h3>9.4. CMS, vùng an toàn và mã hiện hành cần cập nhật đồng bộ</h3>
+<p>Mỗi slide nên lưu: artwork desktop thường, desktop rộng nếu có, tablet, mobile; width/height thật; alt; điểm lấy nét; bounding box người mẫu; vùng cấm đặt chữ. Dùng <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture">picture và source</a> để tách art direction, rồi srcset/sizes để chọn độ phân giải phù hợp.</p>
+<p>Với cover: scale <code>k=max(W/Sw,H/Sh)</code>; nếu điểm neo chuẩn hóa là px/py, phần bù crop lần lượt là <code>(W−Sw×k)×px</code> và <code>(H−Sh×k)×py</code>. Bounding box phải được nhân k và cộng phần bù này trước khi kiểm tra va chạm với copy. Với contain dùng k nhỏ hơn và tính thêm khoảng trống.</p>
+<p>Logic fit hiện trong <code>assets/app.js</code> đang dùng tọa độ subject theo khung ảnh hiển thị. Khi đổi desktop sang cover hoặc contain có letterbox, phải cập nhật cách quy đổi tọa độ và fallback cùng lúc; nếu chỉ thêm max-height/object-fit, có thể phát sinh chữ che người mẫu hoặc fallback đẩy copy xuống, làm khối lại vượt chiều cao dự kiến. Đo lại sau font load, đổi slide, resize và zoom chữ.</p>
+<p>Ảnh nguồn PC hiện tại chỉ rộng 1536px; hiển thị toàn chiều ngang 1920px đã là phóng lớn. Nếu muốn ảnh sắc hơn trên màn hình rộng/DPR cao, cần file gốc độ phân giải lớn hơn hoặc thiết kế lại từ nguồn đủ chất lượng. Xuất lại file hiện có thành 3000px không tạo thêm chi tiết thật.</p>
+<h2 id="section-10">10. Tiêu chí nghiệm thu cho bước triển khai sau</h2>
+<table>
+<thead>
+<tr>
+<th>Nhóm kiểm tra</th>
+<th>Điều kiện đạt</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>PC thông dụng</td>
+<td>Ở 1280×720, 1366×768, 1440×900, 1920×900 và 1920×1080: header + khung hero + hàng nút không vượt viewport quá 1px trong chế độ vừa màn hình</td>
+</tr>
+<tr>
+<td>Ảnh và typography</td>
+<td>Không kéo méo ảnh; toàn bộ nội dung quan trọng trong vùng an toàn đã duyệt; chữ dễ đọc; CTA không đè người mẫu</td>
+</tr>
+<tr>
+<td>Nút điều khiển</td>
+<td>Hai nút ít nhất 48×48px, đủ khoảng hở; có nhãn truy cập; counter cập nhật; focus ring không bị cắt</td>
+</tr>
+<tr>
+<td>Hai slide / đổi thiết bị</td>
+<td>Kiểm tra cả hai slide, load chậm, resize qua 1199/1200px và 639/640px; luôn lấy đúng artwork và kích thước</td>
+</tr>
+<tr>
+<td>Tablet / mobile</td>
+<td>Kiểm tra 1032×1376, 820×1180, 1024×768, 440×956, 390×844, 375×667, landscape thấp và browser thật</td>
+</tr>
+<tr>
+<td>Khả năng đọc</td>
+<td>Zoom/text 200%, bàn phím, reduced motion: ưu tiên đọc và thao tác được; cho phép fallback cao hơn thay vì ép mất nội dung</td>
+</tr>
+<tr>
+<td>Cuộn trang</td>
+<td>Không khóa wheel/touch; link tới collection hoạt động; luôn cuộn tới footer; đóng menu khôi phục cuộn</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>Đặt đúng width/height; ảnh đầu ưu tiên tải, slide sau tải có kiểm soát; đo LCP/CLS bằng công cụ và mạng thực trước khi tuyên bố cải thiện</td>
+</tr>
+<tr>
+<td>Inspect</td>
+<td>Đặt đúng chiều rộng CSS và Fit to window; phân biệt vùng trang với toàn bộ cửa sổ chứa DevTools</td>
+</tr>
+</tbody></table>
+<p>Chưa có đo lường chứng minh tăng chuyển đổi. Sau khi triển khai và kiểm tra hình học, có thể so sánh tỷ lệ thấy CTA, click CTA, chuyển slide, cuộn vào collection và LCP/CLS trên dữ liệu thật.</p>
+<h2 id="section-11">11. Ảnh kiểm tra và dữ liệu bàn giao</h2>
+<p>Ảnh chụp là bằng chứng của trang đang chạy tại ngày kiểm tra; không phải bản demo đề xuất. Bấm từng mục để mở ảnh trong bản HTML.</p>
+<details><summary>Hockerty PC · 1920×1080</summary><img src="screenshots/request19/hockerty-1920x1080.png" alt="Hockerty PC · 1920×1080" loading="lazy"><p>Hockerty PC · 1920×1080: viewport CSS được đối chiếu trước khi chụp.</p></details>
+
+<details><summary>Hockerty PC · 1440×900</summary><img src="screenshots/request19/hockerty-1440x900.png" alt="Hockerty PC · 1440×900" loading="lazy"><p>Hockerty PC · 1440×900: viewport CSS được đối chiếu trước khi chụp.</p></details>
+
+<details><summary>Hockerty tablet · 820×1180</summary><img src="screenshots/request19/hockerty-820x1180.png" alt="Hockerty tablet · 820×1180" loading="lazy"><p>Hockerty tablet · 820×1180: viewport CSS được đối chiếu trước khi chụp.</p></details>
+
+<details><summary>Hockerty mobile · 440×956</summary><img src="screenshots/request19/hockerty-440x956.png" alt="Hockerty mobile · 440×956" loading="lazy"><p>Hockerty mobile · 440×956: viewport CSS được đối chiếu trước khi chụp.</p></details>
+
+<details><summary>Dunnio v3.2 PC · 1920×900</summary><img src="screenshots/request19/dunnio-v32-1920x900.png" alt="Dunnio v3.2 PC · 1920×900" loading="lazy"><p>Dunnio v3.2 PC · 1920×900: viewport CSS được đối chiếu trước khi chụp.</p></details>
+
+<details><summary>Dunnio v3.2 PC · 1440×900</summary><img src="screenshots/request19/dunnio-v32-1440x900.png" alt="Dunnio v3.2 PC · 1440×900" loading="lazy"><p>Dunnio v3.2 PC · 1440×900: viewport CSS được đối chiếu trước khi chụp.</p></details>
+
+<details><summary>Dunnio v3.2 mobile · 440×956</summary><img src="screenshots/request19/dunnio-v32-440x956.png" alt="Dunnio v3.2 mobile · 440×956" loading="lazy"><p>Dunnio v3.2 mobile · 440×956: viewport CSS được đối chiếu trước khi chụp.</p></details>
+
+<ul>
+<li><a href="hockerty-banner-audit-20261015.json">Dữ liệu đo 30 viewport và metadata 12 file ảnh</a>.</li>
+<li><a href="hockerty-banner-audit-20261015.svg">Sơ đồ ngân sách chiều cao SVG</a>.</li>
+<li><a href="BANNER-EDITOR-SPEC.md">Thông số editor hiện có</a> và <a href="RESPONSIVE-BANNER-FORMULA.md">lịch sử công thức responsive</a>.</li>
+<li><a href="https://www.hockerty.com/en-us/">Hockerty US</a> là nguồn chính về giao diện đang quan sát; từng file ảnh chính chủ đã được liên kết ở mục 3.</li>
+</ul>
+<h2 id="section-12">12. Quyết định đề xuất</h2>
+<p>Học từ Hockerty ở <strong>giới hạn chiều cao theo viewport, tách artwork theo hình dáng màn hình và giữ chữ trong khung</strong>. Không sao chép một con số tỉ lệ duy nhất từ ảnh nguồn rồi kỳ vọng mọi PC đều vừa màn hình.</p>
+<p>Tại thời điểm khảo sát trước Yêu cầu 20, với Dunnio v3.2 cần duyệt trước việc ưu tiên <strong>nguyên ảnh 3:2</strong> hay <strong>ảnh tràn ngang trong một viewport</strong>. Phương án nguyên ảnh có bố cục nền/cột chủ ý là lựa chọn an toàn cho bộ ảnh hiện có; phương án full bleed cần artwork và crop được duyệt. Báo cáo này hoàn thành bước đo và đề xuất; chưa thay đổi tỉ lệ hay CSS của homepage đã duyệt.</p>
+</main></div><footer>Yêu cầu 19 · 15/10/2026 · Báo cáo kỹ thuật và đề xuất trước triển khai.</footer></body></html>

@@ -1,5 +1,7 @@
 # Yêu cầu 11 — Banner thời trang dẫn dắt bằng hình ảnh
 
+> **Hiện hành 15/10/2026:** v3.2 PC **16:7**, nguồn 1896×829, slide 1 **02-new**, slide 2 **01**; Tablet **5:3**, Mobile khung hướng tới **4:7** có giới hạn chiều cao. v3.1 giữ PC gần 7:4, Tablet 5:3, Mobile 4:5. Xem [trạng thái phiên bản hiện hành](VERSION-STATUS.md) và [bản HTML](VERSION-STATUS.html). Các tỷ lệ/ảnh trong phần lịch sử không ghi đè cấu hình này.
+
 Lưu ý: bố cục copy dưới ảnh của Yêu cầu 11 dưới đây đã được thay bằng template overlay Hockerty và hệ danh mục đầy đủ. Quyết định hiện hành: `HOCKERTY-NAVIGATION-UPDATE.md`.
 
 Ngày 12/10/2026. Phạm vi: banner của cả 5 homepage, ưu tiên thiết kế lại The Fit Concierge.

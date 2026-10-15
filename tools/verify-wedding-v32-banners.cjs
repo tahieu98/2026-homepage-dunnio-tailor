@@ -24,7 +24,7 @@ const desktop=['wedding-story-v3.2-16x7-02-new.webp','wedding-story-v3.2-16x7-01
     else if(width>=640){assert.deepEqual(state.natural,[1600,960]);assert(Math.abs(state.width/state.height-5/3)<.001);}
     else{assert.deepEqual(state.natural,[1122,1402]);assert(Math.abs(state.height-Math.max(240,Math.min(width*1.75,height-128)))<1);}
     if(width===1440||width===440){await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.screenshot({path:`.local/wedding-v32-20/${width}-slide-${index+1}.png`});}
-    report.viewports.push({width,height,slide:index+1,...state});
+    report.viewports.push({viewport:{width,height},slide:index+1,...state});
     if(index===0)await page.locator('[data-banner-next]').click();
    }
    await page.locator('[data-banner-prev]').click();

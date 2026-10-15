@@ -1,5 +1,7 @@
 # Yêu cầu 14: Chuẩn hóa Banner + Concept-strip + Git Push
 
+> Hồ sơ kế hoạch Yêu cầu 14. Cấu hình hiện hành, các biến thể v3.1/v3.2 và lịch sử mới nhất: [VERSION-STATUS](docs/VERSION-STATUS.md).
+
 ## Tóm tắt yêu cầu
 
 - **Yêu cầu 1:** Chuẩn hóa aspect ratio: PC 7:4 · Tablet 5:3 · Mobile 4:5 (chỉ v2, v3, v4)

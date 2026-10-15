@@ -1,0 +1,782 @@
+{
+  "updated": "2026-10-15",
+  "timezone": "Asia/Saigon",
+  "homepageRevision": "233efc0",
+  "breakpoints": {
+    "mobile": "0–639 CSS px",
+    "tablet": "640–1199 CSS px",
+    "desktop": "1200 CSS px and above"
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "page": "v1-heritage-atelier.html",
+      "slides": [
+        {
+          "alt": "Heritage Atelier banner showcasing crafted tailoring excellence",
+          "desktop": {
+            "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+            "width": 1659,
+            "height": 948,
+            "subject": [
+              0.305,
+              0.055,
+              0.81,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+            "width": 1619,
+            "height": 971,
+            "subject": [
+              0.3,
+              0.055,
+              0.815,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/heritage-atelier-mobile.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1422,
+            "subject": [
+              0.386,
+              0.18,
+              0.614,
+              0.6
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/heritage-atelier-compact.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1000,
+            "subject": [
+              0.441,
+              0.23,
+              0.559,
+              0.54
+            ]
+          }
+        },
+        {
+          "alt": "Heritage Atelier second banner with workshop perspective",
+          "desktop": {
+            "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+            "width": 1619,
+            "height": 971,
+            "subject": [
+              0.3,
+              0.055,
+              0.815,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+            "width": 1659,
+            "height": 948,
+            "subject": [
+              0.305,
+              0.055,
+              0.81,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/heritage-atelier-second-mobile.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1422,
+            "subject": [
+              0.267,
+              0.18,
+              0.733,
+              0.6
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/heritage-atelier-second-compact.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1000,
+            "subject": [
+              0.379,
+              0.23,
+              0.621,
+              0.54
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "page": "v2-design-studio.html",
+      "slides": [
+        {
+          "alt": "Tailor fitting a green three-piece suit in a wood-panelled studio",
+          "desktop": {
+            "src": "assets/banners/design-studio-v2-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/design-studio-v2-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          }
+        },
+        {
+          "alt": "Tailors inspecting a jacket at the workbench",
+          "desktop": {
+            "src": "assets/banners/design-studio-a-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/design-studio-a-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/design-studio-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/design-studio-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        },
+        {
+          "alt": "Cutting room with cloth laid out for a pattern",
+          "desktop": {
+            "src": "assets/banners/design-studio-b-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/design-studio-b-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/design-studio-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/design-studio-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "page": "v3-wedding-story.html",
+      "slides": [
+        {
+          "alt": "Two men in grey suits walking through a garden wedding",
+          "desktop": {
+            "src": "assets/banners/wedding-story-a-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/wedding-story-a-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/wedding-story-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/wedding-story-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        },
+        {
+          "alt": "Groom in a light suit at a beach ceremony",
+          "desktop": {
+            "src": "assets/banners/wedding-story-b-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/wedding-story-b-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/wedding-story-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/wedding-story-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "v3.1",
+      "page": "v3.1-wedding-story.html",
+      "slides": [
+        {
+          "alt": "Two men in grey suits walking through a garden wedding",
+          "desktop": {
+            "src": "assets/banners/wedding-story-a-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/wedding-story-a-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/wedding-story-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/wedding-story-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        },
+        {
+          "alt": "Groom in a light suit at a beach ceremony",
+          "desktop": {
+            "src": "assets/banners/wedding-story-b-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/wedding-story-b-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/wedding-story-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/wedding-story-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        }
+      ],
+      "mobileFrame": "4:5",
+      "controls": "Below image; centred"
+    },
+    {
+      "id": "v3.2",
+      "page": "v3.2-wedding-story.html",
+      "slides": [
+        {
+          "alt": "Two men in grey suits walking through a garden wedding",
+          "desktop": {
+            "src": "assets/banners/wedding-story-v3.2-16x7-02-new.webp",
+            "width": 1896,
+            "height": 829,
+            "subject": [
+              0.415,
+              0.16,
+              0.69,
+              0.94
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/wedding-story-a-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/wedding-story-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/wedding-story-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        },
+        {
+          "alt": "Groom in a light suit at a beach ceremony",
+          "desktop": {
+            "src": "assets/banners/wedding-story-v3.2-16x7-01.webp",
+            "width": 1896,
+            "height": 829,
+            "subject": [
+              0.59,
+              0.15,
+              0.78,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/wedding-story-b-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/wedding-story-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/wedding-story-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        }
+      ],
+      "desktopFrame": "16:7",
+      "tabletFrame": "5:3",
+      "mobileFrame": "nominal 4:7; height max(240px, min(175vw, 100svh - 128px))",
+      "controls": "Below image; mobile edge padding 20px"
+    },
+    {
+      "id": "v4",
+      "page": "v4-modern-essentials.html",
+      "slides": [
+        {
+          "alt": "Man in a navy blazer walking a city street",
+          "desktop": {
+            "src": "assets/banners/modern-essentials-a-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/modern-essentials-a-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/modern-essentials-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/modern-essentials-a-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        },
+        {
+          "alt": "Man in a navy blazer walking through a park",
+          "desktop": {
+            "src": "assets/banners/modern-essentials-b-7x4.webp",
+            "width": 1600,
+            "height": 914,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/banners/modern-essentials-b-5x3.webp",
+            "width": 1600,
+            "height": 960,
+            "subject": [
+              0.3,
+              0.05,
+              0.82,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/modern-essentials-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/modern-essentials-b-4x5.webp",
+            "width": 1122,
+            "height": 1402,
+            "subject": [
+              0.28,
+              0.08,
+              0.72,
+              0.98
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "page": "v5-fit-concierge.html",
+      "slides": [
+        {
+          "alt": "Fit Concierge banner showcasing personalized tailoring guidance",
+          "desktop": {
+            "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+            "width": 1659,
+            "height": 948,
+            "subject": [
+              0.305,
+              0.055,
+              0.81,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+            "width": 1619,
+            "height": 971,
+            "subject": [
+              0.3,
+              0.055,
+              0.815,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/fit-concierge-mobile.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1422,
+            "subject": [
+              0.397,
+              0.18,
+              0.603,
+              0.6
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/fit-concierge-compact.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1000,
+            "subject": [
+              0.447,
+              0.23,
+              0.553,
+              0.54
+            ]
+          }
+        },
+        {
+          "alt": "Fit Concierge second banner with alternative styling perspective",
+          "desktop": {
+            "src": "assets/images/editor-banner-5x3.png?v=editor-banners-20261012-r2",
+            "width": 1619,
+            "height": 971,
+            "subject": [
+              0.3,
+              0.055,
+              0.815,
+              1
+            ]
+          },
+          "tablet": {
+            "src": "assets/images/editor-banner-7x4.png?v=editor-banners-20261012-r2",
+            "width": 1659,
+            "height": 948,
+            "subject": [
+              0.305,
+              0.055,
+              0.81,
+              1
+            ]
+          },
+          "mobile": {
+            "src": "assets/banners/fit-concierge-second-mobile.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1422,
+            "subject": [
+              0.386,
+              0.18,
+              0.614,
+              0.6
+            ]
+          },
+          "compact": {
+            "src": "assets/banners/fit-concierge-second-compact.svg?v=editor-banners-20261012-r2",
+            "width": 800,
+            "height": 1000,
+            "subject": [
+              0.441,
+              0.23,
+              0.559,
+              0.54
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "activeWeddingDesktop": [
+    {
+      "slide": 1,
+      "src": "assets/banners/wedding-story-v3.2-16x7-02-new.webp",
+      "width": 1896,
+      "height": 829,
+      "subject": [
+        0.415,
+        0.16,
+        0.69,
+        0.94
+      ],
+      "bytes": 398944,
+      "sha256": "1f8c1ad669951b17b3cd3e65629148fd7518b38047ac3c6f822c97c84619d406",
+      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-16x7-02-new.png"
+    },
+    {
+      "slide": 2,
+      "src": "assets/banners/wedding-story-v3.2-16x7-01.webp",
+      "width": 1896,
+      "height": 829,
+      "subject": [
+        0.59,
+        0.15,
+        0.78,
+        1
+      ],
+      "bytes": 292664,
+      "sha256": "9b940b6ab9d9b1a975a7f6322cd6ee6f2ee86e06f6cd5f4e20c042a82c54744e",
+      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-16x7-01.png"
+    }
+  ],
+  "evidence": {
+    "latestBanner": "wedding-v32-banner-verification.json",
+    "variants": "wedding-story-verification.json",
+    "footer": "wedding-footer-verification.json",
+    "historicalAudit": "hockerty-banner-audit-20261015.json",
+    "documentation": "documentation-verification.json"
+  }
+}

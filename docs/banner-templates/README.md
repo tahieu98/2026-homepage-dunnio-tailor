@@ -1,4 +1,6 @@
-# Thông số cho editor thiết kế banner Dunnio Tailor
+# Template banner — bộ nền tảng ngày 12/10/2026
+
+> Các SVG/ZIP trong thư mục này thuộc bộ hướng dẫn trước Yêu cầu 17, chưa cập nhật thành template PC 16:7 của v3.2. Xem [thông số hiện hành](../VERSION-STATUS.md) trước khi dùng; không coi các vùng controls trên ảnh dưới đây là bố cục v3.1/v3.2.
 
 Cập nhật12/10/2026, theo ảnh hoàn chỉnh người dùng cung cấp. Áp dụng chung5 concept; headline/CTA thay theo chủ đề. Quyết định hiện hành thay thế thử nghiệm8:3 và nền kéo giãn/blur.
 

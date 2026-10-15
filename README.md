@@ -1,6 +1,6 @@
 # Dunnio Tailor — 5 homepage concepts
 
-Hoàn thành ngày 12/10/2026. Bản clone `C:\laragon\www\dunnio-tailor-redesign` được giữ nguyên.
+Năm concept gốc hoàn thành ngày 12/10/2026; tài liệu và hai biến thể Wedding Story cập nhật đến 15/10/2026. Bản clone `C:\laragon\www\dunnio-tailor-redesign` được giữ nguyên.
 
 ## Xem online — URL riêng cho từng phương án
 
@@ -26,7 +26,15 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 - `report.html`: giải trình tiếng Việt cho BOD, có CSS print để in/PDF.
 - `banner-lab.html`: thử banner nhiều tỉ lệ và chọn ảnh từng thiết bị; không upload vào server/CMS.
 
-## Năm phiên bản
+## Thông số phiên bản hiện hành
+
+[Hồ sơ hiện hành dạng HTML](docs/VERSION-STATUS.html) · [Markdown](docs/VERSION-STATUS.md) · [Manifest ảnh và SHA-256](docs/VERSION-STATUS.json). Tài liệu này ưu tiên hơn các bước lịch sử bên dưới. v3.2 hiện dùng PC **16:7 / ảnh 02-new và 01**, Tablet **5:3**, Mobile **hướng tới 4:7** có giới hạn chiều cao. v3.1 giữ Mobile **4:5**. Các nút chuyển ảnh của cả hai biến thể nằm dưới ảnh.
+
+Chạy `node tools/build-version-status-docs.cjs` để đồng bộ hồ sơ từ cấu hình đang dùng.
+
+Chạy `node tools/verify-current-docs.cjs` với HTTP preview để kiểm tra liên kết, bố cục tài liệu và bộ tính chiều cao; biên bản tại `docs/documentation-verification.json`.
+
+## Năm concept gốc và hai biến thể
 
 1. `v1-heritage-atelier.html` — tay nghề, nguồn gốc, giá trị.
 2. `v2-design-studio.html` — cá nhân hóa, style preview, designer entry.
@@ -34,7 +42,13 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 4. `v4-modern-essentials.html` — category-first, filters, use occasions.
 5. `v5-fit-concierge.html` — guided finder, measurement/fit support.
 
-Mỗi trang có nội dung đầy đủ, responsive, banner slider thủ công, carousel, FAQ, menu mobile, CTA. Các link sản phẩm và dịch vụ mở trang thật tại `https://dunniotailor.com`. Không có checkout, đăng ký tư vấn thật, lưu cấu hình 3D hay tracking trong prototype. Form cưới chỉ chuẩn bị email draft; người dùng tự xem và gửi trong ứng dụng email.
+Các trang có nội dung đầy đủ, responsive, banner slider thủ công, carousel, menu mobile và CTA; v3.2 đã bỏ FAQ theo yêu cầu. Các link sản phẩm và dịch vụ mở trang thật tại `https://dunniotailor.com`. Không có checkout, đăng ký tư vấn thật, lưu cấu hình 3D hay tracking trong prototype. Form cưới chỉ chuẩn bị email draft; người dùng tự xem và gửi trong ứng dụng email.
+
+## Báo cáo responsive — Yêu cầu 19 (15/10/2026)
+
+Hồ sơ khảo sát trước Yêu cầu 20 (Dunnio PC lúc đó là 3:2): đã đo Hockerty và Dunnio trên 30 viewport, kiểm tra metadata 12 ảnh banner của Hockerty. [Báo cáo đầy đủ dạng HTML](docs/hockerty-banner-audit-20261015.html) · [Markdown](docs/hockerty-banner-audit-20261015.md) · [Dữ liệu đo](docs/hockerty-banner-audit-20261015.json). Báo cáo BOD có mục dẫn tới bản phân tích này. Phạm vi hiện tại là báo cáo và đề xuất; homepage không được thay đổi theo đề xuất Yêu cầu 19.
+
+Chạy `node tools/build-hockerty-audit-report.cjs` để dựng lại báo cáo từ JSON đã lưu. Nguồn ảnh/cấu trúc CSS và số đo có thể thay đổi theo chiến dịch, ngày hoặc phiên truy cập; báo cáo ghi nhận trạng thái quan sát ngày 15/10/2026.
 
 ## Wedding Story — Yêu cầu 17 (14/10/2026)
 
@@ -56,14 +70,14 @@ Hai biến thể mới giữ nguyên bản v3 gốc và footer. Header và logo 
 - Đồng bộ cấu hình riêng v3.2, ảnh mặc định không JavaScript, CSS và generator; mã tải CSS `request20-r1`, JS `request20-r2`. v3/v3.1 giữ nguyên.
 - Hai slide trên chín kích thước, đổi thiết bị, prev/next, tắt JavaScript và SHA-256 ảnh nguồn đều đạt: `docs/wedding-v32-banner-verification.json`.
 
-## Wedding Story v3.2 — cập nhật PC 5:3 (15/10/2026)
+## Lịch sử Wedding Story v3.2 — PC 5:3 (đã thay thế) (15/10/2026)
 
 - PC từ 1200px dùng khung **5:3**, tái sử dụng hai ảnh Tablet 1600×960: `wedding-story-a-5x3.webp` và `wedding-story-b-5x3.webp`. Cập nhật này thay thế cấu hình PC 3:2 của Yêu cầu 18 bên dưới.
 - Tablet giữ **5:3**; mobile giữ khung **4:7** và giới hạn chiều cao hiện tại. Các phiên bản v3/v3.1 không đổi.
 - Đã đồng bộ ảnh mặc định khi chưa chạy JavaScript, cấu hình slide, CSS và generator; đổi mã phiên bản CSS/JS để tải bản mới.
 - Kiểm tra hai slide trên chín kích thước, đổi thiết bị, prev/next và ảnh mặc định không JavaScript: `docs/wedding-v32-banner-verification.json`.
 
-## Wedding Story v3.2 — Yêu cầu 18 (15/10/2026)
+## Lịch sử Wedding Story v3.2 — Yêu cầu 18 (đã thay thế) (15/10/2026)
 
 - Banner PC (từ 1200px) chuyển sang khung **3:2**, dùng hai ảnh 1536×1024 do người dùng cung cấp trong `Banner-dunnio/original/wedding-story/processed/`. Các file nguồn có đuôi `.png` nhưng dữ liệu thực là WebP; bản đưa lên website dùng đuôi `.webp` đúng định dạng và giữ nguyên byte gốc.
 - Thứ tự giữ cùng cảnh trên các thiết bị: slide 1 là ảnh vườn (`wedding-story-v3.2-3x2-02`), slide 2 là ảnh bãi biển (`wedding-story-v3.2-3x2-01`).
@@ -108,7 +122,7 @@ git push origin main
 - `tools/build.cjs`: generator tùy chọn, dùng Node để tạo lại 5 file HTML. Chạy generator sẽ ghi đè chỉnh sửa trực tiếp trên 5 trang và cấu hình banner; dùng generator hoặc chỉnh HTML, không trộn mà chưa đồng bộ.
 - `tools/prepare-assets.cjs`, `optimise-assets.cjs`, `upgrade-assets.cjs` là lịch sử pipeline asset từ máy local. Không cần chạy để xem site.
 
-Ảnh banner `width:100%;height:auto` theo tỉ lệ thực, không ép khung cao cố định. `concept-strip` đã xóa. **v1/v5** vẫn dùng editor chung 1659×948 (7:4) / 1619×971 (~5:3) + SVG dọc 800×1422/800×1000. **v2** 3 slide PC 1600×914 (7:4) / 3 slide tablet 1600×960 (5:3) / 2 slide mobile 1122×1402 (4:5, slide v2 thiếu bản dọc); **v3/v4** mỗi concept 2 slide đủ 3 tỉ lệ, WebP 1600×914 / 1600×960 / 1122×1402. Mobile là art direction riêng, không tự cắt giữa ảnh ngang. Khi overlay thiếu chỗ `app.js` chuyển copy xuống dưới và tách header khỏi ảnh.
+Mô tả tiếp theo dành cho năm concept gốc; các ngoại lệ khung 16:7/4:7 của v3.2 và controls dưới ảnh được ghi trong VERSION-STATUS. Ảnh banner gốc `width:100%;height:auto` theo tỉ lệ thực. `concept-strip` đã xóa. **v1/v5** vẫn dùng editor chung 1659×948 (7:4) / 1619×971 (~5:3) + SVG dọc 800×1422/800×1000. **v2** 3 slide PC 1600×914 (7:4) / 3 slide tablet 1600×960 (5:3) / 2 slide mobile 1122×1402 (4:5, slide v2 thiếu bản dọc); **v3/v4** mỗi concept 2 slide đủ 3 tỉ lệ, WebP 1600×914 / 1600×960 / 1122×1402. Mobile là art direction riêng, không tự cắt giữa ảnh ngang. Khi overlay thiếu chỗ `app.js` chuyển copy xuống dưới và tách header khỏi ảnh.
 
 Trong production CMS nên có 3 trường ảnh trên mỗi slide và tự đọc metadata width/height. Banner Lab là công cụ review trong browser, không phải admin CMS.
 
@@ -162,13 +176,13 @@ The Fit Concierge và bốn hero còn lại dùng ảnh full-width, thông đi�
 - Các browser verification tools nhận `DUNNIO_PREVIEW_URL`; có thể dùng URL `file:///C:/laragon/www/dunnio-homepage-concepts/` nếu Apache chưa chạy. `DUNNIO_STATIC_ONLY=1` bỏ HTTP route checks trong `tools/check-links.cjs`, vẫn kiểm tra link/anchor local.
 
 
-## Request 13 — responsive banner safe areas (12 October 2026)
+## Historical Request 13 — responsive banner safe areas (12 October 2026)
 
-Current rules supersede the earlier fixed desktop 16:9 hero: desktop8:3, portrait tablet4:3, tall mobile800:1422 and compact mobile4:5. The official transparent logo is truly centred; the full drawer opens from the left on all devices. Blog/Explore/Shop are inside the drawer. Foreground photographs scale uniformly against subject bounding boxes. Runtime checks reserve head/copy/control space and move copy below unregistered or unsafe artwork.
+Historical experiment (superseded by later editor artwork and Wedding Story changes): desktop8:3, portrait tablet4:3, tall mobile800:1422 and compact mobile4:5. The official transparent logo is truly centred; the full drawer opens from the left on all devices. Blog/Explore/Shop are inside the drawer. Foreground photographs scale uniformly against subject bounding boxes. Runtime checks reserve head/copy/control space and move copy below unregistered or unsafe artwork.
 
 See [interactive formula](banner-guide.html), [editor recipe](docs/RESPONSIVE-BANNER-FORMULA.md), [configuration](assets/banner-layout.json), and [browser evidence](docs/responsive-banner-verification.json). Rebuild heroes using `node tools/fashion-heroes.cjs`; documentation using `node tools/update-balanced-docs.cjs`.
 
 
-### Current editor artwork update
+### Historical editor artwork update — five original concepts
 
 User-supplied finished images replace the8:3 experiment: PC7:4 and tablet5:3, with a comparison slide. Header is a separate row. PC/tablet copy starts4.2% from left, width24%; controls136px wide,4.2% from right. See `docs/BANNER-EDITOR-SPEC.md` and `banner-guide.html`. Remaining browser tests were skipped at the user’s request.
