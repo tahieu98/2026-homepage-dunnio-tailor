@@ -1,7 +1,7 @@
 const fs=require('fs'),assert=require('assert/strict'),crypto=require('crypto');
 const {chromium}=require('C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const base=process.env.DUNNIO_PREVIEW_URL||'http://127.0.0.1:4173/';
-const desktop=['wedding-story-v3.2-16x7-02.webp','wedding-story-v3.2-16x7-01.webp'];
+const desktop=['wedding-story-v3.2-16x7-02-new.webp','wedding-story-v3.2-16x7-01.webp'];
 (async()=>{
  const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
  const report={date:'2026-10-15',base,viewports:[],checks:[],errors:[]};

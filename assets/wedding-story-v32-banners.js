@@ -3,7 +3,7 @@
   const slides = window.DUNNIO_BANNERS['wedding-story'];
   // Match the existing garden/beach slide order across all three device layouts.
   slides[0].desktop = {
-    src: 'assets/banners/wedding-story-v3.2-16x7-02.webp',
+    src: 'assets/banners/wedding-story-v3.2-16x7-02-new.webp',
     width: 1896, height: 829, subject: [0.415, 0.16, 0.69, 0.94]
   };
   slides[1].desktop = {

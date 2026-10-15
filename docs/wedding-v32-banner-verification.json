@@ -6,7 +6,7 @@
       "width": 1200,
       "height": 525,
       "slide": 1,
-      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02.webp",
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02-new.webp",
       "natural": [
         1896,
         829
@@ -44,7 +44,7 @@
       "width": 1440,
       "height": 630,
       "slide": 1,
-      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02.webp",
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02-new.webp",
       "natural": [
         1896,
         829
@@ -82,7 +82,7 @@
       "width": 1920,
       "height": 840,
       "slide": 1,
-      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02.webp",
+      "source": "http://127.0.0.1:4173/assets/banners/wedding-story-v3.2-16x7-02-new.webp",
       "natural": [
         1896,
         829
@@ -355,10 +355,10 @@
   "errors": [],
   "assets": [
     {
-      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-16x7-02.png",
-      "file": "assets/banners/wedding-story-v3.2-16x7-02.webp",
-      "sha256": "c4c9e5db0e86167cc6741d974750ffd024843787837b25cd512c2989f1087b1f",
-      "bytes": 424818
+      "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-16x7-02-new.png",
+      "file": "assets/banners/wedding-story-v3.2-16x7-02-new.webp",
+      "sha256": "1f8c1ad669951b17b3cd3e65629148fd7518b38047ac3c6f822c97c84619d406",
+      "bytes": 398944
     },
     {
       "source": "C:/laragon/www/Banner-dunnio/original/wedding-story/processed/wedding-story-v3.2-16x7-01.png",

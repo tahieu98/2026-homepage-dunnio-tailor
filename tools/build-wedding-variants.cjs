@@ -21,7 +21,7 @@ for (const variant of ['3.1', '3.2']) {
   hero = hero.replace(controls, '').replace('</picture>', '</picture>'+controls).replace(/<a class="hero-scroll"[\s\S]*?<\/a>/, '');
   hero = hero.replace('aria-label="Wedding Story"', 'aria-label="Wedding Story" data-mobile-layout="'+variant+'"');
   if (variant === '3.2') {
-    hero = hero.replace('src="assets/banners/wedding-story-a-7x4.webp" width="1600" height="914"', 'src="assets/banners/wedding-story-v3.2-16x7-02.webp" width="1896" height="829"');
+    hero = hero.replace('src="assets/banners/wedding-story-a-7x4.webp" width="1600" height="914"', 'src="assets/banners/wedding-story-v3.2-16x7-02-new.webp" width="1896" height="829"');
   }
   let products = section(v2, 'section products').replace(/<p class="fine">[\s\S]*?<\/p>/, '');
   const studio = section(v2, 'section studio-section');
@@ -32,7 +32,7 @@ for (const variant of ['3.1', '3.2']) {
   html = html.replace('class="theme theme-3"', `class="theme theme-3 wedding-variant wedding-${variant.replace('.','')}"`);
   html = html.replace('</head>', `<link rel="stylesheet" href="assets/wedding-variants.css?v=${variant==='3.2'?'request20-r1':'request17-r3'}"></head>`);
   if (variant === '3.2') {
-    html = html.replace('<script src="assets/app.js', '<script src="assets/wedding-story-v32-banners.js?v=request20-r1" defer></script><script src="assets/app.js');
+    html = html.replace('<script src="assets/app.js', '<script src="assets/wedding-story-v32-banners.js?v=request20-r2" defer></script><script src="assets/app.js');
   }
   // Logos in the header and drawer are deliberately non-linking. Retain the footer verbatim.
   const footerStart = html.indexOf('<footer');
