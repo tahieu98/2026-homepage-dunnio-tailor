@@ -88,6 +88,7 @@
 </tbody></table></div>
 <p>Hai file PC hiện tại dùng chung nguồn với v3.1; không xử lý lại ảnh. Nguồn 1600×914 gần 7:4; CSS v3.2 khóa khung 7:4 và dùng contain. Các ảnh 3:2, 16:7 và 02-new vẫn lưu làm lịch sử nhưng không còn được v3.2 nạp để phát banner. Tablet/Mobile giữ bộ nguồn gốc.</p>
 <h2 id="section-3">3. Bố cục Wedding Story v3.1 và v3.2</h2>
+<p><strong>Yêu cầu 26:</strong> v3.2 bỏ cả community-review-action và nút Read customer reviews trùng lặp. Giữ sáu liên kết Read original review trong các thẻ; padding section PC/Tablet 48px trên, 40px dưới; Mobile 32px trên, 24px dưới; padding cuối rail 8px. CSS revision <strong>request26-r1</strong>, JS banner giữ request25-r1. <a href="community-spacing-verification.json">Biên bản</a>.</p>
 <p><strong>Yêu cầu 23–24:</strong> v3.2 thu USP về <strong>180×180px</strong> chỉ trên PC ≥1200px, căn giữa bốn ô; Tablet/Mobile giữ kích thước và màu hiện có. Nút <strong>See how we ensure your fit</strong> nằm giữa, ngay dưới bốn ô USP trong usp-section, chữ một dòng, dẫn đến trang Fit Guarantee. Closing giữ hai nút ban đầu. <a href="WEDDING-USP-FIT-UPDATE.md">Chi tiết và biên bản</a>. Yêu cầu 25 cập nhật CSS/JS v3.2 sang <strong>request25-r1</strong>; app.js giữ request22-r1.</p>
 <p>Thứ tự: <strong>hero → Wedding party (chỉ v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → FAQ (chỉ v3.1) → closing → USP → footer</strong>.</p>
 <ul>
@@ -103,7 +104,7 @@
 </li>
 <li><p>Gallery: bảy ảnh trên PC/Tablet, bốn ảnh trong lưới 2×2 mobile; giảm chiều cao để gom tiêu đề, mô tả, ảnh và See more gallery. Font/zoom lớn vẫn có thể cần cuộn.</p>
 </li>
-<li><p>v3.2 đã bỏ mô tả p và Learn more trong USP, căn số/tiêu đề giữa các ô vuông đồng kích thước. Products/looks/community bỏ các rail-controls, looks bỏ fine, craft bỏ detail-line; CTA studio Mobile căn giữa. All outfit ideas thành nút gold/dark-blue; Read customer reviews ở giữa dưới review rail, cùng kiểu nút Gallery.</p>
+<li><p>v3.2 đã bỏ mô tả p và Learn more trong USP, căn số/tiêu đề giữa các ô vuông đồng kích thước. Products/looks/community bỏ các rail-controls, looks bỏ fine, craft bỏ detail-line; CTA studio Mobile căn giữa. All outfit ideas thành nút gold/dark-blue; nút Read customer reviews dưới rail đã bỏ theo Yêu cầu 26, chỉ giữ liên kết trong từng review.</p>
 </li>
 <li><p>USP mobile: 01/04 nền navy <strong>#0b1f3a</strong>, chữ gold <strong>#C8A96A</strong>; 02/03 nền gold, chữ navy. Bố cục hai cột tạo đường chéo. PC/Tablet giữ màu xen kẽ 01/03 navy, 02/04 gold; breakpoint bố cục lưới độc lập với breakpoint ảnh.</p>
 </li>
@@ -119,7 +120,7 @@
 <li>Cấu hình chung: <code>assets/banner-config.js</code>. v3.2 không còn nạp override 16:7; dữ liệu PC dùng chung v3.1. <code>assets/wedding-final.js</code> quản lý autoplay và sự kiện slide-step của app.js.</li>
 <li><code>assets/wedding-variants.css</code> chứa baseline của hai biến thể; wedding-final.css ghi đè riêng v3.2 sang PC 7:4, bỏ hàng nút và điều chỉnh mobile/section. Không đổi bộ Tablet/Mobile nếu chỉ thay ảnh PC.</li>
 <li>Đồng bộ ảnh fallback đầu tiên và width/height trong <code>tools/build-wedding-variants.cjs</code>, rồi chạy <code>node tools/build-wedding-variants.cjs</code>. Generator này dựng lại v3.1/v3.2 từ v2/v3; không chỉ sửa HTML đầu ra rồi bỏ quên generator.</li>
-<li>Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css và wedding-final.js revision request25-r1; app.js giữ revision request22-r1.</li>
+<li>Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css revision request26-r1, wedding-final.js request25-r1; app.js giữ revision request22-r1.</li>
 <li>Chạy <code>node tools/verify-wedding-v32-banners.cjs</code> với HTTP preview đang phục vụ dự án. <code>DUNNIO_PREVIEW_URL</code> đổi địa chỉ kiểm thử; <code>DUNNIO_VERIFICATION_OUTPUT</code> đổi file kết quả. Dữ liệu phân biệt <code>viewport.width/height</code> với <code>width/height</code> của ảnh hiển thị.</li>
 <li>Chạy <code>node tools/build-version-status-docs.cjs</code> để dựng lại tài liệu này và manifest. Khi sửa dữ liệu/mẫu của báo cáo Hockerty lịch sử, dùng <code>node tools/build-hockerty-audit-report.cjs</code>.</li>
 <li>Commit các file thuộc bản sửa, push main, chờ Pages báo built cho đúng commit và kiểm tra URL online. Git push thành công chưa đồng nghĩa Pages đã triển khai xong.</li>

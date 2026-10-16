@@ -12,8 +12,8 @@
 .theme.wedding-32 .craft-copy p+p{margin-top:12px}
 .theme.wedding-32 .craft-links{margin-top:18px;gap:16px}
 .theme.wedding-32 .community-section>div:first-child{max-width:760px;margin-bottom:24px}
-.theme.wedding-32 .community-review-action{text-align:center;margin-top:24px}
-.theme.wedding-32 .community-review-action .button{background:var(--color-secondary);color:var(--color-primary);border:1px solid var(--color-primary)}
+.theme.wedding-32 .community-section{padding-top:48px;padding-bottom:40px}
+.theme.wedding-32 .community-section .review-rail{padding-bottom:8px}
 .theme.wedding-32 .usp-section{padding-top:32px;padding-bottom:32px}
 .theme.wedding-32 .usp-item{aspect-ratio:1;min-width:0;justify-content:center;align-items:center;text-align:center;gap:12px;padding:clamp(14px,2vw,24px)}
 .theme.wedding-32 .usp-item .usp-icon{font-size:clamp(28px,2.5vw,36px);line-height:1;margin:0}
@@ -49,8 +49,7 @@
  .theme.wedding-32 .craft-photo{margin-bottom:20px}
  .theme.wedding-32 .craft-copy h2{margin-bottom:14px}
  .theme.wedding-32 .community-section>div:first-child{margin-bottom:20px}
- .theme.wedding-32 .community-review-action{margin-top:20px}
- .theme.wedding-32 .community-review-action .button{min-height:48px;padding:10px 20px}
+ .theme.wedding-32 .community-section{padding-top:32px;padding-bottom:24px}
  .theme.wedding-32 .usp-item{padding:14px;gap:10px}
  .theme.wedding-32 .usp-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
  .theme.wedding-32 .usp-item:nth-child(1),.theme.wedding-32 .usp-item:nth-child(4){background:var(--color-primary);color:var(--color-secondary)}

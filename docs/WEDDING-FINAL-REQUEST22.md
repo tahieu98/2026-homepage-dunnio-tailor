@@ -28,6 +28,8 @@ Banner tự đổi cảnh bằng timer 6 giây. Có nút dừng/phát 44px trên
 
 ## Bố cục và khả năng thao tác
 
+**Cập nhật Yêu cầu 26:** nút Read customer reviews dưới review rail cùng wrapper đã bỏ; giữ liên kết Read original review của sáu thẻ. Section được thu gọn còn padding PC/Tablet 48px trên / 40px dưới, Mobile 32px / 24px; padding cuối rail 8px. CSS hiện là request26-r1. [Biên bản mới](community-spacing-verification.json). Mô tả và ảnh Yêu cầu 22 lưu trạng thái trước thay đổi này.
+
 Product rail và look rail có tabindex/nhãn region để dùng phím mũi tên khi đã bỏ các nút rời. Review rail tiếp tục có nhãn và tabindex. Các URL sản phẩm, feedback, outfit ideas và bốn USP vẫn mở trang thật. Các ô USP là link trên toàn diện tích ô, không có link Learn more bên trong.
 
 Trên Mobile, USP 01/04 nền navy chữ gold, 02/03 nền gold chữ navy; PC/Tablet giữ màu xen kẽ trước đó. Tỉ lệ vuông được kiểm tra ở font mặc định; khi tăng chữ/zoom lớn, nội dung có thể cần nhiều chiều cao hơn để tránh mất chữ.

@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-16",
+  "scope": "Request 26, v3.2 only",
+  "status": "passed",
+  "keyboardRailMoved": true,
+  "matrix": [
+    {
+      "cards": 6,
+      "headerGap": "20px",
+      "links": [
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback"
+      ],
+      "overflow": false,
+      "paddingBottom": "24px",
+      "paddingTop": "32px",
+      "railPaddingBottom": "8px",
+      "railScrolls": true,
+      "removed": 0,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "cards": 6,
+      "headerGap": "20px",
+      "links": [
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback"
+      ],
+      "overflow": false,
+      "paddingBottom": "24px",
+      "paddingTop": "32px",
+      "railPaddingBottom": "8px",
+      "railScrolls": true,
+      "removed": 0,
+      "viewport": [
+        440,
+        956
+      ]
+    },
+    {
+      "cards": 6,
+      "headerGap": "24px",
+      "links": [
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback"
+      ],
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "48px",
+      "railPaddingBottom": "8px",
+      "railScrolls": true,
+      "removed": 0,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "cards": 6,
+      "headerGap": "24px",
+      "links": [
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback"
+      ],
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "48px",
+      "railPaddingBottom": "8px",
+      "railScrolls": true,
+      "removed": 0,
+      "viewport": [
+        1032,
+        1376
+      ]
+    },
+    {
+      "cards": 6,
+      "headerGap": "24px",
+      "links": [
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback",
+        "https://dunniotailor.com/feedback"
+      ],
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "48px",
+      "railPaddingBottom": "8px",
+      "railScrolls": true,
+      "removed": 0,
+      "viewport": [
+        1440,
+        1000
+      ]
+    }
+  ]
+}

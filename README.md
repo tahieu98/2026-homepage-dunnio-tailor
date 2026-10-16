@@ -28,6 +28,8 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 
 ## Thông số phiên bản hiện hành
 
+**Yêu cầu 26:** v3.2 đã bỏ nút Read customer reviews và khung community-review-action bên dưới review rail. Giữ liên kết trong từng review, thu gọn khoảng cách section: PC/Tablet 48px trên – 40px dưới; Mobile 32px trên – 24px dưới; cuối rail 8px. [Biên bản kiểm tra](docs/community-spacing-verification.json).
+
 **Yêu cầu 25:** v3.2 tự chuyển banner tuần tự mỗi **6 giây**, không còn nút play/pause hay prev/next. Kéo chuột hoặc vuốt ngang trái/phải để đổi ảnh; cuộn dọc vẫn hoạt động. [Hướng dẫn và kiểm tra](docs/WEDDING-AUTOSLIDE-REQUEST25.md).
 
 **Yêu cầu 23–24 (v3.2):** bốn USP trên PC ≥1200px thu gọn về **180×180px**, căn giữa hàng; kích thước và màu USP Tablet/Mobile giữ nguyên. Nút **See how we ensure your fit ↗** căn giữa ngay dưới bốn ô USP, dẫn đến trang Fit Guarantee; chữ một dòng trên cả ba giao diện. [Chi tiết và kiểm tra](docs/WEDDING-USP-FIT-UPDATE.md).
