@@ -28,6 +28,8 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 
 ## Thông số phiên bản hiện hành
 
+**Yêu cầu 29:** v3.2 chỉ có một H1 ở khung logo header (chứa logo-light/logo-dark, tên truy cập Dunnio Tailor). Tiêu đề banner chuyển H2; bảy tiêu đề nội dung bỏ dấu chấm cuối mỗi dòng, giữ ngắt dòng. CSS `request29-r1` giữ kích thước logo và typography banner theo thiết bị. Các bản khác giữ nguyên.
+
 **Sửa phản hồi cảm ứng cho thẻ sản phẩm:** Mobile/Tablet chạm giữ trên product-card sẽ đổi nền gold ngay lập tức và giữ màu trong lúc vuốt; thả tay/hủy chạm sẽ bỏ màu. Dùng Touch Events passive, không hủy highlight khi native scroll phát pointercancel, không chặn cuộn hoặc click liên kết. Hover PC và keyboard focus giữ nguyên. CSS và script `product-card-touch.js` revision **product-touch-r1**; kiểm tra logic bằng `node tools/test-product-touch.cjs`. Chưa kiểm tra thiết bị cảm ứng thật.
 
 **Yêu cầu 28:** v3.2 bỏ toàn bộ mũi tên trang trí ↗ trên CTA, liên kết nội dung, header, menu và footer; xóa luôn span chứa riêng biểu tượng để không còn gap rỗng. URL và chức năng điều hướng giữ nguyên. Quy tắc nằm trong `tools/wedding-final.cjs` nên vẫn áp dụng khi dựng lại HTML.

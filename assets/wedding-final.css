@@ -1,4 +1,7 @@
 /* Request 22 final layout. Every override is confined to Wedding Story v3.2. */
+.theme.wedding-32 .topbar-menu h1.wordmark{font-size:0;line-height:0;letter-spacing:0}
+.theme.wedding-32 .hockerty-hero .hero-copy .hero-title{font-family:var(--font-primary);font-size:clamp(36px,3.5vw,64px);font-weight:400;line-height:1.05;letter-spacing:-.015em;max-width:none;margin:0;color:var(--color-white)}
+@media(max-width:1199px){.theme.wedding-32 .hockerty-hero .hero-copy .hero-title{font-size:clamp(32px,4.4vw,48px)}}
 @media(min-width:1200px){.theme.wedding-32 .hockerty-hero picture img{aspect-ratio:7/4;height:auto;object-fit:contain}}
 .theme.wedding-32 .hockerty-hero .hero-media{touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none}
 .theme.wedding-32 .hockerty-hero .hero-media.is-dragging{cursor:grabbing}
@@ -43,8 +46,8 @@
  .theme.wedding-32 .hockerty-hero picture img{aspect-ratio:4/7;height:auto;max-height:calc(100svh - 64px);min-height:240px;object-fit:cover;object-position:center 35%}
  .theme.wedding-32 .hockerty-hero .hero-media:before{inset:0}
  .theme.wedding-32 .hockerty-hero .hero-copy{position:relative;inset:auto;grid-row:1;grid-column:1;align-self:end;display:block;width:100%;margin:0;padding:20px 20px 24px;background:none;text-align:center}
- .theme.wedding-32 .hockerty-hero .hero-copy :is(h1,.hero-subtitle){color:var(--color-white)}
- .theme.wedding-32 .hockerty-hero .hero-copy h1{font-size:clamp(30px,8vw,36px)}
+ .theme.wedding-32 .hockerty-hero .hero-copy :is(.hero-title,.hero-subtitle){color:var(--color-white)}
+ .theme.wedding-32 .hockerty-hero .hero-copy .hero-title{font-size:clamp(30px,8vw,36px);line-height:1.1}
  .theme.wedding-32 .hockerty-hero .actions{justify-content:center}
  .theme.wedding-32 .hockerty-hero .hero-copy .eyebrow{display:none}
  .theme.wedding-32 .hockerty-hero .hero-copy .hero-subtitle{font-size:14px;line-height:1.6}
