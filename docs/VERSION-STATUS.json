@@ -1,8 +1,8 @@
 {
   "updated": "2026-10-16",
   "timezone": "Asia/Saigon",
-  "bannerRevision": "request22-r1",
-  "layoutRevision": "request23-24-r2",
+  "bannerRevision": "request25-r1",
+  "layoutRevision": "request25-r1",
   "studioRevision": "request21-r1",
   "desktopUspSize": 180,
   "fitGuaranteeCTA": "https://dunniotailor.com/fit-guarantee",
@@ -543,7 +543,7 @@
       "desktopFrame": "7:4",
       "tabletFrame": "5:3",
       "mobileFrame": "4:7 with max-height 100svh - 64px and min-height 240px",
-      "controls": "No banner-controls; 6000ms autoplay and an in-image pause toggle"
+      "controls": "No banner buttons; sequential 6000ms autoplay, mouse drag and touch swipe"
     },
     {
       "id": "v4",

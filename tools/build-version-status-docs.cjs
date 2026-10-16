@@ -7,14 +7,14 @@ const original=JSON.parse(JSON.stringify(context.window.DUNNIO_BANNERS));
 const current=context.window.DUNNIO_BANNERS['wedding-story'];
 const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const clean=v=>JSON.parse(JSON.stringify(v));
-const manifest={updated:'2026-10-16',timezone:'Asia/Saigon',bannerRevision:'request22-r1',layoutRevision:'request23-24-r2',studioRevision:'request21-r1',desktopUspSize:180,fitGuaranteeCTA:'https://dunniotailor.com/fit-guarantee',fitGuaranteeLabel:'See how we ensure your fit',fitGuaranteePlacement:'Centered below usp-inner, inside usp-section',
+const manifest={updated:'2026-10-16',timezone:'Asia/Saigon',bannerRevision:'request25-r1',layoutRevision:'request25-r1',studioRevision:'request21-r1',desktopUspSize:180,fitGuaranteeCTA:'https://dunniotailor.com/fit-guarantee',fitGuaranteeLabel:'See how we ensure your fit',fitGuaranteePlacement:'Centered below usp-inner, inside usp-section',
  breakpoints:{mobile:'0–639 CSS px',tablet:'640–1199 CSS px',desktop:'1200 CSS px and above'},
  versions:[
   {id:'v1',page:'v1-heritage-atelier.html',slides:clean(original['heritage-atelier'])},
   {id:'v2',page:'v2-design-studio.html',slides:clean(original['design-studio'])},
   {id:'v3',page:'v3-wedding-story.html',slides:clean(original['wedding-story'])},
   {id:'v3.1',page:'v3.1-wedding-story.html',slides:clean(original['wedding-story']),mobileFrame:'4:5',controls:'Below image; centred'},
-  {id:'v3.2',page:'v3.2-wedding-story.html',slides:clean(current),desktopFrame:'7:4',tabletFrame:'5:3',mobileFrame:'4:7 with max-height 100svh - 64px and min-height 240px',controls:'No banner-controls; 6000ms autoplay and an in-image pause toggle'},
+  {id:'v3.2',page:'v3.2-wedding-story.html',slides:clean(current),desktopFrame:'7:4',tabletFrame:'5:3',mobileFrame:'4:7 with max-height 100svh - 64px and min-height 240px',controls:'No banner buttons; sequential 6000ms autoplay, mouse drag and touch swipe'},
   {id:'v4',page:'v4-modern-essentials.html',slides:clean(original['modern-essentials'])},
   {id:'v5',page:'v5-fit-concierge.html',slides:clean(original['fit-concierge'])}
  ],
@@ -54,12 +54,12 @@ Hai file PC hiện tại dùng chung nguồn với v3.1; không xử lý lại �
 
 ## 3. Bố cục Wedding Story v3.1 và v3.2
 
-**Yêu cầu 23–24:** v3.2 thu USP về **180×180px** chỉ trên PC ≥1200px, căn giữa bốn ô; Tablet/Mobile giữ kích thước và màu hiện có. Nút **See how we ensure your fit** nằm giữa, ngay dưới bốn ô USP trong usp-section, chữ một dòng, dẫn đến trang Fit Guarantee. Closing giữ hai nút ban đầu. [Chi tiết và biên bản](WEDDING-USP-FIT-UPDATE.md). CSS v3.2 revision **request23-24-r2**; JS/app.js vẫn request22-r1.
+**Yêu cầu 23–24:** v3.2 thu USP về **180×180px** chỉ trên PC ≥1200px, căn giữa bốn ô; Tablet/Mobile giữ kích thước và màu hiện có. Nút **See how we ensure your fit** nằm giữa, ngay dưới bốn ô USP trong usp-section, chữ một dòng, dẫn đến trang Fit Guarantee. Closing giữ hai nút ban đầu. [Chi tiết và biên bản](WEDDING-USP-FIT-UPDATE.md). Yêu cầu 25 cập nhật CSS/JS v3.2 sang **request25-r1**; app.js giữ request22-r1.
 
 Thứ tự: **hero → Wedding party (chỉ v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → FAQ (chỉ v3.1) → closing → USP → footer**.
 
 - Products/looks/craft và cấu trúc studio ban đầu dựa trên v2; studio-board nay đã thay bằng video demo theo Yêu cầu 21; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.
-- v3.1 giữ hàng nút banner 64px, nút 48×48px căn giữa. v3.2 bỏ banner-controls, tự chuyển mỗi 6 giây; chỉ còn nút dừng/phát nhỏ trên ảnh.
+- v3.1 giữ hàng nút banner 64px, nút 48×48px căn giữa. v3.2 bỏ toàn bộ nút banner, tự chuyển tuần tự mỗi 6 giây; kéo chuột/vuốt ngang trái để xem tiếp, phải để xem trước. Không dừng khi hover; giữ cuộn dọc. [Yêu cầu 25](WEDDING-AUTOSLIDE-REQUEST25.md).
 - v3.1 mobile: ảnh 4:5 → nút → hero-copy trên nền trắng. Wedding party cuộn ngang.
 - v3.2 mobile: chữ/CTA gần chân ảnh, ẩn hero eyebrow. Khung 4:7 có chiều cao max(240px,min(W×7/4,100svh−64px)), W là chiều rộng vùng ảnh; không còn hàng nút dưới ảnh. Nguồn gần 4:5 được cover và căn center 35%.
 - Eyebrow mobile có hai gạch cân đối; riêng v3.2 dùng 16px và mô tả p trong main 14px. Review một hàng không tự chạy: v3.1 giữ prev/next, v3.2 dùng cuộn ngang và nút feedback ở dưới; ảnh/tên/ngày/rating từ nguồn review, đoạn giới thiệu có nhãn Review summary.
@@ -80,7 +80,7 @@ Header PC **80px**, không còn hàng nút 64px dưới ảnh. H=W×4/7; tổng 
 1. Cấu hình chung: \`assets/banner-config.js\`. v3.2 không còn nạp override 16:7; dữ liệu PC dùng chung v3.1. \`assets/wedding-final.js\` quản lý autoplay và sự kiện slide-step của app.js.
 2. \`assets/wedding-variants.css\` chứa baseline của hai biến thể; wedding-final.css ghi đè riêng v3.2 sang PC 7:4, bỏ hàng nút và điều chỉnh mobile/section. Không đổi bộ Tablet/Mobile nếu chỉ thay ảnh PC.
 3. Đồng bộ ảnh fallback đầu tiên và width/height trong \`tools/build-wedding-variants.cjs\`, rồi chạy \`node tools/build-wedding-variants.cjs\`. Generator này dựng lại v3.1/v3.2 từ v2/v3; không chỉ sửa HTML đầu ra rồi bỏ quên generator.
-4. Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css revision request23-24-r2; wedding-final.js và app.js giữ revision request22-r1.
+4. Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css và wedding-final.js revision request25-r1; app.js giữ revision request22-r1.
 5. Chạy \`node tools/verify-wedding-v32-banners.cjs\` với HTTP preview đang phục vụ dự án. \`DUNNIO_PREVIEW_URL\` đổi địa chỉ kiểm thử; \`DUNNIO_VERIFICATION_OUTPUT\` đổi file kết quả. Dữ liệu phân biệt \`viewport.width/height\` với \`width/height\` của ảnh hiển thị.
 6. Chạy \`node tools/build-version-status-docs.cjs\` để dựng lại tài liệu này và manifest. Khi sửa dữ liệu/mẫu của báo cáo Hockerty lịch sử, dùng \`node tools/build-hockerty-audit-report.cjs\`.
 7. Commit các file thuộc bản sửa, push main, chờ Pages báo built cho đúng commit và kiểm tra URL online. Git push thành công chưa đồng nghĩa Pages đã triển khai xong.
@@ -88,6 +88,8 @@ Header PC **80px**, không còn hàng nút 64px dưới ảnh. H=W×4/7; tổng 
 Các generator cũ \`tools/fashion-heroes.cjs\`, \`tools/build.cjs\`, \`tools/update-balanced-docs.cjs\` phục vụ các bước trước; đọc phạm vi trước khi chạy để tránh tái tạo hero/hướng dẫn theo thông số cũ. SVG/ZIP vùng an toàn trong banner-templates là tư liệu trước Yêu cầu 17, chưa phải template của bố cục final hiện hành.
 
 ## 6. Bằng chứng và trạng thái kiểm tra
+
+- [Yêu cầu 25](WEDDING-AUTOSLIDE-REQUEST25.md): auto-slide không nút, kéo hai chiều ở ba viewport; [biên bản mới](wedding-autoslide-verification.json). Biên bản Yêu cầu 22 bên dưới lưu cơ chế play/pause cũ, không phải hành vi hiện tại.
 
 - [Bản final v3.2](wedding-final-verification.json): 11 viewport 320–1920px, khung banner, vị trí CTA, ô USP vuông, typography Mobile, cấu trúc đã tinh giản, autoplay 6 giây, dừng và cuộn ngang bằng bàn phím. Biên bản banner 15/10 vẫn được lưu làm lịch sử.
 - [Kiểm tra cấu trúc hai biến thể ngày 14/10](wedding-story-verification.json) và [footer/USP ngày 14/10](wedding-footer-verification.json) là bằng chứng theo thời điểm, không tự coi là đã chạy lại toàn bộ sau mỗi lần thay ảnh PC.

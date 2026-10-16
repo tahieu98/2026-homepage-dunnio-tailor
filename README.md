@@ -28,6 +28,8 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 
 ## Thông số phiên bản hiện hành
 
+**Yêu cầu 25:** v3.2 tự chuyển banner tuần tự mỗi **6 giây**, không còn nút play/pause hay prev/next. Kéo chuột hoặc vuốt ngang trái/phải để đổi ảnh; cuộn dọc vẫn hoạt động. [Hướng dẫn và kiểm tra](docs/WEDDING-AUTOSLIDE-REQUEST25.md).
+
 **Yêu cầu 23–24 (v3.2):** bốn USP trên PC ≥1200px thu gọn về **180×180px**, căn giữa hàng; kích thước và màu USP Tablet/Mobile giữ nguyên. Nút **See how we ensure your fit ↗** căn giữa ngay dưới bốn ô USP, dẫn đến trang Fit Guarantee; chữ một dòng trên cả ba giao diện. [Chi tiết và kiểm tra](docs/WEDDING-USP-FIT-UPDATE.md).
 
 [Hồ sơ hiện hành dạng HTML](docs/VERSION-STATUS.html) · [Markdown](docs/VERSION-STATUS.md) · [Manifest ảnh và SHA-256](docs/VERSION-STATUS.json). Tài liệu này ưu tiên hơn các bước lịch sử bên dưới. v3.2 final hiện dùng PC **7:4 / nguồn ảnh v3.1**, Tablet **5:3**, Mobile **hướng tới 4:7** có giới hạn chiều cao; tự chuyển mỗi **6 giây**, không còn banner-controls. v3.1 giữ các nút thủ công và Mobile **4:5**.
@@ -67,10 +69,10 @@ Hai biến thể mới giữ nguyên bản v3 gốc và footer. Header và logo 
 
 ## Wedding Story v3.2 final — Yêu cầu 22 (16/10/2026)
 
-- PC trở về 7:4, dùng hai ảnh hiện có của v3.1; Tablet 5:3, Mobile 4:7 có cap theo chiều cao. Bỏ banner-controls, auto slide 6000ms; có nút dừng/phát nhỏ trên ảnh, tạm dừng khi hover/focus/offscreen/tab ẩn.
+- PC trở về 7:4, dùng hai ảnh hiện có của v3.1; Tablet 5:3, Mobile 4:7 có cap theo chiều cao. Bỏ banner-controls, auto slide 6000ms; cơ chế nút dừng/phát ban đầu đã được thay bằng kéo/vuốt và auto-slide không nút trong Yêu cầu 25.
 - Bỏ rail-controls ở products/looks/community; looks bỏ fine, craft bỏ detail-line. Thu gọn khoảng cách section, căn giữa CTA studio trên Mobile. All outfit ideas dùng nút gold/dark-blue; Read customer reviews nằm giữa dưới review rail.
 - USP chỉ giữ số và tiêu đề, căn giữa trong các ô vuông. Eyebrow Mobile 16px, mô tả p trong main 14px. Footer/v3.1 giữ nguyên.
-- [Hướng dẫn final](docs/WEDDING-FINAL-REQUEST22.md) · [Biên bản kiểm tra](docs/wedding-final-verification.json). Generator v3.2 áp dụng module tools/wedding-final.cjs; CSS/JS riêng ở assets/wedding-final.* revision request22-r1.
+- [Hướng dẫn final](docs/WEDDING-FINAL-REQUEST22.md) · [Biên bản kiểm tra](docs/wedding-final-verification.json). Generator v3.2 áp dụng module tools/wedding-final.cjs; CSS/JS riêng ở assets/wedding-final.* hiện là revision request25-r1.
 - Chạy `node tools/verify-wedding-final.cjs` để kiểm tra cấu trúc và ma trận quan sát browser đã lưu. Các biên bản trước 16/10 là hồ sơ theo thời điểm.
 
 ## Studio video — Yêu cầu 21 (15/10/2026)

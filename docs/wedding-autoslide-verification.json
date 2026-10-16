@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-16",
+  "scope": "Request 25 v3.2",
+  "status": "passed",
+  "responsive": [
+    {
+      "controls": 0,
+      "delay": "6000",
+      "image": {
+        "height": 504,
+        "ratio": "4 / 7",
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-b-4x5.webp",
+        "width": 304.8000183105469
+      },
+      "overflow": false,
+      "touchAction": "pan-y",
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "controls": 0,
+      "delay": "6000",
+      "image": {
+        "height": 743.4000244140625,
+        "ratio": "4 / 7",
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-b-4x5.webp",
+        "width": 424.8000183105469
+      },
+      "overflow": false,
+      "touchAction": "pan-y",
+      "viewport": [
+        440,
+        956
+      ]
+    },
+    {
+      "controls": 0,
+      "delay": "6000",
+      "image": {
+        "height": 482.875,
+        "ratio": "auto 1600 / 960",
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-b-5x3.webp",
+        "width": 804.7999877929688
+      },
+      "overflow": false,
+      "touchAction": "pan-y",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "controls": 0,
+      "delay": "6000",
+      "image": {
+        "height": 610.0750122070312,
+        "ratio": "auto 1600 / 960",
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-b-5x3.webp",
+        "width": 1016.7999877929688
+      },
+      "overflow": false,
+      "touchAction": "pan-y",
+      "viewport": [
+        1032,
+        1376
+      ]
+    },
+    {
+      "controls": 0,
+      "delay": "6000",
+      "image": {
+        "height": 677.0250244140625,
+        "ratio": "7 / 4",
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-b-7x4.webp",
+        "width": 1184.800048828125
+      },
+      "overflow": false,
+      "touchAction": "pan-y",
+      "viewport": [
+        1200,
+        900
+      ]
+    },
+    {
+      "controls": 0,
+      "delay": "6000",
+      "image": {
+        "height": 814.1625366210938,
+        "ratio": "7 / 4",
+        "source": "http://127.0.0.1:4174/assets/banners/wedding-story-b-7x4.webp",
+        "width": 1424.800048828125
+      },
+      "overflow": false,
+      "touchAction": "pan-y",
+      "viewport": [
+        1440,
+        1000
+      ]
+    }
+  ],
+  "mouseDrags": [
+    {
+      "viewport": [
+        440,
+        956
+      ],
+      "before": {
+        "gesture": 0,
+        "slide": "2",
+        "width": 440,
+        "x1": 297.36001281738277,
+        "x2": 127.44000549316404,
+        "y": 264
+      },
+      "afterLeft": {
+        "gesture": "1",
+        "slide": "1"
+      },
+      "afterRight": {
+        "gesture": "2",
+        "slide": "2"
+      }
+    },
+    {
+      "viewport": [
+        1032,
+        1376
+      ],
+      "before": {
+        "gesture": 2,
+        "slide": "2",
+        "width": 1032,
+        "x1": 711.7599914550781,
+        "x2": 305.0399963378906,
+        "y": 264
+      },
+      "afterLeft": {
+        "gesture": "3",
+        "slide": "1"
+      },
+      "afterRight": {
+        "gesture": "4",
+        "slide": "2"
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "before": {
+        "gesture": 4,
+        "slide": "2",
+        "width": 1440,
+        "x1": 997.3600341796874,
+        "x2": 427.4400146484375,
+        "y": 280
+      },
+      "afterLeft": {
+        "gesture": "5",
+        "slide": "1"
+      },
+      "afterRight": {
+        "gesture": "6",
+        "slide": "2"
+      }
+    }
+  ],
+  "autoplay": {
+    "before": {
+      "count": "19",
+      "slide": "2"
+    },
+    "after": {
+      "count": "21",
+      "slide": "2"
+    },
+    "note": "Autoplay advanced with pointer over banner; configured interval 6000ms checked by deterministic timer test."
+  },
+  "scroll": {
+    "heroBottom": -105.83746337890624,
+    "scrollY": 1000
+  },
+  "touch": "Pointer-event logic tested in Node VM; no physical touch device test."
+}

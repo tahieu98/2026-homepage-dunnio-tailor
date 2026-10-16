@@ -18,7 +18,9 @@ Ngày cập nhật: **16/10/2026**, giờ Việt Nam. Áp dụng riêng [v3.2](.
 | USP | Bỏ toàn bộ mô tả p và `.text-link`; giữ số thứ tự và h3, căn giữa trong bốn ô vuông bằng nhau |
 | Typography Mobile | Eyebrow **16px**, mô tả p trong main **14px**; section-desc 14px; footer giữ nguyên |
 
-## Cơ chế slideshow
+## Cơ chế slideshow của Yêu cầu 22 — lịch sử
+
+**Đã thay thế trong [Yêu cầu 25](WEDDING-AUTOSLIDE-REQUEST25.md):** không còn nút play/pause; tự chuyển 6 giây và kéo/vuốt hai chiều. CSS/JS hiện là request25-r1. Mô tả và bằng chứng bên dưới lưu theo thời điểm Yêu cầu 22.
 
 Banner tự đổi cảnh bằng timer 6 giây. Có nút dừng/phát 44px trên ảnh, không tái tạo prev/next hoặc counter. Tự tạm dừng khi ảnh nằm ngoài viewport, tab bị ẩn, con trỏ hover trên banner hoặc focus đang ở CTA. Thiết lập reduced-motion khởi đầu ở trạng thái dừng; người xem có thể chủ động phát.
 
