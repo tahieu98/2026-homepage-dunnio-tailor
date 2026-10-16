@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-16",
+  "scope": "Request 28, v3.2 only",
+  "status": "passed",
+  "removedArrows": 42,
+  "linksUnchanged": true,
+  "matrix": [
+    {
+      "ctaFits": true,
+      "diagonalArrows": false,
+      "emptyDecorativeSpans": 0,
+      "footerArrows": false,
+      "overflow": false,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "ctaFits": true,
+      "diagonalArrows": false,
+      "emptyDecorativeSpans": 0,
+      "footerArrows": false,
+      "overflow": false,
+      "viewport": [
+        440,
+        956
+      ]
+    },
+    {
+      "ctaFits": true,
+      "diagonalArrows": false,
+      "emptyDecorativeSpans": 0,
+      "footerArrows": false,
+      "overflow": false,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "ctaFits": true,
+      "diagonalArrows": false,
+      "emptyDecorativeSpans": 0,
+      "footerArrows": false,
+      "overflow": false,
+      "viewport": [
+        1440,
+        1000
+      ]
+    }
+  ]
+}

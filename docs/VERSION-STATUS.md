@@ -29,6 +29,8 @@ Hai file PC hiện tại dùng chung nguồn với v3.1; không xử lý lại �
 
 ## 3. Bố cục Wedding Story v3.1 và v3.2
 
+**Yêu cầu 28:** bỏ toàn bộ mũi tên chéo trang trí trên v3.2, gồm các span aria-hidden trong CTA và footer, cùng các ký tự gắn trực tiếp vào nhãn liên kết. Xóa span chỉ chứa biểu tượng để không còn gap rỗng. Không đổi URL hoặc chức năng điều hướng; v3.1 giữ nguyên.
+
 **Yêu cầu 27:** v3.2 bỏ toàn bộ image-arrow trong product-rail. Hover mỗi product-card đổi nền sang gold #C8A96A, chữ navy; focus bằng bàn phím có cùng hiệu ứng. Padding 12px bao quanh ảnh và nội dung; ảnh giữ màu gốc, không đổi kích thước khi hover. Hover giới hạn cho thiết bị có chuột để tránh trạng thái dính trên cảm ứng. CSS hiện là **request27-r1**. [Biên bản kiểm tra](product-hover-verification.json).
 
 **Yêu cầu 26:** v3.2 bỏ cả community-review-action và nút Read customer reviews trùng lặp. Giữ sáu liên kết Read original review trong các thẻ; padding section PC/Tablet 48px trên, 40px dưới; Mobile 32px trên, 24px dưới; padding cuối rail 8px. CSS revision **request26-r1**, JS banner giữ request25-r1. [Biên bản](community-spacing-verification.json).

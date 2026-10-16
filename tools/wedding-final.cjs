@@ -26,5 +26,8 @@ module.exports=html=>{
   html=html.replace('</head>','<link rel="stylesheet" href="assets/wedding-final.css?v=request27-r1"></head>')
     .replace('assets/app.js?v=banner-slides-20261012-r4','assets/app.js?v=request22-r1')
     .replace('<script src="assets/studio-video.js','<script src="assets/wedding-final.js?v=request25-r1" defer></script><script src="assets/studio-video.js');
+  // Request 28: remove decorative diagonal arrows, including their empty flex items.
+  html=html.replace(/\s*<span\b[^>]*aria-hidden="true"[^>]*>\s*(?:↗|&#8599;|&#x2197;)\s*<\/span>/gi,'')
+    .replace(/[ \t]*(?:↗|&#8599;|&#x2197;)/gi,'');
   return html;
 };
