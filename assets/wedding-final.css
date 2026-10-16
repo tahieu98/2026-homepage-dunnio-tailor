@@ -7,8 +7,9 @@
 .theme.wedding-32 :is(.products,.looks-section) .section-head{margin-bottom:20px}
 .theme.wedding-32 :is(.product-rail,.look-rail){padding-bottom:8px}
 .theme.wedding-32 .product-rail .product-card{padding:12px;transition:background-color var(--motion-quick),color var(--motion-quick)}
-.theme.wedding-32 .product-rail .product-card:focus-visible{background:var(--color-secondary);color:var(--color-primary)}
-.theme.wedding-32 .product-rail .product-card:focus-visible>p{color:var(--color-primary)}
+.theme.wedding-32 .product-rail .product-card:is(:focus-visible,:active,.is-touch-active){background:var(--color-secondary);color:var(--color-primary)}
+.theme.wedding-32 .product-rail .product-card:is(:focus-visible,:active,.is-touch-active)>p{color:var(--color-primary)}
+.theme.wedding-32 .product-rail .product-card.is-touch-active{transition:none}
 @media(hover:hover) and (pointer:fine){
  .theme.wedding-32 .product-rail .product-card:hover{background:var(--color-secondary);color:var(--color-primary)}
  .theme.wedding-32 .product-rail .product-card:hover>p{color:var(--color-primary)}

@@ -28,6 +28,8 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 
 ## Thông số phiên bản hiện hành
 
+**Sửa phản hồi cảm ứng cho thẻ sản phẩm:** Mobile/Tablet chạm giữ trên product-card sẽ đổi nền gold ngay lập tức và giữ màu trong lúc vuốt; thả tay/hủy chạm sẽ bỏ màu. Dùng Touch Events passive, không hủy highlight khi native scroll phát pointercancel, không chặn cuộn hoặc click liên kết. Hover PC và keyboard focus giữ nguyên. CSS và script `product-card-touch.js` revision **product-touch-r1**; kiểm tra logic bằng `node tools/test-product-touch.cjs`. Chưa kiểm tra thiết bị cảm ứng thật.
+
 **Yêu cầu 28:** v3.2 bỏ toàn bộ mũi tên trang trí ↗ trên CTA, liên kết nội dung, header, menu và footer; xóa luôn span chứa riêng biểu tượng để không còn gap rỗng. URL và chức năng điều hướng giữ nguyên. Quy tắc nằm trong `tools/wedding-final.cjs` nên vẫn áp dụng khi dựng lại HTML.
 
 **Yêu cầu 27:** v3.2 bỏ toàn bộ image-arrow trong danh sách sản phẩm. Hover từng product-card đổi nền sang gold **#C8A96A**, chữ navy; keyboard focus có cùng hiệu ứng. Padding 12px giúp nền bao quanh cả ảnh và nội dung, ảnh giữ màu gốc; hiệu ứng không làm đổi kích thước khi hover. [Biên bản](docs/product-hover-verification.json) · [Minh họa](docs/screenshots/request27/desktop-hover.png).
