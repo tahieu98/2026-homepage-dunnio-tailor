@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-16",
+  "scope": "Request 27, v3.2 only",
+  "status": "passed",
+  "hover": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false,
+      "height": 509.6000061035156,
+      "hover": false,
+      "text": "rgba(11, 31, 58, 0.78)",
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false,
+      "height": 509.6000061035156,
+      "hover": false,
+      "text": "rgba(11, 31, 58, 0.78)",
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgb(200, 169, 106)",
+      "focus": false,
+      "height": 509.6000061035156,
+      "hover": true,
+      "text": "rgb(11, 31, 58)",
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false,
+      "height": 509.6000061035156,
+      "hover": false,
+      "text": "rgba(11, 31, 58, 0.78)",
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false,
+      "height": 509.6000061035156,
+      "hover": false,
+      "text": "rgba(11, 31, 58, 0.78)",
+      "width": 245.02500915527344
+    }
+  ],
+  "neutral": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 509.6000061035156,
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 509.6000061035156,
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 509.6000061035156,
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 509.6000061035156,
+      "width": 245.02500915527344
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 509.6000061035156,
+      "width": 245.02500915527344
+    }
+  ],
+  "focus": [
+    {
+      "background": "rgb(200, 169, 106)",
+      "focus": true
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "focus": false
+    }
+  ],
+  "matrix": [
+    {
+      "arrows": 0,
+      "cardHeights": [
+        449.4250183105469,
+        449.4250183105469,
+        449.4250183105469,
+        449.4250183105469,
+        449.4250183105469
+      ],
+      "cards": 5,
+      "links": [
+        "https://dunniotailor.com/men/custom-suits",
+        "https://dunniotailor.com/men/3-pieces-suit",
+        "https://dunniotailor.com/men/custom-tuxedo",
+        "https://dunniotailor.com/men/custom-dress-shirts",
+        "https://dunniotailor.com/men/custom-blazers"
+      ],
+      "overflow": false,
+      "railOverflow": true,
+      "textFits": true,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "arrows": 0,
+      "cardHeights": [
+        559.9500122070312,
+        559.9500122070312,
+        559.9500122070312,
+        559.9500122070312,
+        559.9500122070312
+      ],
+      "cards": 5,
+      "links": [
+        "https://dunniotailor.com/men/custom-suits",
+        "https://dunniotailor.com/men/3-pieces-suit",
+        "https://dunniotailor.com/men/custom-tuxedo",
+        "https://dunniotailor.com/men/custom-dress-shirts",
+        "https://dunniotailor.com/men/custom-blazers"
+      ],
+      "overflow": false,
+      "railOverflow": true,
+      "textFits": true,
+      "viewport": [
+        440,
+        956
+      ]
+    },
+    {
+      "arrows": 0,
+      "cardHeights": [
+        480.8125,
+        480.8125,
+        480.8125,
+        480.8125,
+        480.8125
+      ],
+      "cards": 5,
+      "links": [
+        "https://dunniotailor.com/men/custom-suits",
+        "https://dunniotailor.com/men/3-pieces-suit",
+        "https://dunniotailor.com/men/custom-tuxedo",
+        "https://dunniotailor.com/men/custom-dress-shirts",
+        "https://dunniotailor.com/men/custom-blazers"
+      ],
+      "overflow": false,
+      "railOverflow": true,
+      "textFits": true,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "arrows": 0,
+      "cardHeights": [
+        463.3875122070313,
+        463.3875122070313,
+        463.3875122070313,
+        463.3875122070313,
+        463.3875122070313
+      ],
+      "cards": 5,
+      "links": [
+        "https://dunniotailor.com/men/custom-suits",
+        "https://dunniotailor.com/men/3-pieces-suit",
+        "https://dunniotailor.com/men/custom-tuxedo",
+        "https://dunniotailor.com/men/custom-dress-shirts",
+        "https://dunniotailor.com/men/custom-blazers"
+      ],
+      "overflow": false,
+      "railOverflow": true,
+      "textFits": true,
+      "viewport": [
+        1032,
+        1376
+      ]
+    },
+    {
+      "arrows": 0,
+      "cardHeights": [
+        509.6000061035156,
+        509.6000061035156,
+        509.6000061035156,
+        509.6000061035156,
+        509.6000061035156
+      ],
+      "cards": 5,
+      "links": [
+        "https://dunniotailor.com/men/custom-suits",
+        "https://dunniotailor.com/men/3-pieces-suit",
+        "https://dunniotailor.com/men/custom-tuxedo",
+        "https://dunniotailor.com/men/custom-dress-shirts",
+        "https://dunniotailor.com/men/custom-blazers"
+      ],
+      "overflow": false,
+      "railOverflow": false,
+      "textFits": true,
+      "viewport": [
+        1440,
+        1000
+      ]
+    }
+  ]
+}

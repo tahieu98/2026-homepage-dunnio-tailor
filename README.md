@@ -28,6 +28,8 @@ GitHub Pages được cấu hình từ nhánh `main`, folder `/(root)`. Mỗi fi
 
 ## Thông số phiên bản hiện hành
 
+**Yêu cầu 27:** v3.2 bỏ toàn bộ image-arrow trong danh sách sản phẩm. Hover từng product-card đổi nền sang gold **#C8A96A**, chữ navy; keyboard focus có cùng hiệu ứng. Padding 12px giúp nền bao quanh cả ảnh và nội dung, ảnh giữ màu gốc; hiệu ứng không làm đổi kích thước khi hover. [Biên bản](docs/product-hover-verification.json) · [Minh họa](docs/screenshots/request27/desktop-hover.png).
+
 **Yêu cầu 26:** v3.2 đã bỏ nút Read customer reviews và khung community-review-action bên dưới review rail. Giữ liên kết trong từng review, thu gọn khoảng cách section: PC/Tablet 48px trên – 40px dưới; Mobile 32px trên – 24px dưới; cuối rail 8px. [Biên bản kiểm tra](docs/community-spacing-verification.json).
 
 **Yêu cầu 25:** v3.2 tự chuyển banner tuần tự mỗi **6 giây**, không còn nút play/pause hay prev/next. Kéo chuột hoặc vuốt ngang trái/phải để đổi ảnh; cuộn dọc vẫn hoạt động. [Hướng dẫn và kiểm tra](docs/WEDDING-AUTOSLIDE-REQUEST25.md).

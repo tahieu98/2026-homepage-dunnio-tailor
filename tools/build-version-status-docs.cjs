@@ -7,7 +7,7 @@ const original=JSON.parse(JSON.stringify(context.window.DUNNIO_BANNERS));
 const current=context.window.DUNNIO_BANNERS['wedding-story'];
 const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const clean=v=>JSON.parse(JSON.stringify(v));
-const manifest={updated:'2026-10-16',timezone:'Asia/Saigon',bannerRevision:'request25-r1',layoutRevision:'request26-r1',communityCTA:'Per-review links only; no standalone CTA',studioRevision:'request21-r1',desktopUspSize:180,fitGuaranteeCTA:'https://dunniotailor.com/fit-guarantee',fitGuaranteeLabel:'See how we ensure your fit',fitGuaranteePlacement:'Centered below usp-inner, inside usp-section',
+const manifest={updated:'2026-10-16',timezone:'Asia/Saigon',bannerRevision:'request25-r1',layoutRevision:'request27-r1',productInteraction:'No image arrows; gold #C8A96A card background on hover and keyboard focus',communityCTA:'Per-review links only; no standalone CTA',studioRevision:'request21-r1',desktopUspSize:180,fitGuaranteeCTA:'https://dunniotailor.com/fit-guarantee',fitGuaranteeLabel:'See how we ensure your fit',fitGuaranteePlacement:'Centered below usp-inner, inside usp-section',
  breakpoints:{mobile:'0–639 CSS px',tablet:'640–1199 CSS px',desktop:'1200 CSS px and above'},
  versions:[
   {id:'v1',page:'v1-heritage-atelier.html',slides:clean(original['heritage-atelier'])},
@@ -54,6 +54,8 @@ Hai file PC hiện tại dùng chung nguồn với v3.1; không xử lý lại �
 
 ## 3. Bố cục Wedding Story v3.1 và v3.2
 
+**Yêu cầu 27:** v3.2 bỏ toàn bộ image-arrow trong product-rail. Hover mỗi product-card đổi nền sang gold #C8A96A, chữ navy; focus bằng bàn phím có cùng hiệu ứng. Padding 12px bao quanh ảnh và nội dung; ảnh giữ màu gốc, không đổi kích thước khi hover. Hover giới hạn cho thiết bị có chuột để tránh trạng thái dính trên cảm ứng. CSS hiện là **request27-r1**. [Biên bản kiểm tra](product-hover-verification.json).
+
 **Yêu cầu 26:** v3.2 bỏ cả community-review-action và nút Read customer reviews trùng lặp. Giữ sáu liên kết Read original review trong các thẻ; padding section PC/Tablet 48px trên, 40px dưới; Mobile 32px trên, 24px dưới; padding cuối rail 8px. CSS revision **request26-r1**, JS banner giữ request25-r1. [Biên bản](community-spacing-verification.json).
 
 **Yêu cầu 23–24:** v3.2 thu USP về **180×180px** chỉ trên PC ≥1200px, căn giữa bốn ô; Tablet/Mobile giữ kích thước và màu hiện có. Nút **See how we ensure your fit** nằm giữa, ngay dưới bốn ô USP trong usp-section, chữ một dòng, dẫn đến trang Fit Guarantee. Closing giữ hai nút ban đầu. [Chi tiết và biên bản](WEDDING-USP-FIT-UPDATE.md). Yêu cầu 25 cập nhật CSS/JS v3.2 sang **request25-r1**; app.js giữ request22-r1.
@@ -82,7 +84,7 @@ Header PC **80px**, không còn hàng nút 64px dưới ảnh. H=W×4/7; tổng 
 1. Cấu hình chung: \`assets/banner-config.js\`. v3.2 không còn nạp override 16:7; dữ liệu PC dùng chung v3.1. \`assets/wedding-final.js\` quản lý autoplay và sự kiện slide-step của app.js.
 2. \`assets/wedding-variants.css\` chứa baseline của hai biến thể; wedding-final.css ghi đè riêng v3.2 sang PC 7:4, bỏ hàng nút và điều chỉnh mobile/section. Không đổi bộ Tablet/Mobile nếu chỉ thay ảnh PC.
 3. Đồng bộ ảnh fallback đầu tiên và width/height trong \`tools/build-wedding-variants.cjs\`, rồi chạy \`node tools/build-wedding-variants.cjs\`. Generator này dựng lại v3.1/v3.2 từ v2/v3; không chỉ sửa HTML đầu ra rồi bỏ quên generator.
-4. Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css revision request26-r1, wedding-final.js request25-r1; app.js giữ revision request22-r1.
+4. Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css revision request27-r1, wedding-final.js request25-r1; app.js giữ revision request22-r1.
 5. Chạy \`node tools/verify-wedding-v32-banners.cjs\` với HTTP preview đang phục vụ dự án. \`DUNNIO_PREVIEW_URL\` đổi địa chỉ kiểm thử; \`DUNNIO_VERIFICATION_OUTPUT\` đổi file kết quả. Dữ liệu phân biệt \`viewport.width/height\` với \`width/height\` của ảnh hiển thị.
 6. Chạy \`node tools/build-version-status-docs.cjs\` để dựng lại tài liệu này và manifest. Khi sửa dữ liệu/mẫu của báo cáo Hockerty lịch sử, dùng \`node tools/build-hockerty-audit-report.cjs\`.
 7. Commit các file thuộc bản sửa, push main, chờ Pages báo built cho đúng commit và kiểm tra URL online. Git push thành công chưa đồng nghĩa Pages đã triển khai xong.

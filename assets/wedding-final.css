@@ -6,6 +6,14 @@
 .theme.wedding-32 :is(.products,.looks-section,.craft-section,.community-section){padding-top:56px;padding-bottom:48px}
 .theme.wedding-32 :is(.products,.looks-section) .section-head{margin-bottom:20px}
 .theme.wedding-32 :is(.product-rail,.look-rail){padding-bottom:8px}
+.theme.wedding-32 .product-rail .product-card{padding:12px;transition:background-color var(--motion-quick),color var(--motion-quick)}
+.theme.wedding-32 .product-rail .product-card:focus-visible{background:var(--color-secondary);color:var(--color-primary)}
+.theme.wedding-32 .product-rail .product-card:focus-visible>p{color:var(--color-primary)}
+@media(hover:hover) and (pointer:fine){
+ .theme.wedding-32 .product-rail .product-card:hover{background:var(--color-secondary);color:var(--color-primary)}
+ .theme.wedding-32 .product-rail .product-card:hover>p{color:var(--color-primary)}
+}
+@media(prefers-reduced-motion:reduce){.theme.wedding-32 .product-rail .product-card{transition:none}}
 .theme.wedding-32 .outfit-ideas-button{flex-shrink:0;background:var(--color-secondary);color:var(--color-dark-blue);border:1px solid var(--color-secondary);min-height:52px;text-align:center}
 .theme.wedding-32 .outfit-ideas-button:hover{background:var(--color-white);color:var(--color-dark-blue)}
 .theme.wedding-32 .craft-copy h2{margin-bottom:16px}
