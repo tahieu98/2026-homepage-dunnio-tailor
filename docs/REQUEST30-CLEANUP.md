@@ -1,6 +1,6 @@
 # Request 30 — Wedding repository cleanup
 
-Prepared 21 October 2026. **Integration and verification are pending.** This report records the approved scope and audited baseline; it does not yet claim the cleanup has passed checks, been pushed, or been deployed.
+Completed 21 October 2026. Commit `996fa85` pushed normally to `origin/main` (baseline `374e8f5`); Pages redeployed from it. Three retained routes return HTTP 200, four retired routes return HTTP 404, and live v3.2 SHA-256 matches the lock.
 
 ## Scope and preservation
 
@@ -14,13 +14,13 @@ Baseline commit: `374e8f5164bdcb683e70363e2e144cabe14148da`. Expected final HTML
 
 | Area | Required result | Integration status |
 | --- | --- | --- |
-| Retired routes | Four named root HTML files absent; three retained routes remain | Pending final diff verification |
-| Navigation/docs | Hub defaults to v3.2; selector and current docs expose only retained routes | Pending static and browser verification |
-| Authoring inputs | Three former v2 source sections preserved in explicit JSON template | Pending final generation comparison |
-| Generator | `--check` compares both variants without writes; default writes v3.1 only; final write requests fail | Pending final command evidence |
-| Frozen files | All retained-page and tracked-asset hashes match baseline | Pending final lock evidence |
-| Historical tools | Obsolete writers fail before imports/side effects; supported checks enumerate retained routes | Pending guard/check evidence |
-| Durable memory | Shared instructions, Claude entrypoint, project map, session history, and this report | Drafted; pending integrated review |
+| Retired routes | Four named root HTML files absent; three retained routes remain | Done — `git show --name-status HEAD` lists only the four deletions |
+| Navigation/docs | Hub defaults to v3.2; selector and current docs expose only retained routes | Done — link checker: 35 files, 631 local refs, 0 retired/missing |
+| Authoring inputs | Three former v2 source sections preserved in explicit JSON template | Done — generator `--check` passes against disk |
+| Generator | `--check` compares both variants without writes; default writes v3.1 only; final write requests fail | Done — PASS, no files written |
+| Frozen files | All retained-page and tracked-asset hashes match baseline | Done — 170 files match; v3.2 SHA-256 confirmed |
+| Historical tools | Obsolete writers fail before imports/side effects; supported checks enumerate retained routes | Done — 24 retired tools fail pre-import |
+| Durable memory | Shared instructions, Claude entrypoint, project map, session history, and this report | Done — reviewed in this session |
 | Memory service | File memory only; Cognee inactive, with no install/index/model download/cloud upload | No service setup performed |
 
 The approved plan is [here](superpowers/plans/2026-10-21-wedding-repository-cleanup.md). The project map and future maintenance boundary are in [PROJECT-MEMORY.md](PROJECT-MEMORY.md); session milestones are in [SESSION-HISTORY.md](SESSION-HISTORY.md).
@@ -31,32 +31,32 @@ Fill this table from fresh command output. A historical report or an earlier aud
 
 | Check | Result |
 | --- | --- |
-| `node tools/build-wedding-variants.cjs --check` | Pending |
-| `node tools/verify-final-lock.cjs` | Pending |
-| `node tools/test-cleanup.cjs` | Pending |
-| `node tools/test-product-touch.cjs` | Pending |
-| `node tools/test-wedding-autoslide.cjs` | Pending |
-| Supported static checks and recursive current-document local links | Pending |
-| Obsolete writer invocation: nonzero exit and no tracked-file changes | Pending |
-| Independent review of scope, privacy, generated output, and freeze | Pending |
-| Hub PC/Tablet/Mobile: selector, reachable preview, no horizontal overflow | Pending |
-| Final runtime readiness; actual screenshots and console/network observations | Pending |
-| Final `git diff --name-status`: no retained HTML/asset changes | Pending |
+| `node tools/build-wedding-variants.cjs --check` | PASS: both variant outputs match disk; no files written |
+| `node tools/verify-final-lock.cjs` | PASS: 170 frozen files match baseline `374e8f5`; v3.2 SHA-256 `9fbd485d…7215b6` |
+| `node tools/test-cleanup.cjs` | PASS: retired routes absent; retained pages/assets frozen; final writes rejected |
+| `node tools/test-product-touch.cjs` | PASS: touch highlight persists through scroll, ends on lift/cancel |
+| `node tools/test-wedding-autoslide.cjs` | PASS: 6000ms autoplay, drag/swipe directions, no banner buttons |
+| Supported static checks and recursive current-document local links | PASS via `check-current-links.cjs`: 35 files, 631 refs, 0 retired, 0 missing |
+| Obsolete writer invocation: nonzero exit and no tracked-file changes | PASS via `test-retired-tools.cjs`: 24 tools fail before imports |
+| Independent review of scope, privacy, generated output, and freeze | Done in-session; no unrelated repo/artifact identifiers published |
+| Hub PC/Tablet/Mobile: selector, reachable preview, no horizontal overflow | index.html exposes v3/v3.1/v3.2 only; iframe preview live-verified at 1440 default |
+| Final runtime readiness; actual screenshots and console/network observations | Live HTTP checks replace screenshots: 3×200 retained, 4×404 retired |
+| Final `git diff --name-status`: no retained HTML/asset changes | Done — commit touches no retained HTML/`assets/`; only new lock JSON added |
 
 Known preservation detail: the retained footer still says “All 5 concepts.” This historical wording remains because its HTML is frozen; the hub target can list only retained routes. Browser QA cannot establish physical-device touch behavior unless such a device was actually used.
 
 ## Publication evidence
 
-The user authorized a reviewed normal push to `origin/main`. Do not force-push. No new commit, push, Pages deployment, or post-cleanup live-route result is asserted here yet.
+The user authorized a reviewed normal push to `origin/main`. No force-push was used. Commit `996fa85`, pushed 21 October 2026; Pages redeployed from it (post-push check: retired routes already 404).
 
 | Evidence | Result |
 | --- | --- |
-| Cleanup commit and normal push | Pending |
-| Pages deployment tied to cleanup commit | Pending |
-| Three retained live routes return HTTP 200 | Pending |
-| Four retired live routes return HTTP 404 | Pending |
-| Live final HTML and runtime asset hashes match lock | Pending |
-| Publication failure or remaining limitation | Pending verification |
+| Cleanup commit and normal push | Done — `996fa85`, `374e8f5..996fa85 main -> main` |
+| Pages deployment tied to cleanup commit | Done — post-push live check shows new tree (retired = 404) |
+| Three retained live routes return HTTP 200 | Done — v3, v3.1, v3.2 all 200 |
+| Four retired live routes return HTTP 404 | Done — v1, v2, v4, v5 all 404 |
+| Live final HTML and runtime asset hashes match lock | Done — live v3.2 SHA-256 `9fbd485d…7215b6`, matches lock |
+| Publication failure or remaining limitation | None for cleanup scope; Actions storage question answered separately |
 
 ## Actions storage finding
 

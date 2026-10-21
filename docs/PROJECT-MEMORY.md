@@ -1,6 +1,6 @@
 # Dunnio durable project memory
 
-Updated 21 October 2026. This is a source map and decision record, not a substitute for checking the current files. Read [shared instructions](../AGENTS.md) and [Request 30 evidence](REQUEST30-CLEANUP.md) first. Request 30 implementation and publication remain pending verification wherever the evidence report says pending.
+Updated 21 October 2026. This is a source map and decision record, not a substitute for checking the current files. Read [shared instructions](../AGENTS.md) and [Request 30 evidence](REQUEST30-CLEANUP.md) first. Request 30 cleanup, verification, commit (`996fa85`), push, and Pages deployment completed 21 October 2026.
 
 ## Project and retained pages
 
