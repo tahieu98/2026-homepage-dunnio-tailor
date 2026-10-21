@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs');
 let b=fs.readFileSync('tools/build.cjs','utf8');
 b=b.replace("device==='tablet'?900:c.id===3?600:1200", "device==='tablet'?(c.id===3?675:900):c.id===3?600:1200");

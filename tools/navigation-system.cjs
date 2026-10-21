@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..'),tree=require('../assets/navigation-tree.json').items;
 const href=value=>value.startsWith('/')?'https://dunniotailor.com'+value:value;

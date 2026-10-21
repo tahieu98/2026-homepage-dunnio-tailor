@@ -13,7 +13,8 @@ for(const file of ['v3.1-wedding-story.html','v3.2-wedding-story.html']){
  assert(html.includes('assets/studio-video.js?v=request21-r1'));
  for(const a of assets)assert(studio.includes(a.file));
 }
-assert(fs.readFileSync('v2-design-studio.html','utf8').includes('data-style="grey"'));
+const templates=JSON.parse(fs.readFileSync('tools/templates/wedding-shared-sections.json','utf8'));
+for(const key of ['section products','section craft-section','section looks-section'])assert(typeof templates[key]==='string'&&templates[key].length>0,'Missing section template: '+key);
 const matrix=JSON.parse(fs.readFileSync(process.env.DUNNIO_STUDIO_MATRIX||'.local/studio-video/matrix.json','utf8'));
 assert.equal(matrix.length,16);
 for(const row of matrix){

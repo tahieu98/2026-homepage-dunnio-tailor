@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs'),assert=require('assert/strict');
 const {chromium}=require('C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const pages=['v1-heritage-atelier.html','v2-design-studio.html','v3-wedding-story.html','v4-modern-essentials.html','v5-fit-concierge.html','index.html','report.html','banner-lab.html','brand-review.html'];

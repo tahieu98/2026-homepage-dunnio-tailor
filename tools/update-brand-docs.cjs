@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs');
 const revision='fashion-20261012';
 const names=['Heritage Atelier','Design Studio','Wedding Story','Modern Essentials','The Fit Concierge'];

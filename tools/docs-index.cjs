@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs'),path=require('path'),crypto=require('crypto');
 const root=path.resolve(__dirname,'..');
 const files=['338e1a63-a931-48af-a501-24651fb60e4e','5710c173-60f2-4b5e-ac4a-744ecd9948ee','9fcfdb34-9da2-4dc4-bf6c-7c62e18a2828','4f44420e-891e-4e5c-9ae0-7090634cdf65','4caf4e98-e6d4-4d3f-9e8b-6572dad108c4','694667d1-aec6-41fb-88c0-cd34a422ea88','0464a5fe-6c96-4a3a-9cb6-1e03f46c5685','5896d099-eb63-4c0c-8a7e-b1cb2b52d9ae','bb77ed64-f9df-4690-8056-aac1b9c1cd97','9251ebb3-405f-4686-8327-e9dab67a478a','c60ac1c8-9771-4063-bd7f-80bdb860c270'];

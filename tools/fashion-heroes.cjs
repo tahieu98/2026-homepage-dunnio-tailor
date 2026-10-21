@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..');
 const layout=require('../assets/banner-layout.json');

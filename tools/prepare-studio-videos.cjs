@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 /* Copy the supplied recordings unchanged and extract a lightweight poster per device. */
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),{spawnSync}=require('child_process');
 const ffmpeg=process.env.DUNNIO_FFMPEG_PATH||'.local/media-tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe';

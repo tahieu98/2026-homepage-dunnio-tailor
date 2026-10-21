@@ -1,0 +1,15 @@
+{
+  "reason": "Historical migration or obsolete five-concept QA; retained for provenance, disabled to protect the final handoff.",
+  "writers": [
+    "build.cjs", "fashion-heroes.cjs", "docs-index.cjs",
+    "update-brand-docs.cjs", "update-fashion-docs.cjs", "update-hockerty-docs.cjs",
+    "apply-brand-system.cjs", "prepare-assets.cjs", "optimise-assets.cjs", "upgrade-assets.cjs",
+    "prepare-studio-videos.cjs", "prepare-wedding-sources.cjs", "prepare-brand-fonts.cjs",
+    "refine-brand-interactions.cjs", "refine.cjs", "update-balanced-docs.cjs",
+    "update-typography.cjs", "navigation-system.cjs"
+  ],
+  "historicalChecks": [
+    "verify.cjs", "verify-brand.cjs", "verify-fashion-heroes.cjs",
+    "verify-typography.cjs", "audit-brand-contrast.cjs", "final-qa.cjs"
+  ]
+}

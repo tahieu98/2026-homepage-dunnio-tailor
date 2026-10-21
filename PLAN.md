@@ -1,6 +1,6 @@
 # Yêu cầu 14: Chuẩn hóa Banner + Concept-strip + Git Push
 
-> Hồ sơ kế hoạch Yêu cầu 14. Cấu hình hiện hành, các biến thể v3.1/v3.2 và lịch sử mới nhất: [VERSION-STATUS](docs/VERSION-STATUS.md).
+> **Hồ sơ lịch sử — không chạy các bước bên dưới.** v1/v2/v4/v5 đã ngừng phát hành ngày 21/10/2026; v3.2 Final và toàn bộ assets được đóng băng. Chỉ v3.1 nhận cải tiến tiếp theo. Hồ sơ kế hoạch Yêu cầu 14. Cấu hình hiện hành, các biến thể v3.1/v3.2 và lịch sử mới nhất: [VERSION-STATUS](docs/VERSION-STATUS.md).
 
 ## Tóm tắt yêu cầu
 

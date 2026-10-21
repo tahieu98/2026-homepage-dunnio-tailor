@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs = require('fs'), path = require('path');
 const root = path.resolve(__dirname, '..');
 const source = 'C:/laragon/www/dunnio-tailor-redesign';

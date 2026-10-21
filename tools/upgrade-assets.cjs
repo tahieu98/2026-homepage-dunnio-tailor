@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs'),path=require('path');
 const sharp=require('C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
 const source='C:/laragon/www/dunnio-tailor-redesign/wp-content/themes/dunnio-flatsome/assets/reference/dunniotailor.com/sites/default/files/styles/outfit_idea_detail_large/public/product-set';

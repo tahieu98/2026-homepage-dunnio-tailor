@@ -1,7 +1,17 @@
-/* Regenerate only the two Request 17 variants from the retained v2/v3 originals. */
+/* Check both retained variants, or regenerate the editable v3.1 from explicit source templates. */
 const fs = require('fs');
+const args = process.argv.slice(2);
+const frozenFinal = 'v3.2 is the frozen final handoff. Use --check to verify both variants; edit or regenerate v3.1 only.';
+if (args.some(arg => arg === '--write-final' || /^(?:--variant=)?(?:v)?3\.2(?:-wedding-story\.html)?$/.test(arg))) {
+  throw Error(frozenFinal);
+}
+if (args.some(arg => arg !== '--check')) throw Error('Supported arguments: --check. ' + frozenFinal);
+const check = args.includes('--check');
 const v3 = fs.readFileSync('v3-wedding-story.html', 'utf8');
-const v2 = fs.readFileSync('v2-design-studio.html', 'utf8');
+const templates = JSON.parse(fs.readFileSync('tools/templates/wedding-shared-sections.json', 'utf8'));
+for (const key of ['section products', 'section craft-section', 'section looks-section']) {
+  if (typeof templates[key] !== 'string' || !templates[key]) throw Error('Missing section template: ' + key);
+}
 const sources = JSON.parse(fs.readFileSync('docs/wedding-story-sources.json', 'utf8'));
 const studioVideos = JSON.parse(fs.readFileSync('docs/studio-video-assets.json', 'utf8')).assets;
 function section(html, className) {
@@ -15,16 +25,16 @@ const reviewControls = `<div class="rail-controls"><span>Customer experiences ·
 let community = section(v3, 'section community-section').replace(/<div class="community-gallery">[\s\S]*?<\/div>/, '').replace(/<p class="fine">[\s\S]*?<\/p>/, '');
 community = community.replace('</section>', `${reviewControls}<div class="review-rail" id="review-rail" tabindex="0" role="region" aria-label="Customer reviews">${reviews}</div></section>`);
 const gallery = `<section class="section gallery-section" id="gallery" aria-labelledby="gallery-title"><div class="gallery-section-inner"><div class="row flex-row alg-center"><div class="col-xs-12 col-md-8"><h2 id="gallery-title" class="section-title gallery-section-title font-primary mt-0">Style Gallery</h2><div class="section-desc">Discover our latest collections, behind-the-scenes moments, and style inspirations.</div></div><div class="col-xs-12 col-md-12"><div class="gallery-section-list-wrapper"><div class="gallery-section-list">${sources.gallery.map(g=>`<a class="gallery-item d-block" href="${g.href}" target="_blank" rel="noopener noreferrer" aria-label="View photograph: ${esc(g.alt)}"><img src="${g.image}" width="565" height="865" loading="lazy" decoding="async" alt="${esc(g.alt)}"></a>`).join('\n')}</div></div></div><div class="col-xs-12 col-md-12 gallery-action"><a href="https://dunniotailor.com/gallery.html" class="btn btn-primary button">See more gallery <span aria-hidden="true">↗</span></a></div></div></div></section>`;
-let craft = section(v2, 'section craft-section').replace('Good tailoring<br>has a human touch.', 'Vietnamese hands.<br>Fifteen years of craft.').replace('The craft is in the decisions: how fabric is cut, how a garment is constructed, and how each detail is checked.', 'Your bespoke suit or tuxedo is brought to life by Vietnamese tailors with 15 years of experience.').replace('Explore the people and the workshop behind Dunnio, and see how confirmed designs and measurements become a finished garment.', 'From precise cuts to meticulous stitching, every detail is carefully finished by hand. Meet the skilled people behind your garment and discover the care inside our Vietnam workshop.');
+let craft = templates['section craft-section'].replace('Good tailoring<br>has a human touch.', 'Vietnamese hands.<br>Fifteen years of craft.').replace('The craft is in the decisions: how fabric is cut, how a garment is constructed, and how each detail is checked.', 'Your bespoke suit or tuxedo is brought to life by Vietnamese tailors with 15 years of experience.').replace('Explore the people and the workshop behind Dunnio, and see how confirmed designs and measurements become a finished garment.', 'From precise cuts to meticulous stitching, every detail is carefully finished by hand. Meet the skilled people behind your garment and discover the care inside our Vietnam workshop.');
 for (const variant of ['3.1', '3.2']) {
   let hero = section(v3, 'hero hero-3 fashion-hero hockerty-hero');
   const controls = hero.match(/<div class="banner-controls"[\s\S]*?<\/div>/)[0];
   hero = hero.replace(controls, '').replace('</picture>', '</picture>'+controls).replace(/<a class="hero-scroll"[\s\S]*?<\/a>/, '');
   hero = hero.replace('aria-label="Wedding Story"', 'aria-label="Wedding Story" data-mobile-layout="'+variant+'"');
-  let products = section(v2, 'section products').replace(/<p class="fine">[\s\S]*?<\/p>/, '');
+  let products = templates['section products'].replace(/<p class="fine">[\s\S]*?<\/p>/, '');
   const videoSources = studioVideos.map(v=>`<source data-device="${v.device}" src="${v.file}" type="video/mp4" media="${v.device==='desktop'?'(min-width: 1200px)':v.device==='tablet'?'(640px <= width < 1200px)':'(width < 640px)'}" data-width="${v.width}" data-height="${v.height}" data-poster="${v.poster}">`).join('');
   const studio = `<section class="section studio-section" id="studio"><div class="studio-intro"><p class="eyebrow">YOUR OUTFIT, YOUR WAY</p><h2>Small details.<br>Your signature.</h2><p>See Dunnio’s 3D designer in action. Explore fabrics, colours and finishing details, then create your own outfit.</p><a class="button" href="https://dunniotailor.com/3d-custom-outfit/suits.html" data-event="cta_click">Explore the 3D designer <span aria-hidden="true">↗</span></a></div><div class="studio-board studio-video-board" data-studio-video><div class="studio-device-frame"><video class="studio-video" width="1600" height="1000" poster="assets/videos/dunnio-custom-outfit-desktop-poster.webp" controls muted loop playsinline preload="none" aria-label="Dunnio 3D outfit designer demonstration" aria-describedby="studio-video-caption">${videoSources}Your browser does not support this video. <a href="assets/videos/dunnio-custom-outfit-desktop.mp4">Watch the designer demonstration</a>.</video></div><p class="studio-video-caption" id="studio-video-caption">A closer look at the Dunnio 3D designer.</p><p class="studio-video-error" data-video-error hidden>Video unavailable. <a href="assets/videos/dunnio-custom-outfit-desktop.mp4" data-video-link>Open the demonstration video ↗</a></p><noscript><p>Watch the recording for your screen: ${studioVideos.map(v=>`<a href="${v.file}">${v.device==='desktop'?'PC':v.device==='tablet'?'Tablet':'Mobile'}</a>`).join(' · ')}.</p></noscript></div></section>`;
-  const looks = section(v2, 'section looks-section');
+  const looks = templates['section looks-section'];
   const content = [hero, ...(variant==='3.1'?[section(v3,'section occasions-section')]:[]), products, studio, looks, craft, community, gallery, ...(variant==='3.1'?[section(v3,'section faq-section')]:[]), section(v3,'closing-section')].join('\n');
   let html = v3.replace(/<main id="main">[\s\S]*?<\/main>/, '<main id="main">\n'+content+'\n</main>');
   html = html.replace('<title>Wedding Story · Dunnio Tailor</title>', `<title>Wedding Story v${variant} · Dunnio Tailor</title>`).replace('Five responsive homepage design concepts for Dunnio Tailor. Static, buildless prototypes.', `Wedding Story v${variant}: bespoke wedding tailoring, Vietnamese craftsmanship and customer inspiration.`);
@@ -36,6 +46,12 @@ for (const variant of ['3.1', '3.2']) {
   let headerAndMain = html.slice(0, footerStart).replace(/<a class="wordmark" href="index.html" aria-label="Dunnio Tailor design concepts">([\s\S]*?)<\/a>/, '<span class="wordmark" aria-label="Dunnio Tailor">$1</span>').replace(/<a href="index.html" aria-label="Dunnio design concepts">([\s\S]*?)<\/a>/, '<span aria-label="Dunnio Tailor">$1</span>').replace('<a href="index.html">Back to the 5 concepts</a>', '');
   html = headerAndMain + html.slice(footerStart);
   if(variant==='3.2')html=require('./wedding-final.cjs')(html);
-  fs.writeFileSync(`v${variant}-wedding-story.html`, html.replaceAll('><','>\n<')+'\n');
+  const file = `v${variant}-wedding-story.html`;
+  const output = html.replaceAll('><','>\n<')+'\n';
+  if (check) {
+    if (!Buffer.from(output).equals(fs.readFileSync(file))) throw Error('Generated output differs from disk: ' + file);
+  } else if (variant === '3.1') {
+    fs.writeFileSync(file, output);
+  }
 }
-console.log('Built v3.1-wedding-story.html and v3.2-wedding-story.html.');
+console.log(check ? 'PASS: both variant outputs match disk; no files written.' : 'Built v3.1-wedding-story.html; v3.2 is the frozen final and was skipped.');

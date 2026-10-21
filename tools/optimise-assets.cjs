@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 // Format conversion and delivery-size optimisation only; no retouching or content generation.
 const fs=require('fs'),path=require('path');
 const sharp=require('C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');

@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const root = path.resolve(__dirname, '..');
 const source = process.env.DUNNIO_FONT_SOURCE || path.resolve(root, '../dunnio-tailor-redesign/wp-content/themes/dunnio-flatsome/assets/reference/dunniotailor.com/sites/all/themes/t4t_theme/font');

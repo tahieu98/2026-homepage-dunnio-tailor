@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs'),crypto=require('crypto');
 const revision='fashion-20261012';
 let report=fs.readFileSync('report.html','utf8');

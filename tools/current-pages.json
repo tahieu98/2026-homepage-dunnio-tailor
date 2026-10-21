@@ -1,0 +1,17 @@
+[
+  {
+    "id": "v3",
+    "page": "v3-wedding-story.html",
+    "role": "reference"
+  },
+  {
+    "id": "v3.1",
+    "page": "v3.1-wedding-story.html",
+    "role": "editable"
+  },
+  {
+    "id": "v3.2",
+    "page": "v3.2-wedding-story.html",
+    "role": "final"
+  }
+]

@@ -1,6 +1,8 @@
 # Trạng thái hiện hành của các phiên bản Dunnio Tailor
 
-Cập nhật **16/10/2026 · giờ Việt Nam**. v3.2 đã áp dụng bản final **Yêu cầu 22**; studio video giữ từ **Yêu cầu 21**. [Chi tiết bản final](WEDDING-FINAL-REQUEST22.md). Tài liệu này ưu tiên hơn các thông số lịch sử Yêu cầu 11–21 khi có khác biệt về Wedding Story. Đây là thông số bản demo đã triển khai, không phải phương án viewport tự co chiều cao được đề xuất trong báo cáo Hockerty.
+Cập nhật **21/10/2026 · giờ Việt Nam — Yêu cầu 30**. Chỉ giữ ba phiên bản Wedding Story: v3 Reference, v3.1 Editable và v3.2 Final. v1/v2/v4/v5 đã ngừng phát hành; ảnh và báo cáo cũ được giữ làm lịch sử. **v3.2 Final và toàn bộ tài nguyên runtime trong assets/ được đóng băng byte for byte. Mọi cải tiến tiếp theo chỉ thuộc v3.1.** [Bộ khóa SHA-256](final-v32-lock.json) · [Bộ nhớ dự án](PROJECT-MEMORY.md).
+
+v3.2 đã áp dụng bản final **Yêu cầu 22** và các cập nhật tới Yêu cầu 29; studio video giữ từ **Yêu cầu 21**. [Chi tiết bản final](WEDDING-FINAL-REQUEST22.md). Tài liệu này ưu tiên hơn các thông số lịch sử Yêu cầu 11–21 khi có khác biệt về Wedding Story. Đây là thông số bản demo đã triển khai, không phải phương án viewport tự co chiều cao được đề xuất trong báo cáo Hockerty.
 
 ## 1. URL và khung banner đang dùng
 
@@ -8,13 +10,9 @@ Breakpoint chọn nguồn ảnh: **PC ≥1200px**, **Tablet 640–1199px**, **Mo
 
 | Phiên bản | PC | Tablet | Mobile | Điểm khác biệt |
 |---|---|---|---|---|
-| [v1 Heritage Atelier](../v1-heritage-atelier.html) | Slide 1: 1659×948, gần 7:4; slide 2: 1619×971, gần 5:3 | Hoán đổi hai ảnh PC | SVG 800×1422; compact 800×1000 | Bộ editor chung |
-| [v2 Design Studio](../v2-design-studio.html) | 3 ảnh 1600×914, gần 7:4 | 3 ảnh 1600×960, 5:3 | 2 ảnh 1122×1402; slide đầu thiếu ảnh dọc riêng | Giữ bộ nguồn hiện có |
-| [v3 Wedding Story](../v3-wedding-story.html) | 1600×914, gần 7:4 | 1600×960, 5:3 | 1122×1402, gần 4:5 | Bản gốc, không đổi theo v3.2 |
-| [v3.1 Wedding Story](../v3.1-wedding-story.html) | 1600×914, gần 7:4 | 1600×960, 5:3 | Khung 4:5, nguồn 1122×1402 | Copy dưới ảnh trên mobile; có Wedding party và FAQ |
-| [v3.2 Wedding Story](../v3.2-wedding-story.html) | **Khung 7:4**, nguồn **1600×914** | **5:3**, nguồn **1600×960** | **Khung hướng tới 4:7**, nguồn **1122×1402** | Copy trong ảnh mobile; bỏ Wedding party và FAQ |
-| [v4 Modern Essentials](../v4-modern-essentials.html) | 1600×914, gần 7:4 | 1600×960, 5:3 | 1122×1402, gần 4:5 | Giữ nguyên |
-| [v5 Fit Concierge](../v5-fit-concierge.html) | Như bộ editor v1 | Hoán đổi hai ảnh PC | SVG 800×1422; compact 800×1000 | Giữ nguyên |
+| [v3 Wedding Story — Reference](../v3-wedding-story.html) | 1600×914, gần 7:4 | 1600×960, 5:3 | 1122×1402, gần 4:5 | Bản gốc tham chiếu, giữ nguyên |
+| [v3.1 Wedding Story — Editable](../v3.1-wedding-story.html) | 1600×914, gần 7:4 | 1600×960, 5:3 | Khung 4:5, nguồn 1122×1402 | Bản dành cho cải tiến tiếp theo; có Wedding party và FAQ |
+| [v3.2 Wedding Story — Final (đóng băng)](../v3.2-wedding-story.html) | **Khung 7:4**, nguồn **1600×914** | **5:3**, nguồn **1600×960** | **Khung hướng tới 4:7**, nguồn **1122×1402** | Bản bàn giao developer; copy trong ảnh mobile; bỏ Wedding party và FAQ |
 
 Các kích thước và cấu hình từng slide nằm trong [manifest JSON](VERSION-STATUS.json). “Tỉ lệ ảnh nguồn” và “tỉ lệ khung” được ghi riêng khi khác nhau.
 
@@ -43,11 +41,11 @@ Hai file PC hiện tại dùng chung nguồn với v3.1; không xử lý lại �
 
 Thứ tự: **hero → Wedding party (chỉ v3.1) → products → studio → looks → craft → customer reviews → Style Gallery → FAQ (chỉ v3.1) → closing → USP → footer**.
 
-- Products/looks/craft và cấu trúc studio ban đầu dựa trên v2; studio-board nay đã thay bằng video demo theo Yêu cầu 21; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.
+- Products/looks/craft trước đây lấy từ v2, nay có nguồn section riêng trong tools/templates/wedding-shared-sections.json; cấu trúc studio ban đầu dựa trên v2; studio-board nay đã thay bằng video demo theo Yêu cầu 21; bỏ service-section và phần products .fine. Nội dung craft nhấn mạnh thợ may Việt Nam với 15 năm kinh nghiệm.
 - v3.1 giữ hàng nút banner 64px, nút 48×48px căn giữa. v3.2 bỏ toàn bộ nút banner, tự chuyển tuần tự mỗi 6 giây; kéo chuột/vuốt ngang trái để xem tiếp, phải để xem trước. Không dừng khi hover; giữ cuộn dọc. [Yêu cầu 25](WEDDING-AUTOSLIDE-REQUEST25.md).
 - v3.1 mobile: ảnh 4:5 → nút → hero-copy trên nền trắng. Wedding party cuộn ngang.
 - v3.2 mobile: chữ/CTA gần chân ảnh, ẩn hero eyebrow. Khung 4:7 có chiều cao max(240px,min(W×7/4,100svh−64px)), W là chiều rộng vùng ảnh; không còn hàng nút dưới ảnh. Nguồn gần 4:5 được cover và căn center 35%.
-- Eyebrow mobile có hai gạch cân đối; riêng v3.2 dùng 16px và mô tả p trong main 14px. Review một hàng không tự chạy: v3.1 giữ prev/next, v3.2 dùng cuộn ngang và nút feedback ở dưới; ảnh/tên/ngày/rating từ nguồn review, đoạn giới thiệu có nhãn Review summary.
+- Eyebrow mobile có hai gạch cân đối; riêng v3.2 dùng 16px và mô tả p trong main 14px. Review một hàng không tự chạy: v3.1 giữ prev/next, v3.2 dùng cuộn ngang và chỉ giữ liên kết gốc trong từng review; ảnh/tên/ngày/rating từ nguồn review, đoạn giới thiệu có nhãn Review summary.
 - Gallery: bảy ảnh trên PC/Tablet, bốn ảnh trong lưới 2×2 mobile; giảm chiều cao để gom tiêu đề, mô tả, ảnh và See more gallery. Font/zoom lớn vẫn có thể cần cuộn.
 - v3.2 đã bỏ mô tả p và Learn more trong USP, căn số/tiêu đề giữa các ô vuông đồng kích thước. Products/looks/community bỏ các rail-controls, looks bỏ fine, craft bỏ detail-line; CTA studio Mobile căn giữa. All outfit ideas thành nút gold/dark-blue; nút Read customer reviews dưới rail đã bỏ theo Yêu cầu 26, chỉ giữ liên kết trong từng review.
 - USP mobile: 01/04 nền navy **#0b1f3a**, chữ gold **#C8A96A**; 02/03 nền gold, chữ navy. Bố cục hai cột tạo đường chéo. PC/Tablet giữ màu xen kẽ 01/03 navy, 02/04 gold; breakpoint bố cục lưới độc lập với breakpoint ảnh.
@@ -60,19 +58,20 @@ Thứ tự: **hero → Wedding party (chỉ v3.1) → products → studio → lo
 
 Header PC **80px**, không còn hàng nút 64px dưới ảnh. H=W×4/7; tổng thường là 80+H. Với W=1440px, tổng khoảng 902,9px; W=1920px tổng khoảng 1177,1px. Scrollbar có thể giảm W. Bản final giữ 7:4 do người dùng chọn, không tự co ảnh PC để vừa mọi viewport thấp.
 
-## 5. Nguồn chỉnh sửa và quy trình cập nhật
+## 5. Nguồn và quy trình bảo toàn bản final
 
-1. Cấu hình chung: `assets/banner-config.js`. v3.2 không còn nạp override 16:7; dữ liệu PC dùng chung v3.1. `assets/wedding-final.js` quản lý autoplay và sự kiện slide-step của app.js.
-2. `assets/wedding-variants.css` chứa baseline của hai biến thể; wedding-final.css ghi đè riêng v3.2 sang PC 7:4, bỏ hàng nút và điều chỉnh mobile/section. Không đổi bộ Tablet/Mobile nếu chỉ thay ảnh PC.
-3. Đồng bộ ảnh fallback đầu tiên và width/height trong `tools/build-wedding-variants.cjs`, rồi chạy `node tools/build-wedding-variants.cjs`. Generator này dựng lại v3.1/v3.2 từ v2/v3; không chỉ sửa HTML đầu ra rồi bỏ quên generator.
-4. Khi thay URL/config ảnh, tăng revision script. CSS/video chung vẫn request21-r1. Riêng v3.2 nạp wedding-final.css request29-r1, product-card-touch.js product-touch-r1, wedding-final.js request25-r1; app.js giữ revision request22-r1.
-5. Chạy `node tools/verify-wedding-v32-banners.cjs` với HTTP preview đang phục vụ dự án. `DUNNIO_PREVIEW_URL` đổi địa chỉ kiểm thử; `DUNNIO_VERIFICATION_OUTPUT` đổi file kết quả. Dữ liệu phân biệt `viewport.width/height` với `width/height` của ảnh hiển thị.
-6. Chạy `node tools/build-version-status-docs.cjs` để dựng lại tài liệu này và manifest. Khi sửa dữ liệu/mẫu của báo cáo Hockerty lịch sử, dùng `node tools/build-hockerty-audit-report.cjs`.
-7. Commit các file thuộc bản sửa, push main, chờ Pages báo built cho đúng commit và kiểm tra URL online. Git push thành công chưa đồng nghĩa Pages đã triển khai xong.
+1. Ba route hiện hành nằm trong `tools/current-pages.json`. v3 là bản tham chiếu, v3.1 là bản chỉnh sửa tiếp và v3.2 là bản Final đóng băng. Không đổi HTML v3/v3.2 hoặc tài nguyên dùng chung dưới assets/.
+2. `tools/build-wedding-variants.cjs` dùng bản v3, dữ liệu `docs/wedding-story-sources.json` và ba section đã tách trong `tools/templates/wedding-shared-sections.json`; không đọc lại route v2 đã ngừng phát hành. `tools/wedding-final.cjs` giữ phép biến đổi bản final để đối chiếu trong bộ nhớ.
+3. Chạy `node tools/build-wedding-variants.cjs --check` để đối chiếu cả v3.1/v3.2 mà không ghi HTML. Chế độ ghi chỉ dành cho v3.1; generator từ chối ghi v3.2. Với cải tiến tương lai, cần giữ đầu ra v3.2 và mọi shared asset nguyên vẹn.
+4. Chạy `node tools/verify-final-lock.cjs` để kiểm tra SHA-256 của ba trang được giữ và toàn bộ tracked assets. Không cập nhật lock để hợp thức hóa thay đổi ngoài phạm vi. CSS/JS hiện hành của v3.2: wedding-final.css request29-r1, product-card-touch.js product-touch-r1, wedding-final.js request25-r1; app.js giữ request22-r1.
+5. Chạy `node tools/build-version-status-docs.cjs` chỉ để dựng lại ba tài liệu VERSION-STATUS; không dựng lại homepage hoặc assets. Các biên bản browser cũ dưới đây là hồ sơ theo thời điểm, không phải kết quả kiểm thử vừa chạy.
+6. [retired-tools.json](../tools/retired-tools.json) liệt kê **18 writer lịch sử và 6 bộ kiểm tra cũ** đã bị chặn trước mọi import hoặc ghi file. Các pipeline build/hero/font/asset/navigation/migration được giữ làm hồ sơ, không dùng để dựng lại bản final.
 
-Các generator cũ `tools/fashion-heroes.cjs`, `tools/build.cjs`, `tools/update-balanced-docs.cjs` phục vụ các bước trước; đọc phạm vi trước khi chạy để tránh tái tạo hero/hướng dẫn theo thông số cũ. SVG/ZIP vùng an toàn trong banner-templates là tư liệu trước Yêu cầu 17, chưa phải template của bố cục final hiện hành.
+Xem [bộ nhớ dự án](PROJECT-MEMORY.md), [lịch sử phiên](SESSION-HISTORY.md) và [báo cáo dọn dẹp Yêu cầu 30](REQUEST30-CLEANUP.md) cho phạm vi, lệnh hỗ trợ và bằng chứng mới. SVG/ZIP vùng an toàn trong banner-templates là tư liệu trước Yêu cầu 17, chưa phải template của bố cục final hiện hành.
 
-## 6. Bằng chứng và trạng thái kiểm tra
+## 6. Bằng chứng lịch sử và giới hạn kiểm tra
+
+Các liên kết dưới đây là biên bản đã lưu ở từng yêu cầu. Việc dựng lại VERSION-STATUS không chạy lại các kiểm tra đó. Kết quả dọn dẹp mới nằm trong [REQUEST30-CLEANUP](REQUEST30-CLEANUP.md).
 
 - [Yêu cầu 25](WEDDING-AUTOSLIDE-REQUEST25.md): auto-slide không nút, kéo hai chiều ở ba viewport; [biên bản mới](wedding-autoslide-verification.json). Biên bản Yêu cầu 22 bên dưới lưu cơ chế play/pause cũ, không phải hành vi hiện tại.
 

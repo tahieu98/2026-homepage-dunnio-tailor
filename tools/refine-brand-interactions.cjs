@@ -1,3 +1,4 @@
+require('./retired-tool.cjs')(__filename); // Request 30: frozen final protection.
 const fs=require('fs');
 let js=fs.readFileSync('assets/app.js','utf8');
 const old="const date=one('#wedding-date').value;if(!date)return;const dateValue=new Date(date+'T12:00:00');const today=new Date();today.setHours(0,0,0,0);const result=one('#planner-result');if(dateValue<today){result.textContent='Please choose an upcoming occasion date.';return}";
